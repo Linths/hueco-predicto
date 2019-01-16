@@ -1,0 +1,4507 @@
+;;; matched on jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; reach to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; to good sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; to good sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; to finger jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; to crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; out right to pinch jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; to finger jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; roll into pinch jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; out to slopey jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; rt to angle jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].angle [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; moving right to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; up to angle jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].angle [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to finger slot
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].slot 
+END_PARSE
+
+;;; unwind to jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up right to slot jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].slot 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to side pull jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; to rt jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; to crimp intermediate
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; to finish jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; matched on jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; reach to left facing pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; cross up to right facing jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; unwind to flat crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; up to finger jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; left ward move to pinch intermediate
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; go again to left angle jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go again [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].left angle [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to right angle jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].right angle [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; into left facing undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; go to flat edge crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go [Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[HoldTypeT].edge 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; go again moving leftward to a jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go again [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; move left to left facing side pull jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to left angle jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].left angle [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up right to angle gaston jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].right angle [HoldType].[HoldTypeT].gaston 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to multiple pocket hold
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].pocket 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; go again to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go again [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; reach up and left to finger bucket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].bucket 
+END_PARSE
+
+;;; move right to finger bucket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].bucket 
+END_PARSE
+
+;;; move right to finger bucket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].bucket 
+END_PARSE
+
+;;; moves up right to angled gaston crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].angled [HoldType].[HoldTypeT].gaston 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; grab finishing hold
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].grab [Hold].[HoldType].[Mantle].finishing hold 
+END_PARSE
+
+;;; matched on jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; move right to pinch jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; move left to left facing side pull jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; moves right to finger bucket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].bucket 
+END_PARSE
+
+;;; moving nine o clock to undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; big cross through to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; moving left to side pull jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to right facing side pull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; moving up to pinch intermediate
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; go again to flat edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go again [Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; moving to right facing jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to big featured jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; bump out right to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; up to big featured jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; bump out right to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; move up left to undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; cross over to flat edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross over [Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; unwind to good left edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; moving up to shallow pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].shallow [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; finishing hold
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].finishing hold 
+END_PARSE
+
+;;; moving right to a right angle crimp rail
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].right angle [HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].rail 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up to another right angle crimp rail
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].right angle [HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].rail 
+END_PARSE
+
+;;; up to right angle crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].right angle [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; move to a full pad crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; move to a double sided sidepull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].double sided [HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; match on sidepull
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; go again to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go again [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; out right to side pull crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; move into another side pull crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; move into crimp dish
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].dish 
+END_PARSE
+
+;;; moving left to an undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; cross to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; moving right to side pull crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; moving left to left angled crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldShape].[HoldShapeBad].angled [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; crossing over to bulbous feature
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].bulbous [HoldType].[GenericHold].feature 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; moving left to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; moving big out left to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; moving up to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; finishing jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; to side pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; to good hold after roof edge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[GenericHold].hold 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].roof [HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; jump so sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match to side pinch
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; swing to side sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; jump to jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; bump
+No parse
+;;; mantle
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].mantle 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; bump
+No parse
+;;; bump
+No parse
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; big move to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; heelhook big move to sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heelhook [Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+PARSE_1:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heelhook 
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; dyno to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].dyno [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; far crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; side crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; monkey sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; good crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sideways pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].sideways [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; sidepull crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sloping dish
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].dish 
+END_PARSE
+
+;;; jug 3 finger pocket dyno
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket [Action].[ActionVerb].[ActionVerbBig].dyno 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; top out
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].top out 
+END_PARSE
+
+;;; small diagonal crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldShape].[HoldShapeBad].diagonal [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; nonexistent right hand
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+END_PARSE
+
+;;; undercling edge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; decent gaston crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].decent [HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; diagonal good crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].diagonal [HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross under diagonal good crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross under [Hold].[HoldShape].[HoldShapeBad].diagonal [HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; good crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to slopey ape grip
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[GenericHold].grip 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; decent crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].decent [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; toehook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].toehook 
+END_PARSE
+
+;;; wide pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; throw for big hold not a jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[GenericHold].hold 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; good thin pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; flat edge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; big sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; big move to big hold
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; good crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; good crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; slopey pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; horizontal sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sloper undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; bad sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].bad [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; bump to good pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; horrible sloper rail
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].rail 
+END_PARSE
+
+;;; throw to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; good gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; good gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; bad crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].bad [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; non existent crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump dyno to huge jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; very good hold
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; very good hold
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; toe hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].toe hook 
+END_PARSE
+
+;;; big move to good crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; big move to good sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; move to a double sided side pull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].double sided [HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; match on side pull
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; go again to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go again [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; out right to side pull crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; matched on jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; move right to pinch jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; move right to finger bucket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].bucket 
+END_PARSE
+
+;;; moving nine oclock to undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; big cross thru to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to crimp match
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; moving right to side pull crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sit down slanted pull crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; far reach to side pull
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].far [ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; up to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to left with side pull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; up to finger pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; right to big finger pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; reach to blue jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; reach back to blue jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; reach to green jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; reach to white bucket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].bucket 
+END_PARSE
+
+;;; reach to blue jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; reach to blue jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; starting pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].starting [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; undercling mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; side pull jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; downward mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].downward [HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; gaston mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; downward crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].downward [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sidepull jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; sidepull mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to mod jug sidepull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; side pull on crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; downward crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].downward [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross to mini jug sidepull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; gaston sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; gaston crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sidepull jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; downward jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].downward [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; side pull jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; gaston mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; gaston mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross sidepull mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; sidepull sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sidepull sloppy jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; down ward crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].down ward [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sidepull crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; edge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; slopey ledge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; medium crimp sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; wide pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; diagonal sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].diagonal [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; medium crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; move right 6 bolts right 1 bolt up to blue slopey crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; move to a crimp 1 bolt above the right hand toe hook
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[FootHook].toe hook 
+END_PARSE
+
+;;; dyno up 3 bolts 2 bolts right from the left hand
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[GenericHold].hand 
+END_PARSE
+
+;;; left up to the crimp next to the right hand sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; campus to large jug 35 bolts up and 15 bolts left
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up 
+END_PARSE
+
+;;; match jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; left 6 bolts and down 3 bolts from the jug to crimpy undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; up 35 bolts and 15 bolts to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; left 4 bolts to crimp finish
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; cross to incut
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].incut 
+END_PARSE
+
+;;; out to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; up to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; out to gaston
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; bump to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; throw to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; high foot
+No parse
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; bump to incut
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].incut 
+END_PARSE
+
+;;; cross to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; out to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; start on undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; move to a moderate jug 8 bolts to the left
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; move to crimpbeam
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].crimpbeam 
+END_PARSE
+
+;;; side pull on edge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; side pull on pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; cross over to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross over [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; crossover to edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].crossover [Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; sidepull moving straight up
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up 
+END_PARSE
+
+;;; throw to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; over to layback
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldType].[HoldTypeT].layback 
+END_PARSE
+
+;;; match hold
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; high foot
+No parse
+;;; bump to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; mantle up
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].mantle [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up 
+END_PARSE
+
+;;; match start
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; match start
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; cross in
+No parse
+;;; high jug on the roof
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; roof jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].roof [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to roof jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldShape].[HoldShapeBad].roof [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; finish on roof horn
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].roof [HoldType].[HoldTypeT].horn 
+END_PARSE
+
+;;; match on start
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; match on start
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross right to slopey ball
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].ball 
+END_PARSE
+
+;;; gaston to slopey boobies
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].boobies 
+END_PARSE
+
+;;; bump around to far side of boobies
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].boobies 
+END_PARSE
+
+;;; match on boobies
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].boobies 
+END_PARSE
+
+;;; fondle boobies to readjust
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].fondle [Hold].[HoldType].[HoldTypeT].boobies 
+END_PARSE
+
+;;; fondle boobies to readjust
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].fondle [Hold].[HoldType].[HoldTypeT].boobies 
+END_PARSE
+
+;;; move around arete to cobble
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].arete 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].cobble 
+END_PARSE
+
+;;; cross to finish
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; horizontal small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; vertical large undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].vertical [HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; diagonal pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].diagonal [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; vertical sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].vertical [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; cross to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; slope
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].slope 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; big move to pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; big move to finger jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; campus to crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; campus to pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; reach to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; medium move to finsh jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; to gaston pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; to crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; small bump to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeSmall].small [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; big move to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; throw to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; cross under to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross under [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; fall into sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].fall into [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; grab jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].grab [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; slopey crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; match on pocket
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; throw to slopey pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; slopey crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; tiny razor crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].razor [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; diagonal to sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].diagonal [HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; go to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].go [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; diagonal pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].diagonal [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; dyno to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].dyno [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; rail
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].rail 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up and right to right angled undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].angled [HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; above last hold right sidepull jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+PARSE_1:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match left hand
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[GenericHold].hand 
+END_PARSE
+
+;;; up slightly to undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; hand heel match
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; cross to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; 1
+No parse
+;;; 4
+No parse
+;;; 5
+No parse
+;;; 6
+No parse
+;;; 7
+No parse
+;;; 8
+No parse
+;;; 9
+No parse
+;;; 10
+No parse
+;;; 11
+No parse
+;;; 12
+No parse
+;;; 13
+No parse
+;;; 14
+No parse
+;;; 15
+No parse
+;;; 16
+No parse
+;;; 17
+No parse
+;;; 18
+No parse
+;;; 19
+No parse
+;;; 20
+No parse
+;;; 3
+No parse
+;;; 2
+No parse
+;;; on pinch start
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; on pinch start
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; diagonal to good crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].diagonal [HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; bump to good crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; under ling
+No parse
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; mantle
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].mantle 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; drop knee
+No parse
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; rail
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].rail 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; mantle
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].mantle 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; up left to a managable sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].managable [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; out right to a solid side pull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].solid [HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; stand up to shallow pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].shallow [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; up and right to a sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; out right and up to finish jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; start
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; start
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; huck to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].huck [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; bump crimp to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match on sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; dyno to jug finish
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].dyno [Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; gaston to crimp jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; bicycle on start and foot chip then match on crimp jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[FootHook].bicycle [Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; huck to gaston pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].huck [Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; match on pinch
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; deadpoint to slopping jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].deadpoint [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; cross crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; cross crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; under cling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].under cling 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; crimp match
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; down pull
+No parse
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; down pull
+No parse
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; two finger pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; sloppy ledge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; diagnal side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; under cling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].under cling 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; finger pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; big move to undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to shallow pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].shallow [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; big move to deep cup
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].deep [HoldType].[HoldTypeT].cup 
+END_PARSE
+
+;;; finger ledge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; tiny crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].tiny [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to shallow crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].shallow [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; throw to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; long pull straight up to a sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match the sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; cross left to an edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; left heel hook on sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[FootHook].heel hook 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; large horizontal iron cross to a pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; left hand straight up to a pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; gaston slightly above left pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+PARSE_1:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; gaston up and left
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up 
+END_PARSE
+
+;;; right foot to lowest right pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; to finish hold
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; medium pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; medium ledge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; small open hand pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldShape].[HoldShapeBad].open hand [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; small open hand ledge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldShape].[HoldShapeBad].open hand [HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; drop knee
+No parse
+;;; open hand pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].open hand [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; small jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; average move up and left to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; gaston stgraight up slightly lower than left hand
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[GenericHold].hand 
+END_PARSE
+
+;;; walk feet along wall out left
+No parse
+;;; big move to edge side pull
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].edge 
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; right hand to an undercling just higher than left edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+PARSE_1:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; set right foot on first crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; dyno to big sloping edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].dyno [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; move right foot to edge side pull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].edge 
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; match the big edge
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; small reach left to a crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross with a small move just above the left crimp to another crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; move right foot to big sloping edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; reach far left to a big sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].far [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; cut feet from the sloping edge and snag left foot on a small hold
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].edge [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[GenericHold].hold 
+END_PARSE
+PARSE_1:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].edge 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; match the big sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; cross to another sloper big sloper and loose foot
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; establish right foot on high small foot hold
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; gaston sloper pinch up and left
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up 
+END_PARSE
+
+;;; big move to a finish hold
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; to micro crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to small undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; cross to sloping ledge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; match to sloping ledge
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; dyno to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].dyno [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match low on sidepull
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; match low on sidepull
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; start on the bulging sloper hold big enough for both hands 2 to 25 feet off of the ground
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; start on the bulging sloper hold big enough for both hands 2 to 25 feet off of the ground
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; go up 3 feet and out left 1 foot to an oval shaped 15 inch thick sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; go up 1 foot to another oval shaped 15 inch thick sloper almost able to be pinched
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; now move out left 5 feet to huge pinch which looks like a f
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; bring both hands over to match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; move to flat jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; rock up to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; small hold
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; balance up to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match on sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; right hand teeth
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].teeth 
+END_PARSE
+
+;;; match on teeth
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].teeth 
+END_PARSE
+
+;;; big move to jug ish
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; right hand gaston
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; shitty crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].shitty [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; big move to slopey jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to small jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; big move jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; small jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; flat jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; match undercling
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; gaston crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; big move to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; shitty but manageable pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].manageable [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; switch to undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; bump up to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; bid sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; tiny side pull crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].tiny [HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; rock out to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; big move to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; reach pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; edge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; match hands
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; reach to big jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; arete
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].arete 
+END_PARSE
+
+;;; sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match on sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; large pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; bump off pinch to ledge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up to sidepull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; undercling on same sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; reach for sidepull undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; lay back to edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Layback].lay back [Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; right hand lunge to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; sidepull pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; cross to sidepull jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; arete
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].arete 
+END_PARSE
+
+;;; underclingsidepull jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; slide up arete
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].arete 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; slide more up arete
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].arete 
+END_PARSE
+
+;;; pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; grab top
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].grab [Hold].[HoldType].[Mantle].top 
+END_PARSE
+
+;;; match on large jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on large jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; undercling pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; small pinch out left
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].pinch [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out 
+END_PARSE
+
+;;; sidepull near pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; slopey crimp dish thing
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].dish 
+END_PARSE
+
+;;; bump to larger sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; large ledgey sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match on ledge
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; slopey open hand crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].open hand [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; large flake
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].flake 
+END_PARSE
+
+;;; lunge right to another large flake
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].flake 
+END_PARSE
+
+;;; small jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross left to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; big move right for pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; bump off crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; tufa
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].tufa 
+END_PARSE
+
+;;; match on tufa
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].tufa 
+END_PARSE
+
+;;; small two finger crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; another small two finger crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; gaston sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; lunge for jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; green crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; yellow crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; arete
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].arete 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; move up arete
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].arete 
+END_PARSE
+
+;;; yellow sloper sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; reach for top
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[Mantle].top 
+END_PARSE
+
+;;; sit start on sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; up to sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; up to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; up and left to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; up and left to finish jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; left hand to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; right hand finish
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; cross to medium pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross to medium diagonal gaston
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldShape].[HoldShapeBad].diagonal [HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; sidepull big move
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull [Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move 
+END_PARSE
+
+;;; open hand sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].open hand [HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; bump to higher sidepull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; arete
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].arete 
+END_PARSE
+
+;;; dynamic move to undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; dynamic move to right facing sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match undercling
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; sloping crimper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].crimper 
+END_PARSE
+
+;;; down to super sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; bump to sloping crimper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].crimper 
+END_PARSE
+
+;;; cross to super large sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; bump out to right facing edge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; small open hand ledge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldShape].[HoldShapeBad].open hand [HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; cross to medium open hand ledge
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldShape].[HoldShapeBad].open hand [HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; medium diagonal sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].diagonal [HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; throw to small crimp big move
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp [Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move 
+END_PARSE
+
+;;; medium sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; mini jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; postive gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; out to postive sidepull
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; medium jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on to jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to gaston jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on gaston switch to layback
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].layback 
+END_PARSE
+
+;;; rock up to mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; out to positive sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].positive [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; up to postive sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match on sloper
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sidepull undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; cross topostive jug medium to large
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match on jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; postive crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; out right to postive crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; pump to jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to large jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; throw to a sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; into a jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to a crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; move heel hook up
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; move out to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].out [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; match crimp
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; throw for sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; get left foot to small gib
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[Jib].gib 
+END_PARSE
+
+;;; heel hook crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[FootHook].heel hook [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; to sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; heel to match on start
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; hand to medium crimp gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; hand to undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; toe to start
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; foot switches to toe
+No parse
+;;; toe to far left toe
+No parse
+;;; knee drops
+No parse
+;;; hand to far left sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand [Action].[ActionSize].[ActionSizeBig].far [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+PARSE_1:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].far [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; foot replaces left foot
+No parse
+;;; hand crosses to open hand pinch above
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].open hand [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; foot replaces right foot
+No parse
+;;; hand reaches to jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; crimp ledge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].ledge 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; cross to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; medium pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross to large sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; 1
+No parse
+;;; medium crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; large crimp big static move
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp [Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move 
+END_PARSE
+
+;;; medium jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; medium crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; drop knee
+No parse
+;;; medium jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; cross to large crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; large pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; medium gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; heel hook
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].heel hook 
+END_PARSE
+
+;;; match medium gaston
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; throw to medium crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].throw [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; small crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; small crimper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimper 
+END_PARSE
+
+;;; small crimper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].crimper 
+END_PARSE
+
+;;; big non positive sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].positive [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; medium pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; big move to large jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; top out
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].top out 
+END_PARSE
+
+;;; up right to slight incut pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].incut 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; slight cross to good pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; up slight right to good pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; over to good hold at 45
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; match with left
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up to ok pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].ok [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; just above to goodish pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].goodish [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; up left to eh finger bucket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].bucket 
+END_PARSE
+
+;;; up to good crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross to good pinch sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up right to flat sidepull with thumb catch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; straight up to gaston flat hold at 45
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].gaston 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; over to good 2 finger pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; slight cross to good 2 finger pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; up left to ok crimpslopper
+No parse
+;;; up to good crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross to good sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up left to finish jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; big sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; small pinch sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; small pinch sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].pinch 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; big side pull big move
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[SidePull].side pull [Action].[ActionSize].[ActionSizeBig].big [ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move 
+END_PARSE
+
+;;; long left
+No parse
+;;; right crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; cross
+No parse
+;;; straight up to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match and heel hook on jug
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[FootHook].heel hook [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; pull up to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; small pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; negative crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; negative sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; sloping pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; left pulling pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; right sloping crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].sloping [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; negative undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; match on undercling
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; 2 finger pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; large crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; small jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; finish
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; crimp to mantel
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; side pull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+END_PARSE
+
+;;; lay back
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[Layback].lay back 
+END_PARSE
+
+;;; crossover
+No parse
+;;; hand match to left far finger pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; short cross over to two finger pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross over [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; reach up to crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; lay back to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Layback].lay back [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; dyno to finish
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].dyno [Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; 2
+No parse
+;;; 3
+No parse
+;;; long reach to undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; big pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; big pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; angled small jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].angled [HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; side pull 2 finger pocket
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; reach big pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].reach [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].big [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; start on sidepull jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; a little up and well right to gaston jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; heel hand on left then match as sidepull
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left 
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[SidePull].sidepull 
+END_PARSE
+
+;;; up to ok crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].ok [HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up to flat hold
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; up to flat hold at 45
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].flat [HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; pull straight across to gaston
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; slight cross to ok pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].ok [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; a little up and straight across to finish
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; over to jug gaston
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; over to sidepull crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; match or other crimp just above at same angle
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; up at 45 to a good sloper or slopping pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; over to good crimppinch
+No parse
+;;; slight cross to flat mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldShape].[HoldShapeBad].flat [HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; just barely up and left to good crimpmini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up right to side pull mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; slight cross to finish jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; straight over to jug side undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; cross to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; over to jug at 45
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; straight up to jug at 45
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; up and over to jug at 45
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].over [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; straight up to finish jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; start on gaston jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].gaston [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; slight cross to undercling
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; up to sidepull jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[SidePull].sidepull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to gaston mini jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeBad].gaston [HoldSize].[HoldSizeSmall].[HoldSizeSmallT].mini [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; up to good pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; come into good flat hold next to pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldShape].[HoldShapeBad].flat [HoldType].[GenericHold].hold 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; up to good pocket
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].good [HoldType].[HoldTypeT].pocket 
+END_PARSE
+
+;;; up to jug gaston
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].gaston 
+END_PARSE
+
+;;; up to finish jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[Mantle].finish 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; both hands from a sit start on large jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; toe on dime edge just off the floor
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; toe on dime edge about 3 feet apart from right toe
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right 
+END_PARSE
+
+;;; dynamic move right towards positive flakecling
+No parse
+;;; match just aove right hand
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+END_PARSE
+
+;;; both feet up to starting hand jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldShape].[HoldShapeGood].[HoldShapeGoodT].starting [HoldType].[GenericHold].hand 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; diagonal upright from cling to 45 degree sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; pass sloper for right hand continue same direction up to next sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+PARSE_1:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+PARSE_2:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; delicate toe placement on back of first 45 degree sloper
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; reach high and right to positive small cling
+No parse
+;;; cross foot to dime edge just inside right foot
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].cross [Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; uncross foot to gain good positive foot hold parelell to left foot
+PARSE_0:
+IsMove:[Move].[Hold].[HoldSize].[HoldSizeBig].[HoldSizeBigT].positive [HoldType].[GenericHold].hold [Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left 
+END_PARSE
+
+;;; move hand up and in about 1 foot to small jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [Hold].[HoldType].[GenericHold].hand 
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; dynamic reach back over sholder about 2 feet up negitive side of an i beam could be substituted with a negitive edge
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].beam 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].edge 
+END_PARSE
+
+;;; move to same side of beam quickly or pitch your feet will have cut and you will be swinging towards negative side by now
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].beam 
+END_PARSE
+
+;;; sit start jug and undercling
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+IsMove:[Move].[Hold].[HoldType].[UnderCling].undercling 
+END_PARSE
+
+;;; reach up back to sloper crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; foot match to start hold
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].hold 
+END_PARSE
+
+;;; up to side pull sloper
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[SidePull].side pull 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; just above to layback
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].layback 
+END_PARSE
+
+;;; crossover to pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Cross].crossover [Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; to reachy finish
+PARSE_0:
+IsMove:[Move].[Hold].[HoldShape].[HoldShapeBad].reachy [HoldType].[Mantle].finish 
+END_PARSE
+
+;;; match start on large sloper 45
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+END_PARSE
+
+;;; reach back to medium sloper crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; just up and to the left finger jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldShape].[HoldShapeBad].finger [HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; heel hook start
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[FootHook].heel hook [Hold].[HoldType].[GenericHold].start 
+END_PARSE
+
+;;; throw to open handed pinch
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; right straight up to finish
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].up [Hold].[HoldType].[Mantle].finish 
+END_PARSE
+
+;;; start crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; start crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[GenericHold].start 
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; dyno way left to jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match
+PARSE_0:
+IsMove:[Move].[Match].match 
+END_PARSE
+
+;;; toe hook under roof
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[FootHook].toe hook 
+END_PARSE
+
+;;; layback on slopey pinch
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[Layback].layback [Hold].[HoldShape].[HoldShapeBad].slopey [HoldType].[HoldTypeT].pinch 
+END_PARSE
+
+;;; crimp
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; bump to crimpy jug
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].bump [Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; move to last right crimp
+PARSE_0:
+IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].right [Hold].[HoldType].[HoldTypeT].crimp 
+END_PARSE
+
+;;; up to finishing jug
+PARSE_0:
+IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug 
+END_PARSE
+
+;;; match finish
+PARSE_0:
+IsMove:[Move].[Match].match 
+IsMove:[Move].[Hold].[HoldType].[Mantle].finish 
+END_PARSE
+

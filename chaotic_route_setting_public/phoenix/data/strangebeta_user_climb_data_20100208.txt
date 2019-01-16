@@ -1,0 +1,886 @@
+ user_id | route_id | seq_no | hand |                                                           move                                                            | crux 
+---------+----------+--------+------+---------------------------------------------------------------------------------------------------------------------------+------
+       1 |        1 |      1 | R    | Matched on jug                                                                                                            | f
+       1 |        1 |      2 | L    | reach to jug                                                                                                              | f
+       1 |        1 |      3 | R    | match                                                                                                                     | f
+       1 |        1 |      4 | R    | to good sidepull                                                                                                          | f
+       1 |        1 |      5 | L    | to good sidepull                                                                                                          | f
+       1 |        1 |      6 | R    | to finger jug                                                                                                             | f
+       1 |        1 |      7 | L    | to crimp                                                                                                                  | f
+       1 |        1 |      8 | R    | out right to pinch jug                                                                                                    | f
+       1 |        1 |      9 | L    | to finger jug                                                                                                             | f
+       1 |        1 |     10 | R    | roll into pinch jug                                                                                                       | f
+       1 |        1 |     11 | L    | out to slopey jug                                                                                                         | f
+       1 |        1 |     12 | R    | rt to angle jug                                                                                                           | f
+       1 |        1 |     13 | L    | match                                                                                                                     | f
+       1 |        1 |     14 | R    | moving right to crimp                                                                                                     | f
+       1 |        1 |     15 | L    | up to angle jug                                                                                                           | f
+       1 |        1 |     16 | R    | up to finger slot                                                                                                         | f
+       1 |        1 |     17 | L    | unwind to jug                                                                                                             | f
+       1 |        1 |     18 | R    | up right to slot jug                                                                                                      | f
+       1 |        1 |     19 | L    | up to side pull jug                                                                                                       | f
+       1 |        1 |     20 | R    | to rt jug                                                                                                                 | f
+       1 |        1 |     21 | L    | to crimp intermediate                                                                                                     | f
+       1 |        1 |     22 | L    | to finish jug                                                                                                             | f
+       1 |        2 |      1 | R    | matched on jug                                                                                                            | f
+       1 |        2 |      2 | L    | reach to left facing pocket                                                                                               | f
+       1 |        2 |      3 | R    | cross up to right facing jug                                                                                              | f
+       1 |        2 |      4 | L    | unwind to flat crimp                                                                                                      | f
+       1 |        2 |      5 | R    | up to finger jug                                                                                                          | f
+       1 |        2 |      6 | L    | left ward move to pinch intermediate                                                                                      | f
+       1 |        2 |      7 | L    | go again to left angle jug                                                                                                | f
+       1 |        2 |      8 | R    | up to right angle jug                                                                                                     | f
+       1 |        2 |      9 | L    | into left facing undercling                                                                                               | f
+       1 |        2 |     10 | R    | go to flat edge crimp                                                                                                     | f
+       1 |        2 |     11 | R    | go again moving leftward to a jug                                                                                         | f
+       1 |        2 |     12 | L    | move left to left facing side pull jug                                                                                    | f
+       1 |        2 |     13 | R    | up to left angle jug                                                                                                      | f
+       1 |        2 |     14 | L    | match                                                                                                                     | f
+       1 |        2 |     15 | R    | up right to angle gaston jug                                                                                              | f
+       1 |        2 |     16 | L    | up to multiple pocket hold                                                                                                | f
+       1 |        2 |     17 | R    | match                                                                                                                     | f
+       1 |        2 |     18 | R    | go again to jug                                                                                                           | f
+       1 |        2 |     19 | L    | reach up and left to finger bucket                                                                                        | f
+       1 |        2 |     20 | R    | move right to finger bucket                                                                                               | f
+       1 |        2 |     21 | L    | move right to finger bucket                                                                                               | f
+       1 |        2 |     22 | R    | moves up right to angled gaston crimp                                                                                     | f
+       1 |        2 |     23 | L    | grab finishing hold                                                                                                       | f
+       1 |        5 |      1 | R    | Matched on jug                                                                                                            | f
+       1 |        5 |      2 | R    | move right to pinch jug                                                                                                   | f
+       1 |        5 |      3 | L    | move left to left facing side pull jug                                                                                    | f
+       1 |        5 |      4 | R    | moves right to finger bucket                                                                                              | f
+       1 |        5 |      5 | L    | moving nine-o-clock to undercling                                                                                         | f
+       1 |        5 |      6 | R    | big cross through to jug                                                                                                  | f
+       1 |        5 |      7 | L    | match                                                                                                                     | f
+       1 |        5 |      8 | L    | moving left to side pull jug                                                                                              | f
+       1 |        5 |      9 | R    | up to right facing side pull                                                                                              | f
+       1 |        5 |     10 | L    | moving up to pinch intermediate                                                                                           | f
+       1 |        5 |     11 | L    | go again to flat edge                                                                                                     | f
+       1 |        5 |     12 | R    | moving to right facing jug                                                                                                | f
+       1 |        5 |     13 | L    | up to big featured jug                                                                                                    | f
+       1 |        5 |     14 | R    | match                                                                                                                     | f
+       1 |        5 |     15 | R    | bump out right to pinch                                                                                                   | f
+       1 |        5 |     16 | L    | up to big featured jug                                                                                                    | f
+       1 |        5 |     17 | R    | match                                                                                                                     | f
+       1 |        5 |     18 | R    | bump out right to pinch                                                                                                   | f
+       1 |        5 |     19 | L    | move up left to undercling                                                                                                | f
+       1 |        5 |     20 | R    | cross over to flat edge                                                                                                   | f
+       1 |        5 |     21 | L    | unwind to good left edge                                                                                                  | f
+       1 |        5 |     22 | R    | moving up to shallow pinch                                                                                                | f
+       1 |        5 |     23 | L    | finishing hold                                                                                                            | f
+       1 |        6 |      1 | R    | moving right to a right angle crimp rail                                                                                  | f
+       1 |        6 |      2 | L    | match                                                                                                                     | f
+       1 |        6 |      3 | L    | up to another right angle crimp rail                                                                                      | f
+       1 |        6 |      4 | R    | up to right angle crimp                                                                                                   | f
+       1 |        6 |      5 | L    | move to a full pad crimp                                                                                                  | f
+       1 |        6 |      6 | R    | move to a double sided sidepull                                                                                           | f
+       1 |        6 |      7 | L    | match on sidepull                                                                                                         | f
+       1 |        6 |      8 | L    | go again to pinch                                                                                                         | f
+       1 |        6 |      9 | R    | out right to side pull crimp                                                                                              | f
+       1 |        6 |     10 | L    | move into another side pull crimp                                                                                         | f
+       1 |        6 |     11 | R    | move into crimp dish                                                                                                      | f
+       1 |        6 |     12 | L    | moving left to an undercling                                                                                              | f
+       1 |        6 |     13 | R    | cross to crimp                                                                                                            | f
+       1 |        6 |     14 | L    | match                                                                                                                     | f
+       1 |        6 |     15 | R    | moving right to side pull crimp                                                                                           | f
+       1 |        6 |     16 | L    | moving left to left angled crimp                                                                                          | f
+       1 |        6 |     17 | R    | crossing over to bulbous feature                                                                                          | f
+       1 |        6 |     18 | L    | match                                                                                                                     | f
+       1 |        6 |     19 | L    | moving left to crimp                                                                                                      | f
+       1 |        6 |     20 | R    | side pull                                                                                                                 | f
+       1 |        6 |     21 | L    | moving big out left to pinch                                                                                              | f
+       1 |        6 |     22 | R    | moving up to crimp                                                                                                        | f
+       1 |        6 |     23 | L    | finishing jug                                                                                                             | f
+       2 |       13 |      1 | R    | to side pinch                                                                                                             | f
+       2 |       13 |      2 | L    | to good hold after roof edge                                                                                              | f
+       2 |       13 |      3 | R    | jump so sloper                                                                                                            | f
+       2 |       13 |      4 | L    | match to side pinch                                                                                                       | t
+       2 |       13 |      5 | R    | swing to side sloper                                                                                                      | f
+       2 |       13 |      6 | L    | jump to jug                                                                                                               | t
+       7 |       32 |      1 | L    | Bump                                                                                                                      | f
+       7 |       32 |      2 | R    | Mantle                                                                                                                    | f
+       7 |       32 |      3 | L    | Crimp                                                                                                                     | f
+       7 |       32 |      4 | R    | Crimp                                                                                                                     | f
+       7 |       32 |      5 | L    | Sloper                                                                                                                    | f
+       7 |       32 |      6 | R    | Jug                                                                                                                       | f
+       7 |       32 |      7 | L    | Jug                                                                                                                       | f
+       7 |       32 |      8 | R    | Gaston                                                                                                                    | t
+       7 |       32 |      9 | L    | Jug                                                                                                                       | f
+       7 |       32 |     10 | R    | Bumb                                                                                                                      | f
+       7 |       32 |     11 | L    | Bumb                                                                                                                      | f
+       8 |       34 |      1 | L    | small crimp                                                                                                               | f
+       8 |       34 |      2 | R    | side pull                                                                                                                 | f
+       8 |       34 |      3 | L    | big move to sloper                                                                                                        | f
+       8 |       34 |      4 | R    | small crimp                                                                                                               | f
+       8 |       34 |      5 | L    | heelhook big move to sloper                                                                                               | f
+       8 |       34 |      6 | R    | dyno to jug                                                                                                               | f
+      11 |       43 |      1 | R    | Sidepull                                                                                                                  | f
+      11 |       43 |      2 | L    | Far Crimp                                                                                                                 | f
+      11 |       43 |      3 | R    | side crimp                                                                                                                | f
+      11 |       43 |      4 | R    | Monkey Sloper                                                                                                             | t
+      11 |       43 |      5 | L    | Gaston                                                                                                                    | f
+      13 |       45 |      1 | L    | Jug                                                                                                                       | f
+      13 |       45 |      2 | R    | Good Crimp                                                                                                                | f
+      13 |       45 |      3 | L    | Sideways Pinch                                                                                                            | f
+      13 |       45 |      4 | R    | Sidepull Crimp                                                                                                            | f
+      13 |       45 |      5 | L    | Sloping Dish                                                                                                              | f
+      13 |       45 |      6 | L    | Jug 3-Finger Pocket (Dyno)                                                                                                | t
+      13 |       45 |      7 | R    | Match                                                                                                                     | f
+      13 |       45 |      8 | R    | Mini-Jug                                                                                                                  | f
+      13 |       45 |      9 | L    | Jug                                                                                                                       | f
+      13 |       45 |     10 | R    | Jug                                                                                                                       | f
+      13 |       45 |     11 | L    | Top-Out                                                                                                                   | f
+      14 |       46 |      1 | L    | small diagnol crimp                                                                                                       | f
+      14 |       46 |      2 | R    | nonexistent right hand                                                                                                    | f
+      14 |       46 |      3 | R    | undercling edge                                                                                                           | f
+      14 |       46 |      4 | L    | small crimp                                                                                                               | f
+      14 |       46 |      5 | R    | decent gaston crimp                                                                                                       | t
+      14 |       46 |      6 | L    | diagnol good crimp                                                                                                        | f
+      14 |       46 |      7 | R    | cross under, diagnol good crimp                                                                                           | f
+      14 |       46 |      8 | L    | good crimp                                                                                                                | f
+      14 |       46 |      9 | L    | bump to slopey ape grip                                                                                                   | f
+      14 |       46 |     10 | R    | match                                                                                                                     | f
+      14 |       46 |     11 | R    | jug                                                                                                                       | f
+      14 |       47 |      1 | L    | jug                                                                                                                       | f
+      14 |       47 |      2 | R    | jug                                                                                                                       | f
+      14 |       47 |      3 | R    | decent crimp                                                                                                              | f
+      14 |       47 |      4 | R    | toehook                                                                                                                   | f
+      14 |       47 |      5 | L    | wide pinch                                                                                                                | f
+      14 |       47 |      6 | R    | match                                                                                                                     | f
+      14 |       47 |      7 | L    | throw for big hold (not a jug)                                                                                            | f
+      14 |       47 |      8 | R    | good thin pinch                                                                                                           | t
+      14 |       47 |      9 | L    | heel hook                                                                                                                 | f
+      14 |       47 |     10 | L    | flat edge                                                                                                                 | f
+      14 |       47 |     11 | R    | big sloper                                                                                                                | f
+      14 |       47 |     12 | L    | match                                                                                                                     | f
+      14 |       47 |     13 | L    | heel hook                                                                                                                 | f
+      14 |       47 |     14 | L    | big move to big hold                                                                                                      | f
+      14 |       47 |     15 | R    | match                                                                                                                     | f
+      14 |       47 |     16 | L    | good crimp                                                                                                                | t
+      14 |       47 |     17 | R    | good crimp                                                                                                                | f
+      14 |       47 |     18 | L    | match                                                                                                                     | f
+      14 |       47 |     19 | R    | jug                                                                                                                       | f
+      14 |       48 |      1 | L    | slopey pinch                                                                                                              | f
+      14 |       48 |      2 | R    | match                                                                                                                     | f
+      14 |       48 |      3 | L    | horizontal sloper                                                                                                         | f
+      14 |       48 |      4 | R    | sloper undercling                                                                                                         | f
+      14 |       48 |      5 | L    | bad sloper                                                                                                                | t
+      14 |       48 |      6 | L    | bump to good pinch                                                                                                        | f
+      14 |       48 |      7 | R    | horrible sloper rail                                                                                                      | t
+      14 |       48 |      8 | R    | throw to jug                                                                                                              | t
+      14 |       49 |      1 | L    | good gaston                                                                                                               | f
+      14 |       49 |      2 | R    | good gaston                                                                                                               | f
+      14 |       49 |      3 | L    | match                                                                                                                     | f
+      14 |       49 |      4 | R    | bad crimp                                                                                                                 | f
+      14 |       49 |      5 | L    | heel hook                                                                                                                 | f
+      14 |       49 |      6 | L    | non existent crimp                                                                                                        | f
+      14 |       49 |      7 | L    | bump dyno to huge jug                                                                                                     | t
+      14 |       50 |      1 | L    | very good hold                                                                                                            | f
+      14 |       50 |      2 | R    | very good hold                                                                                                            | f
+      14 |       50 |      3 | L    | toe hook                                                                                                                  | f
+      14 |       50 |      4 | L    | big move to good crimp                                                                                                    | t
+      14 |       50 |      5 | R    | match                                                                                                                     | f
+      14 |       50 |      6 | R    | big move to good sloper                                                                                                   | f
+      12 |       56 |      1 | R    | move to a double sided side pull                                                                                          | f
+      12 |       56 |      2 | L    | match on side pull                                                                                                        | f
+      12 |       56 |      3 | L    | go again to pinch                                                                                                         | f
+      12 |       56 |      4 | R    | out right to side pull crimp                                                                                              | f
+      12 |       56 |      5 | R    | matched on jug                                                                                                            | f
+      12 |       56 |      6 | R    | move right to pinch jug                                                                                                   | f
+      12 |       56 |      7 | R    | move right to finger bucket                                                                                               | f
+      12 |       56 |      8 | L    | moving nine-o''clock to undercling                                                                                        | f
+      12 |       56 |      9 | R    | big cross thru to jug                                                                                                     | f
+      12 |       56 |     10 | L    | cross to crimp (match)                                                                                                    | f
+      12 |       56 |     11 | R    | moving right to side pull crimp                                                                                           | f
+      12 |       57 |      1 | R    | sit down slanted pull crimp                                                                                               | t
+      12 |       57 |      2 | L    | far reach to side pull                                                                                                    | t
+      12 |       57 |      3 | L    | up to jug                                                                                                                 | t
+      12 |       57 |      4 | R    | cross to left with side pull                                                                                              | t
+      12 |       57 |      5 | L    | up to finger pocket                                                                                                       | t
+      12 |       57 |      6 | R    | right to big finger pocket                                                                                                | f
+      16 |       59 |      1 | R    | Reach to blue jug                                                                                                         | f
+      16 |       59 |      2 | L    | Reach back to blue jug                                                                                                    | f
+      16 |       59 |      3 | R    | Reach to green jug                                                                                                        | f
+      16 |       59 |      4 | L    | Reach to white bucket                                                                                                     | f
+      16 |       59 |      5 | R    | Reach to blue jug                                                                                                         | f
+      16 |       59 |      6 | L    | Reach to blue jug                                                                                                         | t
+      19 |       61 |      1 | L    | Starting pinch                                                                                                            | f
+      19 |       61 |      2 | R    | Undercling mini jug                                                                                                       | f
+      19 |       61 |      3 | R    | Side pull jug                                                                                                             | f
+      19 |       61 |      4 | L    | Downward mini jug                                                                                                         | f
+      19 |       61 |      5 | R    | Gaston mini jug                                                                                                           | f
+      19 |       61 |      6 | L    | downward crimp                                                                                                            | f
+      19 |       61 |      7 | R    | sidepull jug                                                                                                              | f
+      19 |       61 |      8 | L    | Cross to mini jug                                                                                                         | f
+      19 |       61 |      9 | R    | Gaston                                                                                                                    | f
+      19 |       61 |     10 | L    | sidepull mini jug                                                                                                         | f
+      19 |       61 |     11 | R    | Cross to mod jug sidepull                                                                                                 | f
+      19 |       61 |     12 | L    | Side pull on crimp                                                                                                        | f
+      19 |       61 |     13 | R    | Downward crip                                                                                                             | f
+      19 |       61 |     14 | L    | cross to mini jug sidepull                                                                                                | f
+      19 |       61 |     15 | R    | gaston slopper                                                                                                            | f
+      19 |       61 |     16 | R    | gaston crimp                                                                                                              | f
+      19 |       61 |     17 | L    | sidepull jug                                                                                                              | f
+      19 |       61 |     18 | R    | downward jug                                                                                                              | f
+      19 |       61 |     19 | L    | side pull jug                                                                                                             | f
+      19 |       61 |     20 | R    | gaston mini jug                                                                                                           | f
+      19 |       61 |     21 | L    | gaston mini jug                                                                                                           | f
+      19 |       61 |     22 | R    | cross sidepull mini jug                                                                                                   | f
+      19 |       61 |     23 | L    | pinch                                                                                                                     | f
+      19 |       61 |     24 | R    | sidepull slopper                                                                                                          | f
+      19 |       61 |     25 | R    | sidepull sloppy jug                                                                                                       | f
+      19 |       61 |     26 | L    | down ward crimp                                                                                                           | f
+      19 |       61 |     27 | R    | sidepull crimp                                                                                                            | f
+      21 |       64 |      1 | L    | edge                                                                                                                      | f
+      21 |       64 |      2 | R    | match                                                                                                                     | f
+      21 |       64 |      3 | L    | slopey ledge                                                                                                              | f
+      21 |       64 |      4 | R    | medium crimp sidepull                                                                                                     | f
+      21 |       64 |      5 | L    | wide pinch                                                                                                                | f
+      21 |       64 |      6 | R    | diagonal sloper                                                                                                           | f
+      21 |       64 |      7 | L    | medium crimp                                                                                                              | f
+      25 |       67 |      1 | R    | Move Right, 6 bolts right, 1 bolt up to blue slopey crimp                                                                 | f
+      25 |       67 |      2 | L    | Move to a crimp 1 bolt above the right hand. (toe hook)                                                                   | f
+      25 |       67 |      3 | R    | Dyno up 3 bolts, 2 bolts right from the left-hand                                                                         | t
+      25 |       67 |      4 | L    | left up to the crimp next to the right hand sloper                                                                        | f
+      25 |       67 |      5 | R    | campus to large jug 3.5 bolts up, and 1.5 bolts left.                                                                     | f
+      25 |       67 |      6 | L    | Match Jug                                                                                                                 | f
+      25 |       67 |      7 | L    | left 6 bolts and down 3 bolts from the jug to crimpy undercling                                                           | f
+      25 |       67 |      8 | R    | up 3.5 bolts and 1.5 bolts to crimp                                                                                       | f
+      25 |       67 |      9 | L    | left 4 bolts to crimp.  Finish                                                                                            | f
+      34 |      115 |      1 | L    | cross to incut                                                                                                            | f
+      34 |      115 |      2 | R    | out to sloper                                                                                                             | f
+      34 |      115 |      3 | L    | up to jug                                                                                                                 | f
+      34 |      115 |      4 | R    | cross to jug                                                                                                              | f
+      34 |      115 |      5 | L    | out to gaston                                                                                                             | f
+      34 |      115 |      6 | R    | bump to crimp                                                                                                             | f
+      34 |      115 |      7 | L    | throw to sloper                                                                                                           | f
+      34 |      115 |      8 | R    | high foot                                                                                                                 | f
+      34 |      115 |      9 | L    | heel hook                                                                                                                 | f
+      34 |      115 |     10 | R    | bump to incut                                                                                                             | f
+      34 |      115 |     11 | L    | cross to sloper                                                                                                           | f
+      34 |      115 |     12 | R    | out to crimp                                                                                                              | f
+      25 |       71 |      1 | R    | Start on undercling                                                                                                       | f
+      25 |       71 |      2 | L    | move to a moderate jug 8 bolts to the left                                                                                | f
+      25 |       71 |      3 | R    | move to crimp/beam                                                                                                        | f
+      27 |       72 |      1 | L    | Side pull on edge                                                                                                         | f
+      27 |       72 |      2 | R    | side pull on pocket                                                                                                       | f
+      27 |       72 |      3 | L    | cross over to sloper                                                                                                      | f
+      27 |       72 |      4 | R    | gaston                                                                                                                    | f
+      27 |       73 |      1 | L    | sloper                                                                                                                    | f
+      27 |       73 |      2 | R    | crossover to edge                                                                                                         | f
+      27 |       73 |      3 | L    | pinch                                                                                                                     | f
+      27 |       73 |      4 | R    | sidepull moving straight up                                                                                               | f
+      34 |      115 |     13 | L    | throw to jug                                                                                                              | f
+      34 |      115 |     14 | R    | over to layback                                                                                                           | f
+      34 |      115 |     15 | L    | match hold                                                                                                                | f
+      34 |      115 |     16 | R    | heel hook                                                                                                                 | f
+      34 |      115 |     17 | L    | high foot                                                                                                                 | f
+      34 |      115 |     18 | R    | bump to sloper                                                                                                            | f
+      34 |      115 |     19 | L    | mantle up                                                                                                                 | f
+      28 |       79 |      1 | L    | match start                                                                                                               | f
+      28 |       79 |      2 | R    | match start                                                                                                               | f
+      28 |       79 |      3 | L    | side pull                                                                                                                 | f
+      28 |       79 |      4 | R    | cross in                                                                                                                  | t
+      28 |       79 |      5 | L    | high jug on the roof                                                                                                      | f
+      28 |       79 |      6 | R    | match                                                                                                                     | f
+      28 |       79 |      7 | R    | roof jug                                                                                                                  | f
+      28 |       79 |      8 | L    | cross to roof jug                                                                                                         | f
+      28 |       79 |      9 | R    | finish on roof horn                                                                                                       | f
+      29 |       81 |      1 | L    | Match on start                                                                                                            | f
+      29 |       81 |      2 | R    | Match on start                                                                                                            | f
+      29 |       81 |      3 | L    | Jug                                                                                                                       | f
+      29 |       81 |      4 | R    | Match on Jug                                                                                                              | f
+      29 |       81 |      5 | R    | Cross Right to Slopey Ball                                                                                                | f
+      29 |       81 |      6 | L    | Gaston to Slopey Boobies                                                                                                  | t
+      29 |       81 |      7 | L    | Bump around to far side of Boobies                                                                                        | f
+      29 |       81 |      8 | R    | Match on Boobies                                                                                                          | t
+      29 |       81 |      9 | L    | Fondle Boobies to Readjust                                                                                                | f
+      29 |       81 |     10 | R    | Fondle Boobies to Readjust                                                                                                | f
+      29 |       81 |     11 | L    | Move around arete to Cobble                                                                                               | f
+      29 |       81 |     12 | R    | Cross to finish                                                                                                           | f
+      31 |       94 |      1 | L    | horizontal small crimp                                                                                                    | f
+      31 |       94 |      2 | R    | vertical large undercling                                                                                                 | f
+      31 |       94 |      3 | L    | diagonal pinch                                                                                                            | f
+      31 |       94 |      4 | R    | vertical sloper                                                                                                           | f
+      35 |      124 |      1 | L    | sidepull                                                                                                                  | f
+      35 |      124 |      2 | R    | small crimp                                                                                                               | f
+      35 |      124 |      3 | R    | undercling                                                                                                                | f
+      35 |      124 |      4 | L    | cross to sloper                                                                                                           | t
+      35 |      124 |      5 | R    | match sloper                                                                                                              | f
+      35 |      124 |      6 | R    | gaston                                                                                                                    | f
+      35 |      124 |      7 | L    | small crimp                                                                                                               | f
+      35 |      124 |      8 | R    | jug                                                                                                                       | f
+      36 |      125 |      1 | L    | slope                                                                                                                     | t
+      36 |      125 |      2 | R    | pinch                                                                                                                     | f
+      36 |      125 |      3 | L    | crimp                                                                                                                     | f
+      36 |      125 |      4 | R    | jug                                                                                                                       | f
+      39 |      135 |      1 | L    | Big move to pocket                                                                                                        | f
+      39 |      135 |      2 | R    | Big move to finger jug                                                                                                    | f
+      39 |      135 |      3 | L    | Campus to crimp                                                                                                           | f
+      39 |      135 |      4 | R    | Campus to pinch                                                                                                           | t
+      39 |      135 |      5 | L    | Reach to sloper                                                                                                           | f
+      39 |      135 |      6 | R    | Medium move to finsh jug                                                                                                  | f
+      96 |      290 |      1 | L    | to gaston pinch                                                                                                           | f
+      39 |      149 |      1 | L    | To crimp                                                                                                                  | f
+      39 |      149 |      2 | R    | Small bump to crimp                                                                                                       | f
+      39 |      149 |      3 | R    | Big move to jug                                                                                                           | f
+      39 |      149 |      4 | L    | Throw to pinch                                                                                                            | t
+      39 |      149 |      5 | R    | Cross under to crimp                                                                                                      | t
+      39 |      149 |      6 | L    | Fall into sloper                                                                                                          | f
+      39 |      149 |      7 | R    | Grab jug                                                                                                                  | f
+      39 |      156 |      1 | L    | Slopey crimp                                                                                                              | f
+      39 |      156 |      2 | R    | Pocket                                                                                                                    | f
+      39 |      156 |      3 | L    | Match on pocket                                                                                                           | f
+      39 |      156 |      4 | L    | Throw to slopey pinch                                                                                                     | f
+      39 |      156 |      5 | L    | Slopey crimp                                                                                                              | f
+      39 |      156 |      6 | R    | Tiny razor crimp                                                                                                          | f
+      39 |      156 |      7 | R    | Bump to sloper                                                                                                            | f
+      39 |      156 |      8 | L    | Diagonal to sidepull                                                                                                      | f
+      39 |      156 |      9 | R    | Go to jug                                                                                                                 | f
+      39 |      156 |     10 | R    | Gaston                                                                                                                    | f
+      39 |      156 |     11 | L    | Undercling                                                                                                                | f
+      39 |      156 |     12 | R    | Diagonal pinch                                                                                                            | f
+      39 |      156 |     13 | L    | Match                                                                                                                     | f
+      39 |      156 |     14 | R    | Dyno to jug                                                                                                               | f
+      39 |      156 |     15 | L    | Sixepull                                                                                                                  | f
+      39 |      156 |     16 | R    | Sidepull                                                                                                                  | f
+      39 |      156 |     17 | L    | Rail                                                                                                                      | f
+      39 |      156 |     18 | R    | Match                                                                                                                     | f
+      39 |      156 |     19 | L    | Jug                                                                                                                       | f
+      44 |      159 |      1 | R    | Up and right to right angled undercling                                                                                   | f
+      44 |      159 |      2 | L    | Above last hold, right sidepull jug                                                                                       | f
+      44 |      159 |      3 | R    | Match left hand                                                                                                           | f
+      44 |      159 |      4 | L    | Up slightly to undercling                                                                                                 | f
+      44 |      159 |      5 | R    | Hand-heel match                                                                                                           | t
+      44 |      159 |      6 | R    | Cross to jug                                                                                                              | t
+      45 |      160 |      1 | L    | 1                                                                                                                         | f
+      45 |      160 |      4 | R    | 4                                                                                                                         | f
+      45 |      160 |      5 | L    | 5                                                                                                                         | f
+      45 |      160 |      6 | R    | 6                                                                                                                         | f
+      45 |      160 |      7 | L    | 7                                                                                                                         | f
+      45 |      160 |      8 | R    | 8                                                                                                                         | f
+      45 |      160 |      9 | L    | 9                                                                                                                         | f
+      45 |      160 |     10 | R    | 10                                                                                                                        | f
+      45 |      160 |     11 | L    | 11                                                                                                                        | f
+      45 |      160 |     12 | R    | 12                                                                                                                        | f
+      45 |      160 |     13 | L    | 13                                                                                                                        | f
+      45 |      160 |     14 | R    | 14                                                                                                                        | f
+      45 |      160 |     15 | L    | 15                                                                                                                        | f
+      45 |      160 |     16 | R    | 16                                                                                                                        | f
+      45 |      160 |     17 | L    | 17                                                                                                                        | f
+      45 |      160 |     18 | R    | 18                                                                                                                        | f
+      45 |      160 |     19 | L    | 19                                                                                                                        | f
+      45 |      160 |     20 | R    | 20                                                                                                                        | f
+      45 |      160 |      2 | L    | 3                                                                                                                         | f
+      45 |      160 |      3 | R    | 2                                                                                                                         | f
+      46 |      164 |      1 | L    | On pinch start                                                                                                            | f
+      46 |      164 |      2 | R    | On pinch start                                                                                                            | f
+      46 |      164 |      3 | R    | Diagonal to good crimp                                                                                                    | f
+      46 |      164 |      4 | L    | Gaston                                                                                                                    | f
+      46 |      164 |      5 | R    | Gaston                                                                                                                    | f
+      46 |      164 |      6 | R    | Bump to good crimp                                                                                                        | f
+      47 |      169 |      1 | L    | Sloper                                                                                                                    | f
+      47 |      169 |      2 | R    | Sloper                                                                                                                    | f
+      47 |      169 |      3 | L    | Jug                                                                                                                       | f
+      47 |      169 |      4 | R    | Under ling                                                                                                                | f
+      47 |      169 |      5 | L    | Undercling                                                                                                                | f
+      47 |      169 |      6 | R    | Match                                                                                                                     | f
+      47 |      169 |      7 | L    | Mantle                                                                                                                    | t
+      47 |      169 |      8 | R    | Pinch                                                                                                                     | f
+      47 |      169 |      9 | L    | Pinch                                                                                                                     | f
+      47 |      169 |     10 | R    | Gaston                                                                                                                    | f
+      47 |      169 |     11 | L    | Crimp                                                                                                                     | f
+      47 |      169 |     12 | R    | Crimp                                                                                                                     | f
+      47 |      169 |     13 | L    | Jug                                                                                                                       | f
+      47 |      169 |     14 | R    | Undercling                                                                                                                | f
+      47 |      169 |     15 | L    | Sloper                                                                                                                    | f
+      47 |      169 |     16 | R    | Drop knee                                                                                                                 | f
+      47 |      169 |     17 | L    | Jug                                                                                                                       | f
+      47 |      169 |     18 | R    | Undercling                                                                                                                | f
+      47 |      169 |     19 | L    | Pinch                                                                                                                     | f
+      47 |      169 |     20 | R    | Pinch                                                                                                                     | f
+      47 |      169 |     21 | L    | Pinch                                                                                                                     | f
+      47 |      169 |     22 | R    | Pinch                                                                                                                     | f
+      47 |      169 |     23 | L    | Jug                                                                                                                       | f
+      47 |      169 |     24 | R    | Jug                                                                                                                       | f
+      47 |      169 |     25 | L    | Rail                                                                                                                      | f
+      47 |      169 |     26 | R    | Jug                                                                                                                       | f
+      47 |      169 |     27 | L    | Jug                                                                                                                       | f
+      47 |      169 |     28 | R    | Mantle                                                                                                                    | f
+      47 |      169 |     29 | L    | Gaston                                                                                                                    | t
+      48 |      170 |      1 | L    | up left to a managable sloper                                                                                             | f
+      48 |      170 |      2 | R    | out right to a solid side pull                                                                                            | f
+      48 |      170 |      3 | L    | stand up to shallow pocket                                                                                                | f
+      48 |      170 |      4 | R    | up and right to a sloper                                                                                                  | f
+      48 |      170 |      5 | L    | match sloper                                                                                                              | f
+      48 |      170 |      6 | R    | out right and up to finish jug                                                                                            | f
+      49 |      177 |      1 | L    | start                                                                                                                     | f
+      49 |      177 |      2 | R    | start                                                                                                                     | f
+      49 |      177 |      3 | L    | huck to pinch                                                                                                             | f
+      49 |      177 |      4 | R    | bump crimp to slopper                                                                                                     | t
+      49 |      177 |      5 | L    | match on slopper                                                                                                          | t
+      49 |      177 |      6 | R    | dyno to jug finish                                                                                                        | t
+      49 |      179 |      1 | L    | match                                                                                                                     | f
+      49 |      179 |      2 | R    | match                                                                                                                     | f
+      49 |      179 |      3 | L    | gaston to crimp-jug                                                                                                       | f
+      49 |      179 |      4 | R    | bicycle on start and foot chip then match on crimp-jug                                                                    | f
+      49 |      179 |      5 | L    | huck to gaston pinch                                                                                                      | f
+      49 |      179 |      6 | R    | match on pinch                                                                                                            | f
+      49 |      179 |      7 | L    | deadpoint to slopping jug                                                                                                 | f
+      50 |      182 |      1 | L    | crimp                                                                                                                     | f
+      50 |      182 |      2 | R    | crimp                                                                                                                     | f
+      50 |      182 |      3 | L    | sloper                                                                                                                    | f
+      50 |      182 |      4 | R    | pinch                                                                                                                     | f
+      50 |      182 |      5 | L    | cross crimp                                                                                                               | f
+      50 |      182 |      6 | R    | jug                                                                                                                       | f
+      50 |      182 |      7 | L    | match                                                                                                                     | f
+      50 |      182 |      8 | R    | side pull                                                                                                                 | f
+      50 |      182 |      9 | L    | cross crimp                                                                                                               | f
+      50 |      182 |     10 | R    | under cling                                                                                                               | t
+      50 |      182 |     11 | L    | sloper                                                                                                                    | f
+      50 |      182 |     12 | R    | sloper                                                                                                                    | f
+      50 |      182 |     13 | L    | crimp match                                                                                                               | t
+      58 |      188 |      1 | R    | Down Pull                                                                                                                 | f
+      58 |      188 |      2 | L    | Gaston                                                                                                                    | f
+      58 |      188 |      3 | R    | Side Pull                                                                                                                 | f
+      58 |      188 |      4 | L    | Gaston                                                                                                                    | t
+      58 |      188 |      5 | R    | Match                                                                                                                     | t
+      58 |      188 |      6 | L    | Side Pull                                                                                                                 | f
+      58 |      188 |      7 | R    | Down Pull                                                                                                                 | f
+      60 |      194 |      1 | L    | crimp                                                                                                                     | f
+      60 |      194 |      2 | R    | side pull                                                                                                                 | f
+      60 |      194 |      3 | L    | two finger pocket                                                                                                         | f
+      60 |      194 |      4 | R    | sloppy ledge                                                                                                              | f
+      60 |      194 |      5 | L    | diagnal side pull                                                                                                         | f
+      60 |      194 |      6 | R    | under cling                                                                                                               | f
+      60 |      194 |      7 | L    | match                                                                                                                     | t
+      60 |      194 |      8 | R    | crimp                                                                                                                     | t
+      60 |      194 |      9 | L    | finger pocket                                                                                                             | t
+      60 |      194 |     10 | R    | jug                                                                                                                       | f
+      60 |      194 |     11 | L    | match                                                                                                                     | f
+      60 |      194 |     12 | R    | sloper                                                                                                                    | f
+      60 |      199 |      1 | R    | gaston                                                                                                                    | t
+      60 |      199 |      2 | R    | crimp                                                                                                                     | t
+      60 |      199 |      3 | R    | jug                                                                                                                       | t
+      60 |      199 |      4 | R    | sloper                                                                                                                    | t
+      60 |      199 |      5 | R    | side pull                                                                                                                 | t
+      60 |      199 |      6 | R    | gaston                                                                                                                    | t
+      60 |      199 |      7 | R    | crimp                                                                                                                     | t
+      60 |      199 |      8 | R    | sloper                                                                                                                    | t
+      60 |      199 |      9 | R    | jug                                                                                                                       | t
+      60 |      199 |     10 | R    | jug                                                                                                                       | t
+      60 |      199 |     11 | R    | crimp                                                                                                                     | t
+      60 |      199 |     12 | R    | gaston                                                                                                                    | t
+      39 |      205 |      1 | R    | Big move to undercling                                                                                                    | f
+      39 |      205 |      2 | L    | Small crimp                                                                                                               | f
+      39 |      205 |      3 | L    | Bump to shallow pocket                                                                                                    | f
+      39 |      205 |      4 | R    | Big move to deep cup                                                                                                      | f
+      39 |      205 |      5 | L    | Finger ledge                                                                                                              | f
+      39 |      205 |      6 | R    | Tiny crimp                                                                                                                | f
+      39 |      205 |      7 | R    | Bump to shallow crimp                                                                                                     | t
+      39 |      205 |      8 | L    | Throw to jug                                                                                                              | t
+      64 |      207 |      1 | R    | long pull straight up to a sloper                                                                                         | f
+      64 |      207 |      2 | L    | match the sloper                                                                                                          | f
+      64 |      207 |      3 | L    | cross left to an edge                                                                                                     | f
+      64 |      207 |      4 | L    | left heel hook on sloper                                                                                                  | f
+      64 |      207 |      5 | R    | large horizontal iron cross to a pinch                                                                                    | f
+      64 |      207 |      6 | L    | left hand straight  up to a pinch                                                                                         | t
+      64 |      207 |      7 | R    | gaston slightly above left pinch                                                                                          | f
+      64 |      207 |      8 | L    | gaston up and left                                                                                                        | t
+      64 |      207 |      9 | R    | right foot to lowest right pinch                                                                                          | f
+      64 |      207 |     10 | R    | to finish hold                                                                                                            | f
+      94 |      284 |      1 | R    | medium pinch                                                                                                              | f
+      94 |      284 |      2 | L    | medium ladge                                                                                                              | f
+      94 |      284 |      3 | R    | small open hand pinch                                                                                                     | f
+      94 |      284 |      4 | L    | small open hand ledge                                                                                                     | t
+      94 |      284 |      5 | R    | small crimp                                                                                                               | f
+      94 |      284 |      6 | L    | drop knee                                                                                                                 | f
+      94 |      284 |      7 | L    | open hand pinch                                                                                                           | f
+      94 |      284 |      8 | R    | undercling                                                                                                                | f
+      94 |      284 |      9 | R    | small jug                                                                                                                 | f
+      94 |      284 |     10 | L    | match                                                                                                                     | f
+      94 |      284 |     11 | R    | small crimp                                                                                                               | f
+      94 |      284 |     12 | L    | small crimp                                                                                                               | f
+      64 |      211 |      1 | L    | average move up and left to crimp                                                                                         | f
+      64 |      211 |      2 | R    | gaston stgraight up, slightly lower than left hand                                                                        | f
+      64 |      211 |      3 | L    | walk feet along wall out left                                                                                             | f
+      64 |      211 |      4 | L    | big move to edge side pull                                                                                                | f
+      64 |      211 |      5 | R    | right hand to an undercling just higher than left edge                                                                    | f
+      64 |      211 |      6 | R    | set right foot on first crimp                                                                                             | f
+      64 |      211 |      7 | L    | dyno to big sloping edge                                                                                                  | f
+      64 |      211 |      8 | R    | move right foot to edge side pull                                                                                         | f
+      64 |      211 |      9 | R    | match the big edge                                                                                                        | f
+      64 |      211 |     10 | L    | small reach left to a crimp                                                                                               | f
+      64 |      211 |     11 | R    | cross with a small move just above the left crimp to another crimp                                                        | f
+      64 |      211 |     12 | R    | move right foot to big sloping edge                                                                                       | f
+      64 |      211 |     13 | L    | reach far left to a big sloper                                                                                            | f
+      64 |      211 |     14 | L    | cut feet from the sloping edge and snag left foot on a small hold                                                         | f
+      64 |      211 |     15 | R    | match the big sloper                                                                                                      | f
+      64 |      211 |     16 | R    | cross to another sloper big sloper and loose foot                                                                         | f
+      64 |      211 |     17 | R    | establish right foot on high, small foot hold                                                                             | f
+      64 |      211 |     18 | L    | gaston sloper pinch up and left                                                                                           | f
+      64 |      211 |     19 | R    | big move to a finish hold                                                                                                 | f
+      96 |      290 |      2 | R    | to micro crimp                                                                                                            | t
+      96 |      290 |      3 | L    | bump to small undercling                                                                                                  | f
+      96 |      290 |      4 | R    | cross to sloping ledge                                                                                                    | f
+      96 |      290 |      5 | L    | match to sloping ledge                                                                                                    | f
+      96 |      290 |      6 | R    | dyno to jug                                                                                                               | f
+      65 |      221 |      1 | L    | match low on sidepull                                                                                                     | f
+      65 |      221 |      2 | R    | match low on sidepull                                                                                                     | f
+      67 |      226 |      1 | L    | Start on the bulging sloper hold big enough for both hands 2 to 2.5 feet off of the ground                                | f
+      67 |      226 |      2 | R    | Start on the bulging sloper hold big enough for both hands 2 to 2.5 feet off of the ground                                | f
+      67 |      226 |      3 | L    | Go up 3 feet and out left 1 foot to an oval shaped 1.5 inch thick sloper                                                  | f
+      67 |      226 |      4 | R    | Go up 1 foot to another oval shaped 1.5 inch thick sloper Almost able to be pinched                                       | f
+      67 |      226 |      5 | L    | Now move out left 5 feet to huge pinch which looks like a "F"                                                             | f
+      67 |      226 |      6 | R    | Bring both hands over to match.                                                                                           | f
+      69 |      230 |      1 | L    | move to flat jug                                                                                                          | f
+      69 |      230 |      2 | R    | rock up to jug                                                                                                            | f
+      69 |      230 |      3 | L    | small hold                                                                                                                | f
+      69 |      230 |      4 | R    | balance up to sloper                                                                                                      | f
+      69 |      230 |      5 | L    | match on sloper                                                                                                           | f
+      69 |      230 |      6 | R    | right hand teeth                                                                                                          | f
+      69 |      230 |      7 | L    | match on teeth                                                                                                            | f
+      69 |      230 |      8 | L    | big move to jug ish                                                                                                       | f
+      69 |      230 |      9 | R    | right hand gaston                                                                                                         | f
+      69 |      230 |     10 | L    | shitty crimp                                                                                                              | f
+      69 |      230 |     11 | R    | big move to slopey jug                                                                                                    | f
+      69 |      230 |     12 | L    | crimp                                                                                                                     | t
+      69 |      230 |     13 | L    | bump to crimp                                                                                                             | t
+      69 |      230 |     14 | R    | crimp                                                                                                                     | t
+      69 |      230 |     15 | L    | bump to small jug                                                                                                         | f
+      69 |      230 |     16 | R    | big move jug                                                                                                              | f
+      69 |      230 |     17 | L    | crimp                                                                                                                     | f
+      69 |      230 |     18 | R    | small jug                                                                                                                 | f
+      69 |      230 |     19 | L    | flat jug                                                                                                                  | f
+      69 |      230 |     20 | R    | undercling                                                                                                                | f
+      69 |      230 |     21 | L    | match undercling                                                                                                          | f
+      69 |      230 |     22 | L    | jug                                                                                                                       | f
+      69 |      230 |     23 | R    | jug                                                                                                                       | f
+      69 |      230 |     24 | L    | gaston crimp                                                                                                              | t
+      69 |      230 |     25 | R    | jug                                                                                                                       | t
+      69 |      230 |     26 | L    | jug                                                                                                                       | f
+      69 |      232 |      1 | L    | big move to jug                                                                                                           | f
+      69 |      232 |      2 | R    | shitty but manageable pinch                                                                                               | f
+      69 |      232 |      3 | L    | switch to undercling                                                                                                      | f
+      69 |      232 |      4 | R    | bump up to jug                                                                                                            | f
+      69 |      232 |      5 | L    | match on jug                                                                                                              | f
+      69 |      232 |      6 | R    | undercling                                                                                                                | f
+      69 |      232 |      7 | L    | bid sidepull                                                                                                              | f
+      69 |      232 |      8 | R    | tiny side pull crimp                                                                                                      | t
+      69 |      232 |      9 | L    | rock out to sloper                                                                                                        | t
+      69 |      232 |     10 | R    | big move to sloper                                                                                                        | t
+      73 |      237 |      1 | R    | Reach Pocket                                                                                                              | f
+      73 |      237 |      2 | L    | Edge                                                                                                                      | f
+      73 |      237 |      3 | R    | Match Hands                                                                                                               | f
+      73 |      237 |      4 | L    | Reach to big jug                                                                                                          | f
+      75 |      238 |      1 | L    | Arete                                                                                                                     | f
+      75 |      238 |      2 | R    | Sidepull                                                                                                                  | f
+      75 |      238 |      3 | L    | Sloper                                                                                                                    | f
+      75 |      238 |      4 | R    | Match on sloper                                                                                                           | f
+      75 |      238 |      5 | L    | Large Pinch                                                                                                               | f
+      75 |      238 |      6 | R    | Bump Off Pinch to Ledge                                                                                                   | f
+      75 |      238 |      7 | L    | Match                                                                                                                     | f
+      75 |      238 |      8 | R    | Up to sidepull                                                                                                            | f
+      75 |      238 |      9 | L    | Undercling on same sidepull                                                                                               | f
+      75 |      238 |     10 | R    | Reach for sidepull/undercling                                                                                             | t
+      75 |      238 |     11 | L    | Lay back to Edge                                                                                                          | f
+      75 |      238 |     12 | R    | Right hand lunge to Jug                                                                                                   | f
+      75 |      238 |     13 | L    | Match on Jug                                                                                                              | f
+      75 |      238 |     14 | R    | Pinch                                                                                                                     | f
+      75 |      238 |     15 | L    | Crimp                                                                                                                     | f
+      75 |      238 |     16 | L    | Sidepull Pocket                                                                                                           | f
+      75 |      238 |     17 | R    | Cross to sidepull Jug                                                                                                     | f
+      75 |      238 |     18 | L    | Arete                                                                                                                     | f
+      75 |      238 |     19 | R    | Undercling/Sidepull Jug                                                                                                   | f
+      75 |      238 |     20 | L    | Slide up arete                                                                                                            | f
+      75 |      238 |     21 | R    | Pinch                                                                                                                     | f
+      75 |      238 |     22 | L    | Slide more up arete                                                                                                       | f
+      75 |      238 |     23 | R    | Pinch                                                                                                                     | f
+      75 |      238 |     24 | R    | Grab top                                                                                                                  | f
+      75 |      240 |      1 | L    | Match on Large jug                                                                                                        | f
+      75 |      240 |      2 | R    | Match on Large jug                                                                                                        | f
+      75 |      240 |      3 | R    | Undercling Pocket                                                                                                         | f
+      75 |      240 |      4 | L    | Small Pinch out left                                                                                                      | f
+      75 |      240 |      5 | R    | Sidepull near pinch                                                                                                       | f
+      75 |      240 |      6 | L    | Slopey Crimp dish thing                                                                                                   | f
+      75 |      240 |      7 | L    | Bump to larger sloper                                                                                                     | f
+      75 |      240 |      8 | R    | Large ledgey sloper                                                                                                       | f
+      75 |      240 |      9 | L    | Match on ledge                                                                                                            | f
+      75 |      240 |     10 | R    | Slopey open hand crimp                                                                                                    | f
+      75 |      240 |     11 | L    | Large flake                                                                                                               | f
+      75 |      240 |     12 | R    | Lunge right to another large flake                                                                                        | f
+      75 |      240 |     13 | L    | Small Jug                                                                                                                 | f
+      75 |      240 |     14 | R    | Cross left to crimp                                                                                                       | f
+      75 |      240 |     15 | L    | Big move right for pinch                                                                                                  | f
+      75 |      240 |     16 | R    | Bump off crimp                                                                                                            | f
+      75 |      240 |     17 | R    | Tufa                                                                                                                      | f
+      75 |      240 |     18 | L    | Match on tufa                                                                                                             | f
+      75 |      240 |     19 | R    | Small two finger crimp                                                                                                    | t
+      75 |      240 |     20 | L    | Another small two finger crimp                                                                                            | t
+      75 |      240 |     21 | R    | Gaston Sloper                                                                                                             | t
+      75 |      240 |     22 | R    | Sidepull                                                                                                                  | f
+      75 |      240 |     23 | L    | Lunge for jug                                                                                                             | f
+      75 |      240 |     24 | R    | Match on jug                                                                                                              | f
+      75 |      240 |     25 | L    | Green crimp                                                                                                               | f
+      75 |      240 |     26 | R    | Yellow Crimp                                                                                                              | f
+      75 |      240 |     27 | L    | Arete                                                                                                                     | f
+      75 |      240 |     28 | R    | Sloper                                                                                                                    | f
+      75 |      240 |     29 | L    | Move up arete                                                                                                             | f
+      75 |      240 |     30 | R    | Yellow Sloper Sidepull                                                                                                    | f
+      75 |      240 |     31 | L    | Reach for top                                                                                                             | f
+      76 |      243 |      1 | R    | sit start on sloper                                                                                                       | f
+      76 |      243 |      2 | L    | Up to sloper                                                                                                              | f
+      76 |      243 |      3 | R    | match sloper                                                                                                              | t
+      76 |      243 |      4 | R    | up to crimp                                                                                                               | f
+      76 |      243 |      5 | L    | up and left to crimp                                                                                                      | f
+      76 |      243 |      6 | R    | up and left to finish jug                                                                                                 | f
+      82 |      246 |      1 | L    | crimp                                                                                                                     | f
+      82 |      246 |      2 | R    | crimp                                                                                                                     | f
+      82 |      246 |      3 | L    | bump to jug                                                                                                               | f
+      82 |      246 |      4 | R    | match on jug                                                                                                              | f
+      82 |      246 |      5 | L    | left hand to crimp                                                                                                        | f
+      82 |      246 |      6 | R    | right hand finish                                                                                                         | f
+      94 |      285 |      1 | R    | cross to medium pinch                                                                                                     | f
+      94 |      285 |      2 | L    | small crimp                                                                                                               | f
+      94 |      285 |      3 | R    | cross to medium diagonal gaston                                                                                           | f
+      94 |      285 |      4 | L    | match                                                                                                                     | f
+      94 |      285 |      5 | R    | sidepull (big move)                                                                                                       | f
+      94 |      285 |      6 | L    | open hand sidepull                                                                                                        | f
+      94 |      285 |      7 | R    | bump to higher sidepull                                                                                                   | f
+      87 |      256 |      1 | L    | Jug                                                                                                                       | f
+      87 |      256 |      2 | R    | Arete                                                                                                                     | f
+      87 |      256 |      3 | L    | Dynamic Move to undercling                                                                                                | f
+      87 |      256 |      4 | R    | Dynamic move to right facing sloper                                                                                       | f
+      87 |      256 |      5 | R    | match undercling                                                                                                          | f
+      87 |      256 |      6 | L    | sloping crimper                                                                                                           | f
+      87 |      256 |      7 | R    | down to super sloper                                                                                                      | f
+      87 |      256 |      8 | L    | bump to sloping crimper                                                                                                   | f
+      87 |      256 |      9 | R    | cross to super large sloper                                                                                               | f
+      87 |      256 |     10 | L    | match sloper                                                                                                              | f
+      87 |      256 |     11 | L    | bump out to right facing edge                                                                                             | f
+      94 |      285 |      8 | L    | small open hand ledge                                                                                                     | f
+      94 |      285 |      9 | R    | cross to medium open hand ledge                                                                                           | f
+      94 |      285 |     10 | L    | medium diagonal sidepull                                                                                                  | f
+      94 |      285 |     11 | R    | match                                                                                                                     | f
+      94 |      285 |     12 | R    | throw to small crimp (big move)                                                                                           | t
+      94 |      285 |     13 | L    | medium sloper                                                                                                             | f
+      90 |      261 |      1 | L    | mini jug                                                                                                                  | f
+      90 |      261 |      2 | R    | cross to mini jug                                                                                                         | f
+      90 |      261 |      3 | L    | postive gaston                                                                                                            | f
+      90 |      261 |      4 | R    | out to postive sidepull                                                                                                   | f
+      90 |      261 |      5 | L    | medium jug                                                                                                                | f
+      90 |      261 |      6 | R    | match on to jug                                                                                                           | f
+      90 |      261 |      7 | R    | up to gaston jug                                                                                                          | f
+      90 |      261 |      8 | L    | match on gaston switch to layback                                                                                         | f
+      90 |      261 |      9 | L    | rock up to mini jug                                                                                                       | f
+      90 |      261 |     10 | R    | cross to mini jug                                                                                                         | f
+      90 |      261 |     11 | L    | out to positive sloper                                                                                                    | t
+      90 |      261 |     12 | R    | up to postive sloper                                                                                                      | t
+      90 |      261 |     13 | L    | match on sloper                                                                                                           | t
+      90 |      261 |     14 | R    | sidepull undercling                                                                                                       | t
+      90 |      261 |     15 | L    | cross topostive jug medium to large                                                                                       | f
+      90 |      261 |     16 | R    | match on jug                                                                                                              | f
+      90 |      261 |     17 | L    | postive crimp                                                                                                             | f
+      90 |      261 |     18 | R    | out right to postive crimp                                                                                                | f
+      90 |      261 |     19 | R    | pump to jug                                                                                                               | f
+      90 |      261 |     20 | L    | cross to large jug                                                                                                        | f
+      93 |      266 |      1 | R    | throw to a slopper                                                                                                        | f
+      93 |      266 |      2 | L    | into a jug                                                                                                                | f
+      93 |      266 |      3 | R    | cross to a crimp                                                                                                          | f
+      93 |      266 |      4 | R    | heel hook                                                                                                                 | f
+      93 |      266 |      5 | L    | side pull                                                                                                                 | f
+      93 |      266 |      6 | R    | move heel hook up                                                                                                         | f
+      93 |      266 |      7 | R    | move out to crimp                                                                                                         | f
+      93 |      266 |      8 | L    | match crimp                                                                                                               | f
+      93 |      266 |      9 | L    | throw for slopper                                                                                                         | t
+      93 |      266 |     10 | L    | get left foot to small gib                                                                                                | f
+      93 |      266 |     11 | R    | heel hook crimp                                                                                                           | f
+      93 |      266 |     12 | L    | to slopper                                                                                                                | t
+      94 |      270 |      1 | R    | heel to match on start                                                                                                    | f
+      94 |      270 |      2 | L    | hand to medium crimp gaston                                                                                               | f
+      94 |      270 |      3 | R    | hand to undercling                                                                                                        | f
+      94 |      270 |      4 | L    | toe to start                                                                                                              | f
+      94 |      270 |      5 | R    | foot switches to toe                                                                                                      | f
+      94 |      270 |      6 | L    | toe to far left toe                                                                                                       | f
+      94 |      270 |      7 | R    | knee drops                                                                                                                | f
+      94 |      270 |      8 | L    | hand to far left sidepull                                                                                                 | t
+      94 |      270 |      9 | R    | foot replaces left foot                                                                                                   | f
+      94 |      270 |     10 | R    | hand crosses to open hand pinch above                                                                                     | f
+      94 |      270 |     11 | L    | foot replaces right foot                                                                                                  | f
+      94 |      270 |     12 | L    | hand reaches to jug                                                                                                       | f
+      94 |      275 |      1 | L    | crimp ledge                                                                                                               | f
+      94 |      275 |      2 | R    | match                                                                                                                     | f
+      94 |      275 |      3 | R    | cross to pinch                                                                                                            | f
+      94 |      275 |      4 | L    | crimp                                                                                                                     | f
+      94 |      275 |      5 | L    | medium pinch                                                                                                              | f
+      94 |      275 |      6 | R    | crimp                                                                                                                     | f
+      94 |      275 |      7 | R    | cross to large sloper                                                                                                     | f
+     107 |      344 |      1 | L    | 1                                                                                                                         | f
+      94 |      283 |      1 | L    | medium crimp                                                                                                              | f
+      94 |      283 |      2 | R    | heel hook                                                                                                                 | f
+      94 |      283 |      3 | R    | large crimp (big static move)                                                                                             | f
+      94 |      283 |      4 | L    | medium jug                                                                                                                | f
+      94 |      283 |      5 | R    | medium crimp                                                                                                              | f
+      94 |      283 |      6 | L    | drop knee                                                                                                                 | f
+      94 |      283 |      7 | L    | medium jug                                                                                                                | f
+      94 |      283 |      8 | R    | cross to large crimp                                                                                                      | f
+      94 |      283 |      9 | L    | large pinch                                                                                                               | f
+      94 |      283 |     10 | R    | heel hook                                                                                                                 | t
+      94 |      283 |     11 | R    | medium gaston                                                                                                             | t
+      94 |      283 |     12 | L    | heel hook                                                                                                                 | t
+      94 |      283 |     13 | L    | match medium gaston                                                                                                       | t
+      94 |      283 |     14 | L    | throw to medium crimp                                                                                                     | f
+      94 |      283 |     15 | R    | small crimp                                                                                                               | f
+      97 |      296 |      1 | L    | Small crimper                                                                                                             | f
+      97 |      296 |      2 | R    | Small crimper                                                                                                             | f
+      97 |      296 |      3 | L    | Big non-positive sloper                                                                                                   | f
+      97 |      296 |      4 | L    | Medium pinch                                                                                                              | f
+      97 |      296 |      5 | R    | big move to large jug                                                                                                     | t
+      97 |      296 |      6 | L    | Top out!                                                                                                                  | f
+      44 |      298 |      1 | R    | Up right to slight incut/pinch                                                                                            | f
+      44 |      298 |      2 | L    | Slight cross to good pinch                                                                                                | f
+      44 |      298 |      3 | R    | Up slight right to good pinch                                                                                             | f
+      44 |      298 |      4 | L    | Over to good hold at 45                                                                                                   | f
+      44 |      298 |      5 | R    | Match with left                                                                                                           | f
+      44 |      298 |      6 | L    | Up to ok pinch                                                                                                            | f
+      44 |      298 |      7 | R    | Just above to goodish pinch                                                                                               | f
+      44 |      298 |      8 | L    | Up left to eh finger bucket                                                                                               | f
+      44 |      298 |      9 | R    | Up to good crimp                                                                                                          | f
+      44 |      298 |     10 | L    | cross to good pinch/slopper                                                                                               | f
+      44 |      298 |     11 | R    | Match                                                                                                                     | f
+      44 |      298 |     12 | R    | Up right to flat sidepull with thumb catch                                                                                | f
+      44 |      298 |     13 | L    | Straight up to gaston flat hold at 45                                                                                     | f
+      44 |      298 |     14 | R    | match                                                                                                                     | f
+      44 |      298 |     15 | L    | Over to good 2 finger pocket                                                                                              | f
+      44 |      298 |     16 | R    | slight cross to good 2 finger pocket                                                                                      | f
+      44 |      298 |     17 | L    | Up left to ok crimp/slopper                                                                                               | f
+      44 |      298 |     18 | R    | Up to good crimp                                                                                                          | f
+      44 |      298 |     19 | L    | Cross to good slopper                                                                                                     | f
+      44 |      298 |     20 | R    | match                                                                                                                     | f
+      44 |      298 |     21 | L    | Up left to finish jug                                                                                                     | f
+      67 |      301 |      1 | L    | big sloper                                                                                                                | f
+      67 |      301 |      2 | R    | Match                                                                                                                     | f
+      67 |      301 |      3 | L    | small pinch sloper                                                                                                        | f
+      67 |      301 |      4 | R    | small pinch sloper                                                                                                        | f
+      67 |      301 |      5 | L    | big side pull (big move)                                                                                                  | f
+     100 |      312 |      1 | L    | long left                                                                                                                 | f
+     100 |      312 |      2 | R    | right crip                                                                                                                | f
+     100 |      312 |      3 | L    | cross                                                                                                                     | f
+     100 |      312 |      4 | R    | straight up to jug                                                                                                        | t
+     100 |      312 |      5 | L    | match and heel hook on jug                                                                                                | f
+     100 |      312 |      6 | L    | pull up to crimp                                                                                                          | f
+     102 |      325 |      1 | L    | Small pocket                                                                                                              | f
+     102 |      325 |      2 | R    | Negative crimp                                                                                                            | t
+     102 |      325 |      3 | L    | Negative sloper                                                                                                           | t
+     102 |      325 |      4 | R    | Sloping pinch                                                                                                             | t
+     102 |      325 |      5 | L    | Left pulling pocket                                                                                                       | t
+     102 |      325 |      6 | R    | Right sloping crimp                                                                                                       | f
+     102 |      325 |      7 | L    | Negative undercling                                                                                                       | f
+     102 |      325 |      8 | R    | Match on undercling                                                                                                       | f
+     102 |      325 |      9 | L    | Sloper                                                                                                                    | f
+     102 |      325 |     10 | R    | 2 finger pocket                                                                                                           | f
+     102 |      325 |     11 | L    | Large crimp                                                                                                               | f
+     102 |      325 |     12 | R    | Small jug                                                                                                                 | f
+     102 |      325 |     13 | L    | Finish                                                                                                                    | f
+     106 |      329 |      1 | L    | Crimp to mantel                                                                                                           | f
+     106 |      329 |      2 | R    | Gaston                                                                                                                    | f
+     106 |      329 |      3 | L    | Side pull                                                                                                                 | f
+     106 |      329 |      4 | R    | Lay Back                                                                                                                  | t
+     106 |      329 |      5 | L    | Crossover                                                                                                                 | f
+     106 |      332 |      1 | L    | Hand Match to left far finger pocket                                                                                      | f
+     106 |      332 |      2 | R    | Short Cross over to two finger pocket                                                                                     | f
+     106 |      332 |      3 | L    | Reach up to crimp                                                                                                         | t
+     106 |      332 |      4 | R    | Lay back to jug                                                                                                           | f
+     106 |      332 |      5 | L    | Dyno to Finish                                                                                                            | f
+     107 |      344 |      2 | R    | 2                                                                                                                         | f
+     107 |      344 |      3 | L    | 3                                                                                                                         | f
+     109 |      352 |      1 | R    | long reach to undercling                                                                                                  | f
+     109 |      352 |      2 | L    | undercling                                                                                                                | t
+     109 |      352 |      3 | R    | big pinch                                                                                                                 | t
+     109 |      352 |      4 | L    | big pinch                                                                                                                 | t
+     109 |      352 |      5 | R    | angled small jug                                                                                                          | f
+     109 |      352 |      6 | L    | side pull 2 finger pocket                                                                                                 | f
+     109 |      352 |      7 | R    | reach big pinch                                                                                                           | t
+     109 |      352 |      8 | L    | jug                                                                                                                       | t
+     109 |      352 |      9 | R    | jug                                                                                                                       | f
+      44 |      371 |      1 | L    | Start on sidepull jug                                                                                                     | f
+      44 |      371 |      2 | R    | A little up and well right to gaston jug                                                                                  | f
+      44 |      371 |      3 | L    | Heel hand on left then match as sidepull                                                                                  | f
+      44 |      371 |      4 | R    | Up to ok crimp                                                                                                            | f
+      44 |      371 |      5 | L    | match                                                                                                                     | f
+      44 |      371 |      6 | R    | Up to flat hold                                                                                                           | f
+      44 |      371 |      7 | L    | Up to flat hold at 45                                                                                                     | f
+      44 |      371 |      8 | R    | match                                                                                                                     | t
+      44 |      371 |      9 | L    | pull straight across to gaston                                                                                            | t
+      44 |      371 |     10 | R    | slight cross to ok pinch                                                                                                  | f
+      44 |      371 |     11 | L    | A little up and straight across to finish                                                                                 | f
+      44 |      372 |      1 | L    | Over to jug gaston                                                                                                        | f
+      44 |      372 |      2 | R    | match                                                                                                                     | f
+      44 |      372 |      3 | L    | over to sidepull crimp                                                                                                    | f
+      44 |      372 |      4 | R    | match, or other crimp just above at same angle                                                                            | f
+      44 |      372 |      5 | L    | Up at 45 to a good slopper or slopping pinch                                                                              | t
+      44 |      372 |      6 | R    | match                                                                                                                     | t
+      44 |      372 |      7 | L    | over to good crimp/pinch                                                                                                  | f
+      44 |      372 |      8 | R    | slight cross to flat mini-jug                                                                                             | f
+      44 |      372 |      9 | L    | just barely up and left to good crimp/mini-jug                                                                            | f
+      44 |      372 |     10 | R    | Up right to side-pull mini-jug                                                                                            | f
+      44 |      372 |     11 | L    | slight cross to finish jug                                                                                                | f
+      44 |      373 |      1 | L    | straight over to jug side-undercling                                                                                      | f
+      44 |      373 |      2 | R    | Cross to jug                                                                                                              | f
+      44 |      373 |      3 | L    | match                                                                                                                     | f
+      44 |      373 |      4 | L    | over to jug at 45                                                                                                         | f
+      44 |      373 |      5 | R    | straight up to jug at 45                                                                                                  | f
+      44 |      373 |      6 | L    | match                                                                                                                     | f
+      44 |      373 |      7 | R    | up and over to jug at 45                                                                                                  | f
+      44 |      373 |      8 | L    | straight up to finish jug                                                                                                 | f
+      44 |      374 |      1 | L    | start on gaston jug                                                                                                       | f
+      44 |      374 |      2 | R    | slight cross to undercling                                                                                                | f
+      44 |      374 |      3 | L    | up to sidepull jug                                                                                                        | f
+      44 |      374 |      4 | R    | up to gaston mini-jug                                                                                                     | f
+      44 |      374 |      5 | L    | up to good pinch                                                                                                          | f
+      44 |      374 |      6 | R    | come into good flat hold next to pinch                                                                                    | f
+      44 |      374 |      7 | R    | up to good pocket                                                                                                         | f
+      44 |      374 |      8 | L    | up to jug gaston                                                                                                          | f
+      44 |      374 |      9 | R    | up to finish jug                                                                                                          | f
+     115 |      377 |      1 | L    | Both Hands From A Sit Start On Large Jug                                                                                  | f
+     115 |      377 |      2 | R    | Toe On Dime Edge Just Off The Floor                                                                                       | f
+     115 |      377 |      3 | L    | Toe On Dime Edge About 3 Feet Apart From Right Toe                                                                        | f
+     115 |      377 |      4 | R    | Dynamic Move Right Towards Positive Flake/Cling                                                                           | f
+     115 |      377 |      5 | L    | Match Just Aove Right Hand                                                                                                | f
+     115 |      377 |      6 | R    | Both Feet Up to Starting Hand Jug                                                                                         | f
+     115 |      377 |      7 | R    | Diagnol Up/Right From Cling To 45 Degree Sloper                                                                           | f
+     115 |      377 |      8 | L    | Pass Sloper For Right Hand, Continue Same Direction up to Next Sloper                                                     | f
+     115 |      377 |      9 | L    | Delicate Toe Placement On Back Of First 45 Degree Sloper                                                                  | f
+     115 |      377 |     10 | R    | Reach High And Right To Positive Small Cling                                                                              | f
+     115 |      377 |     11 | L    | Cross Foot To Dime Edge Just Inside Right Foot                                                                            | f
+     115 |      377 |     12 | R    | Uncross Foot To Gain Good Positive Foot Hold Parelell To Left Foot                                                        | f
+     115 |      377 |     13 | L    | Move Hand Up And In About 1 Foot To Small Jug                                                                             | f
+     115 |      377 |     14 | L    | Dynamic Reach Back Over Sholder About 2 Feet Up, Negitive Side Of An I-Beam, Could be Substituted With A Negitive Edge    | t
+     115 |      377 |     15 | R    | Move To Same Side Of Beam Quickly Or Pitch, Your Feet Will Have Cut And You Will Be Swinging Towards Negative Side By Now | f
+     106 |      380 |      1 | L    | Sit start jug and undercling                                                                                              | f
+     106 |      380 |      2 | R    | reach up back to sloper crimp                                                                                             | f
+     106 |      380 |      3 | L    | foot match to start hold                                                                                                  | f
+     106 |      380 |      4 | L    | up to side pull sloper                                                                                                    | f
+     106 |      380 |      5 | R    | just above to layback                                                                                                     | t
+     106 |      380 |      6 | L    | crossover to pinch                                                                                                        | f
+     106 |      380 |      7 | R    | to reachy finish                                                                                                          | f
+     106 |      384 |      1 | L    | Match Start on  large sloper 45*                                                                                          | f
+     106 |      384 |      2 | R    | Reach back to medium sloper crimp                                                                                         | f
+     106 |      384 |      3 | L    | Just up and to the left, finger jug                                                                                       | f
+     106 |      384 |      4 | L    | Heel Hook start                                                                                                           | f
+     106 |      384 |      5 | L    | Throw to open handed pinch                                                                                                | t
+     106 |      384 |      6 | R    | Match                                                                                                                     | f
+     106 |      384 |      7 | R    | Right straight up to finish                                                                                               | f
+     106 |      385 |      1 | L    | Start Crimp                                                                                                               | f
+     106 |      385 |      2 | R    | Start Crimp                                                                                                               | f
+     106 |      385 |      3 | L    | Dyno way left to Jug                                                                                                      | f
+     106 |      385 |      4 | R    | Match                                                                                                                     | f
+     106 |      385 |      5 | L    | Toe hook under roof                                                                                                       | f
+     106 |      385 |      6 | L    | Layback on slopey pinch                                                                                                   | f
+     106 |      385 |      7 | R    | Crimp                                                                                                                     | f
+     106 |      385 |      8 | R    | bump to crimpy jug                                                                                                        | f
+     106 |      385 |      9 | L    | move to last right crimp                                                                                                  | f
+     106 |      385 |     10 | R    | Up to finishing jug                                                                                                       | f
+     106 |      385 |     11 | L    | Match Finish                                                                                                              | f
+(882 rows)
+

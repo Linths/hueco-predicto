@@ -1,0 +1,882 @@
+1|1|1|right|false|matched on jug
+1|1|2|left|false|reach to jug
+1|1|3|right|false|match
+1|1|4|right|false|to good sidepull
+1|1|5|left|false|to good sidepull
+1|1|6|right|false|to finger jug
+1|1|7|left|false|to crimp
+1|1|8|right|false|out right to pinch jug
+1|1|9|left|false|to finger jug
+1|1|10|right|false|roll into pinch jug
+1|1|11|left|false|out to slopey jug
+1|1|12|right|false|rt to angle jug
+1|1|13|left|false|match
+1|1|14|right|false|moving right to crimp
+1|1|15|left|false|up to angle jug
+1|1|16|right|false|up to finger slot
+1|1|17|left|false|unwind to jug
+1|1|18|right|false|up right to slot jug
+1|1|19|left|false|up to side pull jug
+1|1|20|right|false|to rt jug
+1|1|21|left|false|to crimp intermediate
+1|1|22|left|false|to finish jug
+1|2|1|right|false|matched on jug
+1|2|2|left|false|reach to left facing pocket
+1|2|3|right|false|cross up to right facing jug
+1|2|4|left|false|unwind to flat crimp
+1|2|5|right|false|up to finger jug
+1|2|6|left|false|left ward move to pinch intermediate
+1|2|7|left|false|go again to left angle jug
+1|2|8|right|false|up to right angle jug
+1|2|9|left|false|into left facing undercling
+1|2|10|right|false|go to flat edge crimp
+1|2|11|right|false|go again moving leftward to a jug
+1|2|12|left|false|move left to left facing side pull jug
+1|2|13|right|false|up to left angle jug
+1|2|14|left|false|match
+1|2|15|right|false|up right to angle gaston jug
+1|2|16|left|false|up to multiple pocket hold
+1|2|17|right|false|match
+1|2|18|right|false|go again to jug
+1|2|19|left|false|reach up and left to finger bucket
+1|2|20|right|false|move right to finger bucket
+1|2|21|left|false|move right to finger bucket
+1|2|22|right|false|moves up right to angled gaston crimp
+1|2|23|left|false|grab finishing hold
+1|5|1|right|false|matched on jug
+1|5|2|right|false|move right to pinch jug
+1|5|3|left|false|move left to left facing side pull jug
+1|5|4|right|false|moves right to finger bucket
+1|5|5|left|false|moving nine o clock to undercling
+1|5|6|right|false|big cross through to jug
+1|5|7|left|false|match
+1|5|8|left|false|moving left to side pull jug
+1|5|9|right|false|up to right facing side pull
+1|5|10|left|false|moving up to pinch intermediate
+1|5|11|left|false|go again to flat edge
+1|5|12|right|false|moving to right facing jug
+1|5|13|left|false|up to big featured jug
+1|5|14|right|false|match
+1|5|15|right|false|bump out right to pinch
+1|5|16|left|false|up to big featured jug
+1|5|17|right|false|match
+1|5|18|right|false|bump out right to pinch
+1|5|19|left|false|move up left to undercling
+1|5|20|right|false|cross over to flat edge
+1|5|21|left|false|unwind to good left edge
+1|5|22|right|false|moving up to shallow pinch
+1|5|23|left|false|finishing hold
+1|6|1|right|false|moving right to a right angle crimp rail
+1|6|2|left|false|match
+1|6|3|left|false|up to another right angle crimp rail
+1|6|4|right|false|up to right angle crimp
+1|6|5|left|false|move to a full pad crimp
+1|6|6|right|false|move to a double sided sidepull
+1|6|7|left|false|match on sidepull
+1|6|8|left|false|go again to pinch
+1|6|9|right|false|out right to side pull crimp
+1|6|10|left|false|move into another side pull crimp
+1|6|11|right|false|move into crimp dish
+1|6|12|left|false|moving left to an undercling
+1|6|13|right|false|cross to crimp
+1|6|14|left|false|match
+1|6|15|right|false|moving right to side pull crimp
+1|6|16|left|false|moving left to left angled crimp
+1|6|17|right|false|crossing over to bulbous feature
+1|6|18|left|false|match
+1|6|19|left|false|moving left to crimp
+1|6|20|right|false|side pull
+1|6|21|left|false|moving big out left to pinch
+1|6|22|right|false|moving up to crimp
+1|6|23|left|false|finishing jug
+2|13|1|right|false|to side pinch
+2|13|2|left|false|to good hold after roof edge
+2|13|3|right|false|jump so sloper
+2|13|4|left|true|match to side pinch
+2|13|5|right|false|swing to side sloper
+2|13|6|left|true|jump to jug
+7|32|1|left|false|bump
+7|32|2|right|false|mantle
+7|32|3|left|false|crimp
+7|32|4|right|false|crimp
+7|32|5|left|false|sloper
+7|32|6|right|false|jug
+7|32|7|left|false|jug
+7|32|8|right|true|gaston
+7|32|9|left|false|jug
+7|32|10|right|false|bump
+7|32|11|left|false|bump
+8|34|1|left|false|small crimp
+8|34|2|right|false|side pull
+8|34|3|left|false|big move to sloper
+8|34|4|right|false|small crimp
+8|34|5|left|false|heelhook big move to sloper
+8|34|6|right|false|dyno to jug
+11|43|1|right|false|sidepull
+11|43|2|left|false|far crimp
+11|43|3|right|false|side crimp
+11|43|4|right|true|monkey sloper
+11|43|5|left|false|gaston
+13|45|1|left|false|jug
+13|45|2|right|false|good crimp
+13|45|3|left|false|sideways pinch
+13|45|4|right|false|sidepull crimp
+13|45|5|left|false|sloping dish
+13|45|6|left|true|jug 3 finger pocket dyno
+13|45|7|right|false|match
+13|45|8|right|false|mini jug
+13|45|9|left|false|jug
+13|45|10|right|false|jug
+13|45|11|left|false|top out
+14|46|1|left|false|small diagonal crimp
+14|46|2|right|false|nonexistent right hand
+14|46|3|right|false|undercling edge
+14|46|4|left|false|small crimp
+14|46|5|right|true|decent gaston crimp
+14|46|6|left|false|diagonal good crimp
+14|46|7|right|false|cross under diagonal good crimp
+14|46|8|left|false|good crimp
+14|46|9|left|false|bump to slopey ape grip
+14|46|10|right|false|match
+14|46|11|right|false|jug
+14|47|1|left|false|jug
+14|47|2|right|false|jug
+14|47|3|right|false|decent crimp
+14|47|4|right|false|toehook
+14|47|5|left|false|wide pinch
+14|47|6|right|false|match
+14|47|7|left|false|throw for big hold not a jug
+14|47|8|right|true|good thin pinch
+14|47|9|left|false|heel hook
+14|47|10|left|false|flat edge
+14|47|11|right|false|big sloper
+14|47|12|left|false|match
+14|47|13|left|false|heel hook
+14|47|14|left|false|big move to big hold
+14|47|15|right|false|match
+14|47|16|left|true|good crimp
+14|47|17|right|false|good crimp
+14|47|18|left|false|match
+14|47|19|right|false|jug
+14|48|1|left|false|slopey pinch
+14|48|2|right|false|match
+14|48|3|left|false|horizontal sloper
+14|48|4|right|false|sloper undercling
+14|48|5|left|true|bad sloper
+14|48|6|left|false|bump to good pinch
+14|48|7|right|true|horrible sloper rail
+14|48|8|right|true|throw to jug
+14|49|1|left|false|good gaston
+14|49|2|right|false|good gaston
+14|49|3|left|false|match
+14|49|4|right|false|bad crimp
+14|49|5|left|false|heel hook
+14|49|6|left|false|non existent crimp
+14|49|7|left|true|bump dyno to huge jug
+14|50|1|left|false|very good hold
+14|50|2|right|false|very good hold
+14|50|3|left|false|toe hook
+14|50|4|left|true|big move to good crimp
+14|50|5|right|false|match
+14|50|6|right|false|big move to good sloper
+12|56|1|right|false|move to a double sided side pull
+12|56|2|left|false|match on side pull
+12|56|3|left|false|go again to pinch
+12|56|4|right|false|out right to side pull crimp
+12|56|5|right|false|matched on jug
+12|56|6|right|false|move right to pinch jug
+12|56|7|right|false|move right to finger bucket
+12|56|8|left|false|moving nine oclock to undercling
+12|56|9|right|false|big cross thru to jug
+12|56|10|left|false|cross to crimp match
+12|56|11|right|false|moving right to side pull crimp
+12|57|1|right|true|sit down slanted pull crimp
+12|57|2|left|true|far reach to side pull
+12|57|3|left|true|up to jug
+12|57|4|right|true|cross to left with side pull
+12|57|5|left|true|up to finger pocket
+12|57|6|right|false|right to big finger pocket
+16|59|1|right|false|reach to blue jug
+16|59|2|left|false|reach back to blue jug
+16|59|3|right|false|reach to green jug
+16|59|4|left|false|reach to white bucket
+16|59|5|right|false|reach to blue jug
+16|59|6|left|true|reach to blue jug
+19|61|1|left|false|starting pinch
+19|61|2|right|false|undercling mini jug
+19|61|3|right|false|side pull jug
+19|61|4|left|false|downward mini jug
+19|61|5|right|false|gaston mini jug
+19|61|6|left|false|downward crimp
+19|61|7|right|false|sidepull jug
+19|61|8|left|false|cross to mini jug
+19|61|9|right|false|gaston
+19|61|10|left|false|sidepull mini jug
+19|61|11|right|false|cross to mod jug sidepull
+19|61|12|left|false|side pull on crimp
+19|61|13|right|false|downward crimp
+19|61|14|left|false|cross to mini jug sidepull
+19|61|15|right|false|gaston sloper
+19|61|16|right|false|gaston crimp
+19|61|17|left|false|sidepull jug
+19|61|18|right|false|downward jug
+19|61|19|left|false|side pull jug
+19|61|20|right|false|gaston mini jug
+19|61|21|left|false|gaston mini jug
+19|61|22|right|false|cross sidepull mini jug
+19|61|23|left|false|pinch
+19|61|24|right|false|sidepull sloper
+19|61|25|right|false|sidepull sloppy jug
+19|61|26|left|false|down ward crimp
+19|61|27|right|false|sidepull crimp
+21|64|1|left|false|edge
+21|64|2|right|false|match
+21|64|3|left|false|slopey ledge
+21|64|4|right|false|medium crimp sidepull
+21|64|5|left|false|wide pinch
+21|64|6|right|false|diagonal sloper
+21|64|7|left|false|medium crimp
+25|67|1|right|false|move right 6 bolts right 1 bolt up to blue slopey crimp
+25|67|2|left|false|move to a crimp 1 bolt above the right hand toe hook
+25|67|3|right|true|dyno up 3 bolts 2 bolts right from the left hand
+25|67|4|left|false|left up to the crimp next to the right hand sloper
+25|67|5|right|false|campus to large jug 35 bolts up and 15 bolts left
+25|67|6|left|false|match jug
+25|67|7|left|false|left 6 bolts and down 3 bolts from the jug to crimpy undercling
+25|67|8|right|false|up 35 bolts and 15 bolts to crimp
+25|67|9|left|false|left 4 bolts to crimp finish
+34|115|1|left|false|cross to incut
+34|115|2|right|false|out to sloper
+34|115|3|left|false|up to jug
+34|115|4|right|false|cross to jug
+34|115|5|left|false|out to gaston
+34|115|6|right|false|bump to crimp
+34|115|7|left|false|throw to sloper
+34|115|8|right|false|high foot
+34|115|9|left|false|heel hook
+34|115|10|right|false|bump to incut
+34|115|11|left|false|cross to sloper
+34|115|12|right|false|out to crimp
+25|71|1|right|false|start on undercling
+25|71|2|left|false|move to a moderate jug 8 bolts to the left
+25|71|3|right|false|move to crimpbeam
+27|72|1|left|false|side pull on edge
+27|72|2|right|false|side pull on pocket
+27|72|3|left|false|cross over to sloper
+27|72|4|right|false|gaston
+27|73|1|left|false|sloper
+27|73|2|right|false|crossover to edge
+27|73|3|left|false|pinch
+27|73|4|right|false|sidepull moving straight up
+34|115|13|left|false|throw to jug
+34|115|14|right|false|over to layback
+34|115|15|left|false|match hold
+34|115|16|right|false|heel hook
+34|115|17|left|false|high foot
+34|115|18|right|false|bump to sloper
+34|115|19|left|false|mantle up
+28|79|1|left|false|match start
+28|79|2|right|false|match start
+28|79|3|left|false|side pull
+28|79|4|right|true|cross in
+28|79|5|left|false|high jug on the roof
+28|79|6|right|false|match
+28|79|7|right|false|roof jug
+28|79|8|left|false|cross to roof jug
+28|79|9|right|false|finish on roof horn
+29|81|1|left|false|match on start
+29|81|2|right|false|match on start
+29|81|3|left|false|jug
+29|81|4|right|false|match on jug
+29|81|5|right|false|cross right to slopey ball
+29|81|6|left|true|gaston to slopey boobies
+29|81|7|left|false|bump around to far side of boobies
+29|81|8|right|true|match on boobies
+29|81|9|left|false|fondle boobies to readjust
+29|81|10|right|false|fondle boobies to readjust
+29|81|11|left|false|move around arete to cobble
+29|81|12|right|false|cross to finish
+31|94|1|left|false|horizontal small crimp
+31|94|2|right|false|vertical large undercling
+31|94|3|left|false|diagonal pinch
+31|94|4|right|false|vertical sloper
+35|124|1|left|false|sidepull
+35|124|2|right|false|small crimp
+35|124|3|right|false|undercling
+35|124|4|left|true|cross to sloper
+35|124|5|right|false|match sloper
+35|124|6|right|false|gaston
+35|124|7|left|false|small crimp
+35|124|8|right|false|jug
+36|125|1|left|true|slope
+36|125|2|right|false|pinch
+36|125|3|left|false|crimp
+36|125|4|right|false|jug
+39|135|1|left|false|big move to pocket
+39|135|2|right|false|big move to finger jug
+39|135|3|left|false|campus to crimp
+39|135|4|right|true|campus to pinch
+39|135|5|left|false|reach to sloper
+39|135|6|right|false|medium move to finsh jug
+96|290|1|left|false|to gaston pinch
+39|149|1|left|false|to crimp
+39|149|2|right|false|small bump to crimp
+39|149|3|right|false|big move to jug
+39|149|4|left|true|throw to pinch
+39|149|5|right|true|cross under to crimp
+39|149|6|left|false|fall into sloper
+39|149|7|right|false|grab jug
+39|156|1|left|false|slopey crimp
+39|156|2|right|false|pocket
+39|156|3|left|false|match on pocket
+39|156|4|left|false|throw to slopey pinch
+39|156|5|left|false|slopey crimp
+39|156|6|right|false|tiny razor crimp
+39|156|7|right|false|bump to sloper
+39|156|8|left|false|diagonal to sidepull
+39|156|9|right|false|go to jug
+39|156|10|right|false|gaston
+39|156|11|left|false|undercling
+39|156|12|right|false|diagonal pinch
+39|156|13|left|false|match
+39|156|14|right|false|dyno to jug
+39|156|15|left|false|sidepull
+39|156|16|right|false|sidepull
+39|156|17|left|false|rail
+39|156|18|right|false|match
+39|156|19|left|false|jug
+44|159|1|right|false|up and right to right angled undercling
+44|159|2|left|false|above last hold right sidepull jug
+44|159|3|right|false|match left hand
+44|159|4|left|false|up slightly to undercling
+44|159|5|right|true|hand heel match
+44|159|6|right|true|cross to jug
+45|160|1|left|false|1
+45|160|4|right|false|4
+45|160|5|left|false|5
+45|160|6|right|false|6
+45|160|7|left|false|7
+45|160|8|right|false|8
+45|160|9|left|false|9
+45|160|10|right|false|10
+45|160|11|left|false|11
+45|160|12|right|false|12
+45|160|13|left|false|13
+45|160|14|right|false|14
+45|160|15|left|false|15
+45|160|16|right|false|16
+45|160|17|left|false|17
+45|160|18|right|false|18
+45|160|19|left|false|19
+45|160|20|right|false|20
+45|160|2|left|false|3
+45|160|3|right|false|2
+46|164|1|left|false|on pinch start
+46|164|2|right|false|on pinch start
+46|164|3|right|false|diagonal to good crimp
+46|164|4|left|false|gaston
+46|164|5|right|false|gaston
+46|164|6|right|false|bump to good crimp
+47|169|1|left|false|sloper
+47|169|2|right|false|sloper
+47|169|3|left|false|jug
+47|169|4|right|false|under ling
+47|169|5|left|false|undercling
+47|169|6|right|false|match
+47|169|7|left|true|mantle
+47|169|8|right|false|pinch
+47|169|9|left|false|pinch
+47|169|10|right|false|gaston
+47|169|11|left|false|crimp
+47|169|12|right|false|crimp
+47|169|13|left|false|jug
+47|169|14|right|false|undercling
+47|169|15|left|false|sloper
+47|169|16|right|false|drop knee
+47|169|17|left|false|jug
+47|169|18|right|false|undercling
+47|169|19|left|false|pinch
+47|169|20|right|false|pinch
+47|169|21|left|false|pinch
+47|169|22|right|false|pinch
+47|169|23|left|false|jug
+47|169|24|right|false|jug
+47|169|25|left|false|rail
+47|169|26|right|false|jug
+47|169|27|left|false|jug
+47|169|28|right|false|mantle
+47|169|29|left|true|gaston
+48|170|1|left|false|up left to a managable sloper
+48|170|2|right|false|out right to a solid side pull
+48|170|3|left|false|stand up to shallow pocket
+48|170|4|right|false|up and right to a sloper
+48|170|5|left|false|match sloper
+48|170|6|right|false|out right and up to finish jug
+49|177|1|left|false|start
+49|177|2|right|false|start
+49|177|3|left|false|huck to pinch
+49|177|4|right|true|bump crimp to sloper
+49|177|5|left|true|match on sloper
+49|177|6|right|true|dyno to jug finish
+49|179|1|left|false|match
+49|179|2|right|false|match
+49|179|3|left|false|gaston to crimp jug
+49|179|4|right|false|bicycle on start and foot chip then match on crimp jug
+49|179|5|left|false|huck to gaston pinch
+49|179|6|right|false|match on pinch
+49|179|7|left|false|deadpoint to slopping jug
+50|182|1|left|false|crimp
+50|182|2|right|false|crimp
+50|182|3|left|false|sloper
+50|182|4|right|false|pinch
+50|182|5|left|false|cross crimp
+50|182|6|right|false|jug
+50|182|7|left|false|match
+50|182|8|right|false|side pull
+50|182|9|left|false|cross crimp
+50|182|10|right|true|under cling
+50|182|11|left|false|sloper
+50|182|12|right|false|sloper
+50|182|13|left|true|crimp match
+58|188|1|right|false|down pull
+58|188|2|left|false|gaston
+58|188|3|right|false|side pull
+58|188|4|left|true|gaston
+58|188|5|right|true|match
+58|188|6|left|false|side pull
+58|188|7|right|false|down pull
+60|194|1|left|false|crimp
+60|194|2|right|false|side pull
+60|194|3|left|false|two finger pocket
+60|194|4|right|false|sloppy ledge
+60|194|5|left|false|diagnal side pull
+60|194|6|right|false|under cling
+60|194|7|left|true|match
+60|194|8|right|true|crimp
+60|194|9|left|true|finger pocket
+60|194|10|right|false|jug
+60|194|11|left|false|match
+60|194|12|right|false|sloper
+60|199|1|right|true|gaston
+60|199|2|right|true|crimp
+60|199|3|right|true|jug
+60|199|4|right|true|sloper
+60|199|5|right|true|side pull
+60|199|6|right|true|gaston
+60|199|7|right|true|crimp
+60|199|8|right|true|sloper
+60|199|9|right|true|jug
+60|199|10|right|true|jug
+60|199|11|right|true|crimp
+60|199|12|right|true|gaston
+39|205|1|right|false|big move to undercling
+39|205|2|left|false|small crimp
+39|205|3|left|false|bump to shallow pocket
+39|205|4|right|false|big move to deep cup
+39|205|5|left|false|finger ledge
+39|205|6|right|false|tiny crimp
+39|205|7|right|true|bump to shallow crimp
+39|205|8|left|true|throw to jug
+64|207|1|right|false|long pull straight up to a sloper
+64|207|2|left|false|match the sloper
+64|207|3|left|false|cross left to an edge
+64|207|4|left|false|left heel hook on sloper
+64|207|5|right|false|large horizontal iron cross to a pinch
+64|207|6|left|true|left hand straight up to a pinch
+64|207|7|right|false|gaston slightly above left pinch
+64|207|8|left|true|gaston up and left
+64|207|9|right|false|right foot to lowest right pinch
+64|207|10|right|false|to finish hold
+94|284|1|right|false|medium pinch
+94|284|2|left|false|medium ledge
+94|284|3|right|false|small open hand pinch
+94|284|4|left|true|small open hand ledge
+94|284|5|right|false|small crimp
+94|284|6|left|false|drop knee
+94|284|7|left|false|open hand pinch
+94|284|8|right|false|undercling
+94|284|9|right|false|small jug
+94|284|10|left|false|match
+94|284|11|right|false|small crimp
+94|284|12|left|false|small crimp
+64|211|1|left|false|average move up and left to crimp
+64|211|2|right|false|gaston stgraight up slightly lower than left hand
+64|211|3|left|false|walk feet along wall out left
+64|211|4|left|false|big move to edge side pull
+64|211|5|right|false|right hand to an undercling just higher than left edge
+64|211|6|right|false|set right foot on first crimp
+64|211|7|left|false|dyno to big sloping edge
+64|211|8|right|false|move right foot to edge side pull
+64|211|9|right|false|match the big edge
+64|211|10|left|false|small reach left to a crimp
+64|211|11|right|false|cross with a small move just above the left crimp to another crimp
+64|211|12|right|false|move right foot to big sloping edge
+64|211|13|left|false|reach far left to a big sloper
+64|211|14|left|false|cut feet from the sloping edge and snag left foot on a small hold
+64|211|15|right|false|match the big sloper
+64|211|16|right|false|cross to another sloper big sloper and loose foot
+64|211|17|right|false|establish right foot on high small foot hold
+64|211|18|left|false|gaston sloper pinch up and left
+64|211|19|right|false|big move to a finish hold
+96|290|2|right|true|to micro crimp
+96|290|3|left|false|bump to small undercling
+96|290|4|right|false|cross to sloping ledge
+96|290|5|left|false|match to sloping ledge
+96|290|6|right|false|dyno to jug
+65|221|1|left|false|match low on sidepull
+65|221|2|right|false|match low on sidepull
+67|226|1|left|false|start on the bulging sloper hold big enough for both hands 2 to 25 feet off of the ground
+67|226|2|right|false|start on the bulging sloper hold big enough for both hands 2 to 25 feet off of the ground
+67|226|3|left|false|go up 3 feet and out left 1 foot to an oval shaped 15 inch thick sloper
+67|226|4|right|false|go up 1 foot to another oval shaped 15 inch thick sloper almost able to be pinched
+67|226|5|left|false|now move out left 5 feet to huge pinch which looks like a f
+67|226|6|right|false|bring both hands over to match
+69|230|1|left|false|move to flat jug
+69|230|2|right|false|rock up to jug
+69|230|3|left|false|small hold
+69|230|4|right|false|balance up to sloper
+69|230|5|left|false|match on sloper
+69|230|6|right|false|right hand teeth
+69|230|7|left|false|match on teeth
+69|230|8|left|false|big move to jug ish
+69|230|9|right|false|right hand gaston
+69|230|10|left|false|shitty crimp
+69|230|11|right|false|big move to slopey jug
+69|230|12|left|true|crimp
+69|230|13|left|true|bump to crimp
+69|230|14|right|true|crimp
+69|230|15|left|false|bump to small jug
+69|230|16|right|false|big move jug
+69|230|17|left|false|crimp
+69|230|18|right|false|small jug
+69|230|19|left|false|flat jug
+69|230|20|right|false|undercling
+69|230|21|left|false|match undercling
+69|230|22|left|false|jug
+69|230|23|right|false|jug
+69|230|24|left|true|gaston crimp
+69|230|25|right|true|jug
+69|230|26|left|false|jug
+69|232|1|left|false|big move to jug
+69|232|2|right|false|shitty but manageable pinch
+69|232|3|left|false|switch to undercling
+69|232|4|right|false|bump up to jug
+69|232|5|left|false|match on jug
+69|232|6|right|false|undercling
+69|232|7|left|false|bid sidepull
+69|232|8|right|true|tiny side pull crimp
+69|232|9|left|true|rock out to sloper
+69|232|10|right|true|big move to sloper
+73|237|1|right|false|reach pocket
+73|237|2|left|false|edge
+73|237|3|right|false|match hands
+73|237|4|left|false|reach to big jug
+75|238|1|left|false|arete
+75|238|2|right|false|sidepull
+75|238|3|left|false|sloper
+75|238|4|right|false|match on sloper
+75|238|5|left|false|large pinch
+75|238|6|right|false|bump off pinch to ledge
+75|238|7|left|false|match
+75|238|8|right|false|up to sidepull
+75|238|9|left|false|undercling on same sidepull
+75|238|10|right|true|reach for sidepull undercling
+75|238|11|left|false|lay back to edge
+75|238|12|right|false|right hand lunge to jug
+75|238|13|left|false|match on jug
+75|238|14|right|false|pinch
+75|238|15|left|false|crimp
+75|238|16|left|false|sidepull pocket
+75|238|17|right|false|cross to sidepull jug
+75|238|18|left|false|arete
+75|238|19|right|false|underclingsidepull jug
+75|238|20|left|false|slide up arete
+75|238|21|right|false|pinch
+75|238|22|left|false|slide more up arete
+75|238|23|right|false|pinch
+75|238|24|right|false|grab top
+75|240|1|left|false|match on large jug
+75|240|2|right|false|match on large jug
+75|240|3|right|false|undercling pocket
+75|240|4|left|false|small pinch out left
+75|240|5|right|false|sidepull near pinch
+75|240|6|left|false|slopey crimp dish thing
+75|240|7|left|false|bump to larger sloper
+75|240|8|right|false|large ledgey sloper
+75|240|9|left|false|match on ledge
+75|240|10|right|false|slopey open hand crimp
+75|240|11|left|false|large flake
+75|240|12|right|false|lunge right to another large flake
+75|240|13|left|false|small jug
+75|240|14|right|false|cross left to crimp
+75|240|15|left|false|big move right for pinch
+75|240|16|right|false|bump off crimp
+75|240|17|right|false|tufa
+75|240|18|left|false|match on tufa
+75|240|19|right|true|small two finger crimp
+75|240|20|left|true|another small two finger crimp
+75|240|21|right|true|gaston sloper
+75|240|22|right|false|sidepull
+75|240|23|left|false|lunge for jug
+75|240|24|right|false|match on jug
+75|240|25|left|false|green crimp
+75|240|26|right|false|yellow crimp
+75|240|27|left|false|arete
+75|240|28|right|false|sloper
+75|240|29|left|false|move up arete
+75|240|30|right|false|yellow sloper sidepull
+75|240|31|left|false|reach for top
+76|243|1|right|false|sit start on sloper
+76|243|2|left|false|up to sloper
+76|243|3|right|true|match sloper
+76|243|4|right|false|up to crimp
+76|243|5|left|false|up and left to crimp
+76|243|6|right|false|up and left to finish jug
+82|246|1|left|false|crimp
+82|246|2|right|false|crimp
+82|246|3|left|false|bump to jug
+82|246|4|right|false|match on jug
+82|246|5|left|false|left hand to crimp
+82|246|6|right|false|right hand finish
+94|285|1|right|false|cross to medium pinch
+94|285|2|left|false|small crimp
+94|285|3|right|false|cross to medium diagonal gaston
+94|285|4|left|false|match
+94|285|5|right|false|sidepull big move
+94|285|6|left|false|open hand sidepull
+94|285|7|right|false|bump to higher sidepull
+87|256|1|left|false|jug
+87|256|2|right|false|arete
+87|256|3|left|false|dynamic move to undercling
+87|256|4|right|false|dynamic move to right facing sloper
+87|256|5|right|false|match undercling
+87|256|6|left|false|sloping crimper
+87|256|7|right|false|down to super sloper
+87|256|8|left|false|bump to sloping crimper
+87|256|9|right|false|cross to super large sloper
+87|256|10|left|false|match sloper
+87|256|11|left|false|bump out to right facing edge
+94|285|8|left|false|small open hand ledge
+94|285|9|right|false|cross to medium open hand ledge
+94|285|10|left|false|medium diagonal sidepull
+94|285|11|right|false|match
+94|285|12|right|true|throw to small crimp big move
+94|285|13|left|false|medium sloper
+90|261|1|left|false|mini jug
+90|261|2|right|false|cross to mini jug
+90|261|3|left|false|postive gaston
+90|261|4|right|false|out to postive sidepull
+90|261|5|left|false|medium jug
+90|261|6|right|false|match on to jug
+90|261|7|right|false|up to gaston jug
+90|261|8|left|false|match on gaston switch to layback
+90|261|9|left|false|rock up to mini jug
+90|261|10|right|false|cross to mini jug
+90|261|11|left|true|out to positive sloper
+90|261|12|right|true|up to postive sloper
+90|261|13|left|true|match on sloper
+90|261|14|right|true|sidepull undercling
+90|261|15|left|false|cross topostive jug medium to large
+90|261|16|right|false|match on jug
+90|261|17|left|false|postive crimp
+90|261|18|right|false|out right to postive crimp
+90|261|19|right|false|pump to jug
+90|261|20|left|false|cross to large jug
+93|266|1|right|false|throw to a sloper
+93|266|2|left|false|into a jug
+93|266|3|right|false|cross to a crimp
+93|266|4|right|false|heel hook
+93|266|5|left|false|side pull
+93|266|6|right|false|move heel hook up
+93|266|7|right|false|move out to crimp
+93|266|8|left|false|match crimp
+93|266|9|left|true|throw for sloper
+93|266|10|left|false|get left foot to small gib
+93|266|11|right|false|heel hook crimp
+93|266|12|left|true|to sloper
+94|270|1|right|false|heel to match on start
+94|270|2|left|false|hand to medium crimp gaston
+94|270|3|right|false|hand to undercling
+94|270|4|left|false|toe to start
+94|270|5|right|false|foot switches to toe
+94|270|6|left|false|toe to far left toe
+94|270|7|right|false|knee drops
+94|270|8|left|true|hand to far left sidepull
+94|270|9|right|false|foot replaces left foot
+94|270|10|right|false|hand crosses to open hand pinch above
+94|270|11|left|false|foot replaces right foot
+94|270|12|left|false|hand reaches to jug
+94|275|1|left|false|crimp ledge
+94|275|2|right|false|match
+94|275|3|right|false|cross to pinch
+94|275|4|left|false|crimp
+94|275|5|left|false|medium pinch
+94|275|6|right|false|crimp
+94|275|7|right|false|cross to large sloper
+107|344|1|left|false|1
+94|283|1|left|false|medium crimp
+94|283|2|right|false|heel hook
+94|283|3|right|false|large crimp big static move
+94|283|4|left|false|medium jug
+94|283|5|right|false|medium crimp
+94|283|6|left|false|drop knee
+94|283|7|left|false|medium jug
+94|283|8|right|false|cross to large crimp
+94|283|9|left|false|large pinch
+94|283|10|right|true|heel hook
+94|283|11|right|true|medium gaston
+94|283|12|left|true|heel hook
+94|283|13|left|true|match medium gaston
+94|283|14|left|false|throw to medium crimp
+94|283|15|right|false|small crimp
+97|296|1|left|false|small crimper
+97|296|2|right|false|small crimper
+97|296|3|left|false|big non positive sloper
+97|296|4|left|false|medium pinch
+97|296|5|right|true|big move to large jug
+97|296|6|left|false|top out
+44|298|1|right|false|up right to slight incut pinch
+44|298|2|left|false|slight cross to good pinch
+44|298|3|right|false|up slight right to good pinch
+44|298|4|left|false|over to good hold at 45
+44|298|5|right|false|match with left
+44|298|6|left|false|up to ok pinch
+44|298|7|right|false|just above to goodish pinch
+44|298|8|left|false|up left to eh finger bucket
+44|298|9|right|false|up to good crimp
+44|298|10|left|false|cross to good pinch sloper
+44|298|11|right|false|match
+44|298|12|right|false|up right to flat sidepull with thumb catch
+44|298|13|left|false|straight up to gaston flat hold at 45
+44|298|14|right|false|match
+44|298|15|left|false|over to good 2 finger pocket
+44|298|16|right|false|slight cross to good 2 finger pocket
+44|298|17|left|false|up left to ok crimpslopper
+44|298|18|right|false|up to good crimp
+44|298|19|left|false|cross to good sloper
+44|298|20|right|false|match
+44|298|21|left|false|up left to finish jug
+67|301|1|left|false|big sloper
+67|301|2|right|false|match
+67|301|3|left|false|small pinch sloper
+67|301|4|right|false|small pinch sloper
+67|301|5|left|false|big side pull big move
+100|312|1|left|false|long left
+100|312|2|right|false|right crimp
+100|312|3|left|false|cross
+100|312|4|right|true|straight up to jug
+100|312|5|left|false|match and heel hook on jug
+100|312|6|left|false|pull up to crimp
+102|325|1|left|false|small pocket
+102|325|2|right|true|negative crimp
+102|325|3|left|true|negative sloper
+102|325|4|right|true|sloping pinch
+102|325|5|left|true|left pulling pocket
+102|325|6|right|false|right sloping crimp
+102|325|7|left|false|negative undercling
+102|325|8|right|false|match on undercling
+102|325|9|left|false|sloper
+102|325|10|right|false|2 finger pocket
+102|325|11|left|false|large crimp
+102|325|12|right|false|small jug
+102|325|13|left|false|finish
+106|329|1|left|false|crimp to mantel
+106|329|2|right|false|gaston
+106|329|3|left|false|side pull
+106|329|4|right|true|lay back
+106|329|5|left|false|crossover
+106|332|1|left|false|hand match to left far finger pocket
+106|332|2|right|false|short cross over to two finger pocket
+106|332|3|left|true|reach up to crimp
+106|332|4|right|false|lay back to jug
+106|332|5|left|false|dyno to finish
+107|344|2|right|false|2
+107|344|3|left|false|3
+109|352|1|right|false|long reach to undercling
+109|352|2|left|true|undercling
+109|352|3|right|true|big pinch
+109|352|4|left|true|big pinch
+109|352|5|right|false|angled small jug
+109|352|6|left|false|side pull 2 finger pocket
+109|352|7|right|true|reach big pinch
+109|352|8|left|true|jug
+109|352|9|right|false|jug
+44|371|1|left|false|start on sidepull jug
+44|371|2|right|false|a little up and well right to gaston jug
+44|371|3|left|false|heel hand on left then match as sidepull
+44|371|4|right|false|up to ok crimp
+44|371|5|left|false|match
+44|371|6|right|false|up to flat hold
+44|371|7|left|false|up to flat hold at 45
+44|371|8|right|true|match
+44|371|9|left|true|pull straight across to gaston
+44|371|10|right|false|slight cross to ok pinch
+44|371|11|left|false|a little up and straight across to finish
+44|372|1|left|false|over to jug gaston
+44|372|2|right|false|match
+44|372|3|left|false|over to sidepull crimp
+44|372|4|right|false|match or other crimp just above at same angle
+44|372|5|left|true|up at 45 to a good sloper or slopping pinch
+44|372|6|right|true|match
+44|372|7|left|false|over to good crimppinch
+44|372|8|right|false|slight cross to flat mini jug
+44|372|9|left|false|just barely up and left to good crimpmini jug
+44|372|10|right|false|up right to side pull mini jug
+44|372|11|left|false|slight cross to finish jug
+44|373|1|left|false|straight over to jug side undercling
+44|373|2|right|false|cross to jug
+44|373|3|left|false|match
+44|373|4|left|false|over to jug at 45
+44|373|5|right|false|straight up to jug at 45
+44|373|6|left|false|match
+44|373|7|right|false|up and over to jug at 45
+44|373|8|left|false|straight up to finish jug
+44|374|1|left|false|start on gaston jug
+44|374|2|right|false|slight cross to undercling
+44|374|3|left|false|up to sidepull jug
+44|374|4|right|false|up to gaston mini jug
+44|374|5|left|false|up to good pinch
+44|374|6|right|false|come into good flat hold next to pinch
+44|374|7|right|false|up to good pocket
+44|374|8|left|false|up to jug gaston
+44|374|9|right|false|up to finish jug
+115|377|1|left|false|both hands from a sit start on large jug
+115|377|2|right|false|toe on dime edge just off the floor
+115|377|3|left|false|toe on dime edge about 3 feet apart from right toe
+115|377|4|right|false|dynamic move right towards positive flakecling
+115|377|5|left|false|match just aove right hand
+115|377|6|right|false|both feet up to starting hand jug
+115|377|7|right|false|diagonal upright from cling to 45 degree sloper
+115|377|8|left|false|pass sloper for right hand continue same direction up to next sloper
+115|377|9|left|false|delicate toe placement on back of first 45 degree sloper
+115|377|10|right|false|reach high and right to positive small cling
+115|377|11|left|false|cross foot to dime edge just inside right foot
+115|377|12|right|false|uncross foot to gain good positive foot hold parelell to left foot
+115|377|13|left|false|move hand up and in about 1 foot to small jug
+115|377|14|left|true|dynamic reach back over sholder about 2 feet up negitive side of an i beam could be substituted with a negitive edge
+115|377|15|right|false|move to same side of beam quickly or pitch your feet will have cut and you will be swinging towards negative side by now
+106|380|1|left|false|sit start jug and undercling
+106|380|2|right|false|reach up back to sloper crimp
+106|380|3|left|false|foot match to start hold
+106|380|4|left|false|up to side pull sloper
+106|380|5|right|true|just above to layback
+106|380|6|left|false|crossover to pinch
+106|380|7|right|false|to reachy finish
+106|384|1|left|false|match start on large sloper 45
+106|384|2|right|false|reach back to medium sloper crimp
+106|384|3|left|false|just up and to the left finger jug
+106|384|4|left|false|heel hook start
+106|384|5|left|true|throw to open handed pinch
+106|384|6|right|false|match
+106|384|7|right|false|right straight up to finish
+106|385|1|left|false|start crimp
+106|385|2|right|false|start crimp
+106|385|3|left|false|dyno way left to jug
+106|385|4|right|false|match
+106|385|5|left|false|toe hook under roof
+106|385|6|left|false|layback on slopey pinch
+106|385|7|right|false|crimp
+106|385|8|right|false|bump to crimpy jug
+106|385|9|left|false|move to last right crimp
+106|385|10|right|false|up to finishing jug
+106|385|11|left|false|match finish

@@ -1,0 +1,11 @@
+VERBOSE:2
+DEBUG:debug_out
+EXTRACT:y
+ALL_PARSES:y
+IGNORE_OOV:y
+PROFILE:n
+TASK_DIR:Grammar  
+DICT_FILE:base.dic
+GRAMMAR_FILE:simple.net
+FRAMES_FILE:frames
+TASK_FILE:task
