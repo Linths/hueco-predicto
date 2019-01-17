@@ -1,5 +1,5 @@
 /* HEADER
- If you use this code don’t forget to reference us :) BibTeX: http://www.cs.technion.ac.il/~rani/el-yaniv_bib.html#BegleiterEY04
+ If you use this code donâ€™t forget to reference us :) BibTeX: http://www.cs.technion.ac.il/~rani/el-yaniv_bib.html#BegleiterEY04
 
  This code is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
