@@ -1,4 +1,4 @@
-# 🔮🏔 Hueco Predicto
+# 🏔Hueco Predicto🔮
 
 A fair grade: assessing climbing route difficulty through machine learning
 
