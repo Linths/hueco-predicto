@@ -1,4 +1,4 @@
-# :crystal_ball:Hueco Predicto:mount_fuji:
+# :mount_fuji:Hueco Predicto:crystal_ball:
 
 A fair grade: assessing climbing route difficulty through machine learning
 
