@@ -27,7 +27,7 @@ echo -e "3\n2" | java -cp . Test eval ../data/vomm_1.ser
 printf "log-loss( side-pull, match, side-pull ) = "
 echo -e "3\n2\n3" | java -cp . Test eval ../data/vomm_1.ser
 
-exit 1
+# exit 1
 
 # === Prediction ===
 
