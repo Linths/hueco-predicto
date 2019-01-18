@@ -1,8 +1,35 @@
 #!/bin/bash
 
 # Playground for eventually classifying routes wrt difficulty
-
 echo -e "      Welcome to the\n🎲 Probability Playground🏓"
+
+# === Evaluation ===
+# Checking out Nessy's brother Log Loss
+# A lower log loss means a higher probability of the route
+
+echo -e "\n--- Evaluate with symbol set 1 ---"
+
+# --- Symbol set 1 ---
+# 1 jug
+# 2 match
+# 3 side-pull
+# 4 crimp
+# 18 edge
+
+printf "log-loss( jug, crimp, jug )             = "
+echo -e "1\n4\n1" | java -cp . Test eval ../data/vomm_1.ser
+printf "log-loss( jug, match, jug )             = "
+echo -e "1\n2\n1" | java -cp . Test eval ../data/vomm_1.ser
+printf "log-loss( jug, match, crimp )           = "
+echo -e "1\n2\n4" | java -cp . Test eval ../data/vomm_1.ser
+printf "log-loss( side-pull, match )            = "
+echo -e "3\n2" | java -cp . Test eval ../data/vomm_1.ser
+printf "log-loss( side-pull, match, side-pull ) = "
+echo -e "3\n2\n3" | java -cp . Test eval ../data/vomm_1.ser
+
+exit 1
+
+# === Prediction ===
 
 # --- Symbol set 1 ---
 # 1 jug
@@ -14,7 +41,7 @@ echo -e "      Welcome to the\n🎲 Probability Playground🏓"
 # Predict the probabilty of symbol x being generated
 # with symbol set 1 with the given context
 
-echo -e "\n--- Using symbol set 1 ---"
+echo -e "\n--- Predict with symbol set 1 ---"
 printf "P( crimp | jug )                = "
 echo -e "1" | java -cp . Test predict ../data/vomm_1.ser 4
 printf "P( crimp | jug, crimp )         = "
@@ -48,7 +75,7 @@ echo -e "1" | java -cp . Test predict ../data/vomm_1.ser 18
 # 7 crimp good=0
 # 30 edge good=0 "unwind to good left edge"
 
-echo -e "\n--- Using symbol set 1 ---"
+echo -e "\n--- Predict with symbol set 4 ---"
 
 printf "P( edge | crimp, jug )          = "
 echo -e "7\n1" | java -cp . Test predict ../data/vomm_4.ser 30
