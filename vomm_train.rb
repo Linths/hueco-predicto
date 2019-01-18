@@ -3,10 +3,10 @@
 SymbolicData="phoenix/app/strangebeta/symbolic.txt"
 SymbolsFile="phoenix/app/strangebeta/symbols.txt"
 WhichSymbolSet=ARGV[0].nil? ? 1 : ARGV[0].to_i
-WhichUserId=ARGV[1].nil? ? nil : ARGV[1].to_i
+LangSize=ARGV[1].to_i
+ModelDepth=ARGV[2].to_i
+WhichUserId=ARGV[3].nil? ? nil : ARGV[3].to_i
 ModelFile="vomm/data/vomm_#{WhichSymbolSet}#{WhichUserId.nil? ? "" : "_"+WhichUserId.to_s}.ser"
-LangSize=ARGV[2].to_i
-ModelDepth=ARGV[3].to_i
 
 if File.exists? ModelFile
   $stderr.puts "#{ModelFile} already exists. I'm going to make you delete it manually..."

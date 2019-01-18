@@ -8,12 +8,12 @@ for k in $(seq 1 4);do
   if [ -f vomm/data/vomm_${k}.ser ];then
     rm vomm/data/vomm_${k}.ser
   fi
-  ruby vomm_train.rb $k
+  ruby vomm_train.rb $k $LANG_SIZE $MODEL_DEPTH
   for uid in $UIDS;do
     echo " -> User $uid"
     if [ -f vomm/data/vomm_${k}_${uid}.ser ];then
       rm vomm/data/vomm_${k}_${uid}.ser
     fi
-    ruby vomm_train.rb $k $uid $LANG_SIZE $MODEL_DEPTH
+    ruby vomm_train.rb $k $LANG_SIZE $MODEL_DEPTH $uid
   done
 done
