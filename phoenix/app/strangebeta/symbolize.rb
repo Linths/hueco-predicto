@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'move'
+require_relative 'move'
 
 AmbiguousParseChoice = 0 # always pick the zero^th parse
 SymbolOutFile = "symbols.txt"
