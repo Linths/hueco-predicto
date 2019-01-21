@@ -12,7 +12,7 @@ for k in {1..4}; do
     if [ -d vomm/data/grades/set_$k ]; then
         rm -rf vomm/data/grades/set_$k/*
     fi
-    ruby vomm_train_grades.rb $k $LANG_SIZE $MODEL_DEPTH
+    ruby vomm_train_grades.rb $k $LANG_SIZE $MODEL_DEPTH $1
 done
 
 # echo -e "1\n1\n1\n1\n1\n1\n1" | java -cp vomm/src Test eval vomm/data/grades/set_1/vomm_V0.ser
