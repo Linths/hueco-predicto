@@ -1,18 +1,20 @@
 #!/usr/bin/env ruby
 
-n = ARGV[0].to_i
+require_relative 'grades'
+
+N = ARGV[0].to_i
 
 # Symbols (numbers) are bound to every move, for every symbol set (k1..k4).
 SymbolicData = "phoenix/app/strangebeta/symbolic.txt"
 
 # Make a random selection of test | train
 AllRids = `ruby data/sb_ucd_anal.rb < data/strangebeta_user_climb_data_20100208.txt | cut -f 2 -d '|' | sort -u`.split("\n").map{|rid| rid.to_i}
-puts "#{AllRids}"
-TestRids = AllRids.sample(n)
-puts "Test set: #{TestRids}"
+TestRids = AllRids.sample(N)
+puts "Random test set = #{TestRids}"
 
 # Train models
-# system("./vomm_train_grades.sh #{TestRids.join(',')}")
+puts "\n\n--- Training ---"
+system("./vomm_train_grades.sh #{TestRids.join(',')}")
 
 # SymbolSequence contains per route and per symbolset a symbol sequence
 sequences = Hash.new(Array.new)
@@ -46,26 +48,54 @@ File.open(SymbolicData, "r") { |file|
         }
     }
 }
-puts "Sequences #{sequences}"
+# puts "Sequences #{sequences}"
+
+def print_matrix(matrix)
+    matrix.each {|row| puts row.inspect}
+end
+
+def total_correctly_classified(matrix)
+    # Matrix is a 'square'
+    len = matrix.length()
+    sum = 0
+    (0..len-1).each { |i|
+        sum += matrix[i][i]
+    }
+    # puts "sum #{sum}"
+    return sum
+end
+
+puts "\n\n--- Testing ---"
 
 # Logeval per test route for every model: every symbol set * every grade class
 models = []
-TestRids.each { |r|
-    puts "route #{r}"
-    (1..4).each { |k|
-        puts "set #{k}"
-        # Make a confusion matrix per symbol set
-        models = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n")
-        # puts "#{models}"
-        logloss = {}
+# Make a confusion matrix per symbol set
+(1..4).each { |k|
+    puts "\n- Set #{k} -"
+    models = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n")
+    puts "\n#{models}"
+    # Create an empty confusion matrix
+    confusion = Array.new(models.length()){ Array.new(models.length()) {0}}
+    # Calculate log losses for every route
+    TestRids.each { |r|
+        # puts "route #{r}"
+        loglosses = {}
         models.each { |m|
             seq = sequences[r][k-1]
             # chop: Remove unnecessary newline at end
-            logloss[m] = `./logeval.sh #{seq} #{m}`.chop
+            loglosses[m] = `./logeval.sh #{seq} #{m}`.chop
         }
-        puts "logloss #{logloss}"
+        # puts "loglosses #{loglosses}"
+        # Take the model that yields the smallest logloss
+        predicted = loglosses.min_by{|k,v| v}[0]
+        pred_index = models.index(predicted)
+        # puts "predicted #{predicted}, #{pred_index}"
+        actual = getModelFileFromRoute(r, k)
+        act_index = models.index(actual)
+        # puts "actual #{actual}, #{act_index}"
+        confusion[act_index][pred_index] += 1
     }
+    print_matrix(confusion)
+    accuracy = total_correctly_classified(confusion) / TestRids.length().to_f
+    puts "accuracy = #{accuracy}"
 }
-
-# choose minimum one as winner
-# print confusion matrices

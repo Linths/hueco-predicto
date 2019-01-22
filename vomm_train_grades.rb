@@ -16,15 +16,15 @@ ModelDepth = ARGV[2].to_i
 ExcludedRoutes = ARGV[3].nil? ? [] : ARGV[3].split(",").map{ |r| r.to_i }
 
 # - Functions -
-# Returns a symbol-set-specific and grade-specific model file
-def getModelFile(grade)
-    return "vomm/data/grades/set_#{WhichSymbolSet}/vomm_#{grade}.ser"
+# Returns a symbol-set-specific and grade-class-specific model file
+def getModelFile(grade_class)
+    return "vomm/data/grades/set_#{WhichSymbolSet}/vomm_#{grade_class}.ser"
 end
 
 # - Program -
 puts "Skipping routes #{ExcludedRoutes}"
 grades = getGrades()
-puts "grades = #{grades}"
+# puts "grades = #{grades}"
 # Building the model file
 File.open(SymbolicData, "r") { |file|
     ph = nil

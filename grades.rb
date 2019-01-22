@@ -50,3 +50,11 @@ def getGrades()
     }
     return grades
 end
+
+def getModelFile(grade_class, symbol_set)
+    return "vomm/data/grades/set_#{symbol_set}/vomm_#{grade_class}.ser"
+end
+
+def getModelFileFromRoute(rid, symbol_set)
+    return getModelFile(getGradeClass(getGrades()[rid]), symbol_set)
+end
