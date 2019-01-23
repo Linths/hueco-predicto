@@ -23,6 +23,7 @@ end
 
 # - Program -
 grades = getGrades()
+puts "Model depth = #{ModelDepth}"
 puts "Skipping routes #{ExcludedRoutes}\n#{ExcludedRoutes.map {|r| getGradeClass(grades[r])}}"
 # puts "grades = #{grades}"
 # Building the model file
@@ -49,7 +50,7 @@ File.open(SymbolicData, "r") { |file|
         
         # When entering a totally new route
         if rid != on_rid
-            # puts "Learning route #{rid} (#{grade})"
+            puts "Learning route #{rid} (#{grade})"
             ph.close unless ph.nil?
             grade_class = getGradeClass(grade)
             # puts "class #{grade_class}"

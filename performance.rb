@@ -7,15 +7,17 @@ N = ARGV[0].to_i
 
 # Symbols (numbers) are bound to every move, for every symbol set (k1..k4).
 SymbolicData = "phoenix/app/strangebeta/symbolic.txt"
+Grades = getGrades()
+# puts Grades
 
+# --- Data selection ---
 # Make a random selection of test | train
 AllRids = `ruby data/sb_ucd_anal.rb < data/strangebeta_user_climb_data_20100208.txt | cut -f 2 -d '|' | sort -u`.split("\n").map{|rid| rid.to_i}
 TestRids = AllRids.sample(N)
-puts "Random test set = #{TestRids}"
+puts "Random test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
-# Train models
-puts "\n\n--- Training ---"
-system("./vomm_train_grades.sh #{TestRids.join(',')}")
+# --- Training ---
+`./vomm_train_grades.sh #{TestRids.join(',')}`
 
 # SymbolSequence contains per route and per symbolset a symbol sequence
 sequences = Hash.new(Array.new)
@@ -51,12 +53,10 @@ File.open(SymbolicData, "r") { |file|
 }
 # puts "Sequences #{sequences}"
 
-puts "\n\n--- Testing ---"
+# --- Testing ---
 
 # Logeval per test route for every model: every symbol set * every grade class
 # Make two confusion matrices per symbol set: one for bouldering, one for climbing
-grades = getGrades()
-puts grades
 allModels = []
 (1..4).each { |k|
     puts "\n- Set #{k} -"
@@ -68,7 +68,7 @@ allModels = []
     confusions = models.map {|m| getEmptyMatrix(m.length())}
     # Calculate log losses for every route
     TestRids.each { |rid|
-        grade = grades[rid]
+        grade = Grades[rid]
         loglosses = {}
         seq = sequences[rid][k-1]
         route_type = isBoulderGrade?(grade) ? 0 : 1
@@ -79,17 +79,15 @@ allModels = []
         # Take the model that yields the smallest logloss
         predicted = loglosses.min_by{|k,v| v}[0]
         pred_index = models[route_type].index(predicted)
-        # puts "predicted #{predicted}, #{pred_index}"
         actual = getModelFileFromGrade(grade, k)
         act_index = models[route_type].index(actual)
-        # puts "\n#{rid} #{actual}: #{predicted}\nloglosses #{loglosses}"
-        # puts "actual #{actual}, #{act_index}"
+        # puts "\n#{rid} #{actual.split('/')[-1]}: #{seq}\n#{predicted.split('/')[-1]}\nloglosses #{loglosses}"
         confusions[route_type][act_index][pred_index] += 1
     }
     # Print results
     confusions.each {|m| 
         printMatrix(m)
-        accuracy = totalCorrectlyClassified(m) / TestRids.length().to_f
+        accuracy = getAccuracy(m)
         puts "accuracy = #{accuracy}"
     }
 }

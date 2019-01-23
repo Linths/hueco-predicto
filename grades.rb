@@ -6,8 +6,12 @@ GradesFile = "data/route_grade.csv"
 # Determines the matching grade class for a grade 
 def getGradeClass(grade)
     # Define exclusive grade classes
-    boulder_classes = [(0..3),(4..4),(5..10)]
-    climb_classes = [(8..10),(11..12)]
+    bc0 = [(0..0),(1..1),(2..2),(3..3),(4..4),(5..5),(6..6),(7..7),(8..8),(9..9),(10..10)]
+    cc0 = [(8..8),(9..9),(10..10),(11..11),(12..12)]
+    bc1 = [(0..3),(4..4),(5..10)]
+    cc1 = [(8..10),(11..12)]
+    boulder_classes = bc0
+    climb_classes = cc0
     # puts "input getgradeclass #{grade}"
     if isBoulderGrade?(grade)
         # Hueco scale. V[0-9]+
@@ -65,6 +69,7 @@ def getModelFileFromRoute(rid, symbol_set)
     return getModelFile(getGradeClass(getGrades()[rid]), symbol_set)
 end
 
+# symbol_set {1..4}
 def getModelFileFromGrade(grade, symbol_set)
     return getModelFile(getGradeClass(grade), symbol_set)
 end
