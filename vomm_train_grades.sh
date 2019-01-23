@@ -1,6 +1,6 @@
 #!/bin/bash
 LANG_SIZE=256
-MODEL_DEPTH=5
+MODEL_DEPTH=7
 
 # Train grade-specific models
 # Done for every symbol set

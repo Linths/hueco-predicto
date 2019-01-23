@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative 'grades'
+require_relative 'matrix'
 
 N = ARGV[0].to_i
 
@@ -14,7 +15,7 @@ puts "Random test set = #{TestRids}"
 
 # Train models
 puts "\n\n--- Training ---"
-system("./vomm_train_grades.sh #{TestRids.join(',')}")
+# system("./vomm_train_grades.sh #{TestRids.join(',')}")
 
 # SymbolSequence contains per route and per symbolset a symbol sequence
 sequences = Hash.new(Array.new)
@@ -50,32 +51,17 @@ File.open(SymbolicData, "r") { |file|
 }
 # puts "Sequences #{sequences}"
 
-def print_matrix(matrix)
-    matrix.each {|row| puts row.inspect}
-end
-
-def total_correctly_classified(matrix)
-    # Matrix is a 'square'
-    len = matrix.length()
-    sum = 0
-    (0..len-1).each { |i|
-        sum += matrix[i][i]
-    }
-    # puts "sum #{sum}"
-    return sum
-end
-
 puts "\n\n--- Testing ---"
 
 # Logeval per test route for every model: every symbol set * every grade class
-models = []
 # Make a confusion matrix per symbol set
+models = []
 (1..4).each { |k|
     puts "\n- Set #{k} -"
     models = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n")
     puts "\n#{models}"
     # Create an empty confusion matrix
-    confusion = Array.new(models.length()){ Array.new(models.length()) {0}}
+    confusion = get_empty_matrix(models.length())
     # Calculate log losses for every route
     TestRids.each { |r|
         # puts "route #{r}"

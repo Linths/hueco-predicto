@@ -6,7 +6,7 @@ GradesFile = "data/route_grade.csv"
 # Determines the matching grade class for a grade 
 def getGradeClass(grade)
     # puts "input getgradeclass #{grade}"
-    if grade[0] == 'V'
+    if isBoulderGrade?(grade)
         # Hueco scale. V[0-9]+
         g = grade[1..grade.length()-1].to_i
         if g < 4
@@ -25,7 +25,12 @@ def getGradeClass(grade)
             return "5.11-5.12"
         end
     end
-    return 
+end
+
+# Determines if the grade is for a boulder route or a climbing route
+# Assuming two systems are used: Hueco (bouldering) and YDS (climbing)
+def isBoulderGrade?(grade)
+    return grade[0] == 'V'
 end
 
 # Build route_id-grade pairs
