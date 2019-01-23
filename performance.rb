@@ -15,7 +15,7 @@ puts "Random test set = #{TestRids}"
 
 # Train models
 puts "\n\n--- Training ---"
-# system("./vomm_train_grades.sh #{TestRids.join(',')}")
+system("./vomm_train_grades.sh #{TestRids.join(',')}")
 
 # SymbolSequence contains per route and per symbolset a symbol sequence
 sequences = Hash.new(Array.new)
@@ -54,34 +54,42 @@ File.open(SymbolicData, "r") { |file|
 puts "\n\n--- Testing ---"
 
 # Logeval per test route for every model: every symbol set * every grade class
-# Make a confusion matrix per symbol set
-models = []
+# Make two confusion matrices per symbol set: one for bouldering, one for climbing
+grades = getGrades()
+puts grades
+allModels = []
 (1..4).each { |k|
     puts "\n- Set #{k} -"
-    models = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n")
+    allModels = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n")
+    # Split models in type of routes: 0. bouldering, 1. climbing
+    models = splitModelFiles(allModels)
     puts "\n#{models}"
-    # Create an empty confusion matrix
-    confusion = get_empty_matrix(models.length())
+    # Creates empty confusion matrices: 0. bouldering, 1. climbing
+    confusions = models.map {|m| getEmptyMatrix(m.length())}
     # Calculate log losses for every route
-    TestRids.each { |r|
-        # puts "route #{r}"
+    TestRids.each { |rid|
+        grade = grades[rid]
         loglosses = {}
-        models.each { |m|
-            seq = sequences[r][k-1]
+        seq = sequences[rid][k-1]
+        route_type = isBoulderGrade?(grade) ? 0 : 1
+        models[route_type].each { |m|
             # chop: Remove unnecessary newline at end
-            loglosses[m] = `./logeval.sh #{seq} #{m}`.chop
+            loglosses[m] = `./logeval.sh #{seq} #{m}`.chop.to_f
         }
-        # puts "loglosses #{loglosses}"
         # Take the model that yields the smallest logloss
         predicted = loglosses.min_by{|k,v| v}[0]
-        pred_index = models.index(predicted)
+        pred_index = models[route_type].index(predicted)
         # puts "predicted #{predicted}, #{pred_index}"
-        actual = getModelFileFromRoute(r, k)
-        act_index = models.index(actual)
+        actual = getModelFileFromGrade(grade, k)
+        act_index = models[route_type].index(actual)
+        # puts "\n#{rid} #{actual}: #{predicted}\nloglosses #{loglosses}"
         # puts "actual #{actual}, #{act_index}"
-        confusion[act_index][pred_index] += 1
+        confusions[route_type][act_index][pred_index] += 1
     }
-    print_matrix(confusion)
-    accuracy = total_correctly_classified(confusion) / TestRids.length().to_f
-    puts "accuracy = #{accuracy}"
+    # Print results
+    confusions.each {|m| 
+        printMatrix(m)
+        accuracy = totalCorrectlyClassified(m) / TestRids.length().to_f
+        puts "accuracy = #{accuracy}"
+    }
 }

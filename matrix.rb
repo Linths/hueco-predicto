@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-def print_matrix(matrix)
+def printMatrix(matrix)
     matrix.each {|row| puts row.inspect}
 end
 
-def total_correctly_classified(matrix)
+def totalCorrectlyClassified(matrix)
     # Matrix is a 'square'
     len = matrix.length()
     sum = 0
@@ -15,6 +15,6 @@ def total_correctly_classified(matrix)
     return sum
 end
 
-def get_empty_matrix(n)
+def getEmptyMatrix(n)
     Array.new(n){ Array.new(n) {0}}
 end
