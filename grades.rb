@@ -79,15 +79,12 @@ end
 def getGrades()
     grades = {}
     File.open(GradesFile, "r") { |file|
-        # puts "#{file}"
         # Remove header of file
         file.gets
         file.each_line{ |l|
-            # puts "This is a line: #{l}"
             # route_id,grade,type
             # 1,5.10,Sport 
             rid, grade, type = l.chomp.split(/,/)
-            # puts "#{rid}, #{grade}, #{type}"
             rid = rid.to_i
             # Clean up Hueco and YSD grade notation to integers only
             # f.e. v6/7 -> V6, 5.10D -> 5.10, etc
@@ -100,10 +97,6 @@ end
 
 def getModelFile(grade_class, symbol_set)
     return "vomm/data/grades/set_#{symbol_set}/vomm_#{grade_class}.ser"
-end
-
-def getModelFileFromRoute(rid, symbol_set)
-    return getModelFile(getGradeClass(getGrades()[rid]), symbol_set)
 end
 
 # symbol_set {1..4}
@@ -121,6 +114,18 @@ def splitModelFiles(model_files)
     end
 end
 
+def splitGradeClasses(grade_classes)
+    if MergeMode
+        [grade_classes,[]]
+    else
+        return grade_classes.partition { |m| m[0] == 'V' }
+    end
+end
+
 def isMergeMode?()
     return MergeMode
+end
+
+def fileToGradeClass(model_file)
+    return model_file.split("/")[-1][5..-5]
 end

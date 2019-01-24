@@ -32,3 +32,9 @@ end
 def getAccuracy(matrix)
     return totalCorrectlyClassified(matrix) / totalSum(matrix).to_f
 end
+
+def printAccuracy(matrix)
+    if totalSum(matrix) != 0.0
+        puts "accuracy = #{getAccuracy(matrix)}"
+    end
+end

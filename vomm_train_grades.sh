@@ -17,8 +17,6 @@ fi
 
 for k in {1..4}; do
     echo "Symbol set $k"
-    if [ -d vomm/data/grades/set_$k ]; then
-        rm -rf vomm/data/grades/set_$k/*
-    fi
+    rm -rf vomm/data/grades/set_$k/*
     ruby vomm_train_grades.rb $k $LANG_SIZE $MODEL_DEPTH $2
 done
