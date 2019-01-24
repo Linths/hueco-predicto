@@ -1,0 +1,450 @@
+Random test set = [290] ["V5-V10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+Random test set = [57] ["5.8-5.10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+Random test set = [232] ["V5-V10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+Random test set = [170] ["V4-V4"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+Random test set = [160] ["5.11-5.12"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 1]
+[0, 0]
+accuracy = 0.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 1]
+[0, 0]
+accuracy = 0.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 1]
+[0, 0]
+accuracy = 0.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 1]
+[0, 0]
+accuracy = 0.0
+Random test set = [49] ["V5-V10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+Random test set = [45] ["V5-V10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[1, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+Random test set = [13] ["5.11-5.12"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+Random test set = [344] ["5.8-5.10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+Random test set = [59] ["V0-V3"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+[0, 1, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN

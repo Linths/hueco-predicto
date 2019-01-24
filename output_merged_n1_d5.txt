@@ -1,0 +1,1106 @@
+depth = 5
+test set = [2] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+2 vomm_easy.ser: 1,10,1,4,1,11,1,1,12,13,1,8,1,2,14,10,2,1,15,15,15,16,17 -> vomm_hard.ser
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+2 vomm_easy.ser: 1,13,1,14,4,15,16,17,18,19,1,11,16,2,20,13,2,1,21,21,21,22,23 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+2 vomm_easy.ser: 1,12,1,5,1,13,7,7,14,15,1,10,7,3,16,12,3,1,17,17,17,18,19 -> vomm_easy.ser
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+2 vomm_easy.ser: 1,14,1,15,5,16,17,18,19,20,1,12,17,3,21,14,3,1,22,22,22,23,24 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [49] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+49 vomm_hard.ser: 24,24,2,4,29,4,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+49 vomm_hard.ser: 61,61,2,62,53,5,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+49 vomm_hard.ser: 43,43,3,5,38,5,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+49 vomm_hard.ser: 67,67,3,68,58,6,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [301] ["medium"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+301 vomm_medium.ser: 23,2,53,53,3 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+301 vomm_medium.ser: 55,2,162,162,163 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+301 vomm_medium.ser: 40,3,79,79,4 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+301 vomm_medium.ser: 61,3,193,193,194 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [67] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+67 vomm_hard.ser: 4,35,22,36,1,1,32,4,37 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+67 vomm_hard.ser: 81,82,47,83,1,1,84,5,85 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+67 vomm_hard.ser: 5,50,36,51,1,1,46,5,52 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+67 vomm_hard.ser: 91,92,51,93,1,1,94,6,95 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [207] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+207 vomm_hard.ser: 23,23,18,25,11,11,52,24,11,17 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+207 vomm_hard.ser: 37,37,27,40,15,15,116,38,15,23 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+207 vomm_hard.ser: 30,30,22,32,74,13,75,31,13,19 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+207 vomm_hard.ser: 41,41,30,44,136,16,137,42,16,24 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [182] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+182 vomm_easy.ser: 4,4,23,11,4,1,2,3,4,12,23,23,4 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+182 vomm_easy.ser: 5,5,37,15,5,1,2,24,5,18,37,37,5 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+182 vomm_easy.ser: 5,5,30,13,28,1,3,21,28,14,30,30,5 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+182 vomm_easy.ser: 6,6,41,16,37,1,3,26,37,19,41,41,6 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [49] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+49 vomm_hard.ser: 24,24,2,4,29,4,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+49 vomm_hard.ser: 61,61,2,62,53,5,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+49 vomm_hard.ser: 43,43,3,5,38,5,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+49 vomm_hard.ser: 67,67,3,68,58,6,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [199] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+199 vomm_easy.ser: 24,4,1,23,3,24,4,23,1,1,4,24 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+199 vomm_easy.ser: 38,5,1,37,24,38,5,37,1,1,5,38 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+199 vomm_easy.ser: 31,5,1,30,21,31,5,30,1,1,5,31 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+199 vomm_easy.ser: 42,6,1,41,26,42,6,41,1,1,6,42 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [284] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+284 vomm_hard.ser: 11,34,11,34,4,0,11,12,1,2,4,4 -> vomm_expert.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+284 vomm_hard.ser: 15,111,117,118,39,0,119,18,120,2,39,39 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+284 vomm_hard.ser: 13,49,13,49,5,0,13,14,1,3,5,5 -> vomm_expert.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+284 vomm_hard.ser: 16,131,138,139,43,0,140,19,141,3,43,43 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [47] ["expert"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+47 vomm_expert.ser: 1,1,4,29,11,2,1,11,29,18,23,2,29,22,2,4,4,2,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+47 vomm_expert.ser: 1,1,52,53,15,2,26,54,53,25,55,2,53,56,2,41,41,2,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+47 vomm_expert.ser: 1,1,25,38,13,3,39,33,38,22,40,3,38,29,3,25,25,3,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+47 vomm_expert.ser: 1,1,57,58,16,3,59,60,58,27,61,3,58,62,3,45,45,3,1 -> vomm_easy.ser
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [73] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+73 vomm_easy.ser: 23,18,11,3 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+73 vomm_easy.ser: 37,27,15,24 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+73 vomm_easy.ser: 30,23,13,21 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+73 vomm_easy.ser: 41,103,16,26 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [177] ["medium"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+177 vomm_medium.ser: 22,22,11,36,23,9 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+177 vomm_medium.ser: 47,47,15,83,37,12 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+177 vomm_medium.ser: 36,36,69,51,30,71 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+177 vomm_medium.ser: 51,51,118,93,41,127 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [45] ["expert"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+45 vomm_expert.ser: 1,4,11,20,26,27,2,1,1,1,17 -> vomm_easy.ser
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+45 vomm_expert.ser: 1,41,42,32,43,44,2,45,1,1,23 -> vomm_easy.ser
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+45 vomm_expert.ser: 1,25,33,26,34,35,3,1,1,1,19 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+45 vomm_expert.ser: 1,45,46,35,47,48,3,49,1,1,24 -> vomm_easy.ser
+[0, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [352] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+352 vomm_hard.ser: 12,12,11,11,1,41,11,1,1 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+352 vomm_hard.ser: 18,18,168,168,169,170,168,1,1 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+352 vomm_hard.ser: 102,14,33,33,1,59,103,1,1 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+352 vomm_hard.ser: 200,19,201,201,202,203,204,1,1 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [374] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+374 vomm_hard.ser: 1,12,8,1,11,11,10,14,9 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+374 vomm_hard.ser: 148,18,11,71,54,176,177,173,12 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+374 vomm_hard.ser: 1,107,10,1,33,13,108,104,11 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+374 vomm_hard.ser: 175,213,12,78,60,214,215,208,13 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [373] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+373 vomm_easy.ser: 32,1,2,1,1,2,1,9 -> vomm_hard.ser
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+373 vomm_easy.ser: 84,1,2,1,1,2,1,12 -> vomm_easy.ser
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+373 vomm_easy.ser: 46,20,3,1,1,3,1,11 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+373 vomm_easy.ser: 94,25,3,1,1,3,1,13 -> vomm_easy.ser
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [43] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+43 vomm_hard.ser: 3,4,4,23,24 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+43 vomm_hard.ser: 24,5,5,37,38 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+43 vomm_hard.ser: 21,5,5,30,31 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+43 vomm_hard.ser: 26,6,6,41,42 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [238] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+238 vomm_easy.ser: 55,3,23,23,11,56,2,3,57,57,18,1,1,11,4,41,8,55,1,55,11,55,11,17 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+238 vomm_easy.ser: 133,24,37,37,15,134,2,24,135,135,27,1,1,15,5,89,11,133,1,133,15,133,15,23 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+238 vomm_easy.ser: 83,21,30,30,13,84,3,21,85,86,22,1,1,13,5,59,47,83,1,83,13,83,13,19 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+238 vomm_easy.ser: 158,26,41,41,16,159,3,26,160,161,30,1,1,16,6,102,82,158,1,158,16,158,16,24 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [169] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+169 vomm_easy.ser: 23,23,1,0,12,2,17,11,11,24,4,4,1,12,23,0,1,12,11,11,11,11,1,1,49,1,1,17,24 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+169 vomm_easy.ser: 37,37,1,0,18,2,23,15,15,38,5,5,1,18,37,0,1,18,15,15,15,15,1,1,104,1,1,23,38 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+169 vomm_easy.ser: 30,30,1,0,14,3,19,13,13,31,5,5,1,14,30,0,1,14,13,13,13,13,1,1,70,1,1,19,31 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+169 vomm_easy.ser: 41,41,1,0,19,3,24,16,16,42,6,6,1,19,41,0,1,19,16,16,16,16,1,1,122,1,1,24,42 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [372] ["hard"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+372 vomm_hard.ser: 14,2,20,4,53,2,0,1,1,8,9 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+372 vomm_hard.ser: 173,2,32,5,158,2,0,174,175,73,12 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+372 vomm_hard.ser: 104,3,26,5,105,3,0,20,7,10,106 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+372 vomm_hard.ser: 208,3,35,6,209,3,0,210,211,81,212 -> vomm_hard.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [246] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+246 vomm_easy.ser: 4,4,1,1,4,17 -> vomm_easy.ser
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+246 vomm_easy.ser: 5,5,1,1,5,23 -> vomm_easy.ser
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+246 vomm_easy.ser: 5,5,1,1,5,19 -> vomm_easy.ser
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+246 vomm_easy.ser: 6,6,1,1,6,24 -> vomm_easy.ser
+[1, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [301] ["medium"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+301 vomm_medium.ser: 23,2,53,53,3 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+301 vomm_medium.ser: 55,2,162,162,163 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+301 vomm_medium.ser: 40,3,79,79,4 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+301 vomm_medium.ser: 61,3,193,193,194 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [159] ["medium"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+159 vomm_medium.ser: 12,8,22,12,22,1 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+159 vomm_medium.ser: 105,11,47,18,47,1 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+159 vomm_medium.ser: 14,10,36,14,36,20 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+159 vomm_medium.ser: 123,12,51,19,51,25 -> vomm_medium.ser
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 1]
+accuracy = 1.0
+accuracy = NaN
+depth = 5
+test set = [298] ["easy"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_easy.ser", "vomm/data/grades/set_1/vomm_expert.ser", "vomm/data/grades/set_1/vomm_hard.ser", "vomm/data/grades/set_1/vomm_medium.ser"], []]
+298 vomm_easy.ser: 65,11,11,22,2,11,11,15,4,53,2,3,24,2,10,10,0,4,23,2,9 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_easy.ser", "vomm/data/grades/set_2/vomm_expert.ser", "vomm/data/grades/set_2/vomm_hard.ser", "vomm/data/grades/set_2/vomm_medium.ser"], []]
+298 vomm_easy.ser: 155,54,54,63,2,156,157,21,41,158,2,159,160,2,161,161,0,41,64,2,12 -> vomm_hard.ser
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_easy.ser", "vomm/data/grades/set_3/vomm_expert.ser", "vomm/data/grades/set_3/vomm_hard.ser", "vomm/data/grades/set_3/vomm_medium.ser"], []]
+298 vomm_easy.ser: 97,98,33,29,3,33,33,17,25,99,3,21,31,3,12,100,0,25,78,3,11 -> vomm_hard.ser
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_easy.ser", "vomm/data/grades/set_4/vomm_expert.ser", "vomm/data/grades/set_4/vomm_hard.ser", "vomm/data/grades/set_4/vomm_medium.ser"], []]
+298 vomm_easy.ser: 183,184,60,69,3,185,186,22,45,187,3,188,189,3,190,191,0,45,192,3,13 -> vomm_medium.ser
+[0, 0, 0, 1]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+accuracy = 0.0
+accuracy = NaN
+depth = 5
+test set = [352] ["hard"]

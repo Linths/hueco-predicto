@@ -1,0 +1,579 @@
+depth = 3
+test set = [332] ["5.8-5.10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+332 vomm_5.8-5.10.ser: 10,10,4,1,17
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_1/vomm_5.11-5.12.ser"=>10.134839663257416, "vomm/data/grades/set_1/vomm_5.8-5.10.ser"=>33.83379634362722}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+332 vomm_5.8-5.10.ser: 65,65,5,1,23
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_2/vomm_5.11-5.12.ser"=>23.31855754774682, "vomm/data/grades/set_2/vomm_5.8-5.10.ser"=>137.69194986521836}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+332 vomm_5.8-5.10.ser: 12,100,5,1,91
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_3/vomm_5.11-5.12.ser"=>198.4349027835104, "vomm/data/grades/set_3/vomm_5.8-5.10.ser"=>212.68179325018215}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+332 vomm_5.8-5.10.ser: 72,199,6,1,170
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_4/vomm_5.11-5.12.ser"=>381.9578271149515, "vomm/data/grades/set_4/vomm_5.8-5.10.ser"=>448.451013043353}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+depth = 3
+test set = [43] ["5.11-5.12"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+43 vomm_5.11-5.12.ser: 3,4,4,23,24
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_1/vomm_5.11-5.12.ser"=>41.39365981708884, "vomm/data/grades/set_1/vomm_5.8-5.10.ser"=>64.6225648647661}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+43 vomm_5.11-5.12.ser: 24,5,5,37,38
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_2/vomm_5.11-5.12.ser"=>75.31268276950453, "vomm/data/grades/set_2/vomm_5.8-5.10.ser"=>113.6225648647661}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+43 vomm_5.11-5.12.ser: 21,5,5,30,31
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_3/vomm_5.11-5.12.ser"=>61.39365981708883, "vomm/data/grades/set_3/vomm_5.8-5.10.ser"=>93.62256486476609}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+43 vomm_5.11-5.12.ser: 26,6,6,41,42
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_4/vomm_5.11-5.12.ser"=>81.31268276950453, "vomm/data/grades/set_4/vomm_5.8-5.10.ser"=>123.62256486476609}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[1, 0]
+[0, 0]
+accuracy = 1.0
+depth = 3
+test set = [57] ["5.8-5.10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+57 vomm_5.8-5.10.ser: 4,3,1,3,10,10
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_1/vomm_5.11-5.12.ser"=>29.060200938915774, "vomm/data/grades/set_1/vomm_5.8-5.10.ser"=>50.136811205216766}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+57 vomm_5.8-5.10.ser: 5,24,1,24,65,66
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_2/vomm_5.11-5.12.ser"=>137.3929564951212, "vomm/data/grades/set_2/vomm_5.8-5.10.ser"=>193.42959295444464}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+57 vomm_5.8-5.10.ser: 5,44,1,21,12,12
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_3/vomm_5.11-5.12.ser"=>77.06020093891577, "vomm/data/grades/set_3/vomm_5.8-5.10.ser"=>106.13681120521677}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+57 vomm_5.8-5.10.ser: 6,71,1,26,72,73
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_4/vomm_5.11-5.12.ser"=>192.39295649512124, "vomm/data/grades/set_4/vomm_5.8-5.10.ser"=>254.42959295444464}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+depth = 3
+test set = [312] ["5.8-5.10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+312 vomm_5.8-5.10.ser: 0,4,0,1,1,4
+vomm_5.8-5.10.ser
+loglosses {"vomm/data/grades/set_1/vomm_5.11-5.12.ser"=>26.138402531347154, "vomm/data/grades/set_1/vomm_5.8-5.10.ser"=>24.37957903128301}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+312 vomm_5.8-5.10.ser: 0,5,0,1,1,5
+vomm_5.8-5.10.ser
+loglosses {"vomm/data/grades/set_2/vomm_5.11-5.12.ser"=>35.55120851058985, "vomm/data/grades/set_2/vomm_5.8-5.10.ser"=>24.37957903128301}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+312 vomm_5.8-5.10.ser: 0,5,0,1,1,5
+vomm_5.8-5.10.ser
+loglosses {"vomm/data/grades/set_3/vomm_5.11-5.12.ser"=>26.138402531347154, "vomm/data/grades/set_3/vomm_5.8-5.10.ser"=>24.37957903128301}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+312 vomm_5.8-5.10.ser: 0,6,0,1,1,6
+vomm_5.8-5.10.ser
+loglosses {"vomm/data/grades/set_4/vomm_5.11-5.12.ser"=>35.55120851058985, "vomm/data/grades/set_4/vomm_5.8-5.10.ser"=>24.37957903128301}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[0, 1]
+accuracy = 1.0
+depth = 3
+test set = [261] ["5.8-5.10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+261 vomm_5.8-5.10.ser: 1,1,24,3,1,1,1,42,1,1,23,23,23,57,1,1,4,4,1,1
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_1/vomm_5.11-5.12.ser"=>178.05407607067716, "vomm/data/grades/set_1/vomm_5.8-5.10.ser"=>241.68846998215028}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 2 -
+
+[[], []]
+depth = 3
+test set = [32] ["5.8-5.10"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+32 vomm_5.8-5.10.ser: 0,17,4,4,23,1,1,24,1,0,0
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_1/vomm_5.11-5.12.ser"=>64.59735453140159, "vomm/data/grades/set_1/vomm_5.8-5.10.ser"=>87.89858509785286}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+32 vomm_5.8-5.10.ser: 0,23,5,5,37,1,1,38,1,0,0
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_2/vomm_5.11-5.12.ser"=>96.45720749055897, "vomm/data/grades/set_2/vomm_5.8-5.10.ser"=>118.48414859630853}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+32 vomm_5.8-5.10.ser: 0,19,5,5,30,1,1,31,1,0,0
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_3/vomm_5.11-5.12.ser"=>71.59735453140159, "vomm/data/grades/set_3/vomm_5.8-5.10.ser"=>101.89858509785286}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+32 vomm_5.8-5.10.ser: 0,24,6,6,41,1,1,42,1,0,0
+vomm_5.11-5.12.ser
+loglosses {"vomm/data/grades/set_4/vomm_5.11-5.12.ser"=>100.45720749055896, "vomm/data/grades/set_4/vomm_5.8-5.10.ser"=>126.48414859630851}
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = NaN
+[0, 0]
+[1, 0]
+accuracy = 0.0
+depth = 3
+test set = [243] ["V4-V4"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+243 vomm_V4-V4.ser: 23,23,23,4,4,9
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_1/vomm_V0-V3.ser"=>36.86442548563906, "vomm/data/grades/set_1/vomm_V4-V4.ser"=>92.34355616213684, "vomm/data/grades/set_1/vomm_V5-V10.ser"=>85.58845899091446}
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+243 vomm_V4-V4.ser: 37,37,37,5,5,12
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_2/vomm_V0-V3.ser"=>43.46922232857938, "vomm/data/grades/set_2/vomm_V4-V4.ser"=>150.47039976227327, "vomm/data/grades/set_2/vomm_V5-V10.ser"=>159.62345377047603}
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+243 vomm_V4-V4.ser: 30,30,30,5,5,11
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_3/vomm_V0-V3.ser"=>42.46922232857938, "vomm/data/grades/set_3/vomm_V4-V4.ser"=>124.42265232969598, "vomm/data/grades/set_3/vomm_V5-V10.ser"=>128.6818704775028}
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+243 vomm_V4-V4.ser: 41,41,41,6,6,13
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_4/vomm_V0-V3.ser"=>46.469222328579384, "vomm/data/grades/set_4/vomm_V4-V4.ser"=>167.4703997622733, "vomm/data/grades/set_4/vomm_V5-V10.ser"=>174.62345377047603}
+[0, 0, 0]
+[1, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+depth = 3
+test set = [188] ["V0-V3"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+188 vomm_V0-V3.ser: 0,24,3,24,2,3,0
+vomm_V5-V10.ser
+loglosses {"vomm/data/grades/set_1/vomm_V0-V3.ser"=>78.39651723307678, "vomm/data/grades/set_1/vomm_V4-V4.ser"=>87.82842759808065, "vomm/data/grades/set_1/vomm_V5-V10.ser"=>35.830187126896526}
+[0, 0, 1]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+188 vomm_V0-V3.ser: 0,38,24,38,2,24,0
+vomm_V5-V10.ser
+loglosses {"vomm/data/grades/set_2/vomm_V0-V3.ser"=>145.48888125122545, "vomm/data/grades/set_2/vomm_V4-V4.ser"=>163.01268352671488, "vomm/data/grades/set_2/vomm_V5-V10.ser"=>31.657783184792727}
+[0, 0, 1]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+188 vomm_V0-V3.ser: 0,31,21,31,3,21,0
+vomm_V5-V10.ser
+loglosses {"vomm/data/grades/set_3/vomm_V0-V3.ser"=>126.3965172330768, "vomm/data/grades/set_3/vomm_V4-V4.ser"=>138.94457729159905, "vomm/data/grades/set_3/vomm_V5-V10.ser"=>35.65041465458948}
+[0, 0, 1]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+188 vomm_V0-V3.ser: 0,42,26,42,3,26,0
+vomm_V5-V10.ser
+loglosses {"vomm/data/grades/set_4/vomm_V0-V3.ser"=>157.48888125122545, "vomm/data/grades/set_4/vomm_V4-V4.ser"=>180.01268352671482, "vomm/data/grades/set_4/vomm_V5-V10.ser"=>32.143210011962964}
+[0, 0, 1]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+depth = 3
+test set = [377] ["V0-V3"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,18,18,0,22,1,23,23,23,0,18,22,1,67,68
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_1/vomm_V0-V3.ser"=>227.12389524095644, "vomm/data/grades/set_1/vomm_V4-V4.ser"=>318.83859706329076, "vomm/data/grades/set_1/vomm_V5-V10.ser"=>283.8725716276893}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,27,27,0,47,178,37,37,37,0,27,179,120,180,181
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_2/vomm_V0-V3.ser"=>951.8600581027795, "vomm/data/grades/set_2/vomm_V4-V4.ser"=>1119.213323177859, "vomm/data/grades/set_2/vomm_V5-V10.ser"=>1111.8008675492993}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,22,22,0,36,7,30,30,30,0,23,29,1,109,110
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_3/vomm_V0-V3.ser"=>360.1929299262418, "vomm/data/grades/set_3/vomm_V4-V4.ser"=>490.25962372133006, "vomm/data/grades/set_3/vomm_V5-V10.ser"=>446.54292802693305}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,30,30,0,51,216,41,41,41,0,103,217,141,218,219
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_4/vomm_V0-V3.ser"=>1203.8600581027795, "vomm/data/grades/set_4/vomm_V4-V4.ser"=>1396.2133231778587, "vomm/data/grades/set_4/vomm_V5-V10.ser"=>1381.8008675492995}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+depth = 3
+test set = [377] ["V0-V3"]
+
+- Set 1 -
+
+[["vomm/data/grades/set_1/vomm_V0-V3.ser", "vomm/data/grades/set_1/vomm_V4-V4.ser", "vomm/data/grades/set_1/vomm_V5-V10.ser"], ["vomm/data/grades/set_1/vomm_5.11-5.12.ser", "vomm/data/grades/set_1/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,18,18,0,22,1,23,23,23,0,18,22,1,67,68
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_1/vomm_V0-V3.ser"=>227.12389524095644, "vomm/data/grades/set_1/vomm_V4-V4.ser"=>318.83859706329076, "vomm/data/grades/set_1/vomm_V5-V10.ser"=>283.8725716276893}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 2 -
+
+[["vomm/data/grades/set_2/vomm_V0-V3.ser", "vomm/data/grades/set_2/vomm_V4-V4.ser", "vomm/data/grades/set_2/vomm_V5-V10.ser"], ["vomm/data/grades/set_2/vomm_5.11-5.12.ser", "vomm/data/grades/set_2/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,27,27,0,47,178,37,37,37,0,27,179,120,180,181
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_2/vomm_V0-V3.ser"=>951.8600581027795, "vomm/data/grades/set_2/vomm_V4-V4.ser"=>1119.213323177859, "vomm/data/grades/set_2/vomm_V5-V10.ser"=>1111.8008675492993}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 3 -
+
+[["vomm/data/grades/set_3/vomm_V0-V3.ser", "vomm/data/grades/set_3/vomm_V4-V4.ser", "vomm/data/grades/set_3/vomm_V5-V10.ser"], ["vomm/data/grades/set_3/vomm_5.11-5.12.ser", "vomm/data/grades/set_3/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,22,22,0,36,7,30,30,30,0,23,29,1,109,110
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_3/vomm_V0-V3.ser"=>360.1929299262418, "vomm/data/grades/set_3/vomm_V4-V4.ser"=>490.25962372133006, "vomm/data/grades/set_3/vomm_V5-V10.ser"=>446.54292802693305}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN
+
+- Set 4 -
+
+[["vomm/data/grades/set_4/vomm_V0-V3.ser", "vomm/data/grades/set_4/vomm_V4-V4.ser", "vomm/data/grades/set_4/vomm_V5-V10.ser"], ["vomm/data/grades/set_4/vomm_5.11-5.12.ser", "vomm/data/grades/set_4/vomm_5.8-5.10.ser"]]
+
+377 vomm_V0-V3.ser: 1,30,30,0,51,216,41,41,41,0,103,217,141,218,219
+vomm_V0-V3.ser
+loglosses {"vomm/data/grades/set_4/vomm_V0-V3.ser"=>1203.8600581027795, "vomm/data/grades/set_4/vomm_V4-V4.ser"=>1396.2133231778587, "vomm/data/grades/set_4/vomm_V5-V10.ser"=>1381.8008675492995}
+[1, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 1.0
+[0, 0]
+[0, 0]
+accuracy = NaN

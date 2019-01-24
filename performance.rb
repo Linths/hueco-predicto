@@ -3,8 +3,10 @@
 require_relative 'grades'
 require_relative 'matrix'
 
-N = ARGV[0].to_i
+# --- Preparation ---
 
+N = ARGV[0].to_i
+ModelDepth = ARGV[1].to_i
 # Symbols (numbers) are bound to every move, for every symbol set (k1..k4).
 SymbolicData = "phoenix/app/strangebeta/symbolic.txt"
 Grades = getGrades()
@@ -14,10 +16,11 @@ Grades = getGrades()
 # Make a random selection of test | train
 AllRids = `ruby data/sb_ucd_anal.rb < data/strangebeta_user_climb_data_20100208.txt | cut -f 2 -d '|' | sort -u`.split("\n").map{|rid| rid.to_i}
 TestRids = AllRids.sample(N)
-puts "Random test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
+puts "\n\n---\ndepth = #{ModelDepth}"
+puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
 # --- Training ---
-`./vomm_train_grades.sh #{TestRids.join(',')}`
+`./vomm_train_grades.sh #{ModelDepth} #{TestRids.join(',')}`
 
 # SymbolSequence contains per route and per symbolset a symbol sequence
 sequences = Hash.new(Array.new)
@@ -63,7 +66,7 @@ allModels = []
     allModels = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n")
     # Split models in type of routes: 0. bouldering, 1. climbing
     models = splitModelFiles(allModels)
-    puts "\n#{models}"
+    # puts "\n#{models}"
     # Creates empty confusion matrices: 0. bouldering, 1. climbing
     confusions = models.map {|m| getEmptyMatrix(m.length())}
     # Calculate log losses for every route
@@ -71,7 +74,9 @@ allModels = []
         grade = Grades[rid]
         loglosses = {}
         seq = sequences[rid][k-1]
-        route_type = isBoulderGrade?(grade) ? 0 : 1
+        route_type = isMergeMode?() ? 0 : isBoulderGrade?(grade) ? 0 : 1
+        # puts "models #{models}"
+        # puts "route_type #{route_type}"
         models[route_type].each { |m|
             # chop: Remove unnecessary newline at end
             loglosses[m] = `./logeval.sh #{seq} #{m}`.chop.to_f
@@ -79,9 +84,12 @@ allModels = []
         # Take the model that yields the smallest logloss
         predicted = loglosses.min_by{|k,v| v}[0]
         pred_index = models[route_type].index(predicted)
+        # puts "predicted #{predicted}, pred_index #{pred_index}"
         actual = getModelFileFromGrade(grade, k)
         act_index = models[route_type].index(actual)
-        # puts "\n#{rid} #{actual.split('/')[-1]}: #{seq}\n#{predicted.split('/')[-1]}\nloglosses #{loglosses}"
+        # puts "actual #{actual}, act_index #{act_index}"
+        puts "#{rid} #{actual.split('/')[-1]}: #{seq} -> #{predicted.split('/')[-1]}"
+        puts "#{loglosses}"
         confusions[route_type][act_index][pred_index] += 1
     }
     # Print results
