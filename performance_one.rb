@@ -66,7 +66,7 @@ confusionsK = []
 
 # Make a random selection of test | train
 AllRids = sequences.keys()
-TestRids = [115] #AllRids.sample(N)
+TestRids = AllRids.sample(N)
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
 # --- Analyse route by route ---
