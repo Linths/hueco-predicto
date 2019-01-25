@@ -1,0 +1,30 @@
+N = 0, depth = 5
+blacklist = [67, 160, 344, 312, 270] ["hard++", "medium", "easy", "easy", "hard++"]
+test set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385] ["easy", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "medium", "easy", "easy", "easy", "easy", "hard++", "hard++", "easy", "easy", "medium", "medium", "hard++", "hard++", "easy", "hard++", "hard++", "hard++", "hard++", "medium", "hard++", "easy", "hard++", "medium", "hard++", "easy", "easy", "easy", "easy", "easy", "hard++", "hard++", "medium", "hard++", "easy", "easy", "hard++", "medium", "easy", "hard++", "hard++", "easy", "medium", "hard++", "easy", "hard++", "hard++", "medium", "medium", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "easy", "hard++", "medium", "easy", "medium", "easy"]
+1 easy (5.10)
+1,1,2,3,3,1,4,5,1,5,1,1,2,4,1,6,1,7,8,1,4,9	jug,jug,match ,sidepull ,sidepull ,jug,crimp,jug pinch,jug,jug pinch,jug,jug,match ,crimp,jug,slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"easy"=>112.50366903951723, "hard++"=>133.87601805240834, "medium"=>132.31259277608257}
+ -> easy
+1,1,2,3,3,4,5,6,4,6,7,8,2,5,8,9,1,10,11,1,5,12	jug ,jug ,match ,sidepull good ,sidepull good ,jug finger,crimp ,jug pinch ,jug finger,jug pinch ,jug slopey,jug angle,match ,crimp ,jug angle,slot finger,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"easy"=>171.0362119518498, "hard++"=>234.35394946282634, "medium"=>193.25786888613962}
+ -> easy
+1,2,3,4,4,1,5,6,1,6,1,7,3,5,7,8,1,9,10,1,5,11	jug,jug (big move),match ,sidepull (good hold),sidepull (good hold),jug,crimp,jug pinch,jug,jug pinch,jug,jug (good hold),match ,crimp,jug (good hold),slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"easy"=>148.97706418600822, "hard++"=>170.89667482768738, "medium"=>162.50810171526928}
+ -> easy
+1,2,3,4,4,5,6,7,5,7,8,9,3,6,9,10,1,11,12,1,6,13	jug ,jug (big move),match ,sidepull good (good hold),sidepull good (good hold),jug finger,crimp ,jug pinch ,jug finger,jug pinch ,jug slopey,jug angle (good hold),match ,crimp ,jug angle (good hold),slot finger,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"easy"=>189.683824315671, "hard++"=>251.89054215388305, "medium"=>208.25786888613962}
+ -> easy
+2 easy (5.10)
+1,10,1,4,1,11,1,1,12,13,1,8,1,2,14,10,2,1,15,15,15,16,17	jug,pocket,jug,crimp,jug,pinch,jug,jug,undercling ,crimp edge,jug,jug sidepull ,jug,match ,gaston jug,pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"easy"=>190.59104021313672, "hard++"=>155.26983369870428, "medium"=>202.69248890952724}
+ -> hard++
+1,13,1,14,4,15,16,17,18,19,1,11,16,2,20,13,2,1,21,21,21,22,23	jug ,pocket ,jug ,crimp flat,jug finger,pinch ,jug left,jug right,undercling ,crimp edge flat,jug ,jug sidepull ,jug left,match ,gaston jug right,pocket ,match ,jug ,bucket finger,bucket finger,bucket finger,crimp gaston angled,mantle 
+{"easy"=>344.165693199123, "hard++"=>378.9150963165895, "medium"=>330.3400204419764}
+ -> medium
+1,12,1,5,1,13,7,7,14,15,1,10,7,3,16,12,3,1,17,17,17,18,19	jug,pocket,jug,crimp,jug,pinch,jug (good hold),jug (good hold),undercling ,crimp edge,jug,jug sidepull ,jug (good hold),match ,gaston jug (good hold),pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"easy"=>237.30880268149346, "hard++"=>270.17277079458034, "medium"=>246.02197687557148}
+ -> easy
+1,14,1,15,5,16,17,18,19,20,1,12,17,3,21,14,3,1,22,22,22,23,24	jug ,pocket ,jug ,crimp flat,jug finger,pinch ,jug left (good hold),jug right (good hold),undercling ,crimp edge flat,jug ,jug sidepull ,jug left (good hold),match ,gaston jug right (good hold),pocket ,match ,jug ,bucket finger,bucket finger,bucket finger,crimp gaston angled,mantle 
+{"easy"=>360.1656931991229, "hard++"=>423.4328259183245, "medium"=>344.3400204419763}
+ -> medium
+5 medium (5.11)
