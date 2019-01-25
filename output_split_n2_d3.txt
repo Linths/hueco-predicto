@@ -1,0 +1,60 @@
+2019-01-25 15:03:52 +0100
+N = 2, depth = 3
+blacklist = [67, 160, 344, 312, 270] ["V5-V10", "5.11-5.12", "5.8-5.10", "5.8-5.10", "V4-V4"]
+
+test set = [301, 283] ["V0-V3", "V0-V3"]
+301 V0-V3 (V3)
+[[["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]], [["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]], [["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]], [["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]]]
+23,2,53,53,3	sloper,match ,pinch sloper,pinch sloper,sidepull 
+{"V0-V3"=>119.24085426281806, "V4-V4"=>146.33968632817272, "V5-V10"=>129.2656725311633}
+ -> V0-V3
+55,2,162,162,163	sloper big ,match ,pinch sloper small ,pinch sloper small ,sidepull big 
+{"V0-V3"=>542.816010003026, "V4-V4"=>557.4625236139289, "V5-V10"=>547.1925196175048}
+ -> V0-V3
+40,3,79,79,4	sloper (good hold),match ,pinch sloper,pinch sloper,sidepull (good hold)
+{"V0-V3"=>208.72364598487744, "V4-V4"=>223.41711945718498, "V5-V10"=>206.52894127143657}
+ -> V5-V10
+61,3,193,193,194	sloper big (good hold),match ,pinch sloper small ,pinch sloper small ,sidepull big (good hold)
+{"V0-V3"=>641.816010003026, "V4-V4"=>661.4625236139289, "V5-V10"=>649.1925196175048}
+ -> V0-V3
+283 V0-V3 (V3)
+4,29,4,1,4,0,1,4,11,29,24,29,24,4,4	crimp,foothook ,crimp,jug,crimp,,jug,crimp,pinch,foothook ,gaston,foothook ,gaston,crimp,crimp
+{"V0-V3"=>197.57498844721957, "V4-V4"=>205.81600957421006, "V5-V10"=>130.2718901878034}
+ -> V5-V10
+5,53,5,1,5,0,1,5,15,53,38,53,38,5,39	crimp ,foothook ,crimp ,jug ,crimp ,,jug ,crimp ,pinch ,foothook ,gaston ,foothook ,gaston ,crimp ,crimp small 
+{"V0-V3"=>345.59534783912227, "V4-V4"=>399.21332317785885, "V5-V10"=>309.63732493191617}
+ -> V5-V10
+5,38,5,1,5,0,1,28,13,38,31,38,31,96,5	crimp,foothook ,crimp,jug,crimp,,jug,crimp (cross),pinch,foothook ,gaston,foothook ,gaston,crimp (big move),crimp
+{"V0-V3"=>352.5127088447896, "V4-V4"=>371.7892282951965, "V5-V10"=>310.8916750331239}
+ -> V5-V10
+6,58,6,1,6,0,1,37,16,58,42,58,42,181,43	crimp ,foothook ,crimp ,jug ,crimp ,,jug ,crimp (cross),pinch ,foothook ,gaston ,foothook ,gaston ,crimp (big move),crimp small 
+{"V0-V3"=>576.5953478391222, "V4-V4"=>637.2133231778588, "V5-V10"=>531.6664712775756}
+ -> V5-V10
+[1, 0, 1]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.5
+[0, 0]
+[0, 0]
+[1, 0, 1]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.5
+[0, 0]
+[0, 0]
+[0, 0, 2]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.0
+[0, 0]
+[0, 0]
+[1, 0, 1]
+[0, 0, 0]
+[0, 0, 0]
+accuracy = 0.5
+[0, 0]
+[0, 0]
+
+Done
+2019-01-25 15:10:38 +0100
+Took 6 mins

@@ -1,0 +1,58 @@
+2019-01-25 15:26:42 +0100
+N = -1, depth = 7
+blacklist = [67, 160, 344, 312, 270] ["V5-V10", "5.11-5.12", "5.8-5.10", "5.8-5.10", "V4-V4"]
+
+test set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385] ["5.8-5.10", "5.8-5.10", "5.11-5.12", "5.11-5.12", "5.11-5.12", "5.8-5.10", "V5-V10", "5.11-5.12", "V5-V10", "V5-V10", "V5-V10", "V5-V10", "V5-V10", "V5-V10", "5.11-5.12", "5.8-5.10", "V0-V3", "5.8-5.10", "5.8-5.10", "V4-V4", "V4-V4", "5.8-5.10", "5.8-5.10", "V0-V3", "V0-V3", "V5-V10", "V5-V10", "5.8-5.10", "V5-V10", "V5-V10", "V5-V10", "5.11-5.12", "V0-V3", "5.11-5.12", "5.8-5.10", "V4-V4", "5.11-5.12", "V4-V4", "5.8-5.10", "V0-V3", "5.8-5.10", "5.8-5.10", "5.8-5.10", "5.11-5.12", "V4-V4", "5.11-5.12", "V4-V4", "5.8-5.10", "5.8-5.10", "V5-V10", "5.11-5.12", "5.8-5.10", "5.11-5.12", "V4-V4", "5.8-5.10", "5.11-5.12", "V4-V4", "5.8-5.10", "V4-V4", "V4-V4", "V0-V3", "V0-V3", "5.8-5.10", "V0-V3", "5.11-5.12", "V0-V3", "5.8-5.10", "V4-V4", "V5-V10", "V4-V4", "V0-V3", "V4-V4", "V0-V3", "5.8-5.10", "V0-V3", "5.8-5.10"]
+1 5.8-5.10 (5.10)
+[[["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]], [["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]], [["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]], [["V0-V3", "V4-V4", "V5-V10"], ["5.11-5.12", "5.8-5.10"]]]
+1,1,2,3,3,1,4,5,1,5,1,1,2,4,1,6,1,7,8,1,4,9	jug,jug,match ,sidepull ,sidepull ,jug,crimp,jug pinch,jug,jug pinch,jug,jug,match ,crimp,jug,slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"5.11-5.12"=>130.50556754326146, "5.8-5.10"=>112.50366903951723}
+ -> 5.8-5.10
+1,1,2,3,3,4,5,6,4,6,7,8,2,5,8,9,1,10,11,1,5,12	jug ,jug ,match ,sidepull good ,sidepull good ,jug finger,crimp ,jug pinch ,jug finger,jug pinch ,jug slopey,jug angle,match ,crimp ,jug angle,slot finger,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"5.11-5.12"=>228.28852427861634, "5.8-5.10"=>171.0362119518498}
+ -> 5.8-5.10
+1,2,3,4,4,1,5,6,1,6,1,7,3,5,7,8,1,9,10,1,5,11	jug,jug (big move),match ,sidepull (good hold),sidepull (good hold),jug,crimp,jug pinch,jug,jug pinch,jug,jug (good hold),match ,crimp,jug (good hold),slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"5.11-5.12"=>169.0388780629883, "5.8-5.10"=>148.97706418600822}
+ -> 5.8-5.10
+1,2,3,4,4,5,6,7,5,7,8,9,3,6,9,10,1,11,12,1,6,13	jug ,jug (big move),match ,sidepull good (good hold),sidepull good (good hold),jug finger,crimp ,jug pinch ,jug finger,jug pinch ,jug slopey,jug angle (good hold),match ,crimp ,jug angle (good hold),slot finger,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"5.11-5.12"=>244.28852427861636, "5.8-5.10"=>189.683824315671}
+ -> 5.8-5.10
+2 5.8-5.10 (5.10)
+1,10,1,4,1,11,1,1,12,13,1,8,1,2,14,10,2,1,15,15,15,16,17	jug,pocket,jug,crimp,jug,pinch,jug,jug,undercling ,crimp edge,jug,jug sidepull ,jug,match ,gaston jug,pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"5.11-5.12"=>171.96740349844697, "5.8-5.10"=>190.59104021313672}
+ -> 5.11-5.12
+1,13,1,14,4,15,16,17,18,19,1,11,16,2,20,13,2,1,21,21,21,22,23	jug ,pocket ,jug ,crimp flat,jug finger,pinch ,jug left,jug right,undercling ,crimp edge flat,jug ,jug sidepull ,jug left,match ,gaston jug right,pocket ,match ,jug ,bucket finger,bucket finger,bucket finger,crimp gaston angled,mantle 
+{"5.11-5.12"=>339.1295633355473, "5.8-5.10"=>344.165693199123}
+ -> 5.11-5.12
+1,12,1,5,1,13,7,7,14,15,1,10,7,3,16,12,3,1,17,17,17,18,19	jug,pocket,jug,crimp,jug,pinch,jug (good hold),jug (good hold),undercling ,crimp edge,jug,jug sidepull ,jug (good hold),match ,gaston jug (good hold),pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"5.11-5.12"=>214.9612959981757, "5.8-5.10"=>237.30880268149346}
+ -> 5.11-5.12
+1,14,1,15,5,16,17,18,19,20,1,12,17,3,21,14,3,1,22,22,22,23,24	jug ,pocket ,jug ,crimp flat,jug finger,pinch ,jug left (good hold),jug right (good hold),undercling ,crimp edge flat,jug ,jug sidepull ,jug left (good hold),match ,gaston jug right (good hold),pocket ,match ,jug ,bucket finger,bucket finger,bucket finger,crimp gaston angled,mantle 
+{"5.11-5.12"=>354.12956333554723, "5.8-5.10"=>360.1656931991229}
+ -> 5.11-5.12
+5 5.11-5.12 (5.11)
+Interrupted
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0]
+[1, 1]
+accuracy = 0.5
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0]
+[1, 1]
+accuracy = 0.5
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0]
+[1, 1]
+accuracy = 0.5
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+[0, 0]
+[1, 1]
+accuracy = 0.5

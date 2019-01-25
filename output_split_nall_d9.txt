@@ -1,0 +1,19 @@
+2019-01-25 17:54:40 +0100
+N = -1, depth = 9
+blacklist = [67, 160, 344, 312, 270] ["hard++", "medium", "easy", "easy", "hard++"]
+
+test set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385] ["easy", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "medium", "easy", "easy", "easy", "easy", "hard++", "hard++", "easy", "easy", "medium", "medium", "hard++", "hard++", "easy", "hard++", "hard++", "hard++", "hard++", "medium", "hard++", "easy", "hard++", "medium", "hard++", "easy", "easy", "easy", "easy", "easy", "hard++", "hard++", "medium", "hard++", "easy", "easy", "hard++", "medium", "easy", "hard++", "hard++", "easy", "medium", "hard++", "easy", "hard++", "hard++", "medium", "medium", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "easy", "hard++", "medium", "easy", "medium", "easy"]
+1 easy (5.10)
+1,1,2,3,3,1,4,5,1,5,1,1,2,4,1,6,1,7,8,1,4,9	jug,jug,match ,sidepull ,sidepull ,jug,crimp,jug pinch,jug,jug pinch,jug,jug,match ,crimp,jug,slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"easy"=>112.50366903951723, "hard++"=>133.87601805240834, "medium"=>132.31259277608257}
+ -> easy
+1,1,2,3,3,4,5,6,4,6,7,8,2,5,8,9,1,10,11,1,5,12	jug ,jug ,match ,sidepull good ,sidepull good ,jug finger,crimp ,jug pinch ,jug finger,jug pinch ,jug slopey,jug angle,match ,crimp ,jug angle,slot finger,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"easy"=>171.0362119518498, "hard++"=>234.35394946282634, "medium"=>193.25786888613962}
+ -> easy
+1,2,3,4,4,1,5,6,1,6,1,7,3,5,7,8,1,9,10,1,5,11	jug,jug (big move),match ,sidepull (good hold),sidepull (good hold),jug,crimp,jug pinch,jug,jug pinch,jug,jug (good hold),match ,crimp,jug (good hold),slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"easy"=>148.97706418600822, "hard++"=>170.89667482768738, "medium"=>162.50810171526928}
+ -> easy
+1,2,3,4,4,5,6,7,5,7,8,9,3,6,9,10,1,11,12,1,6,13	jug ,jug (big move),match ,sidepull good (good hold),sidepull good (good hold),jug finger,crimp ,jug pinch ,jug finger,jug pinch ,jug slopey,jug angle (good hold),match ,crimp ,jug angle (good hold),slot finger,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"easy"=>189.683824315671, "hard++"=>251.89054215388305, "medium"=>208.25786888613962}
+ -> easy
+2 easy (5.10)

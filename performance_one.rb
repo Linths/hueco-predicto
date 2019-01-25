@@ -24,7 +24,6 @@ puts ""
 # SymbolSequence contains per route and per symbolset a symbol sequence
 # NB: SymbolsFile contains routes which are not necessary in the right order of moves, some even interrupting each other
 sequences = Hash.new(Array.new)
-# routeSequences = nil
 File.open(SymbolicData, "r") { |file|
     on_rid = nil
     file.gets
@@ -57,26 +56,16 @@ File.open(SymbolicData, "r") { |file|
 }
 # puts "Sequences #{sequences}"
 
-# Create empty confusion matrices
-gradeClassesK = []
-confusionsK = []
-(1..4).each { |k|
-    allGradeClasses = `find vomm/data/grades/#{Identifier}/set_#{k} -name '*ser'`.split("\n").map{ |f| fileToGradeClass(f)}
-    # Split models in type of routes: 0. bouldering, 1. climbing
-    gradeClassesK[k-1] = splitGradeClasses(allGradeClasses)
-    # Creates empty confusion matrices: 0. bouldering, 1. climbing
-    confusionsK[k-1] = gradeClassesK[k-1].map {|m| getEmptyMatrix(m.length())}
-}
-
 # --- Data selection ---
 
 # Make a random selection of test | train
 AllRids = sequences.keys() - Blacklist
-TestRids = N == -1 ? AllRids : AllRids.sample(N) #[179, 124, 59]
+TestRids = N == -1 ? AllRids : AllRids.sample(N)
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
 # --- Analyse route by route ---
-
+gradeClassesK = []
+confusionsK = []
 TestRids.each{ |test_rid|
     grade = Grades[test_rid]
     actual = getGradeClass(grade)
@@ -84,17 +73,28 @@ TestRids.each{ |test_rid|
 
     # --- Training ---
     # Train for each model with all routes except one test route
-    # (1..4).each { |k|
-    #     `rm -rf vomm/data/grades/#{Identifier}/set_#{k}/*`
-    #     `mkdir -p vomm/data/grades/#{Identifier}/set_#{k}`
-    #     (AllRids - [test_rid]).each { |train_rid|
-    #         model_file = getModelFileFromGrade(Grades[train_rid], k, Identifier)
-    #         `./learn.sh #{sequences[train_rid][k-1].join(',')} #{model_file} #{LangSize} #{ModelDepth} #{test_rid}`
-    #         # `./vomm_train_grades.sh #{ModelDepth} #{TestRids.join(',')}`
-    #     }
-    # }
-
+    (1..4).each { |k|
+        `rm -rf vomm/data/grades/#{Identifier}/set_#{k}/*`
+        `mkdir -p vomm/data/grades/#{Identifier}/set_#{k}`
+        (AllRids - [test_rid]).each { |train_rid|
+            model_file = getModelFileFromGrade(Grades[train_rid], k, Identifier)
+            `./learn.sh #{sequences[train_rid][k-1].join(',')} #{model_file} #{LangSize} #{ModelDepth} #{test_rid}`
+            # `./vomm_train_grades.sh #{ModelDepth} #{TestRids.join(',')}`
+        }
+    }
+    
     # --- Testing ---
+    # Create empty confusion matrices
+    if gradeClassesK == [] || confusionsK == []
+        (1..4).each { |k|
+            allGradeClasses = `find vomm/data/grades/#{Identifier}/set_#{k} -name '*ser'`.split("\n").map{ |f| fileToGradeClass(f)}
+            # Split models in type of routes: 0. bouldering, 1. climbing
+            gradeClassesK[k-1] = splitGradeClasses(allGradeClasses)
+            # Creates empty confusion matrices: 0. bouldering, 1. climbing
+            confusionsK[k-1] = gradeClassesK[k-1].map {|m| getEmptyMatrix(m.length())}
+        }
+    end
+
     # Log loss for every model: every symbol set * every grade class
     (1..4).each { |k|  
         # Calculate log losses for every route
