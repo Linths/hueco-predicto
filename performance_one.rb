@@ -12,6 +12,8 @@ SymbolicData = "phoenix/app/strangebeta/symbolic.txt" # Symbols (numbers) are bo
 N = ARGV[0].to_i
 ModelDepth = ARGV[1].to_i
 Identifier = ARGV[2]
+RemoveRoutesForNormalization = ARGV[3] == "true"
+ToBeRemoved = [283, 296, 298, 301, 325, 329, 332, 380, 384, 385] # 10 easy/med routes, to balance out easymed (43-10) | hard++ (33)
 LangSize = 256
 Grades = getGrades()
 Human = getHuman()
@@ -59,7 +61,7 @@ File.open(SymbolicData, "r") { |file|
 # --- Data selection ---
 
 # Make a random selection of test | train
-AllRids = sequences.keys() - Blacklist
+AllRids = RemoveRoutesForNormalization ? sequences.keys() - Blacklist - ToBeRemoved : sequences.keys() - Blacklist
 TestRids = N == -1 ? AllRids : AllRids.sample(N)
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 

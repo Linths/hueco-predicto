@@ -1,0 +1,6 @@
+2019-01-26 00:45:53 +0100
+N = -1, depth = 3
+blacklist = [67, 160, 344, 312, 270] ["hard++", "easymed", "easymed", "easymed", "hard++"]
+
+test set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385] ["easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "hard++", "hard++", "hard++", "easymed", "hard++", "easymed", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "hard++", "easymed", "easymed", "hard++", "hard++", "easymed", "easymed", "hard++", "easymed", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed"]
+1 easymed (5.10)
