@@ -45,8 +45,12 @@ def getGradeClassSplit(grade)
 end
 
 def getGradeClassMerged(grade)
-    boulder_conversion = {(0..0)=>"easy",(1..3)=>"medium",(4..6)=>"hard",(7..10)=>"expert"}
-    climb_conversion = {(8..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard"}
+    bc0 = {(0..0)=>"easy",(1..3)=>"medium",(4..6)=>"hard",(7..10)=>"expert"}
+    bc1 = {(0..0)=>"easy",(1..3)=>"medium",(4..10)=>"hard++"}
+    cc0 = {(8..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard"}
+    cc1 = {(8..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard++"}
+    boulder_conversion = bc1
+    climb_conversion = cc1
     if isBoulderGrade?(grade)
         # Hueco scale. V[0-9]+
         g = grade[1..grade.length()-1].to_i
@@ -108,7 +112,7 @@ end
 # Returns [[bouldering_models] [climbing_models]]
 def splitModelFiles(model_files)
     if MergeMode
-        [model_files,[]]
+        return [model_files,[]]
     else
         return model_files.partition { |m| m.split("/")[-1][5] == 'V' }
     end
@@ -116,7 +120,7 @@ end
 
 def splitGradeClasses(grade_classes)
     if MergeMode
-        [grade_classes,[]]
+        return [grade_classes,[]]
     else
         return grade_classes.partition { |m| m[0] == 'V' }
     end

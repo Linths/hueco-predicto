@@ -6,16 +6,16 @@ require_relative 'human'
 
 # --- Preparation ---
 
+SymbolicData = "phoenix/app/strangebeta/symbolic.txt" # Symbols (numbers) are bound to every move, for every symbol set (k1..k4).
 N = ARGV[0].to_i
 ModelDepth = ARGV[1].to_i
 LangSize = 256
-puts "\n\n---\ndepth = #{ModelDepth}"
-# Symbols (numbers) are bound to every move, for every symbol set (k1..k4).
-SymbolicData = "phoenix/app/strangebeta/symbolic.txt"
 Grades = getGrades()
 Human = getHuman()
-# puts Human
-# puts Grades
+Blacklist = [67, 160, 344, 312, 270] # Routes that taint the data set
+SymbolReplaceSet1 = {13=>18,14=>1,16=>24,19=>49,20=>3,21=>26,25=>23,27=>10,28=>12,30=>12,31=>23,32=>12,33=>3,35=>4,36=>23,37=>17,39=>68,40=>3,41=>3,43=>17,44=>23,45=>24,46=>23,47=>55,48=>23,50=>1,52=>11,53=>23,54=>4,56=>11,57=>12,58=>12,59=>3,5=>11,60=>4,62=>4,64=>34,65=>11,66=>42,67=>18,7=>6,8=>3,9=>17}
+puts "N = #{N}, depth = #{ModelDepth}"
+puts "blacklist = #{Blacklist} #{Blacklist.map {|r| getGradeClass(Grades[r])}}"
 
 # SymbolSequence contains per route and per symbolset a symbol sequence
 # NB: SymbolsFile contains routes which are not necessary in the right order of moves, some even interrupting each other
@@ -31,9 +31,9 @@ File.open(SymbolicData, "r") { |file|
         rid = rid.to_i
         mid = mid.to_i
 
-        # Properly ending a route of which all moves have been saved
+        # Working on a different route
         if on_rid != rid
-            # Working on a different route, make an entry if it doesn't exist yet
+            # Make an entry if it doesn't exist yet
             if !sequences.key?(rid)
                 sequences[rid] = [[], [], [], []]
             end
@@ -44,6 +44,9 @@ File.open(SymbolicData, "r") { |file|
         (1..4).each { |k|
             symbol = [k1, k2, k3, k4][k-1].to_i
             # Append symbol
+            # if k == 1 && SymbolReplaceSet1.key?(symbol)
+            #     symbol = SymbolReplaceSet1[symbol]
+            # end
             sequences[rid][k-1][mid-1] = symbol
         }
     }
@@ -57,7 +60,6 @@ confusionsK = []
     allGradeClasses = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n").map{ |f| fileToGradeClass(f)}
     # Split models in type of routes: 0. bouldering, 1. climbing
     gradeClassesK[k-1] = splitGradeClasses(allGradeClasses)
-    # puts "\n#{models}"
     # Creates empty confusion matrices: 0. bouldering, 1. climbing
     confusionsK[k-1] = gradeClassesK[k-1].map {|m| getEmptyMatrix(m.length())}
 }
@@ -65,8 +67,8 @@ confusionsK = []
 # --- Data selection ---
 
 # Make a random selection of test | train
-AllRids = sequences.keys()
-TestRids = AllRids.sample(N)
+AllRids = sequences.keys() - Blacklist
+TestRids = AllRids.sample(N) #[179, 124, 59]
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
 # --- Analyse route by route ---
@@ -74,7 +76,7 @@ puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 TestRids.each{ |test_rid|
     grade = Grades[test_rid]
     actual = getGradeClass(grade)
-    puts "#{test_rid} #{actual}"
+    puts "#{test_rid} #{actual} (#{grade})"
 
     # --- Training ---
     # Train for each model with all routes except one test route
