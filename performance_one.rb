@@ -66,6 +66,20 @@ puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 # --- Analyse route by route ---
 gradeClassesK = []
 confusionsK = []
+
+trap "SIGINT" do
+    puts "Interrupted"
+    if !confusionsK.nil?
+        (1..4).each { |k|
+            confusionsK[k-1].each {|m| 
+                printMatrix(m)
+                printAccuracy(m)
+            }
+        }
+    end
+    exit 130
+end
+
 TestRids.each{ |test_rid|
     grade = Grades[test_rid]
     actual = getGradeClass(grade)
