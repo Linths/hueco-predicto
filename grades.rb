@@ -99,13 +99,17 @@ def getGrades()
     return grades
 end
 
-def getModelFile(grade_class, symbol_set)
-    return "vomm/data/grades/set_#{symbol_set}/vomm_#{grade_class}.ser"
+def getModelFile(grade_class, symbol_set, identifier=nil)
+    if identifier.nil?
+        return "vomm/data/grades/set_#{symbol_set}/vomm_#{grade_class}.ser"
+    else
+        return "vomm/data/grades/#{identifier}/set_#{symbol_set}/vomm_#{grade_class}.ser"
+    end
 end
 
 # symbol_set {1..4}
-def getModelFileFromGrade(grade, symbol_set)
-    return getModelFile(getGradeClass(grade), symbol_set)
+def getModelFileFromGrade(grade, symbol_set, identifier=nil)
+    return getModelFile(getGradeClass(grade), symbol_set, identifier)
 end
 
 # Splits a list of models into bouldering and climbing categories

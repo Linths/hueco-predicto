@@ -6,9 +6,12 @@ require_relative 'human'
 
 # --- Preparation ---
 
+StartTime = Time.new() 
+puts(StartTime)
 SymbolicData = "phoenix/app/strangebeta/symbolic.txt" # Symbols (numbers) are bound to every move, for every symbol set (k1..k4).
 N = ARGV[0].to_i
 ModelDepth = ARGV[1].to_i
+Identifier = ARGV[2]
 LangSize = 256
 Grades = getGrades()
 Human = getHuman()
@@ -16,6 +19,7 @@ Blacklist = [67, 160, 344, 312, 270] # Routes that taint the data set
 SymbolReplaceSet1 = {13=>18,14=>1,16=>24,19=>49,20=>3,21=>26,25=>23,27=>10,28=>12,30=>12,31=>23,32=>12,33=>3,35=>4,36=>23,37=>17,39=>68,40=>3,41=>3,43=>17,44=>23,45=>24,46=>23,47=>55,48=>23,50=>1,52=>11,53=>23,54=>4,56=>11,57=>12,58=>12,59=>3,5=>11,60=>4,62=>4,64=>34,65=>11,66=>42,67=>18,7=>6,8=>3,9=>17}
 puts "N = #{N}, depth = #{ModelDepth}"
 puts "blacklist = #{Blacklist} #{Blacklist.map {|r| getGradeClass(Grades[r])}}"
+puts ""
 
 # SymbolSequence contains per route and per symbolset a symbol sequence
 # NB: SymbolsFile contains routes which are not necessary in the right order of moves, some even interrupting each other
@@ -57,7 +61,7 @@ File.open(SymbolicData, "r") { |file|
 gradeClassesK = []
 confusionsK = []
 (1..4).each { |k|
-    allGradeClasses = `find vomm/data/grades/set_#{k} -name '*ser'`.split("\n").map{ |f| fileToGradeClass(f)}
+    allGradeClasses = `find vomm/data/grades/#{Identifier}/set_#{k} -name '*ser'`.split("\n").map{ |f| fileToGradeClass(f)}
     # Split models in type of routes: 0. bouldering, 1. climbing
     gradeClassesK[k-1] = splitGradeClasses(allGradeClasses)
     # Creates empty confusion matrices: 0. bouldering, 1. climbing
@@ -68,7 +72,7 @@ confusionsK = []
 
 # Make a random selection of test | train
 AllRids = sequences.keys() - Blacklist
-TestRids = AllRids.sample(N) #[179, 124, 59]
+TestRids = N == -1 ? AllRids : AllRids.sample(N) #[179, 124, 59]
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
 # --- Analyse route by route ---
@@ -80,14 +84,15 @@ TestRids.each{ |test_rid|
 
     # --- Training ---
     # Train for each model with all routes except one test route
-    (1..4).each { |k|
-        `rm -rf vomm/data/grades/set_#{k}/*`
-        (AllRids - [test_rid]).each { |train_rid|
-            model_file = getModelFileFromGrade(Grades[train_rid], k)
-            `./learn.sh #{sequences[train_rid][k-1].join(',')} #{model_file} #{LangSize} #{ModelDepth} #{test_rid}`
-            # `./vomm_train_grades.sh #{ModelDepth} #{TestRids.join(',')}`
-        }
-    }
+    # (1..4).each { |k|
+    #     `rm -rf vomm/data/grades/#{Identifier}/set_#{k}/*`
+    #     `mkdir -p vomm/data/grades/#{Identifier}/set_#{k}`
+    #     (AllRids - [test_rid]).each { |train_rid|
+    #         model_file = getModelFileFromGrade(Grades[train_rid], k, Identifier)
+    #         `./learn.sh #{sequences[train_rid][k-1].join(',')} #{model_file} #{LangSize} #{ModelDepth} #{test_rid}`
+    #         # `./vomm_train_grades.sh #{ModelDepth} #{TestRids.join(',')}`
+    #     }
+    # }
 
     # --- Testing ---
     # Log loss for every model: every symbol set * every grade class
@@ -103,7 +108,7 @@ TestRids.each{ |test_rid|
         # puts "route_type #{route_type}"
         gradeClasses[route_type].each { |gc|
             # chop: Remove unnecessary newline at end
-            loglosses[gc] = `./logeval.sh #{seq.join(',')} #{getModelFile(gc, k)}`.chop.to_f
+            loglosses[gc] = `./logeval.sh #{seq.join(',')} #{getModelFile(gc, k, Identifier)}`.chop.to_f
         }
         # Take the model that yields the smallest logloss
         predicted = loglosses.min_by{|k,v| v}[0]
@@ -125,10 +130,7 @@ TestRids.each{ |test_rid|
     }
 }
 
-# def prettyPrintLoglosses(loglosses)
-#     str = ""
-#     loglosses.each { |model_file, value|
-#         str += makeReadable(model_file) + " = " + v
-#     }
-#     puts str
-# end
+puts("\nDone")
+EndTime = Time.new()
+puts("#{EndTime}")
+puts ("Took #{((EndTime-StartTime)/60).to_i} mins")
