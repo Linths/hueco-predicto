@@ -18,6 +18,7 @@ LangSize = 256
 Grades = getGrades()
 Human = getHuman()
 Blacklist = [67, 160, 344, 312, 270] # Routes that taint the data set
+DoReplace = false
 SymbolReplaceSet1 = {13=>18,14=>1,16=>24,19=>49,20=>3,21=>26,25=>23,27=>10,28=>12,30=>12,31=>23,32=>12,33=>3,35=>4,36=>23,37=>17,39=>68,40=>3,41=>3,43=>17,44=>23,45=>24,46=>23,47=>55,48=>23,50=>1,52=>11,53=>23,54=>4,56=>11,57=>12,58=>12,59=>3,5=>11,60=>4,62=>4,64=>34,65=>11,66=>42,67=>18,7=>6,8=>3,9=>17}
 SymbolReplaceSet3 = {101=>60,104=>1,106=>66,109=>22,10=>21,11=>19,15=>22,16=>7,18=>31,24=>25,26=>21,27=>34,32=>30,35=>82,37=>14,41=>14,42=>30,46=>14,48=>21,50=>5,51=>30,52=>19,57=>110,58=>21,59=>21,61=>19,62=>30,63=>31,64=>30,65=>83,68=>30,6=>13,71=>91,72=>1,79=>30,81=>5,84=>13,85=>14,86=>102,87=>14,88=>21,89=>5,93=>5,95=>49,97=>13,9=>8}
 puts "N = #{N}, depth = #{ModelDepth}"
@@ -50,11 +51,13 @@ File.open(SymbolicData, "r") { |file|
         (1..4).each { |k|
             symbol = [k1, k2, k3, k4][k-1].to_i
             # Append symbol
-            # if k == 1 && SymbolReplaceSet1.key?(symbol)
-            #     symbol = SymbolReplaceSet1[symbol]
-            # elsif k == 3 && SymbolReplaceSet3.key?(symbol)
-            #     symbol = SymbolReplaceSet3[symbol]
-            # end
+            if DoReplace
+                if k == 1 && SymbolReplaceSet1.key?(symbol)
+                    symbol = SymbolReplaceSet1[symbol]
+                elsif k == 3 && SymbolReplaceSet3.key?(symbol)
+                    symbol = SymbolReplaceSet3[symbol]
+                end
+            end
             sequences[rid][k-1][mid-1] = symbol
         }
     }
