@@ -7,5 +7,6 @@ PROFILE:n
 TASK_DIR:Grammar  
 DICT_FILE:base.dic
 GRAMMAR_FILE:simple.net
+GRAMMAR_RULES:climbing.gra
 FRAMES_FILE:frames
 TASK_FILE:task

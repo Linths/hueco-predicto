@@ -12,7 +12,7 @@ SymbolicData = "phoenix/app/strangebeta/symbolic.txt" # Symbols (numbers) are bo
 N = ARGV[0].to_i
 ModelDepth = ARGV[1].to_i
 Identifier = ARGV[2]
-RemoveRoutesForNormalization = ARGV[3] == "true"
+DoRemove = ARGV[3] == "true"
 ToBeRemoved = [283, 296, 298, 301, 325, 329, 332, 380, 384, 385] # 10 easy/med routes, to balance out easymed (43-10) | hard++ (33)
 LangSize = 256
 Grades = getGrades()
@@ -21,7 +21,10 @@ Blacklist = [67, 160, 344, 312, 270] # Routes that taint the data set
 DoReplace = false
 SymbolReplaceSet1 = {13=>18,14=>1,16=>24,19=>49,20=>3,21=>26,25=>23,27=>10,28=>12,30=>12,31=>23,32=>12,33=>3,35=>4,36=>23,37=>17,39=>68,40=>3,41=>3,43=>17,44=>23,45=>24,46=>23,47=>55,48=>23,50=>1,52=>11,53=>23,54=>4,56=>11,57=>12,58=>12,59=>3,5=>11,60=>4,62=>4,64=>34,65=>11,66=>42,67=>18,7=>6,8=>3,9=>17}
 SymbolReplaceSet3 = {101=>60,104=>1,106=>66,109=>22,10=>21,11=>19,15=>22,16=>7,18=>31,24=>25,26=>21,27=>34,32=>30,35=>82,37=>14,41=>14,42=>30,46=>14,48=>21,50=>5,51=>30,52=>19,57=>110,58=>21,59=>21,61=>19,62=>30,63=>31,64=>30,65=>83,68=>30,6=>13,71=>91,72=>1,79=>30,81=>5,84=>13,85=>14,86=>102,87=>14,88=>21,89=>5,93=>5,95=>49,97=>13,9=>8}
+DoMatchReplace = true
+MatchSymbols = [2, 2, 3, 3] # The symbol for 'match' for every set
 puts "N = #{N}, depth = #{ModelDepth}"
+puts "DoRemove = #{DoRemove}, DoReplace = #{DoReplace}, DoMatchReplace = #{DoMatchReplace}"
 puts "blacklist = #{Blacklist} #{Blacklist.map {|r| getGradeClass(Grades[r])}}"
 puts ""
 
@@ -62,12 +65,27 @@ File.open(SymbolicData, "r") { |file|
         }
     }
 }
-# puts "Sequences #{sequences}"
+puts "Sequences #{sequences}"
+# Replace all match moves by the move preceding it.
+if DoMatchReplace
+    sequences.each { |rid,seqs|
+        (1..4).each { |k|
+            seq = seqs[k-1]
+            # puts "#{seq}"
+            (1..(seq.length()-1)).each { |i|
+                if seq[i] == MatchSymbols[k-1]
+                    seq[i] = seq[i-1]
+                end
+            }
+        }
+    }
+end
+puts "Sequences #{sequences}"
 
 # --- Data selection ---
 
 # Make a random selection of test | train
-AllRids = RemoveRoutesForNormalization ? sequences.keys() - Blacklist - ToBeRemoved : sequences.keys() - Blacklist
+AllRids = DoRemove ? sequences.keys() - Blacklist - ToBeRemoved : sequences.keys() - Blacklist
 TestRids = N == -1 ? AllRids : AllRids.sample(N)
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
