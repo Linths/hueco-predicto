@@ -6,3 +6,81 @@ blacklist = [67, 160, 344, 312, 270] ["hard++", "easymed", "easymed", "easymed",
 whole set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 407, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 693, 694, 701, 702, 706, 719, 721, 738, 741, 744, 748, 752, 757, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 876, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975] ["easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "hard++", "hard++", "hard++", "easymed", "hard++", "easymed", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "hard++", "easymed", "easymed", "hard++", "hard++", "easymed", "easymed", "hard++", "easymed", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "hard++", "hard++", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "hard++", "hard++", "hard++", "hard++", "easymed", "hard++", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed"] ["5.10", "5.10", "5.11", "5.11", "5.11", "5.8", "V5", "5.12", "V8", "V5", "V7", "V8", "V6", "V7", "5.11", "5.10", "5.10", "V0", "5.10", "5.8", "V4", "V4", "5.10", "5.8", "V2", "V2", "V6", "V8", "5.10", "V7", "V10", "V6", "5.12", "V3", "5.12", "5.10", "V4", "5.11", "V4", "5.10", "V0", "5.10", "5.10", "5.10", "5.12", "V4", "5.11", "V4", "5.10", "5.10", "V5", "5.11", "5.10", "5.12", "V4", "5.10", "5.11", "V4", "5.10", "V4", "V4", "V3", "V3", "5.10", "V3", "5.11", "V3", "5.10", "V4", "V5", "V4", "V0", "V4", "V3", "5.10", "V3", "5.10", "V4", "5.8", "5.10", "5.10", "5.12", "5.10", "V2", "V3", "5.8", "5.12", "V7", "V8", "V3", "5.10", "V3", "V3", "5.10", "V5", "5.11", "V9", "V4", "V3", "V2", "V5", "V4", "5.10", "5.12", "5.10", "5.10", "5.10", "5.10", "5.10", "V0", "V2", "V5", "V3", "V4", "V4", "V5", "V5", "V0", "V4", "V4", "V10", "5.10", "5.11", "5.10", "V1", "V2", "V4", "5.10", "V2", "5.10", "5.10", "5.10", "5.10", "V5", "V5", "5.10", "V4", "5.10", "5.10", "V4", "5.10", "5.10", "5.10", "5.10", "5.12", "5.11", "V1", "V7", "5.7", "5.7", "5.10", "5.10"]
 test set = [550, 597, 124, 296, 975, 415, 822, 593, 373, 49] ["easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++"]
 550 easymed (V3)
+12,12,3,3,3,3,4,13,12,3,18	pinch,pinch,sidepull ,sidepull ,sidepull ,sidepull ,crimp,undercling ,pinch,sidepull ,mantle 
+{"easymed"=>70.30534967260324, "hard++"=>136.97587827025598}
+ -> easymed
+16,16,26,26,26,26,5,19,16,26,24	pinch ,pinch ,sidepull ,sidepull ,sidepull ,sidepull ,crimp ,undercling ,pinch ,sidepull ,mantle 
+{"easymed"=>83.59310889383062, "hard++"=>276.0613157652238}
+ -> easymed
+14,14,23,23,23,23,5,15,14,23,20	pinch,pinch,sidepull ,sidepull ,sidepull ,sidepull ,crimp,undercling ,pinch,sidepull ,mantle 
+{"easymed"=>75.94498629168567, "hard++"=>234.97587827025598}
+ -> easymed
+17,17,28,28,28,28,6,20,17,28,25	pinch ,pinch ,sidepull ,sidepull ,sidepull ,sidepull ,crimp ,undercling ,pinch ,sidepull ,mantle 
+{"easymed"=>85.59310889383063, "hard++"=>291.0613157652238}
+ -> easymed
+597 easymed (5.10)
+105,2,68,13,2,106,4,12,26,10,18	arete sidepull ,match ,arete,undercling ,match ,gaston pocket,crimp,pinch,bump bump,pocket,mantle 
+{"easymed"=>366.62692053955146, "hard++"=>332.3172333594143}
+ -> hard++
+235,2,145,236,2,237,5,16,238,71,24	arete sidepull ,match ,arete ,undercling shallow ,match ,gaston pocket finger,crimp ,pinch ,bump bump big ,pocket finger,mantle 
+{"easymed"=>1198.1267575872585, "hard++"=>1113.4963132276216}
+ -> hard++
+161,3,97,15,3,162,30,14,163,117,20	arete sidepull ,match ,arete,undercling ,match ,gaston pocket,crimp (cross),pinch,bump bump (good hold),pocket (cross),mantle 
+{"easymed"=>781.098012014147, "hard++"=>717.4026708543822}
+ -> hard++
+281,3,171,282,3,283,39,17,284,216,25	arete sidepull ,match ,arete ,undercling shallow ,match ,gaston pocket finger,crimp (cross),pinch ,bump bump big (good hold),pocket finger (cross),mantle 
+{"easymed"=>1589.0964072381385, "hard++"=>1477.4963132276216}
+ -> hard++
+124 hard++ (V8)
+3,4,13,25,25,27,4,1	sidepull ,crimp,undercling ,sloper,sloper,gaston,crimp,jug
+{"easymed"=>70.4562130719893, "hard++"=>65.95337457519761}
+ -> hard++
+26,42,19,39,39,41,42,1	sidepull ,crimp small ,undercling ,sloper ,sloper ,gaston ,crimp small ,jug 
+{"easymed"=>170.2216213838085, "hard++"=>187.41448830532187}
+ -> easymed
+23,5,15,63,32,34,5,1	sidepull ,crimp,undercling ,sloper (cross),sloper,gaston,crimp,jug
+{"easymed"=>136.59845483191566, "hard++"=>157.54133305989615}
+ -> easymed
+28,46,20,105,43,45,46,1	sidepull ,crimp small ,undercling ,sloper (cross),sloper ,gaston ,crimp small ,jug 
+{"easymed"=>283.7277800659012, "hard++"=>310.2615490042507}
+ -> easymed
+296 easymed (V3)
+75,75,25,12,1,18	crimper,crimper,sloper,pinch,jug,mantle 
+{"easymed"=>186.82672471335843, "hard++"=>205.1428835454985}
+ -> easymed
+167,167,163,16,1,24	crimper small ,crimper small ,sloper positive ,pinch ,jug ,mantle 
+{"easymed"=>534.2564666596435, "hard++"=>568.0098482619385}
+ -> easymed
+108,108,43,14,1,20	crimper,crimper,sloper (good hold),pinch,jug,mantle 
+{"easymed"=>296.1961934373906, "hard++"=>321.0098482619385}
+ -> easymed
+197,197,192,17,1,25	crimper small ,crimper small ,sloper positive (good hold),pinch ,jug ,mantle 
+{"easymed"=>624.2564666596436, "hard++"=>659.0098482619385}
+ -> easymed
+975 easymed (5.10)
+40,2,22,25,4,25,3,12,2	ledge,match ,crimp sidepull ,sloper,crimp,sloper,sidepull ,pinch,match 
+{"easymed"=>113.33824706243813, "hard++"=>121.7135267743966}
+ -> easymed
+85,2,34,86,5,39,26,16,2	ledge slopey,match ,crimp sidepull ,sloper diagonal,crimp ,sloper ,sidepull ,pinch ,match 
+{"easymed"=>281.6910838576607, "hard++"=>308.1743674988692}
+ -> easymed
+55,3,28,32,5,32,23,14,3	ledge,match ,crimp sidepull ,sloper,crimp,sloper,sidepull ,pinch,match 
+{"easymed"=>157.33824706243817, "hard++"=>164.7135267743966}
+ -> easymed
+95,3,37,96,6,43,28,17,3	ledge slopey,match ,crimp sidepull ,sloper diagonal,crimp ,sloper ,sidepull ,pinch ,match 
+{"easymed"=>309.6910838576607, "hard++"=>337.1743674988692}
+ -> easymed
+415 easymed (V2)
+Interrupted
+[3, 1]
+[0, 1]
+accuracy = 0.8
+[3, 1]
+[1, 0]
+accuracy = 0.6
+[3, 1]
+[1, 0]
+accuracy = 0.6
+[3, 1]
+[1, 0]
+accuracy = 0.6
