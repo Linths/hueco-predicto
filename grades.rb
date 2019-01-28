@@ -17,9 +17,9 @@ end
 def getGradeClassSplit(grade)
     # Define exclusive grade classes
     bc0 = [(0..0),(1..1),(2..2),(3..3),(4..4),(5..5),(6..6),(7..7),(8..8),(9..9),(10..10)]
-    cc0 = [(8..8),(9..9),(10..10),(11..11),(12..12)]
     bc1 = [(0..3),(4..4),(5..10)]
-    cc1 = [(8..10),(11..12)]
+    cc0 = [(7..7),(8..8),(9..9),(10..10),(11..11),(12..12)]
+    cc1 = [(7..10),(11..12)]
     bc2 = [(0..1),(2..3),(4..5),(6..7),(8..10)]
     bc3 = [(0..4),(5..10)]
     boulder_classes = bc1
@@ -48,9 +48,9 @@ def getGradeClassMerged(grade)
     bc0 = {(0..0)=>"easy",(1..3)=>"medium",(4..6)=>"hard",(7..10)=>"expert"}
     bc1 = {(0..0)=>"easy",(1..3)=>"medium",(4..10)=>"hard++"}
     bc2 = {(0..3)=>"easymed",(4..10)=>"hard++"}
-    cc0 = {(8..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard"}
-    cc1 = {(8..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard++"}
-    cc2 = {(8..11)=>"easymed",(12..12)=>"hard++"}
+    cc0 = {(7..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard"}
+    cc1 = {(7..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard++"}
+    cc2 = {(7..11)=>"easymed",(12..12)=>"hard++"}
     boulder_conversion = bc2
     climb_conversion = cc2
     if isBoulderGrade?(grade)
@@ -95,7 +95,9 @@ def getGrades()
             # Clean up Hueco and YSD grade notation to integers only
             # f.e. v6/7 -> V6, 5.10D -> 5.10, etc
             grade = grade.upcase[/(V|5.)[0-9]+/]
-            grades[rid] = grade
+            if not grade.nil?
+                grades[rid] = grade
+            end
         }
     }
     return grades

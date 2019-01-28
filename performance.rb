@@ -14,7 +14,7 @@ Grades = getGrades()
 
 # --- Data selection ---
 # Make a random selection of test | train
-AllRids = `ruby data/sb_ucd_anal.rb < data/strangebeta_user_climb_data_20100208.txt | cut -f 2 -d '|' | sort -u`.split("\n").map{|rid| rid.to_i}
+AllRids = `ruby data/sb_ucd_anal.rb < data/strangebeta_user_climb_data_20180128.txt | cut -f 2 -d '|' | sort -u`.split("\n").map{|rid| rid.to_i}
 TestRids = AllRids.sample(N)
 puts "\n\n---\ndepth = #{ModelDepth}"
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"

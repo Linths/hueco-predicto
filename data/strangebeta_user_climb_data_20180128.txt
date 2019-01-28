@@ -88,45 +88,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      11  |       40  |    L   |   finishing hold                                         |   f
     0   |      11  |       41  |    R   |   moving right to a right angle crimp rail               |   f
     0   |      11  |       42  |    L   |   moving right to a right angle crimp rail (match)       |   f
-    0   |      4   |       0   |    L   |   go again to left angle jug                             |   f
-    0   |      4   |       1   |    R   |   up to right angle jug                                  |   f
-    0   |      4   |       2   |    L   |   into left facing undercling                            |   f
-    0   |      4   |       3   |    R   |   go to flat edge crimp                                  |   f
-    0   |      4   |       4   |    R   |   Matched on jug                                         |   f
-    0   |      4   |       5   |    L   |   reach to jug                                           |   f
-    0   |      4   |       6   |    R   |   to good sidepull                                       |   f
-    0   |      4   |       7   |    L   |   to good sidepull                                       |   f
-    0   |      4   |       8   |    R   |   to finger jug                                          |   f
-    0   |      4   |       9   |    R   |   up right to angle gaston jug                           |   f
-    0   |      4   |       10  |    L   |   up to multiple pocket hold                             |   f
-    0   |      4   |       11  |    R   |   go again to jug                                        |   f
-    0   |      4   |       12  |    L   |   reach up and left to finger bucket                     |   f
-    0   |      4   |       13  |    R   |   roll into pinch jug                                    |   f
-    0   |      4   |       14  |    R   |   rt to angle jug                                        |   f
-    0   |      4   |       15  |    L   |   rt to angle jug (match)                                |   f
-    0   |      4   |       16  |    R   |   moving right to crimp                                  |   f
-    0   |      4   |       17  |    L   |   up to angle jug                                        |   f
-    0   |      4   |       18  |    R   |   up to finger slot                                      |   f
-    0   |      4   |       19  |    L   |   unwind to jug                                          |   f
-    0   |      4   |       20  |    R   |   up right to slot jug                                   |   f
-    0   |      4   |       21  |    L   |   up to side pull jug                                    |   f
-    0   |      4   |       22  |    R   |   to rt jug                                              |   f
-    0   |      4   |       23  |    L   |   to crimp intermediate                                  |   f
-    0   |      4   |       24  |    L   |   to finish jug                                          |   f
-    0   |      4   |       25  |    R   |   matched on jug                                         |   f
-    0   |      4   |       26  |    L   |   reach to left facing pocket                            |   f
-    0   |      4   |       27  |    R   |   cross up to right facing jug                           |   f
-    0   |      4   |       28  |    L   |   unwind to flat crimp                                   |   f
-    0   |      4   |       29  |    R   |   up to finger jug                                       |   f
-    0   |      4   |       30  |    L   |   left ward move to pinch intermediate                   |   f
-    0   |      4   |       31  |    L   |   go again to left angle jug                             |   f
-    0   |      4   |       32  |    R   |   up to right angle jug                                  |   f
-    0   |      4   |       33  |    L   |   into left facing undercling                            |   f
-    0   |      4   |       34  |    R   |   go again moving leftward to a jug                      |   f
-    0   |      4   |       35  |    L   |   move left to left facing side pull jug                 |   f
-    0   |      4   |       36  |    R   |   up to left angle jug                                   |   f
-    0   |      4   |       37  |    R   |   up right to angle gaston jug                           |   f
-    0   |      4   |       38  |    L   |   up to multiple pocket hold                             |   f
     0   |      5   |       1   |    R   |   Matched on jug                                         |   f
     0   |      5   |       2   |    R   |   move right to pinch jug                                |   f
     0   |      5   |       3   |    L   |   move left to left facing side pull jug                 |   f
@@ -1622,18 +1583,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      200 |       9   |    R   |   jug                                                 |  f
     0   |      200 |       10  |    R   |   crimp                                                  |   f
     0   |      200 |       11  |    R   |   gaston                                                 |   f
-    0   |      201 |       0   |    R   |   gaston                                                 |   f
-    0   |      201 |       1   |    R   |   gaston                                                 |   f
-    0   |      201 |       6   |    R   |   crimp                                                  |   f
-    0   |      201 |       7   |    R   |   sloper                                                 |   f
-    0   |      201 |       8   |    R   |   jug                                                 |  f
-    0   |      201 |       9   |    R   |   jug                                                 |  f
-    0   |      201 |       10  |    R   |   crimp                                                  |   f
-    0   |      201 |       11  |    R   |   gaston                                                 |   f
-    0   |      201 |       2   |    R   |   crimp                                                  |   f
-    0   |      201 |       3   |    R   |   sloper                                                 |   f
-    0   |      201 |       4   |    R   |   gaston                                                 |   f
-    0   |      201 |       5   |    R   |   side pull                                              |   f
     0   |      203 |       0   |    R   |   gaston                                                 |   f
     0   |      203 |       1   |    R   |   gaston                                                 |   f
     0   |      203 |       2   |    R   |   crimp                                                  |   f
@@ -6508,7 +6457,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      869 |       0   |    L   |   sloper                                                 |   f
     0   |      870 |       0   |    L   |   sloper                                                 |   f
     0   |      871 |       0   |    L   |   sloper                                                 |   f
-    0   |      875 |       0   |    L   |   sloper                                                 |   f
     0   |      876 |       1   |    L   |   Cross                                                  |   f
     0   |      876 |       2   |    R   |   Layback                                                |   f
     0   |      877 |       1   |    L   |   match on big edge                                      |   f

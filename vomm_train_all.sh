@@ -2,7 +2,7 @@
 LANG_SIZE=256
 MODEL_DEPTH=7
 
-UIDS=$(ruby data/sb_ucd_anal.rb < data/strangebeta_user_climb_data_20100208.txt | cut -f 1 -d '|' | sort -u)
+UIDS=$(ruby data/sb_ucd_anal.rb < data/strangebeta_user_climb_data_20180128.txt | cut -f 1 -d '|' | sort -u)
 for k in $(seq 1 4);do
   echo "Key $k"
   if [ -f vomm/data/vomm_${k}.ser ];then

@@ -86,45 +86,6 @@
 0|11|40|left|false|finishing hold
 0|11|41|right|false|moving right to a right angle crimp rail
 0|11|42|left|false|moving right to a right angle crimp rail match
-0|4|0|left|false|go again to left angle jug
-0|4|1|right|false|up to right angle jug
-0|4|2|left|false|into left facing undercling
-0|4|3|right|false|go to flat edge crimp
-0|4|4|right|false|matched on jug
-0|4|5|left|false|reach to jug
-0|4|6|right|false|to good sidepull
-0|4|7|left|false|to good sidepull
-0|4|8|right|false|to finger jug
-0|4|9|right|false|up right to angle gaston jug
-0|4|10|left|false|up to multiple pocket hold
-0|4|11|right|false|go again to jug
-0|4|12|left|false|reach up and left to finger bucket
-0|4|13|right|false|roll into pinch jug
-0|4|14|right|false|rt to angle jug
-0|4|15|left|false|rt to angle jug match
-0|4|16|right|false|moving right to crimp
-0|4|17|left|false|up to angle jug
-0|4|18|right|false|up to finger slot
-0|4|19|left|false|unwind to jug
-0|4|20|right|false|up right to slot jug
-0|4|21|left|false|up to side pull jug
-0|4|22|right|false|to rt jug
-0|4|23|left|false|to crimp intermediate
-0|4|24|left|false|to finish jug
-0|4|25|right|false|matched on jug
-0|4|26|left|false|reach to left facing pocket
-0|4|27|right|false|cross up to right facing jug
-0|4|28|left|false|unwind to flat crimp
-0|4|29|right|false|up to finger jug
-0|4|30|left|false|left ward move to pinch intermediate
-0|4|31|left|false|go again to left angle jug
-0|4|32|right|false|up to right angle jug
-0|4|33|left|false|into left facing undercling
-0|4|34|right|false|go again moving leftward to a jug
-0|4|35|left|false|move left to left facing side pull jug
-0|4|36|right|false|up to left angle jug
-0|4|37|right|false|up right to angle gaston jug
-0|4|38|left|false|up to multiple pocket hold
 0|5|1|right|false|matched on jug
 0|5|2|right|false|move right to pinch jug
 0|5|3|left|false|move left to left facing side pull jug
@@ -1620,18 +1581,6 @@
 0|200|9|right|false|jug
 0|200|10|right|false|crimp
 0|200|11|right|false|gaston
-0|201|0|right|false|gaston
-0|201|1|right|false|gaston
-0|201|6|right|false|crimp
-0|201|7|right|false|sloper
-0|201|8|right|false|jug
-0|201|9|right|false|jug
-0|201|10|right|false|crimp
-0|201|11|right|false|gaston
-0|201|2|right|false|crimp
-0|201|3|right|false|sloper
-0|201|4|right|false|gaston
-0|201|5|right|false|side pull
 0|203|0|right|false|gaston
 0|203|1|right|false|gaston
 0|203|2|right|false|crimp
@@ -6506,7 +6455,6 @@
 0|869|0|left|false|sloper
 0|870|0|left|false|sloper
 0|871|0|left|false|sloper
-0|875|0|left|false|sloper
 0|876|1|left|false|cross
 0|876|2|right|false|layback
 0|877|1|left|false|match on big edge
