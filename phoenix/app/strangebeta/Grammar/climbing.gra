@@ -93,6 +93,7 @@
 	([HoldTypeT])
 	([UnderCling])
 	([SidePull])
+	([DownPull])
 	([FootHook])
 	([GenericHold])
 	([Layback])
@@ -100,6 +101,8 @@
 	([Jib])
 	([Bump])
 	([HighFoot])
+	([DropKnee])
+	([Cross])
 ;
 [HoldTypeT]
 	(jug)
@@ -123,6 +126,7 @@
 	(cup)
 	(flake)
 	(thumbcatch)
+	(thumb catch)
 	(slot)
 	(gaston)
 	(dish)
@@ -170,9 +174,14 @@
 	(sidepull)
 	(side pull)
 ;
+[DownPull]
+	(downpull)
+	(down pull)
+;
 [UnderCling]
 	(undercling)
 	(under cling)
+	(cling)
 ;
 [FootHook]
 	(heel hook)
@@ -187,6 +196,13 @@
 ;
 [HighFoot]
 	(high foot)
+	(high left foot)
+	(high right foot)
+	(high step)
+;
+[DropKnee]
+	(drop knee)
+	(dropknee)
 ;
 [Action]
 	([ActionSize] [ActionVerb])
@@ -228,15 +244,16 @@
 	(cross)
 ;
 [ActionVerbBig]
+	([DropKnee])
 	(throw)
 	(dyno)
+	(dynamic move)
 	(reach)
 	(fall into)
 	(huck)
 	(deadpoint)
 	(rock)
 	(dead point)
-	(drop knee)
 ;
 [ActionSize]
 	([ActionSizeBig])

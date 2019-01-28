@@ -1452,7 +1452,7 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      169 |       1   |    L   |   Sloper                                                 |   f
     0   |      169 |       2   |    R   |   Sloper                                                 |   f
     0   |      169 |       3   |    L   |   Jug                                                 |  f
-    0   |      169 |       4   |    R   |   Under ling                                             |   f
+    0   |      169 |       4   |    R   |   Undercling                                             |   f
     0   |      169 |       5   |    L   |   Undercling                                             |   f
     0   |      169 |       6   |    R   |   Match                                                  |   f
     0   |      169 |       7   |    L   |   Mantle                                                 |   t

@@ -16,7 +16,17 @@ spellcheck = {
   "pinchslopper" => "pinch sloper",
   "diagnol" => "diagonal",
   "ledgematch" => "ledge match",
-  "under ling" => "undercling"
+  "crimppinch" => "crimp pinch",
+  "flakecling" => "flake cling",
+  "crimpslopper" => "crimp sloper",
+  "gastone" => "gaston",
+  "sidepul" => "sidepull",
+  "rignt" => "right",
+  "slop" => "sloper",
+  "crinp" => "crimp",
+  "crimpsidepull" => "crimp sidepull",
+  "slipper" => "sloper",
+  "knee drops" => "knee drop"
 }
 
 n = 0

@@ -1450,7 +1450,7 @@
 0|169|1|left|false|sloper
 0|169|2|right|false|sloper
 0|169|3|left|false|jug
-0|169|4|right|false|under ling
+0|169|4|right|false|undercling
 0|169|5|left|false|undercling
 0|169|6|right|false|match
 0|169|7|left|true|mantle
@@ -2400,7 +2400,7 @@
 0|298|14|right|false|match
 0|298|15|left|false|over to good 2 finger pocket
 0|298|16|right|false|slight cross to good 2 finger pocket
-0|298|17|left|false|up left to ok crimpslopper
+0|298|17|left|false|up left to ok crimp sloper
 0|298|18|right|false|up to good crimp
 0|298|19|left|false|cross to good sloper
 0|298|20|right|false|match
@@ -2608,7 +2608,7 @@
 0|372|4|right|false|match or other crimp just above at same angle
 0|372|5|left|true|up at 45 to a good sloper or slopping pinch
 0|372|6|right|true|match
-0|372|7|left|false|over to good crimppinch
+0|372|7|left|false|over to good crimp pinch
 0|372|8|right|false|slight cross to flat mini jug
 0|372|9|left|false|just barely up and left to good crimpmini jug
 0|372|10|right|false|up right to side pull mini jug
@@ -2877,7 +2877,7 @@
 0|377|1|left|false|both hands from a sit start on large jug
 0|377|2|right|false|toe on dime edge just off the floor
 0|377|3|left|false|toe on dime edge about 3 feet apart from right toe
-0|377|4|right|false|dynamic move right towards positive flakecling
+0|377|4|right|false|dynamic move right towards positive flake cling
 0|377|5|left|false|match just aove right hand
 0|377|6|right|false|both feet up to starting hand jug
 0|377|7|right|false|diagonal upright from cling to 45 degree sloper
@@ -2892,7 +2892,7 @@
 0|378|0|left|false|both hands from a sit start on large jug
 0|378|1|left|false|both hands from a sit start on large jug
 0|378|2|right|false|toe on dime edge just off the floor
-0|378|3|right|false|dynamic move right towards positive flakecling
+0|378|3|right|false|dynamic move right towards positive flake cling
 0|378|4|left|false|match just aove right hand
 0|378|5|right|false|both feet up to starting hand jug
 0|378|6|right|false|diagonal upright from cling to 45 degree sloper
@@ -2910,7 +2910,7 @@
 0|379|3|left|false|both hands from a sit start on large jug
 0|379|4|left|false|both hands from a sit start on large jug
 0|379|5|right|false|toe on dime edge just off the floor
-0|379|6|right|false|dynamic move right towards positive flakecling
+0|379|6|right|false|dynamic move right towards positive flake cling
 0|379|7|left|false|match just aove right hand
 0|379|8|right|false|both feet up to starting hand jug
 0|379|9|right|false|diagonal upright from cling to 45 degree sloper
@@ -3651,7 +3651,7 @@
 0|424|14|right|false|straight up to gaston flat hold at 45 match
 0|424|15|left|false|over to good 2 finger pocket
 0|424|16|right|false|slight cross to good 2 finger pocket
-0|424|17|left|false|up left to ok crimpslopper
+0|424|17|left|false|up left to ok crimp sloper
 0|424|18|right|false|up to good crimp
 0|424|19|left|false|cross to good sloper
 0|424|20|right|false|cross to good sloper match
@@ -3680,7 +3680,7 @@
 0|425|14|right|false|straight up to gaston flat hold at 45 match
 0|425|15|left|false|over to good 2 finger pocket
 0|425|16|right|false|slight cross to good 2 finger pocket
-0|425|17|left|false|up left to ok crimpslopper
+0|425|17|left|false|up left to ok crimp sloper
 0|425|18|right|false|up to good crimp
 0|425|19|left|false|cross to good sloper
 0|425|20|right|false|cross to good sloper match
@@ -4142,35 +4142,35 @@
 0|537|1|left|false|swing up to sidepull
 0|537|2|right|false|grab large knob
 0|537|3|left|false|upward to incut
-0|537|4|right|false|lean into gastone
+0|537|4|right|false|lean into gaston
 0|537|5|left|false|cross to jug
 0|537|6|right|false|out to sidepull
 0|537|7|left|false|up to undercling
 0|537|8|right|false|grab a pinch
 0|537|9|right|false|bump to jug
 0|537|10|left|false|match
-0|537|11|left|false|highstep to sidepul incut
+0|537|11|left|false|highstep to sidepull incut
 0|537|12|right|true|balance to sloper
 0|537|13|left|true|cross to slopy sidepull
 0|537|14|right|false|dropknee to sidepull
-0|537|15|left|false|come into sidepul
+0|537|15|left|false|come into sidepull
 0|537|16|right|false|big move to jug
 0|538|0|left|false|swing up to sidepull
 0|538|1|left|false|swing up to sidepull
 0|538|2|right|false|grab large knob
-0|538|3|right|false|lean into gastone
+0|538|3|right|false|lean into gaston
 0|538|4|left|false|cross to jug
 0|538|5|right|false|out to sidepull
 0|538|6|left|false|up to undercling
 0|538|7|right|false|grab a pinch
 0|538|8|right|false|bump to jug
 0|538|9|left|false|bump to jug match
-0|538|10|left|false|highstep to sidepul incut
+0|538|10|left|false|highstep to sidepull incut
 0|538|11|right|false|balance to sloper
 0|538|12|left|false|cross to slopy sidepull
 0|538|13|right|false|dropknee to sidepull
 0|538|14|right|false|dropknee to sidepull
-0|538|15|left|false|come into sidepul
+0|538|15|left|false|come into sidepull
 0|539|0|left|false|match with right on vertical flat hold
 0|539|1|left|false|match with right on vertical flat hold
 0|539|2|right|false|out to 45 left faceing crimp rail
@@ -4982,7 +4982,7 @@
 0|613|5|right|true|lunge right
 0|613|6|left|true|bump right
 0|613|7|left|false|straight up crimp
-0|613|8|right|false|diagonal rignt
+0|613|8|right|false|diagonal right
 0|613|9|left|false|straight up
 0|613|10|right|false|top sloper
 0|613|11|left|false|top jug
@@ -4993,7 +4993,7 @@
 0|614|4|right|false|lunge right
 0|614|5|left|false|bump right
 0|614|6|left|false|straight up crimp
-0|614|7|right|false|diagonal rignt
+0|614|7|right|false|diagonal right
 0|614|8|left|false|straight up
 0|614|9|right|false|top sloper
 0|614|10|left|false|top jug
@@ -5070,10 +5070,10 @@
 0|621|6|right|false|jug
 0|621|7|left|false|jug
 0|621|8|right|false|crimp
-0|621|9|left|true|slop
+0|621|9|left|true|sloper
 0|621|10|right|true|pinch
 0|621|11|left|false|jug
-0|621|12|right|false|slop
+0|621|12|right|false|sloper
 0|621|13|left|false|jug
 0|622|0|left|false|jug
 0|622|1|left|false|jug
@@ -5083,10 +5083,10 @@
 0|622|5|right|false|jug
 0|622|6|left|false|jug
 0|622|7|right|false|crimp
-0|622|8|left|false|slop
+0|622|8|left|false|sloper
 0|622|9|right|false|pinch
 0|622|10|left|false|jug
-0|622|11|right|false|slop
+0|622|11|right|false|sloper
 0|622|12|left|false|jug
 0|623|0|left|false|jug
 0|623|1|left|false|jug
@@ -5147,7 +5147,7 @@
 0|625|24|left|false|bump right
 0|625|25|left|false|straight up crimp
 0|625|26|left|false|straight up crimp
-0|625|27|right|false|diagonal rignt
+0|625|27|right|false|diagonal right
 0|625|28|left|false|straight up
 0|625|29|left|false|slopey crimp
 0|626|0|left|false|straight up
@@ -5177,7 +5177,7 @@
 0|626|24|left|false|bump right
 0|626|25|left|false|straight up crimp
 0|626|26|left|false|straight up crimp
-0|626|27|right|false|diagonal rignt
+0|626|27|right|false|diagonal right
 0|626|28|left|false|straight up
 0|626|29|left|false|slopey crimp
 0|628|0|left|false|positive edge
@@ -6192,19 +6192,19 @@
 0|725|0|left|false|swing up to sidepull
 0|725|1|left|false|swing up to sidepull
 0|725|2|right|false|grab large knob
-0|725|3|right|false|lean into gastone
+0|725|3|right|false|lean into gaston
 0|725|4|left|false|cross to jug
 0|725|5|right|false|out to sidepull
 0|725|6|left|false|up to undercling
 0|725|7|right|false|grab a pinch
 0|725|8|right|false|bump to jug
 0|725|9|left|false|bump to jug match
-0|725|10|left|false|highstep to sidepul incut
+0|725|10|left|false|highstep to sidepull incut
 0|725|11|right|false|balance to sloper
 0|725|12|left|false|cross to slopy sidepull
 0|725|13|right|false|dropknee to sidepull
 0|725|14|right|false|dropknee to sidepull
-0|725|15|left|false|come into sidepul
+0|725|15|left|false|come into sidepull
 0|732|0|left|false|a
 0|732|1|left|false|a
 0|732|2|right|false|asdf
@@ -6410,7 +6410,7 @@
 0|796|10|right|false|up right to good edge
 0|796|11|left|false|gaston on good edge
 0|796|12|right|false|right crimp sidepull
-0|796|13|left|false|left crinp
+0|796|13|left|false|left crimp
 0|798|1|left|false|a
 0|798|2|right|false|b
 0|798|3|left|false|c
@@ -6525,7 +6525,7 @@
 0|877|14|right|false|move to top edge of wall
 0|881|1|left|false|high sloper start both hands no feet
 0|881|2|right|false|vertical move to slightly better hold big
-0|881|3|right|false|crimpsidepull to the right
+0|881|3|right|false|crimp sidepull to the right
 0|883|1|left|false|pinch
 0|883|2|right|false|sloper
 0|884|0|left|false|pinch
@@ -6635,7 +6635,7 @@
 0|965|1|left|false|right crimp
 0|965|2|right|false|gaston
 0|965|3|left|false|jug
-0|965|4|right|true|slipper
+0|965|4|right|true|sloper
 0|965|5|right|false|crimp
 0|966|0|left|false|right crimp
 0|967|0|left|false|right crimp
