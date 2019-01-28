@@ -98,6 +98,8 @@
 	([Layback])
 	([Mantle])
 	([Jib])
+	([Bump])
+	([HighFoot])
 ;
 [HoldTypeT]
 	(jug)
@@ -179,6 +181,13 @@
 	(toehook)
 	(bicycle)
 ;
+[Bump]
+	(bump)
+	(bump out)
+;
+[HighFoot]
+	(high foot)
+;
 [Action]
 	([ActionSize] [ActionVerb])
 	([ActionVerb])
@@ -192,9 +201,9 @@
 	([FootHook])
 	([Layback])
 	([Cross])
+	([Bump])
 ;
 [ActionVerbSmallT]
-	(bump)
 	(out)
 	(up)
 	(left)
@@ -227,6 +236,7 @@
 	(deadpoint)
 	(rock)
 	(dead point)
+	(drop knee)
 ;
 [ActionSize]
 	([ActionSizeBig])

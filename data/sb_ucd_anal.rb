@@ -14,7 +14,9 @@ spellcheck = {
   "incutpinch" => "incut pinch",
   "sidepullundercling" => "sidepull undercling",
   "pinchslopper" => "pinch sloper",
-  "diagnol" => "diagonal"
+  "diagnol" => "diagonal",
+  "ledgematch" => "ledge match",
+  "under ling" => "undercling"
 }
 
 n = 0
@@ -26,7 +28,7 @@ $stdin.each_line{ |l|
   uid,rid,mid = [uid,rid,mid].collect{ |e| e.to_i }
   hand = (hand == "R") ? :right : :left
   crux = (crux == "f") ? false : true
-
+  
   move = move.downcase.tr('-',' ').tr('^a-z0-9 ','').split(/\s+/).collect{ |e| spellcheck[e].nil? ? e : spellcheck[e] }.join(" ")
   puts [uid,rid,mid,hand,crux,move].join("|")
 }
