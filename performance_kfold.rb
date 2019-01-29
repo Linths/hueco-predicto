@@ -119,6 +119,7 @@ TestGroups.each{ |test_group|
     (1..4).each { |k|
         `rm -rf vomm/data/grades/#{Identifier}/set_#{k}/*`
         `mkdir -p vomm/data/grades/#{Identifier}/set_#{k}`
+        puts "Training #{(AllRids - test_group)}"
         (AllRids - test_group).each { |train_rid|
             model_file = getModelFileFromGrade(Grades[train_rid], k, Identifier)
             `./learn.sh #{sequences[train_rid][k-1].join(',')} #{model_file} #{LangSize} #{ModelDepth} #{test_group}`
