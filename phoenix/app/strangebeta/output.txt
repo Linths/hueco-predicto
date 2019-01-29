@@ -15931,8 +15931,6 @@ IsMove:[Move].[Hold].[HoldType].[HoldTypeT].jug
 IsMove:[Move].[Match].match 
 END_PARSE
 
-;;; dyno
-No parse
 ;;; crimp
 PARSE_0:
 IsMove:[Move].[Hold].[HoldType].[HoldTypeT].crimp 
@@ -30598,8 +30596,6 @@ PARSE_0:
 IsMove:[Move].[Action].[ActionVerb].[ActionVerbBig].dyno [Hold].[HoldType].[HoldTypeT].jug 
 END_PARSE
 
-;;; left faci
-No parse
 ;;; left facing pinch
 PARSE_0:
 IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].left [Hold].[HoldType].[HoldTypeT].pinch 
@@ -32119,20 +32115,6 @@ No parse
 No parse
 ;;; throw onto triangle
 No parse
-;;; dyno
-No parse
-;;; pintsi
-No parse
-;;; krimppilukko
-No parse
-;;; toppikahva
-No parse
-;;; short
-No parse
-;;; short
-No parse
-;;; long high
-No parse
 ;;; short
 No parse
 ;;; short
@@ -33007,10 +32989,6 @@ IsMove:[Move].[Action].[ActionVerb].[ActionVerbSmall].[ActionVerbSmallT].move [H
 IsMove:[Move].[Match].match 
 END_PARSE
 
-;;; side step
-No parse
-;;; hard left
-No parse
 ;;; small ledge
 PARSE_0:
 IsMove:[Move].[Hold].[HoldSize].[HoldSizeSmall].[HoldSizeSmallT].small [HoldType].[HoldTypeT].ledge 
@@ -33692,13 +33670,6 @@ END_PARSE
 ;;; sloper
 PARSE_0:
 IsMove:[Move].[Hold].[HoldType].[HoldTypeT].sloper 
-END_PARSE
-
-;;; cross
-No parse
-;;; layback
-PARSE_0:
-IsMove:[Move].[Hold].[HoldType].[HoldTypeT].layback 
 END_PARSE
 
 ;;; match on big edge

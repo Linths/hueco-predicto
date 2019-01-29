@@ -3104,7 +3104,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      406 |       11  |    L   |   Jug                                                 |  f
     0   |      406 |       12  |    L   |   Jug                                                 |  f
     0   |      406 |       13  |    R   |   Jug (match)                                            |   f
-    0   |      407 |       1   |    R   |   dyno                                                   |   f
     0   |      408 |       1   |    R   |   crimp                                                  |   f
     0   |      408 |       2   |    L   |   dyno to another crimp                                  |   f
     0   |      408 |       3   |    R   |   dyno to mini ledge,match                               |   f
@@ -5812,7 +5811,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      692 |       5   |    L   |   bump left to pinch                                     |   f
     0   |      692 |       6   |    R   |   bump left to sloper                                    |   f
     0   |      692 |       7   |    L   |   dyno to jug                                            |   f
-    0   |      693 |       1   |    L   |   LEFT FACI                                              |   f
     0   |      694 |       1   |    L   |   left facing pinch                                      |   f
     0   |      694 |       2   |    R   |   right facing pinch                                     |   f
     0   |      694 |       3   |    R   |   bump to right facing ledge                             |   f
@@ -6120,13 +6118,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      716 |       35  |    R   |   Throw onto triangle                                    |   f
     0   |      716 |       36  |    R   |   Throw onto triangle                                    |   f
     0   |      716 |       37  |    R   |   Throw onto triangle                                    |   f
-    0   |      719 |       1   |    L   |   Dyno                                                   |   f
-    0   |      719 |       2   |    R   |   Pintsi                                                 |   f
-    0   |      719 |       3   |    L   |   Krimppilukko                                           |   t
-    0   |      719 |       4   |    R   |   Toppikahva                                             |   f
-    0   |      721 |       1   |    L   |   short                                                  |   f
-    0   |      721 |       2   |    R   |   short                                                  |   f
-    0   |      721 |       3   |    L   |   long high                                              |   f
     0   |      723 |       0   |    L   |   short                                                  |   f
     0   |      723 |       1   |    L   |   short                                                  |   f
     0   |      723 |       2   |    R   |   short                                                  |   f
@@ -6317,8 +6308,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      756 |       4   |    L   |   bumb to pocket                                         |   f
     0   |      756 |       5   |    R   |   move to jug                                            |   f
     0   |      756 |       6   |    L   |   move to jug (match)                                    |   f
-    0   |      757 |       2   |    R   |   side step                                              |   t
-    0   |      757 |       1   |    L   |   hard left                                              |   t
     0   |      758 |       0   |    L   |   Small ledge                                            |   f
     0   |      759 |       0   |    L   |   Small ledge                                            |   f
     0   |      760 |       1   |    L   |   Sloper                                                 |   f
@@ -6457,8 +6446,6 @@ user_id | route_id |   seq_no  |  hand  |                           move        
     0   |      869 |       0   |    L   |   sloper                                                 |   f
     0   |      870 |       0   |    L   |   sloper                                                 |   f
     0   |      871 |       0   |    L   |   sloper                                                 |   f
-    0   |      876 |       1   |    L   |   Cross                                                  |   f
-    0   |      876 |       2   |    R   |   Layback                                                |   f
     0   |      877 |       1   |    L   |   match on big edge                                      |   f
     0   |      877 |       2   |    R   |   match on big edge                                      |   f
     0   |      877 |       3   |    R   |   heel hook start                                        |   f

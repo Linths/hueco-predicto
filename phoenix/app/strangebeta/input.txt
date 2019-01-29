@@ -3102,7 +3102,6 @@
 0|406|11|left|false|jug
 0|406|12|left|false|jug
 0|406|13|right|false|jug match
-0|407|1|right|false|dyno
 0|408|1|right|false|crimp
 0|408|2|left|false|dyno to another crimp
 0|408|3|right|false|dyno to mini ledge match
@@ -5810,7 +5809,6 @@
 0|692|5|left|false|bump left to pinch
 0|692|6|right|false|bump left to sloper
 0|692|7|left|false|dyno to jug
-0|693|1|left|false|left faci
 0|694|1|left|false|left facing pinch
 0|694|2|right|false|right facing pinch
 0|694|3|right|false|bump to right facing ledge
@@ -6118,13 +6116,6 @@
 0|716|35|right|false|throw onto triangle
 0|716|36|right|false|throw onto triangle
 0|716|37|right|false|throw onto triangle
-0|719|1|left|false|dyno
-0|719|2|right|false|pintsi
-0|719|3|left|true|krimppilukko
-0|719|4|right|false|toppikahva
-0|721|1|left|false|short
-0|721|2|right|false|short
-0|721|3|left|false|long high
 0|723|0|left|false|short
 0|723|1|left|false|short
 0|723|2|right|false|short
@@ -6315,8 +6306,6 @@
 0|756|4|left|false|bump to pocket
 0|756|5|right|false|move to jug
 0|756|6|left|false|move to jug match
-0|757|2|right|true|side step
-0|757|1|left|true|hard left
 0|758|0|left|false|small ledge
 0|759|0|left|false|small ledge
 0|760|1|left|false|sloper
@@ -6455,8 +6444,6 @@
 0|869|0|left|false|sloper
 0|870|0|left|false|sloper
 0|871|0|left|false|sloper
-0|876|1|left|false|cross
-0|876|2|right|false|layback
 0|877|1|left|false|match on big edge
 0|877|2|right|false|match on big edge
 0|877|3|right|false|heel hook start
