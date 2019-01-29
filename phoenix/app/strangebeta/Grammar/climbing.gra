@@ -191,8 +191,8 @@
 	(bicycle)
 ;
 [Bump]
-	(bump)
 	(bump out)
+	(bump)
 ;
 [HighFoot]
 	(high foot)

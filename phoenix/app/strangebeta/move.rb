@@ -32,7 +32,7 @@ class Move
     #([Jib])
     return "[HoldType].[Match]" if @type.length == 0 and @match
     ret = @type.uniq.collect{ |e|
-       if e =~ /(UnderCling|SidePull|FootHook|GenericHold|Layback|Mantle|Jib)/
+       if e =~ /(UnderCling|SidePull|DownPull|FootHook|GenericHold|Layback|Mantle|Jib|Bump|HighFoot|DropKnee|Cross)/
          if e =~ /GenericHold/ and @type.length > 1
            nil
          else
