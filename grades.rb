@@ -2,7 +2,7 @@
 
 # Mapping of grades to routes
 GradesFile = "data/route_grade.csv"
-MergeMode = true
+MergeMode = false
 
 # Determines the matching grade class for a grade
 # Based on the merge argument, the boulder and climb grades are merged or saved separately
