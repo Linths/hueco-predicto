@@ -99,10 +99,6 @@
 	([Layback])
 	([Mantle])
 	([Jib])
-	([Bump])
-	([HighFoot])
-	([DropKnee])
-	([Cross])
 ;
 [HoldTypeT]
 	(jug)
@@ -125,7 +121,6 @@
 	(ear)
 	(cup)
 	(flake)
-	(thumbcatch)
 	(thumb catch)
 	(slot)
 	(gaston)
@@ -190,20 +185,6 @@
 	(toehook)
 	(bicycle)
 ;
-[Bump]
-	(bump out)
-	(bump)
-;
-[HighFoot]
-	(high foot)
-	(high left foot)
-	(high right foot)
-	(high step)
-;
-[DropKnee]
-	(drop knee)
-	(dropknee)
-;
 [Action]
 	([ActionSize] [ActionVerb])
 	([ActionVerb])
@@ -217,9 +198,9 @@
 	([FootHook])
 	([Layback])
 	([Cross])
-	([Bump])
 ;
 [ActionVerbSmallT]
+	(bump)
 	(out)
 	(up)
 	(left)
@@ -231,7 +212,6 @@
 	(diagonal)
 	(slide)
 	(grab)
-	(drop)
 	(go again)
 	(go)
 	(move)
@@ -244,7 +224,6 @@
 	(cross)
 ;
 [ActionVerbBig]
-	([DropKnee])
 	(throw)
 	(dyno)
 	(dynamic move)
@@ -254,6 +233,7 @@
 	(deadpoint)
 	(rock)
 	(dead point)
+	(drop knee)
 ;
 [ActionSize]
 	([ActionSizeBig])

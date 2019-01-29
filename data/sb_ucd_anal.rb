@@ -26,7 +26,9 @@ spellcheck = {
   "crinp" => "crimp",
   "crimpsidepull" => "crimp sidepull",
   "slipper" => "sloper",
-  "knee drops" => "knee drop"
+  "knee drops" => "dropknee",
+  "thumbcatch" => "thumb catch",
+  "drop knee" => "dropknee"
 }
 
 n = 0
