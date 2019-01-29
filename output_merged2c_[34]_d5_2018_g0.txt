@@ -1,0 +1,36 @@
+2019-01-29 12:00:54 +0100
+N = -1, depth = 5
+DoRemove = false, DoReplace = false, DoMatchReplace = false
+blacklist = [67, 160, 344, 312, 270] ["hard++", "easymed", "easymed", "easymed", "hard++"]
+
+whole set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 407, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 693, 694, 701, 702, 706, 719, 721, 738, 741, 744, 748, 752, 757, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 876, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975] ["easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "hard++", "hard++", "hard++", "easymed", "hard++", "easymed", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "hard++", "easymed", "easymed", "hard++", "hard++", "easymed", "easymed", "hard++", "easymed", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "hard++", "hard++", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "hard++", "hard++", "hard++", "hard++", "easymed", "hard++", "hard++", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "easymed", "easymed", "hard++", "hard++", "easymed", "hard++", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed", "hard++", "easymed", "easymed", "hard++", "easymed", "easymed", "easymed", "easymed"] ["5.10", "5.10", "5.11", "5.11", "5.11", "5.8", "V5", "5.12", "V8", "V5", "V7", "V8", "V6", "V7", "5.11", "5.10", "5.10", "V0", "5.10", "5.8", "V4", "V4", "5.10", "5.8", "V2", "V2", "V6", "V8", "5.10", "V7", "V10", "V6", "5.12", "V3", "5.12", "5.10", "V4", "5.11", "V4", "5.10", "V0", "5.10", "5.10", "5.10", "5.12", "V4", "5.11", "V4", "5.10", "5.10", "V5", "5.11", "5.10", "5.12", "V4", "5.10", "5.11", "V4", "5.10", "V4", "V4", "V3", "V3", "5.10", "V3", "5.11", "V3", "5.10", "V4", "V5", "V4", "V0", "V4", "V3", "5.10", "V3", "5.10", "V4", "5.8", "5.10", "5.10", "5.12", "5.10", "V2", "V3", "5.8", "5.12", "V7", "V8", "V3", "5.10", "V3", "V3", "5.10", "V5", "5.11", "V9", "V4", "V3", "V2", "V5", "V4", "5.10", "5.12", "5.10", "5.10", "5.10", "5.10", "5.10", "V0", "V2", "V5", "V3", "V4", "V4", "V5", "V5", "V0", "V4", "V4", "V10", "5.10", "5.11", "5.10", "V1", "V2", "V4", "5.10", "V2", "5.10", "5.10", "5.10", "5.10", "V5", "V5", "5.10", "V4", "5.10", "5.10", "V4", "5.10", "5.10", "5.10", "5.10", "5.12", "5.11", "V1", "V7", "5.7", "5.7", "5.10", "5.10"]
+test set = [34] ["hard++"]
+34 hard++ (V5)
+3,0,19,3,19,0	crimp,,match ,crimp,match ,
+{"easymed"=>51.628331519038674, "hard++"=>15.736043175906968}
+ -> hard++
+3,0,20,3,20,0	crimp ,,match ,crimp ,match ,
+{"easymed"=>53.62833151903867, "hard++"=>15.736043175906968}
+ -> hard++
+3,0,21,3,21,0	crimp,,match ,crimp,match ,
+{"easymed"=>55.628331519038674, "hard++"=>15.736043175906968}
+ -> hard++
+3,0,21,3,21,0	crimp ,,match ,crimp ,match ,
+{"easymed"=>55.628331519038674, "hard++"=>15.736043175906968}
+ -> hard++
+[0, 0]
+[0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 1]
+accuracy = 1.0
+[0, 0]
+[0, 1]
+accuracy = 1.0
+
+Done
+2019-01-29 12:08:24 +0100
+Took 7 mins

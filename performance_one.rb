@@ -90,7 +90,7 @@ end
 # Make a random selection of test | train
 GradedSelection = sequences.keys().find_all { |r| Grades.key?(r) }
 AllRids = DoRemove ? GradedSelection - Blacklist - ToBeRemoved : GradedSelection - Blacklist
-TestRids = N == -1 ? AllRids : AllRids.sample(N)
+TestRids = [34] #N == -1 ? AllRids : AllRids.sample(N)
 puts "whole set = #{AllRids} #{AllRids.map {|r| getGradeClass(Grades[r])}} #{AllRids.map {|r| Grades[r]}}"
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
