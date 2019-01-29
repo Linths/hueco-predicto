@@ -1,0 +1,249 @@
+[Move]
+	([Action] [Hold])
+	([Hold] [Action])
+	([Hold])
+	([Match])
+;
+[Match]
+	(match)
+;
+[Hold]
+	([HoldSize] [HoldShape] [HoldType])
+	([HoldShape] [HoldSize] [HoldType])
+	([HoldShape] [HoldType])
+	([HoldSize] [HoldType])
+	([HoldType])
+;
+[HoldSize]
+	([HoldSizeBig])
+	([HoldSizeSmall])
+;
+[HoldSizeBig]
+	([HoldSizeBigT])
+	([Not] [HoldSizeBig])
+;
+[HoldSizeBigT]
+	(big)
+	(good)
+	(manageable)
+	(managable)
+	(deep)
+	(positive)
+	(goodish)
+	(okay)
+	(ok)
+	(solid)
+	(decent)
+;
+[HoldSizeSmall]
+	([HoldSizeSmallT])
+	([Not] [HoldSizeBig])
+;
+[HoldSizeSmallT]
+	(mini)
+	(shallow)
+	(small)
+	(bad)
+	(razor)
+	(shitty)
+	(tiny)
+	(micro-dick)
+	(transition)
+	(nonexistent)
+;
+[HoldShape]
+	([HoldShapeGood])
+	([HoldShapeBad])
+;
+[HoldShapeGood]
+	([HoldShapeGoodT])
+	([Not] [HoldShapeBad])
+;
+[HoldShapeGoodT]
+	(starting)
+	(vertical)
+	(bulbous)
+	(angle)
+	(sideways)
+	(double sided)
+	(right angle)
+	(left angle)
+;
+[Not]
+	(not)
+	(no)
+;
+[HoldShapeBad]
+	(roof)
+	(slopey)
+	(sloping)
+	(vertical)
+	(finger)
+	(diagonal)
+	(angled)
+	(gaston)
+	(flat)
+	(downward)
+	(down ward)
+	(open hand)
+	(openhand)
+	(reachy)
+;
+[HoldType]
+	([HoldTypeT])
+	([UnderCling])
+	([SidePull])
+	([DownPull])
+	([FootHook])
+	([GenericHold])
+	([Layback])
+	([Mantle])
+	([Jib])
+;
+[HoldTypeT]
+	(jug)
+	(pocket)
+	(crimp)
+	(edge)
+	(sloper)
+	(cobble)
+	(crimper)
+	(crimpbeam)
+	(beam)
+	(layback)
+	(horn)
+	(ball)
+	(boobies)
+	(slope)
+	(pinch)
+	(bucket)
+	(rail)
+	(ear)
+	(cup)
+	(flake)
+	(thumb catch)
+	(slot)
+	(gaston)
+	(dish)
+	(ledge)
+	(incut)
+	(teeth)
+	(arete)
+	(tufa)
+	(hand jam)
+	(fist jam)
+	(finger jam)
+	(mono)
+	(offwidth)
+	(chicken head)
+	(knob)
+	(handle)
+;
+[Mantle]
+	(topout)
+	(top out)
+	(mantle)
+	(finishing hold)
+	(top)
+	(finish)
+;
+[GenericHold]
+	(hold)
+	(hand)
+	(feature)
+	(grip)
+	(start)
+;
+[Layback]
+	(lay back)
+	(layback)
+	(lie back)
+	(lieback)
+;
+[Jib]
+	(jib)
+	(gib)
+	(churd)
+;
+[SidePull]
+	(sidepull)
+	(side pull)
+;
+[DownPull]
+	(downpull)
+	(down pull)
+;
+[UnderCling]
+	(undercling)
+	(under cling)
+	(cling)
+;
+[FootHook]
+	(heel hook)
+	(heelhook)
+	(toe hook)
+	(toehook)
+	(bicycle)
+;
+[Action]
+	([ActionSize] [ActionVerb])
+	([ActionVerb])
+;
+[ActionVerb]
+	([ActionVerbBig])
+	([ActionVerbSmall])
+;
+[ActionVerbSmall]
+	([ActionVerbSmallT])
+	([FootHook])
+	([Layback])
+	([Cross])
+;
+[ActionVerbSmallT]
+	(bump)
+	(out)
+	(up)
+	(left)
+	(right)
+	(fondle)
+	(grab)
+	(roll)
+	(over)
+	(diagonal)
+	(slide)
+	(grab)
+	(go again)
+	(go)
+	(move)
+;
+[Cross]
+	(cross over)
+	(cross under)
+	(crossover)
+	(crossunder)
+	(cross)
+;
+[ActionVerbBig]
+	(throw)
+	(dyno)
+	(dynamic move)
+	(reach)
+	(fall into)
+	(huck)
+	(deadpoint)
+	(rock)
+	(dead point)
+	(drop knee)
+;
+[ActionSize]
+	([ActionSizeBig])
+	([ActionSizeSmall])
+;
+[ActionSizeBig]
+	(big)
+	(huge)
+	(far)
+;
+[ActionSizeSmall]
+	(small)
+;
