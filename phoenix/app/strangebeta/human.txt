@@ -339,78 +339,83 @@
 2 98 pinch diagonal
 2 99 sloper vertical
 2 9 slot finger
-3 100 incut pinch
-3 101 pinch (cross) (good hold)
-3 102 pinch sloper (cross) (good hold)
-3 103 thumb sidepull 
-3 104 pocket (cross)
-3 105 crimp sloper (good hold)
-3 106 layback 
-3 107 crimp incut pinch
-3 108 crimp rail
-3 109 sidepull (cross)
+3 100 tufa
+3 101 gaston (cross)
+3 102 crimper
+3 103 crimp (big move)
+3 104 jib 
+3 105 crimp ledge
+3 106 incut pinch
+3 107 pinch (cross) (good hold)
+3 108 pinch sloper (cross) (good hold)
+3 109 thumb sidepull 
 3 10 jug sidepull 
-3 110 crimp incut (big move)
-3 111 pinch (big move) (good hold)
-3 112 gaston jug
-3 113 pinch sloper (good hold)
-3 114 crimp pinch (good hold)
-3 115 jug mantle (cross)
-3 116 undercling (cross)
-3 117 pocket (good hold)
-3 118 flake undercling (good hold)
-3 119 beam edge
+3 110 pocket (cross)
+3 111 crimp sloper (good hold)
+3 112 sidepull (big move) (good hold)
+3 113 layback 
+3 114 crimp incut pinch
+3 115 crimp rail
+3 116 sidepull (cross)
+3 117 crimp incut (big move)
+3 118 pinch (big move) (good hold)
+3 119 gaston jug
 3 11 jug mantle 
-3 120 beam
-3 121 pinch slope (big move)
-3 122 ledge (big move)
-3 123 crimp pinch
-3 124 pinch sloper (big move)
-3 125 bucket pocket
-3 126 ledge sloper (big move) (good hold)
-3 127 ledge sloper
-3 128 sloper mantle 
-3 129 sloper (big move) (good hold)
+3 120 pinch sloper (good hold)
+3 121 crimp pinch (good hold)
+3 122 jug mantle (cross)
+3 123 undercling (cross)
+3 124 pocket (good hold)
+3 125 flake undercling (good hold)
+3 126 beam edge
+3 127 beam
+3 128 pinch slope (big move)
+3 129 ledge (big move)
 3 12 pocket
-3 130 mono pinch undercling 
-3 131 flake pinch
-3 132 crimp mono pinch
-3 133 gaston sloper
-3 134 sloper layback 
-3 135 mantle mantle 
-3 136 mono undercling 
-3 137 knob (good hold)
-3 138 knob
-3 139 incut sidepull 
+3 130 crimp pinch
+3 131 pinch sloper (big move)
+3 132 bucket pocket
+3 133 ledge sloper (big move) (good hold)
+3 134 ledge sloper
+3 135 sloper mantle 
+3 136 mono pinch undercling 
+3 137 flake pinch
+3 138 crimp mono pinch
+3 139 gaston sloper
 3 13 pinch
-3 140 dish (big move)
-3 141 crimp (big move) (good hold)
-3 142 gaston (big move)
-3 143 thumb (cross)
-3 144 crimp rail (cross)
-3 145 arete sidepull 
-3 146 gaston pocket
-3 147 foothook pinch
-3 148 crimp sidepull (cross)
-3 149 rail (good hold)
+3 140 sloper layback 
+3 141 mantle mantle 
+3 142 mono undercling 
+3 143 knob (good hold)
+3 144 knob
+3 145 incut sidepull 
+3 146 dish (big move)
+3 147 gaston (big move)
+3 148 thumb (cross)
+3 149 crimp rail (cross)
 3 14 undercling 
-3 150 crimper (big move) (good hold)
-3 151 mantle mantle (big move)
-3 152 crimp jug mantle 
-3 153 edge (big move) (good hold)
-3 154 mantle sidepull 
-3 155 edge mantle 
-3 156 crimp undercling (big move)
-3 157 edge mantle (big move)
-3 158 jug slope
+3 150 arete sidepull 
+3 151 gaston pocket
+3 152 foothook pinch
+3 153 crimp sidepull (cross) (big move)
+3 154 rail (big move) (good hold)
+3 155 crimper (big move) (good hold)
+3 156 mantle mantle (big move)
+3 157 crimp jug mantle 
+3 158 edge (big move) (good hold)
+3 159 mantle sidepull 
 3 15 crimp edge
+3 160 edge mantle 
+3 161 crimp undercling (big move)
+3 162 edge mantle (big move)
+3 163 jug slope (big move)
 3 16 gaston jug (good hold)
 3 17 bucket
 3 18 crimp gaston
 3 19 mantle 
 3 1 jug
 3 20 edge
-3 21 jug (cross)
+3 21 jug (cross) (big move)
 3 22 sidepull 
 3 23 edge (cross)
 3 24 crimp rail (good hold)
@@ -422,299 +427,305 @@
 3 2 jug (big move)
 3 30 sloper
 3 31 gaston
-3 32 foothook sloper
-3 33 pinch (good hold)
-3 34 dish
-3 35 jug pocket (big move)
-3 36 generichold 
-3 37 edge undercling 
-3 38 foothook 
-3 39 jug (big move) (good hold)
+3 32 sloper (big move)
+3 33 foothook sloper (big move)
+3 34 pinch (good hold)
+3 35 dish
+3 36 jug pocket (big move)
+3 37 generichold 
+3 38 edge undercling 
+3 39 foothook 
 3 3 match 
-3 40 sloper (good hold)
-3 41 sloper undercling 
-3 42 rail sloper
-3 43 gaston (good hold)
-3 44 downpull crimp
-3 45 sidepull (big move)
-3 46 bucket (big move)
-3 47 jug undercling 
-3 48 jug sidepull (cross)
-3 49 sloper sidepull 
+3 40 jug (big move) (good hold)
+3 41 sloper (good hold)
+3 42 generichold (big move) (good hold)
+3 43 sloper undercling 
+3 44 rail sloper
+3 45 gaston (good hold)
+3 46 crimp (big move) (good hold)
+3 47 sloper (big move) (good hold)
+3 48 downpull crimp
+3 49 sidepull (big move)
 3 4 sidepull (good hold)
-3 50 ledge
-3 51 foothook crimp
-3 52 crimp sloper
-3 53 crimp mantle 
-3 54 incut (cross)
-3 55 sloper (big move)
-3 56 incut
-3 57 sloper (cross)
-3 58 crimpbeam
-3 59 edge sidepull 
+3 50 bucket (big move)
+3 51 jug undercling 
+3 52 jug (cross)
+3 53 jug sidepull (cross)
+3 54 sloper sidepull 
+3 55 ledge
+3 56 foothook crimp
+3 57 crimp sloper
+3 58 crimp mantle 
+3 59 incut (cross)
 3 5 crimp
-3 60 pocket sidepull 
-3 61 layback
-3 62 horn mantle 
-3 63 ball
-3 64 boobies gaston
-3 65 boobies
-3 66 arete cobble
-3 67 mantle (cross)
-3 68 undercling (good hold)
-3 69 slope
+3 60 incut
+3 61 sloper (cross)
+3 62 crimpbeam
+3 63 edge sidepull 
+3 64 pocket sidepull 
+3 65 layback
+3 66 horn mantle 
+3 67 ball
+3 68 boobies gaston
+3 69 boobies
 3 6 jug pinch
-3 70 pinch (big move)
-3 71 rail
-3 72 jug mantle (big move)
-3 73 crimp jug
-3 74 downpull 
-3 75 cup (good hold)
-3 76 pinch (cross)
-3 77 gaston pinch
-3 78 edge (big move)
-3 79 edge (good hold)
+3 70 arete cobble
+3 71 mantle (cross)
+3 72 undercling (good hold)
+3 73 slope
+3 74 pocket (big move)
+3 75 pinch (big move)
+3 76 rail
+3 77 jug mantle (big move)
+3 78 crimp jug
+3 79 downpull 
 3 7 jug (good hold)
-3 80 sloper (cross) (good hold)
-3 81 pinch sloper
-3 82 ledge (cross)
-3 83 teeth
-3 84 pocket (big move)
-3 85 arete
-3 86 ledge pinch
-3 87 sidepull undercling 
-3 88 sidepull undercling (big move)
-3 89 pocket undercling 
+3 80 undercling (big move)
+3 81 cup (big move) (good hold)
+3 82 foothook sloper
+3 83 pinch (cross)
+3 84 gaston pinch
+3 85 edge sidepull (big move)
+3 86 edge (big move)
+3 87 edge (good hold)
+3 88 sloper (cross) (good hold)
+3 89 pinch sloper
 3 8 slot
-3 90 pinch sidepull 
-3 91 flake
-3 92 tufa
-3 93 mantle (big move)
-3 94 gaston (cross)
-3 95 undercling (big move)
-3 96 crimper
-3 97 jib 
-3 98 crimp ledge
-3 99 crimp (big move)
+3 90 mantle (big move)
+3 91 ledge (cross)
+3 92 teeth
+3 93 arete
+3 94 ledge pinch
+3 95 sidepull undercling 
+3 96 sidepull undercling (big move)
+3 97 pocket undercling 
+3 98 pinch sidepull 
+3 99 flake
 3 9 jug slot
-4 100 crimpbeam 
-4 101 edge sidepull 
-4 102 pocket sidepull 
-4 103 edge (cross)
-4 104 layback 
-4 105 jug roof
-4 106 jug roof (cross)
-4 107 horn mantle roof
-4 108 ball slopey
-4 109 boobies gaston slopey
+4 100 incut 
+4 101 sloper (cross)
+4 102 crimpbeam 
+4 103 edge sidepull 
+4 104 pocket sidepull 
+4 105 edge (cross)
+4 106 layback 
+4 107 jug roof
+4 108 jug roof (cross)
+4 109 horn mantle roof
 4 10 slot finger
-4 110 boobies 
-4 111 arete cobble 
-4 112 mantle (cross)
-4 113 undercling vertical (good hold)
-4 114 pinch diagonal
-4 115 sloper vertical (good hold)
-4 116 slope 
-4 117 ledge 
-4 118 ledge small open
-4 119 pinch open
+4 110 ball slopey
+4 111 boobies gaston slopey
+4 112 boobies 
+4 113 arete cobble 
+4 114 mantle (cross)
+4 115 undercling vertical (good hold)
+4 116 pinch diagonal
+4 117 sloper vertical (good hold)
+4 118 slope 
+4 119 pocket (big move)
 4 11 jug slot 
-4 120 jug small 
-4 121 pinch gaston
-4 122 pinch (big move)
-4 123 pinch slopey (big move)
-4 124 crimp razor 
-4 125 sidepull diagonal
-4 126 rail 
-4 127 undercling angled
-4 128 sloper managable (good hold)
-4 129 sidepull solid (good hold)
+4 120 jug finger (big move)
+4 121 ledge 
+4 122 ledge small open
+4 123 pinch open
+4 124 jug small 
+4 125 pinch gaston
+4 126 pinch (big move)
+4 127 pinch slopey (big move)
+4 128 crimp razor 
+4 129 sidepull diagonal
 4 12 jug sidepull 
-4 130 pocket shallow 
-4 131 jug mantle (big move)
-4 132 crimp jug gaston
-4 133 crimp jug 
-4 134 pinch gaston (big move)
-4 135 downpull 
-4 136 cup deep (good hold)
-4 137 ledge finger
-4 138 crimp tiny 
-4 139 crimp shallow 
+4 130 rail 
+4 131 undercling angled
+4 132 sloper managable (good hold)
+4 133 sidepull solid (good hold)
+4 134 pocket shallow 
+4 135 jug mantle (big move)
+4 136 crimp jug gaston
+4 137 crimp jug 
+4 138 pinch gaston (big move)
+4 139 downpull 
 4 13 jug mantle 
-4 140 pinch (cross)
-4 141 gaston pinch 
-4 142 pinch small open
-4 143 edge big sloping (big move)
-4 144 edge big (good hold)
-4 145 edge big sloping
-4 146 edge sloping
-4 147 sloper big (cross) (good hold)
-4 148 generichold small 
-4 149 pinch sloper gaston
+4 140 undercling (big move)
+4 141 cup deep (big move) (good hold)
+4 142 ledge finger
+4 143 crimp tiny 
+4 144 crimp shallow 
+4 145 foothook sloper 
+4 146 pinch (cross)
+4 147 gaston pinch 
+4 148 pinch small open
+4 149 edge sidepull (big move)
 4 14 pocket 
-4 150 undercling small 
-4 151 ledge sloping (cross)
-4 152 ledge sloping
-4 153 jug flat
-4 154 teeth 
-4 155 crimp shitty 
-4 156 pinch manageable (good hold)
-4 157 crimp sidepull tiny 
-4 158 pocket (big move)
-4 159 arete 
+4 150 edge big sloping (big move)
+4 151 edge big (good hold)
+4 152 edge big sloping
+4 153 sloper big (big move) (good hold)
+4 154 edge sloping
+4 155 sloper big (cross) (good hold)
+4 156 generichold small 
+4 157 pinch sloper gaston
+4 158 mantle (big move)
+4 159 undercling small 
 4 15 crimp flat
-4 160 ledge pinch 
-4 161 sidepull undercling 
-4 162 sidepull undercling (big move)
-4 163 pocket undercling 
-4 164 pinch small 
-4 165 pinch sidepull 
-4 166 crimp dish slopey
-4 167 crimp open
-4 168 flake 
-4 169 tufa 
+4 160 ledge sloping (cross)
+4 161 ledge sloping
+4 162 jug flat
+4 163 teeth 
+4 164 crimp shitty 
+4 165 jug slopey (big move)
+4 166 pinch manageable (good hold)
+4 167 crimp sidepull tiny 
+4 168 arete 
+4 169 ledge pinch 
 4 16 pinch 
-4 170 crimp small finger
-4 171 mantle (big move)
-4 172 gaston diagonal (cross)
-4 173 sidepull open
-4 174 undercling (big move)
-4 175 crimper sloping
-4 176 ledge open (cross)
-4 177 jug gaston
-4 178 layback gaston
-4 179 sloper positive (good hold)
+4 170 sidepull undercling 
+4 171 sidepull undercling (big move)
+4 172 pocket undercling 
+4 173 pinch small 
+4 174 pinch sidepull 
+4 175 crimp dish slopey
+4 176 crimp open
+4 177 flake 
+4 178 tufa 
+4 179 crimp small finger
 4 17 jug left (good hold)
-4 180 jib small 
-4 181 crimp gaston 
-4 182 crimp ledge 
-4 183 crimp (big move)
-4 184 crimper small 
-4 185 incut pinch 
-4 186 pinch good (cross) (good hold)
-4 187 pinch ok (good hold)
-4 188 pinch goodish (good hold)
-4 189 pinch sloper good (cross) (good hold)
+4 180 gaston diagonal (cross)
+4 181 sidepull open
+4 182 crimper sloping
+4 183 ledge open (cross)
+4 184 crimp small (big move)
+4 185 jug gaston
+4 186 layback gaston
+4 187 sloper positive (good hold)
+4 188 jib small 
+4 189 crimp gaston 
 4 18 jug right (good hold)
-4 190 thumb sidepull flat
-4 191 gaston flat
-4 192 pocket good finger
-4 193 pocket good finger (cross)
-4 194 crimp sloper ok (good hold)
-4 195 sloper good (cross) (good hold)
-4 196 pinch sloper small 
-4 197 sidepull big (good hold)
-4 198 pocket small 
-4 199 pinch sloping
+4 190 crimp (big move)
+4 191 crimp ledge 
+4 192 crimper small 
+4 193 incut pinch 
+4 194 pinch good (cross) (good hold)
+4 195 pinch ok (good hold)
+4 196 pinch goodish (good hold)
+4 197 pinch sloper good (cross) (good hold)
+4 198 thumb sidepull flat
+4 199 gaston flat
 4 19 undercling 
 4 1 jug 
-4 200 crimp sloping
-4 201 layback 
-4 202 pocket finger (cross)
-4 203 crimp incut pinch 
-4 204 generichold flat
-4 205 crimp rail 
-4 206 sidepull (cross)
-4 207 crimp incut (big move)
-4 208 pinch big (good hold)
-4 209 jug small angled
+4 200 pocket good finger
+4 201 pocket good finger (cross)
+4 202 crimp sloper ok (good hold)
+4 203 sloper good (cross) (good hold)
+4 204 pinch sloper small 
+4 205 sidepull big (big move) (good hold)
+4 206 pocket small 
+4 207 pinch sloping
+4 208 crimp sloping
+4 209 layback 
 4 20 crimp edge flat
-4 210 pocket sidepull finger
-4 211 pinch big (big move) (good hold)
-4 212 crimp ok (good hold)
-4 213 pinch ok (cross) (good hold)
-4 214 gaston jug 
-4 215 pinch sloper good (good hold)
-4 216 crimp pinch good (good hold)
-4 217 jug mini flat (cross)
-4 218 jug good (good hold)
-4 219 jug mantle (cross)
+4 210 pocket finger (cross)
+4 211 crimp incut pinch 
+4 212 generichold flat
+4 213 crimp rail 
+4 214 sidepull (cross)
+4 215 crimp incut (big move)
+4 216 pinch big (good hold)
+4 217 jug small angled
+4 218 pocket sidepull finger
+4 219 pinch big (big move) (good hold)
 4 21 gaston jug right (good hold)
-4 220 jug undercling 
-4 221 undercling (cross)
-4 222 pinch good flat
-4 223 pocket good (good hold)
-4 224 flake undercling positive (good hold)
-4 225 jug starting (good hold)
-4 226 sloper undercling diagonal
-4 227 generichold positive (good hold)
-4 228 beam edge 
-4 229 beam 
+4 220 crimp ok (good hold)
+4 221 pinch ok (cross) (good hold)
+4 222 gaston jug 
+4 223 pinch sloper good (good hold)
+4 224 crimp pinch good (good hold)
+4 225 jug mini flat (cross)
+4 226 jug good (good hold)
+4 227 jug mantle (cross)
+4 228 jug undercling 
+4 229 undercling (cross)
 4 22 bucket finger
-4 230 mantle reachy
-4 231 pinch slope (big move)
-4 232 ledge mini (big move)
-4 233 pinch sloper 
-4 234 ledge mini 
-4 235 crimp pinch 
-4 236 pinch sloper (big move)
-4 237 bucket pocket 
-4 238 ledge sloper big (big move) (good hold)
-4 239 ledge sloper angled
+4 230 pinch good flat
+4 231 pocket good (good hold)
+4 232 flake undercling positive (good hold)
+4 233 jug starting (good hold)
+4 234 sloper undercling diagonal
+4 235 generichold positive (good hold)
+4 236 beam edge 
+4 237 beam 
+4 238 mantle reachy
+4 239 pinch slope (big move)
 4 23 crimp gaston angled
-4 240 sloper mantle 
-4 241 undercling bad (cross)
-4 242 gaston bad 
-4 243 pinch vertical (good hold)
-4 244 ledge small 
-4 245 sloper big (big move) (good hold)
-4 246 incut small 
-4 247 mono pinch undercling open
-4 248 flake pinch 
-4 249 crimp mono pinch 
+4 240 ledge mini (big move)
+4 241 pinch sloper 
+4 242 ledge mini 
+4 243 crimp pinch 
+4 244 pinch sloper (big move)
+4 245 bucket pocket 
+4 246 ledge sloper big (big move) (good hold)
+4 247 ledge sloper angled
+4 248 sloper mantle 
+4 249 undercling bad (cross)
 4 24 mantle 
-4 250 gaston sloper open
-4 251 sloper open
-4 252 sloper layback open
-4 253 mantle mantle 
-4 254 mono undercling 
-4 255 ledge sloper small 
-4 256 knob big (good hold)
-4 257 knob 
-4 258 incut sidepull 
-4 259 dish (big move)
+4 250 gaston bad 
+4 251 pinch vertical (good hold)
+4 252 ledge small 
+4 253 incut small 
+4 254 mono pinch undercling open
+4 255 flake pinch 
+4 256 crimp mono pinch 
+4 257 gaston sloper open
+4 258 sloper open
+4 259 sloper layback open
 4 25 edge flat
-4 260 edge positive (good hold)
-4 261 edge bad 
-4 262 crimp good (big move) (good hold)
-4 263 gaston (big move)
-4 264 thumb small (cross)
-4 265 crimp razor gaston
-4 266 crimp rail (cross)
-4 267 arete sidepull 
-4 268 undercling shallow 
-4 269 gaston pocket finger
-4 26 jug (cross)
-4 270 undercling big (good hold)
-4 271 crimp rail gaston
-4 272 foothook pinch 
-4 273 crimp sidepull (cross)
-4 274 rail good (good hold)
-4 275 sloper flat (big move)
-4 276 pocket shallow finger
-4 277 crimper good (big move) (good hold)
-4 278 pocket bad 
-4 279 jug angled
+4 260 mantle mantle 
+4 261 mono undercling 
+4 262 ledge sloper small 
+4 263 knob big (good hold)
+4 264 knob 
+4 265 incut sidepull 
+4 266 dish (big move)
+4 267 edge positive (good hold)
+4 268 edge bad 
+4 269 gaston (big move)
+4 26 jug (cross) (big move)
+4 270 thumb small (cross)
+4 271 crimp razor gaston
+4 272 crimp rail (cross)
+4 273 arete sidepull 
+4 274 undercling shallow 
+4 275 gaston pocket finger
+4 276 undercling big (good hold)
+4 277 crimp rail gaston
+4 278 foothook pinch 
+4 279 crimp sidepull (cross) (big move)
 4 27 sidepull 
-4 280 mantle mantle (big move)
-4 281 crimp jug mantle small 
-4 282 jug diagonal
-4 283 edge good (big move) (good hold)
-4 284 edge good (good hold)
-4 285 edge good gaston
-4 286 crimp diagonal
-4 287 mantle sidepull small 
-4 288 edge small 
-4 289 edge mantle 
+4 280 rail good (big move) (good hold)
+4 281 sloper flat (big move)
+4 282 pocket shallow finger (big move)
+4 283 crimper good (big move) (good hold)
+4 284 pocket bad 
+4 285 jug angled
+4 286 mantle mantle (big move)
+4 287 crimp jug mantle small 
+4 288 jug diagonal
+4 289 edge good (big move) (good hold)
 4 28 edge flat (cross)
-4 290 crimp undercling (big move)
-4 291 sloper flat (cross)
-4 292 edge mantle (big move)
-4 293 gaston diagonal
-4 294 pinch bad 
-4 295 jug slope 
+4 290 edge good (good hold)
+4 291 edge good gaston
+4 292 crimp diagonal
+4 293 mantle sidepull small 
+4 294 edge small 
+4 295 edge mantle 
+4 296 crimp undercling (big move)
+4 297 sloper flat (cross)
+4 298 edge mantle (big move)
+4 299 gaston diagonal
 4 29 edge 
 4 2 jug (big move)
+4 300 pinch bad 
+4 301 jug slope (big move)
 4 30 crimp rail right (good hold)
 4 31 jug big (good hold)
 4 32 pinch shallow 
@@ -730,65 +741,65 @@
 4 41 sloper 
 4 42 gaston 
 4 43 crimp small 
-4 44 foothook sloper 
-4 45 crimp good (good hold)
-4 46 pinch sideways (good hold)
-4 47 dish sloping
-4 48 jug pocket finger (big move)
-4 49 jug mini 
+4 44 sloper (big move)
+4 45 foothook sloper (big move)
+4 46 crimp good (good hold)
+4 47 pinch sideways (good hold)
+4 48 dish sloping
+4 49 jug pocket finger (big move)
 4 4 sidepull good (good hold)
-4 50 crimp small diagonal
-4 51 generichold 
-4 52 edge undercling 
-4 53 crimp decent gaston
-4 54 crimp good diagonal
-4 55 crimp good diagonal (cross)
-4 56 generichold slopey
-4 57 crimp decent (good hold)
-4 58 foothook 
-4 59 jug big (big move) (good hold)
+4 50 jug mini 
+4 51 crimp small diagonal
+4 52 generichold 
+4 53 edge undercling 
+4 54 crimp decent gaston
+4 55 crimp good diagonal
+4 56 crimp good diagonal (cross)
+4 57 generichold slopey
+4 58 crimp decent (good hold)
+4 59 foothook 
 4 5 jug finger
-4 60 pinch good (good hold)
-4 61 sloper big (good hold)
-4 62 generichold big (good hold)
-4 63 pinch slopey
-4 64 sloper undercling 
-4 65 sloper bad 
-4 66 rail sloper 
-4 67 gaston good (good hold)
-4 68 crimp bad 
-4 69 generichold good (good hold)
+4 60 jug big (big move) (good hold)
+4 61 pinch good (good hold)
+4 62 sloper big (good hold)
+4 63 generichold big (big move) (good hold)
+4 64 pinch slopey
+4 65 sloper undercling 
+4 66 sloper bad 
+4 67 rail sloper 
+4 68 gaston good (good hold)
+4 69 crimp bad 
 4 6 crimp 
-4 70 sloper good (good hold)
-4 71 downpull crimp 
-4 72 sidepull (big move)
-4 73 pocket finger
-4 74 pocket big finger
-4 75 bucket (big move)
-4 76 pinch starting (good hold)
-4 77 jug undercling mini 
-4 78 jug mini downward
-4 79 jug mini gaston
+4 70 generichold good (good hold)
+4 71 crimp good (big move) (good hold)
+4 72 sloper good (big move) (good hold)
+4 73 downpull crimp 
+4 74 sidepull (big move)
+4 75 pocket finger
+4 76 pocket big finger
+4 77 bucket (big move)
+4 78 pinch starting (good hold)
+4 79 jug undercling mini 
 4 7 jug pinch 
-4 80 crimp downward
-4 81 jug mini (cross)
-4 82 jug sidepull mini 
-4 83 jug sidepull (cross)
-4 84 jug sidepull mini (cross)
-4 85 sloper gaston
-4 86 crimp gaston
-4 87 jug downward
-4 88 sloper sidepull 
-4 89 crimp down
+4 80 jug mini downward
+4 81 jug mini gaston
+4 82 crimp downward
+4 83 jug mini (cross)
+4 84 jug sidepull mini 
+4 85 jug sidepull (cross)
+4 86 jug sidepull mini (cross)
+4 87 sloper gaston
+4 88 crimp gaston
+4 89 jug downward
 4 8 jug slopey
-4 90 ledge slopey
-4 91 sloper diagonal
-4 92 crimp slopey
-4 93 foothook crimp 
-4 94 crimp sloper 
-4 95 crimp mantle 
-4 96 incut (cross)
-4 97 sloper (big move)
-4 98 incut 
-4 99 sloper (cross)
+4 90 sloper sidepull 
+4 91 crimp down
+4 92 ledge slopey
+4 93 sloper diagonal
+4 94 crimp slopey
+4 95 foothook crimp 
+4 96 crimp sloper 
+4 97 crimp mantle 
+4 98 incut (cross)
+4 99 jug (cross)
 4 9 jug angle (good hold)

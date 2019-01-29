@@ -47,6 +47,7 @@ class Move
   end
 
   def k2
+    # TODO Remove the terminals from descriptions
     [k1,@size,@shape].join(":")
   end
 

@@ -52,7 +52,7 @@ $stdin.each_line{ |l|
        if parse =~ /\[Cross\]/
          move.cross = true
        end
-       if parse =~ /\[ActionVerbBig\]/
+       if parse =~ /\[(ActionVerbBig|ActionSizeBig)\]/
          move.big = true
        end
      end
