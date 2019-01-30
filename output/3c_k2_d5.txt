@@ -1,0 +1,1927 @@
+2019-01-30 10:21:54 +0100
+K = 2, depth = 5
+DoRemove = false, DoReplace = false, DoMatchReplace = false
+blacklist = [67, 160, 344, 312, 270] ["hard++", "medium", "easy", "easy", "hard++"]
+
+whole set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975] ["easy", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "medium", "easy", "easy", "easy", "easy", "easy", "hard++", "hard++", "easy", "easy", "medium", "medium", "hard++", "hard++", "easy", "hard++", "hard++", "hard++", "hard++", "medium", "hard++", "easy", "hard++", "medium", "hard++", "easy", "easy", "easy", "easy", "easy", "hard++", "hard++", "medium", "hard++", "easy", "easy", "hard++", "medium", "easy", "hard++", "hard++", "easy", "medium", "hard++", "easy", "hard++", "hard++", "medium", "medium", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "easy", "hard++", "medium", "easy", "medium", "easy", "hard++", "easy", "easy", "hard++", "easy", "medium", "medium", "easy", "hard++", "hard++", "hard++", "medium", "easy", "medium", "medium", "easy", "hard++", "medium", "hard++", "hard++", "medium", "medium", "hard++", "hard++", "easy", "hard++", "easy", "easy", "easy", "easy", "easy", "easy", "medium", "hard++", "medium", "hard++", "hard++", "hard++", "easy", "hard++", "hard++", "medium", "easy", "medium", "medium", "hard++", "medium", "easy", "easy", "easy", "easy", "hard++", "hard++", "easy", "hard++", "easy", "hard++", "easy", "easy", "easy", "easy", "hard++", "medium", "medium", "hard++", "easy", "easy", "easy", "easy"] ["5.10", "5.10", "5.11", "5.11", "5.11", "5.8", "V5", "5.12", "V8", "V5", "V7", "V8", "V6", "V7", "5.11", "5.10", "5.10", "V0", "5.10", "5.8", "V4", "V4", "5.10", "5.8", "V2", "V2", "V6", "V8", "5.10", "V7", "V10", "V6", "5.12", "V3", "5.12", "5.10", "V4", "5.11", "V4", "5.10", "V0", "5.10", "5.10", "5.10", "5.12", "V4", "5.11", "V4", "5.10", "5.10", "V5", "5.11", "5.10", "5.12", "V4", "5.10", "5.11", "V4", "5.10", "V4", "V4", "V3", "V3", "5.10", "V3", "5.11", "V3", "5.10", "V4", "V5", "V4", "V0", "V4", "V3", "5.10", "V3", "5.10", "V4", "5.8", "5.10", "5.12", "5.10", "V2", "V3", "5.8", "5.12", "V7", "V8", "V3", "5.10", "V3", "V3", "5.10", "V5", "5.11", "V9", "V4", "V3", "V2", "V5", "V4", "5.10", "5.12", "5.10", "5.10", "5.10", "5.10", "5.10", "V0", "V2", "V5", "V3", "V4", "V4", "V5", "V0", "V4", "V4", "5.11", "5.10", "V1", "V2", "V4", "V2", "5.10", "5.10", "5.10", "5.10", "V5", "V5", "5.10", "V4", "5.10", "V4", "5.10", "5.10", "5.10", "5.10", "5.12", "5.11", "V1", "V7", "5.7", "5.7", "5.10", "5.10"]
+test groups = [[1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374], [377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]] [["easy", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "hard++", "medium", "easy", "easy", "easy", "easy", "easy", "hard++", "hard++", "easy", "easy", "medium", "medium", "hard++", "hard++", "easy", "hard++", "hard++", "hard++", "hard++", "medium", "hard++", "easy", "hard++", "medium", "hard++", "easy", "easy", "easy", "easy", "easy", "hard++", "hard++", "medium", "hard++", "easy", "easy", "hard++", "medium", "easy", "hard++", "hard++", "easy", "medium", "hard++", "easy", "hard++", "hard++", "medium", "medium", "easy", "medium", "medium", "medium", "easy", "hard++", "hard++", "hard++", "easy", "hard++"], ["medium", "easy", "medium", "easy", "hard++", "easy", "easy", "hard++", "easy", "medium", "medium", "easy", "hard++", "hard++", "hard++", "medium", "easy", "medium", "medium", "easy", "hard++", "medium", "hard++", "hard++", "medium", "medium", "hard++", "hard++", "easy", "hard++", "easy", "easy", "easy", "easy", "easy", "easy", "medium", "hard++", "medium", "hard++", "hard++", "hard++", "easy", "hard++", "hard++", "medium", "easy", "medium", "medium", "hard++", "medium", "easy", "easy", "easy", "easy", "hard++", "hard++", "easy", "hard++", "easy", "hard++", "easy", "easy", "easy", "easy", "hard++", "medium", "medium", "hard++", "easy", "easy", "easy", "easy"]]
+Training [377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+1 easy (5.10)
+1,1,2,3,3,1,4,5,1,5,1,1,2,4,1,6,1,7,8,1,4,9	jug,jug,match ,sidepull ,sidepull ,jug,crimp,jug pinch,jug,jug pinch,jug,jug,match ,crimp,jug,slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"easy"=>156.14918479345803, "hard++"=>195.88871784617677, "medium"=>116.12034412882373}
+ -> medium
+1,1,2,3,3,4,5,6,4,6,4,7,2,5,7,8,1,9,10,1,5,11	jug ,jug ,match ,sidepull big ,sidepull big ,jug bad,crimp ,jug pinch ,jug bad,jug pinch ,jug bad,jug good,match ,crimp ,jug good,slot bad,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"easy"=>194.97450198099972, "hard++"=>257.05906645768965, "medium"=>147.00398734175053}
+ -> medium
+1,2,3,4,4,1,5,6,1,6,1,7,3,5,7,8,1,9,10,1,5,11	jug,jug (big move),match ,sidepull (good hold),sidepull (good hold),jug,crimp,jug pinch,jug,jug pinch,jug,jug (good hold),match ,crimp,jug (good hold),slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"easy"=>222.46022571669172, "hard++"=>221.9611625291987, "medium"=>152.2553609300473}
+ -> medium
+1,2,3,4,4,5,6,7,5,7,5,8,3,6,8,9,1,10,11,1,6,12	jug ,jug (big move),match ,sidepull big (good hold),sidepull big (good hold),jug bad,crimp ,jug pinch ,jug bad,jug pinch ,jug bad,jug good (good hold),match ,crimp ,jug good (good hold),slot bad,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"easy"=>243.60342366913986, "hard++"=>275.4693608752335, "medium"=>164.3568241369731}
+ -> medium
+2 easy (5.10)
+1,10,1,4,1,11,1,1,12,13,1,8,1,2,14,10,2,1,15,15,15,16,17	jug,pocket,jug,crimp,jug,pinch,jug,jug,undercling ,crimp edge,jug,jug sidepull ,jug,match ,gaston jug,pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"easy"=>251.95573980132377, "hard++"=>290.992739845938, "medium"=>224.9570977828353}
+ -> medium
+1,12,1,13,4,14,7,7,15,16,1,10,7,2,17,12,2,1,18,18,18,19,20	jug ,pocket ,jug ,crimp bad,jug bad,pinch ,jug good,jug good,undercling ,crimp edge bad,jug ,jug sidepull ,jug good,match ,gaston jug good,pocket ,match ,jug ,bucket bad,bucket bad,bucket bad,crimp gaston bad,mantle 
+{"easy"=>323.3973667148545, "hard++"=>344.9927398459381, "medium"=>288.24893342677814}
+ -> medium
+1,12,1,5,1,13,7,7,14,15,1,10,7,3,16,12,3,1,17,17,17,18,19	jug,pocket,jug,crimp,jug,pinch,jug (good hold),jug (good hold),undercling ,crimp edge,jug,jug sidepull ,jug (good hold),match ,gaston jug (good hold),pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"easy"=>319.21669924529135, "hard++"=>329.8683234059852, "medium"=>276.30371034756286}
+ -> medium
+1,13,1,14,5,15,8,8,16,17,1,11,8,3,18,13,3,1,19,19,19,20,21	jug ,pocket ,jug ,crimp bad,jug bad,pinch ,jug good (good hold),jug good (good hold),undercling ,crimp edge bad,jug ,jug sidepull ,jug good (good hold),match ,gaston jug good (good hold),pocket ,match ,jug ,bucket bad,bucket bad,bucket bad,crimp gaston bad,mantle 
+{"easy"=>354.3973667148545, "hard++"=>361.8683234059853, "medium"=>304.24893342677814}
+ -> medium
+5 medium (5.11)
+1,5,8,15,12,1,2,8,3,11,18,1,1,2,11,1,2,11,12,18,18,11,17	jug,jug pinch,jug sidepull ,bucket,undercling ,jug,match ,jug sidepull ,sidepull ,pinch,edge,jug,jug,match ,pinch,jug,match ,pinch,undercling ,edge,edge,pinch,mantle 
+{"easy"=>224.52245021447504, "hard++"=>301.22166694186825, "medium"=>245.50544510384333}
+ -> easy
+1,6,10,18,15,1,2,10,22,14,21,1,25,2,14,25,2,14,15,21,23,26,20	jug ,jug pinch ,jug sidepull ,bucket bad,undercling ,jug ,match ,jug sidepull ,sidepull ,pinch ,edge bad,jug ,jug big ,match ,pinch ,jug big ,match ,pinch ,undercling ,edge bad,edge ,pinch small ,mantle 
+{"easy"=>329.4042580031493, "hard++"=>410.2216669418683, "medium"=>358.7090736837473}
+ -> easy
+1,6,10,17,14,21,3,10,22,13,20,1,7,3,13,7,3,13,14,23,20,13,19	jug,jug pinch,jug sidepull ,bucket,undercling ,jug (cross) (big move),match ,jug sidepull ,sidepull ,pinch,edge,jug,jug (good hold),match ,pinch,jug (good hold),match ,pinch,undercling ,edge (cross),edge,pinch,mantle 
+{"easy"=>295.5752461058533, "hard++"=>374.48244590021005, "medium"=>338.7531229927544}
+ -> easy
+1,7,11,19,16,23,3,11,24,15,22,1,28,3,15,28,3,15,16,25,26,29,21	jug ,jug pinch ,jug sidepull ,bucket bad,undercling ,jug (cross) (big move),match ,jug sidepull ,sidepull ,pinch ,edge bad,jug ,jug big (good hold),match ,pinch ,jug big (good hold),match ,pinch ,undercling ,edge bad (cross),edge ,pinch small ,mantle 
+{"easy"=>385.40005586024887, "hard++"=>459.4824459002102, "medium"=>411.0619104789699}
+ -> easy
+6 medium (5.11)
+19,2,19,4,4,3,3,11,20,20,21,12,4,2,20,4,22,2,4,3,11,4,1	crimp rail,match ,crimp rail,crimp,crimp,sidepull ,sidepull ,pinch,crimp sidepull ,crimp sidepull ,crimp dish,undercling ,crimp,match ,crimp sidepull ,crimp,generichold ,match ,crimp,sidepull ,pinch,crimp,jug
+{"easy"=>168.97729591343517, "hard++"=>300.7088254934166, "medium"=>287.31483630128923}
+ -> easy
+24,2,24,27,5,28,22,14,29,29,30,15,5,2,29,13,31,2,5,22,14,5,1	crimp rail good,match ,crimp rail good,crimp good,crimp ,sidepull good,sidepull ,pinch ,crimp sidepull ,crimp sidepull ,crimp dish ,undercling ,crimp ,match ,crimp sidepull ,crimp bad,generichold good,match ,crimp ,sidepull ,pinch ,crimp ,jug 
+{"easy"=>261.6750595592532, "hard++"=>478.99273984593805, "medium"=>430.2243843759318}
+ -> easy
+24,3,24,25,5,4,22,13,26,26,27,14,28,3,26,5,29,3,5,22,13,5,1	crimp rail (good hold),match ,crimp rail (good hold),crimp (good hold),crimp,sidepull (good hold),sidepull ,pinch,crimp sidepull ,crimp sidepull ,crimp dish,undercling ,crimp (cross),match ,crimp sidepull ,crimp,generichold (good hold),match ,crimp,sidepull ,pinch,crimp,jug
+{"easy"=>283.63129647366105, "hard++"=>440.3601250599503, "medium"=>423.77111678279977}
+ -> easy
+27,3,27,30,6,31,24,15,32,32,33,16,34,3,32,14,35,3,6,24,15,6,1	crimp rail good (good hold),match ,crimp rail good (good hold),crimp good (good hold),crimp ,sidepull good (good hold),sidepull ,pinch ,crimp sidepull ,crimp sidepull ,crimp dish ,undercling ,crimp (cross),match ,crimp sidepull ,crimp bad,generichold good (good hold),match ,crimp ,sidepull ,pinch ,crimp ,jug 
+{"easy"=>351.48539247548626, "hard++"=>545.868323405985, "medium"=>498.22438437593183}
+ -> easy
+13 medium (5.11)
+11,18,23,11,23,1	pinch,edge,sloper,pinch,sloper,jug
+{"easy"=>44.92437357047259, "hard++"=>69.879124799501, "medium"=>61.398468926885926}
+ -> easy
+14,32,33,14,33,1	pinch ,edge big bad,sloper ,pinch ,sloper ,jug 
+{"easy"=>58.242728815795836, "hard++"=>89.879124799501, "medium"=>80.7248492389529}
+ -> easy
+13,20,30,13,30,1	pinch,edge,sloper,pinch,sloper,jug
+{"easy"=>45.356457047644774, "hard++"=>75.92787196894139, "medium"=>128.07242578559612}
+ -> easy
+15,36,37,15,37,1	pinch ,edge big bad,sloper ,pinch ,sloper ,jug 
+{"easy"=>62.69437196465144, "hard++"=>95.92787196894137, "medium"=>158.96177068038065}
+ -> easy
+32 easy (5.8)
+0,17,4,4,23,1,1,24,1,0,0	,mantle ,crimp,crimp,sloper,jug,jug,gaston,jug,,
+{"easy"=>99.56459678362461, "hard++"=>104.07383788017194, "medium"=>67.61798224895603}
+ -> medium
+0,20,5,5,33,1,1,34,1,0,0	,mantle ,crimp ,crimp ,sloper ,jug ,jug ,gaston ,jug ,,
+{"easy"=>112.78115129403263, "hard++"=>134.0141595286153, "medium"=>108.38342525848662}
+ -> medium
+0,19,5,5,30,1,1,31,1,0,0	,mantle ,crimp,crimp,sloper,jug,jug,gaston,jug,,
+{"easy"=>124.57866864743544, "hard++"=>114.12391818068878, "medium"=>100.70896083808341}
+ -> medium
+0,21,6,6,37,1,1,38,1,0,0	,mantle ,crimp ,crimp ,sloper ,jug ,jug ,gaston ,jug ,,
+{"easy"=>138.1360685845091, "hard++"=>140.82769962043773, "medium"=>152.50188597920052}
+ -> easy
+34 hard++ (V5)
+4,3,23,4,25,1	crimp,sidepull ,sloper,crimp,foothook sloper,jug
+{"easy"=>47.176447620179, "hard++"=>57.40691973597466, "medium"=>55.44435962648477}
+ -> easy
+35,22,33,35,36,1	crimp small ,sidepull ,sloper ,crimp small ,foothook sloper ,jug 
+{"easy"=>124.75451012045137, "hard++"=>155.92259936198192, "medium"=>144.84330995966678}
+ -> easy
+5,22,32,5,33,2	crimp,sidepull ,sloper (big move),crimp,foothook sloper (big move),jug (big move)
+{"easy"=>104.19619343739059, "hard++"=>84.96441412982806, "medium"=>90.70640159306303}
+ -> hard++
+39,24,40,39,41,2	crimp small ,sidepull ,sloper (big move),crimp small ,foothook sloper (big move),jug (big move)
+{"easy"=>180.25646665964356, "hard++"=>173.32173848442315, "medium"=>165.6913068662217}
+ -> medium
+43 hard++ (5.12)
+3,4,4,23,24	sidepull ,crimp,crimp,sloper,gaston
+{"easy"=>40.5537142787093, "hard++"=>48.1639656802119, "medium"=>31.037861599239257}
+ -> medium
+22,5,5,33,34	sidepull ,crimp ,crimp ,sloper ,gaston 
+{"easy"=>47.497468686392914, "hard++"=>92.10428732865527, "medium"=>81.88180675534042}
+ -> easy
+22,5,5,30,31	sidepull ,crimp,crimp,sloper,gaston
+{"easy"=>61.125008867638265, "hard++"=>73.38208457738922, "medium"=>82.19644247504941}
+ -> easy
+24,6,6,37,38	sidepull ,crimp ,crimp ,sloper ,gaston 
+{"easy"=>72.93608841563372, "hard++"=>100.08586601713817, "medium"=>127.0002674760543}
+ -> easy
+45 hard++ (V8)
+1,4,11,20,26,27,2,1,1,1,17	jug,crimp,pinch,crimp sidepull ,dish,jug pocket,match ,jug,jug,jug,mantle 
+{"easy"=>119.53513274515093, "hard++"=>170.00085122059193, "medium"=>135.43585724431333}
+ -> easy
+1,37,38,29,39,40,2,41,1,1,20	jug ,crimp big ,pinch good,crimp sidepull ,dish bad,jug pocket bad,match ,jug small ,jug ,jug ,mantle 
+{"easy"=>252.09740591219966, "hard++"=>307.05763409109625, "medium"=>271.2287072206343}
+ -> easy
+1,25,34,26,35,36,3,1,1,1,19	jug,crimp (good hold),pinch (good hold),crimp sidepull ,dish,jug pocket (big move),match ,jug,jug,jug,mantle 
+{"easy"=>200.53841098993854, "hard++"=>240.77599926918447, "medium"=>202.10243351058813}
+ -> easy
+1,42,43,32,44,45,3,46,1,1,21	jug ,crimp big (good hold),pinch good (good hold),crimp sidepull ,dish bad,jug pocket bad (big move),match ,jug small ,jug ,jug ,mantle 
+{"easy"=>284.5404753471206, "hard++"=>331.7759992691844, "medium"=>300.22870722063425}
+ -> easy
+46 hard++ (V5)
+4,22,28,4,4,4,4,4,22,2,1	crimp,generichold ,edge undercling ,crimp,crimp,crimp,crimp,crimp,generichold ,match ,jug
+{"easy"=>108.60532266484725, "hard++"=>126.59577220040458, "medium"=>134.1292505223414}
+ -> easy
+42,43,44,35,45,45,45,37,46,2,1	crimp small bad,generichold ,edge undercling ,crimp small ,crimp big bad,crimp big bad,crimp big bad,crimp big ,generichold bad,match ,jug 
+{"easy"=>400.5952737505518, "hard++"=>435.0576340910963, "medium"=>404.5262084666954}
+ -> easy
+5,37,38,5,5,5,28,25,37,3,1	crimp,generichold ,edge undercling ,crimp,crimp,crimp,crimp (cross),crimp (good hold),generichold ,match ,jug
+{"easy"=>231.02652523747, "hard++"=>216.83786066873628, "medium"=>219.12925052234132}
+ -> hard++
+47,48,49,39,50,50,51,42,52,3,1	crimp small bad,generichold ,edge undercling ,crimp small ,crimp big bad,crimp big bad,crimp big bad (cross),crimp big (good hold),generichold bad,match ,jug 
+{"easy"=>455.5952737505517, "hard++"=>473.77599926918435, "medium"=>451.52620846669544}
+ -> medium
+47 hard++ (V7)
+1,1,4,29,11,2,1,11,29,18,23,2,29,22,2,4,4,2,1	jug,jug,crimp,foothook ,pinch,match ,jug,pinch,foothook ,edge,sloper,match ,foothook ,generichold ,match ,crimp,crimp,match ,jug
+{"easy"=>192.50369494882685, "hard++"=>263.3903071837159, "medium"=>211.46256815784355}
+ -> easy
+1,1,37,47,14,2,25,48,47,21,49,2,47,50,2,37,37,2,1	jug ,jug ,crimp big ,foothook ,pinch ,match ,jug big ,pinch big ,foothook ,edge bad,sloper big ,match ,foothook ,generichold big ,match ,crimp big ,crimp big ,match ,jug 
+{"easy"=>494.4658973627271, "hard++"=>569.6041303577097, "medium"=>497.49285036079783}
+ -> easy
+1,1,25,39,13,3,40,34,39,20,41,3,39,42,3,25,25,3,1	jug,jug,crimp (good hold),foothook ,pinch,match ,jug (big move) (good hold),pinch (good hold),foothook ,edge,sloper (good hold),match ,foothook ,generichold (big move) (good hold),match ,crimp (good hold),crimp (good hold),match ,jug
+{"easy"=>431.3426635976888, "hard++"=>491.0984440735838, "medium"=>428.4290615250284}
+ -> medium
+1,1,42,53,15,3,54,55,53,22,56,3,53,57,3,42,42,3,1	jug ,jug ,crimp big (good hold),foothook ,pinch ,match ,jug big (big move) (good hold),pinch big (good hold),foothook ,edge bad,sloper big (good hold),match ,foothook ,generichold big (big move) (good hold),match ,crimp big (good hold),crimp big (good hold),match ,jug 
+{"easy"=>587.4658973627271, "hard++"=>647.0984440735838, "medium"=>581.4928503607978}
+ -> medium
+48 hard++ (V8)
+11,2,23,30,23,11,31,1	pinch,match ,sloper,sloper undercling ,sloper,pinch,rail sloper,jug
+{"easy"=>84.41615691959647, "hard++"=>124.51574886615434, "medium"=>105.37386581312232}
+ -> easy
+51,2,33,52,53,48,54,1	pinch bad,match ,sloper ,sloper undercling ,sloper small ,pinch big ,rail sloper ,jug 
+{"easy"=>276.7638751992801, "hard++"=>297.5592234286353, "medium"=>276.4481076121226}
+ -> medium
+13,3,30,43,30,34,44,2	pinch,match ,sloper,sloper undercling ,sloper,pinch (good hold),rail sloper,jug (big move)
+{"easy"=>141.40501137506095, "hard++"=>172.50848317004122, "medium"=>221.4225548146221}
+ -> easy
+58,3,37,59,60,55,61,2	pinch bad,match ,sloper ,sloper undercling ,sloper small ,pinch big (good hold),rail sloper ,jug (big move)
+{"easy"=>317.76978138926444, "hard++"=>329.45678281878793, "medium"=>350.9291384122212}
+ -> easy
+49 hard++ (V6)
+24,24,2,4,29,4,1	gaston,gaston,match ,crimp,foothook ,crimp,jug
+{"easy"=>98.00775350315908, "hard++"=>114.670820216781, "medium"=>58.10079588689202}
+ -> medium
+55,55,2,35,47,5,1	gaston big ,gaston big ,match ,crimp small ,foothook ,crimp ,jug 
+{"easy"=>209.43595337864815, "hard++"=>237.78438595778957, "medium"=>212.27164139478492}
+ -> easy
+45,45,3,5,39,5,1	gaston (good hold),gaston (good hold),match ,crimp,foothook ,crimp,jug
+{"easy"=>166.9490091170359, "hard++"=>165.60931130296143, "medium"=>156.80945504407623}
+ -> medium
+62,62,3,39,53,6,1	gaston big (good hold),gaston big (good hold),match ,crimp small ,foothook ,crimp ,jug 
+{"easy"=>246.49495392497985, "hard++"=>260.6147768669847, "medium"=>238.27164139478492}
+ -> medium
+50 hard++ (V7)
+22,22,29,4,2,23	generichold ,generichold ,foothook ,crimp,match ,sloper
+{"easy"=>87.02491098171366, "hard++"=>102.10663835126411, "medium"=>96.9334717335295}
+ -> easy
+50,50,47,37,2,49	generichold big ,generichold big ,foothook ,crimp big ,match ,sloper big 
+{"easy"=>240.71987396858685, "hard++"=>262.96607392446293, "medium"=>244.3101381904586}
+ -> easy
+29,29,39,46,3,47	generichold (good hold),generichold (good hold),foothook ,crimp (big move) (good hold),match ,sloper (big move) (good hold)
+{"easy"=>204.17963008692735, "hard++"=>219.82447126643478, "medium"=>206.78146864008446}
+ -> easy
+63,63,53,64,3,65	generichold big (good hold),generichold big (good hold),foothook ,crimp big (big move) (good hold),match ,sloper big (big move) (good hold)
+{"easy"=>320.71987396858685, "hard++"=>333.82447126643484, "medium"=>319.3101381904586}
+ -> medium
+56 medium (5.11)
+3,3,11,20,1,5,15,12,1,4,20	sidepull ,sidepull ,pinch,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug,crimp,crimp sidepull 
+{"easy"=>80.25083971021247, "hard++"=>142.17299544601798, "medium"=>131.55818515744426}
+ -> easy
+28,22,14,29,1,6,18,15,1,5,29	sidepull good,sidepull ,pinch ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug ,crimp ,crimp sidepull 
+{"easy"=>113.77186389997583, "hard++"=>216.22977831652224, "medium"=>200.6203466999144}
+ -> easy
+4,22,13,26,1,6,17,14,21,28,26	sidepull (good hold),sidepull ,pinch,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull 
+{"easy"=>140.15573008092915, "hard++"=>223.88738898139772, "medium"=>217.7775147041605}
+ -> easy
+31,24,15,32,1,7,19,16,23,34,32	sidepull good (good hold),sidepull ,pinch ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull 
+{"easy"=>177.70059903980496, "hard++"=>276.88738898139775, "medium"=>266.7388074206283}
+ -> easy
+57 easy (5.10)
+32,3,1,3,10,10	downpull crimp,sidepull ,jug,sidepull ,pocket,pocket
+{"easy"=>75.1072719350537, "hard++"=>96.96607392446288, "medium"=>78.16022609498665}
+ -> easy
+56,22,1,22,57,58	downpull crimp ,sidepull ,jug ,sidepull ,pocket bad,pocket big bad
+{"easy"=>190.28373403476633, "hard++"=>245.96607392446288, "medium"=>231.69130686622177}
+ -> easy
+48,49,1,22,12,12	downpull crimp,sidepull (big move),jug,sidepull ,pocket,pocket
+{"easy"=>149.1961934373906, "hard++"=>174.8244712664348, "medium"=>160.6747992678164}
+ -> easy
+66,67,1,24,68,69	downpull crimp ,sidepull (big move),jug ,sidepull ,pocket bad,pocket big bad
+{"easy"=>290.2564666596436, "hard++"=>319.8244712664348, "medium"=>309.69130686622174}
+ -> easy
+58 easy (5.10)
+3,3,20,1,5,15,12,1,4,20,32,3,1,1,3,3	sidepull ,sidepull ,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug,crimp,crimp sidepull ,downpull crimp,sidepull ,jug,jug,sidepull ,sidepull 
+{"easy"=>135.06213112102037, "hard++"=>206.26455561265138, "medium"=>174.4517326090479}
+ -> easy
+28,22,29,1,6,18,15,1,5,29,56,22,1,1,22,28	sidepull good,sidepull ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug ,crimp ,crimp sidepull ,downpull crimp ,sidepull ,jug ,jug ,sidepull ,sidepull good
+{"easy"=>221.57199530640546, "hard++"=>358.3213384831556, "medium"=>329.4309258128932}
+ -> easy
+4,22,26,1,6,17,14,21,28,26,48,49,1,1,22,4	sidepull (good hold),sidepull ,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull ,downpull crimp,sidepull (big move),jug,jug,sidepull ,sidepull (good hold)
+{"easy"=>267.90084974190404, "hard++"=>360.8389169841474, "medium"=>338.1856353285939}
+ -> easy
+31,24,32,1,7,19,16,23,34,32,66,67,1,1,24,31	sidepull good (good hold),sidepull ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull ,downpull crimp ,sidepull (big move),jug ,jug ,sidepull ,sidepull good (good hold)
+{"easy"=>365.9165325060328, "hard++"=>474.8389169841472, "medium"=>453.54938653360705}
+ -> easy
+59 easy (V0)
+1,1,1,15,1,1	jug,jug,jug,bucket,jug,jug
+{"easy"=>58.24921181409532, "hard++"=>60.96607392446288, "medium"=>30.535037181961158}
+ -> medium
+1,1,1,59,1,1	jug ,jug ,jug ,bucket ,jug ,jug 
+{"easy"=>100.23760357032184, "hard++"=>103.96607392446286, "medium"=>79.71437843543592}
+ -> medium
+2,1,2,50,2,2	jug (big move),jug,jug (big move),bucket (big move),jug (big move),jug (big move)
+{"easy"=>96.2090989388995, "hard++"=>97.82447126643478, "medium"=>81.67479926781638}
+ -> medium
+2,1,2,70,2,2	jug (big move),jug ,jug (big move),bucket (big move),jug (big move),jug (big move)
+{"easy"=>116.23760357032187, "hard++"=>117.82447126643477, "medium"=>104.69130686622174}
+ -> medium
+61 easy (5.10)
+11,33,8,1,1,4,8,1,24,8,8,20,4,8,23,4,8,1,8,1,1,8,11,34,8,4,20	pinch,jug undercling ,jug sidepull ,jug,jug,crimp,jug sidepull ,jug,gaston,jug sidepull ,jug sidepull ,crimp sidepull ,crimp,jug sidepull ,sloper,crimp,jug sidepull ,jug,jug sidepull ,jug,jug,jug sidepull ,pinch,sloper sidepull ,jug sidepull ,crimp,crimp sidepull 
+{"easy"=>278.4946002967278, "hard++"=>375.5990713624922, "medium"=>304.0241778458614}
+ -> easy
+38,60,10,61,61,13,10,41,34,62,10,29,13,62,63,13,10,4,10,61,61,62,14,64,10,13,29	pinch good,jug undercling small ,jug sidepull ,jug small bad,jug small bad,crimp bad,jug sidepull ,jug small ,gaston ,jug sidepull small ,jug sidepull ,crimp sidepull ,crimp bad,jug sidepull small ,sloper bad,crimp bad,jug sidepull ,jug bad,jug sidepull ,jug small bad,jug small bad,jug sidepull small ,pinch ,sloper sidepull ,jug sidepull ,crimp bad,crimp sidepull 
+{"easy"=>860.2103462312117, "hard++"=>995.9234951423059, "medium"=>978.7170182798171}
+ -> easy
+34,51,10,1,1,5,10,52,31,10,53,26,5,53,30,5,10,1,10,1,1,53,13,54,10,5,26	pinch (good hold),jug undercling ,jug sidepull ,jug,jug,crimp,jug sidepull ,jug (cross),gaston,jug sidepull ,jug sidepull (cross),crimp sidepull ,crimp,jug sidepull (cross),sloper,crimp,jug sidepull ,jug,jug sidepull ,jug,jug,jug sidepull (cross),pinch,sloper sidepull ,jug sidepull ,crimp,crimp sidepull 
+{"easy"=>584.632080491725, "hard++"=>638.2244604625682, "medium"=>603.4312346140473}
+ -> easy
+43,71,11,72,72,14,11,73,38,74,75,32,14,76,77,14,11,5,11,72,72,76,15,78,11,14,32	pinch good (good hold),jug undercling small ,jug sidepull ,jug small bad,jug small bad,crimp bad,jug sidepull ,jug small (cross),gaston ,jug sidepull small ,jug sidepull (cross),crimp sidepull ,crimp bad,jug sidepull small (cross),sloper bad,crimp bad,jug sidepull ,jug bad,jug sidepull ,jug small bad,jug small bad,jug sidepull small (cross),pinch ,sloper sidepull ,jug sidepull ,crimp bad,crimp sidepull 
+{"easy"=>1100.7394197865367, "hard++"=>1223.409957749937, "medium"=>1223.7170182798168}
+ -> easy
+64 easy (5.8)
+18,2,35,20,11,23,4	edge,match ,ledge,crimp sidepull ,pinch,sloper,crimp
+{"easy"=>40.50704168987959, "hard++"=>118.19863201089669, "medium"=>111.48851874107166}
+ -> easy
+23,2,65,29,14,63,5	edge ,match ,ledge bad,crimp sidepull ,pinch ,sloper bad,crimp 
+{"easy"=>47.84567381294981, "hard++"=>239.78438595778957, "medium"=>216.1196383013399}
+ -> easy
+20,3,55,26,13,30,5	edge,match ,ledge,crimp sidepull ,pinch,sloper,crimp
+{"easy"=>52.35937891564193, "hard++"=>148.11801843094074, "medium"=>173.60201172735324}
+ -> easy
+26,3,79,32,15,77,6	edge ,match ,ledge bad,crimp sidepull ,pinch ,sloper bad,crimp 
+{"easy"=>59.510513608356845, "hard++"=>274.61477686698464, "medium"=>252.11963830133988}
+ -> easy
+115 hard++ (V4)
+39,23,1,1,24,4,23,0,29,39,23,4,1,43,22,29,0,23,17	incut,sloper,jug,jug,gaston,crimp,sloper,,foothook ,incut,sloper,crimp,jug,layback,generichold ,foothook ,,sloper,mantle 
+{"easy"=>303.5768863836285, "hard++"=>327.20896124200976, "medium"=>286.0717344885162}
+ -> medium
+69,33,1,1,34,5,33,0,47,69,33,5,1,73,43,47,0,33,20	incut ,sloper ,jug ,jug ,gaston ,crimp ,sloper ,,foothook ,incut ,sloper ,crimp ,jug ,layback ,generichold ,foothook ,,sloper ,mantle 
+{"easy"=>461.9220439543018, "hard++"=>503.4302321077859, "medium"=>472.50404398339555}
+ -> easy
+59,30,1,52,31,5,32,0,39,60,61,5,2,65,37,39,0,30,19	incut (cross),sloper,jug,jug (cross),gaston,crimp,sloper (big move),,foothook ,incut,sloper (cross),crimp,jug (big move),layback,generichold ,foothook ,,sloper,mantle 
+{"easy"=>568.2563754462968, "hard++"=>539.8903093702247, "medium"=>563.0974986639079}
+ -> hard++
+83,37,1,84,38,6,40,0,53,85,86,6,2,91,48,53,0,37,21	incut (cross),sloper ,jug ,jug (cross),gaston ,crimp ,sloper (big move),,foothook ,incut ,sloper (cross),crimp ,jug (big move),layback ,generichold ,foothook ,,sloper ,mantle 
+{"easy"=>757.3597734678752, "hard++"=>738.6991119940787, "medium"=>787.096347586965}
+ -> hard++
+71 hard++ (V4)
+12,1,40	undercling ,jug,crimpbeam
+{"easy"=>63.91700699865225, "hard++"=>56.664446130295985, "medium"=>60.69859683318018}
+ -> hard++
+15,1,70	undercling ,jug ,crimpbeam 
+{"easy"=>96.91236370114285, "hard++"=>86.664446130296, "medium"=>95.26280653357779}
+ -> hard++
+14,1,62	undercling ,jug,crimpbeam
+{"easy"=>90.90096184857391, "hard++"=>77.24307497297299, "medium"=>84.21317000600995}
+ -> hard++
+16,1,87	undercling ,jug ,crimpbeam 
+{"easy"=>116.91236370114287, "hard++"=>102.24307497297299, "medium"=>113.2628065335778}
+ -> hard++
+72 easy (5.10)
+41,42,23,24	edge sidepull ,pocket sidepull ,sloper,gaston
+{"easy"=>112.22344305953786, "hard++"=>122.2859752953286, "medium"=>95.21731851197043}
+ -> medium
+71,72,33,34	edge sidepull ,pocket sidepull ,sloper ,gaston 
+{"easy"=>180.18128497544313, "hard++"=>192.2859752953286, "medium"=>188.07230664445913}
+ -> easy
+63,64,61,31	edge sidepull ,pocket sidepull ,sloper (cross),gaston
+{"easy"=>224.67034087868242, "hard++"=>233.24386006533496, "medium"=>198.37589938778058}
+ -> medium
+88,89,86,38	edge sidepull ,pocket sidepull ,sloper (cross),gaston 
+{"easy"=>303.6874436575358, "hard++"=>315.2438600653349, "medium"=>311.19076736517303}
+ -> easy
+73 easy (5.8)
+23,18,11,3	sloper,edge,pinch,sidepull 
+{"easy"=>32.63647562836336, "hard++"=>53.273375492863636, "medium"=>47.390113381257635}
+ -> easy
+33,23,14,22	sloper ,edge ,pinch ,sidepull 
+{"easy"=>37.287005800814974, "hard++"=>78.27337549286365, "medium"=>72.29875728236992}
+ -> easy
+30,23,13,22	sloper,edge (cross),pinch,sidepull 
+{"easy"=>35.018940428480306, "hard++"=>77.18733119323278, "medium"=>105.22389629433553}
+ -> easy
+37,90,15,24	sloper ,edge (cross),pinch ,sidepull 
+{"easy"=>101.85769327599088, "hard++"=>146.1873311932328, "medium"=>178.190767365173}
+ -> easy
+79 medium (V2)
+22,22,3,0,1,2,1,1,44	generichold ,generichold ,sidepull ,,jug,match ,jug,jug,horn mantle 
+{"easy"=>126.99640731557585, "hard++"=>152.4210100244429, "medium"=>118.62983107828761}
+ -> medium
+43,43,22,0,1,2,4,4,74	generichold ,generichold ,sidepull ,,jug ,match ,jug bad,jug bad,horn mantle bad
+{"easy"=>202.0681790699881, "hard++"=>245.42101002444292, "medium"=>207.74900488622785}
+ -> easy
+37,37,22,0,1,3,1,52,66	generichold ,generichold ,sidepull ,,jug,match ,jug,jug (cross),horn mantle 
+{"easy"=>227.47486167574408, "hard++"=>264.1953880680846, "medium"=>236.64881586197131}
+ -> easy
+48,48,24,0,1,3,5,92,93	generichold ,generichold ,sidepull ,,jug ,match ,jug bad,jug bad (cross),horn mantle bad
+{"easy"=>317.0639769270876, "hard++"=>359.1953880680846, "medium"=>329.31011672063903}
+ -> easy
+81 medium (V2)
+22,22,1,1,45,46,47,47,47,47,48,17	generichold ,generichold ,jug,jug,ball,boobies gaston,boobies,boobies,boobies,boobies,arete cobble,mantle 
+{"easy"=>409.9136214449815, "hard++"=>446.87594612442285, "medium"=>417.57907300774565}
+ -> easy
+43,43,1,1,75,76,77,77,77,77,78,20	generichold ,generichold ,jug ,jug ,ball bad,boobies gaston bad,boobies ,boobies ,boobies ,boobies ,arete cobble ,mantle 
+{"easy"=>656.8880833086798, "hard++"=>699.8759461244229, "medium"=>671.4298468107957}
+ -> easy
+37,37,1,1,67,68,69,69,69,69,70,71	generichold ,generichold ,jug,jug,ball,boobies gaston,boobies,boobies,boobies,boobies,arete cobble,mantle (cross)
+{"easy"=>652.8253731195506, "hard++"=>671.5663048697342, "medium"=>649.0936461805754}
+ -> medium
+48,48,1,1,94,95,96,96,96,96,97,98	generichold ,generichold ,jug ,jug ,ball bad,boobies gaston bad,boobies ,boobies ,boobies ,boobies ,arete cobble ,mantle (cross)
+{"easy"=>882.8880833086799, "hard++"=>909.5663048697346, "medium"=>891.4298468107959}
+ -> easy
+94 hard++ (V6)
+4,12,11,23	crimp,undercling ,pinch,sloper
+{"easy"=>25.33057428149968, "hard++"=>27.52099384237077, "medium"=>43.375899387780585}
+ -> easy
+35,79,51,80	crimp small ,undercling good,pinch bad,sloper good
+{"easy"=>245.68744365753582, "hard++"=>262.32944985780955, "medium"=>254.19076736517303}
+ -> easy
+5,72,13,41	crimp,undercling (good hold),pinch,sloper (good hold)
+{"easy"=>131.65743537717356, "hard++"=>142.90233757215125, "medium"=>144.22389629433553}
+ -> easy
+39,99,58,100	crimp small ,undercling good (good hold),pinch bad,sloper good (good hold)
+{"easy"=>300.6874436575358, "hard++"=>310.2438600653349, "medium"=>306.190767365173}
+ -> easy
+124 hard++ (V8)
+3,4,12,23,23,24,4,1	sidepull ,crimp,undercling ,sloper,sloper,gaston,crimp,jug
+{"easy"=>66.45621307198928, "hard++"=>60.682253879315326, "medium"=>51.84108506261928}
+ -> medium
+22,35,15,33,33,34,35,1	sidepull ,crimp small ,undercling ,sloper ,sloper ,gaston ,crimp small ,jug 
+{"easy"=>145.2216213838085, "hard++"=>157.79581962032387, "medium"=>164.34384946071552}
+ -> easy
+22,5,14,61,30,31,5,1	sidepull ,crimp,undercling ,sloper (cross),sloper,gaston,crimp,jug
+{"easy"=>149.43314595796386, "hard++"=>149.0496378875782, "medium"=>164.6277320975408}
+ -> hard++
+24,39,16,86,37,38,39,1	sidepull ,crimp small ,undercling ,sloper (cross),sloper ,gaston ,crimp small ,jug 
+{"easy"=>245.2613282848127, "hard++"=>260.56817253100127, "medium"=>302.58077090214334}
+ -> easy
+125 easy (5.10)
+49,11,4,1	slope,pinch,crimp,jug
+{"easy"=>64.68422564426659, "hard++"=>83.27266698730529, "medium"=>76.43133961105848}
+ -> easy
+81,14,5,1	slope ,pinch ,crimp ,jug 
+{"easy"=>95.1197212728216, "hard++"=>126.32944985780954, "medium"=>112.34277045861808}
+ -> easy
+73,13,5,1	slope,pinch,crimp,jug
+{"easy"=>97.65743537717356, "hard++"=>108.74112728332331, "medium"=>103.43133961105848}
+ -> easy
+101,15,6,1	slope ,pinch ,crimp ,jug 
+{"easy"=>125.70630674685759, "hard++"=>147.24386006533496, "medium"=>134.34277045861805}
+ -> easy
+135 hard++ (V7)
+10,1,4,11,23,1	pocket,jug,crimp,pinch,sloper,jug
+{"easy"=>41.29702571843441, "hard++"=>55.86581649147767, "medium"=>44.32177871211077}
+ -> easy
+12,4,5,14,33,1	pocket ,jug bad,crimp ,pinch ,sloper ,jug 
+{"easy"=>46.780658326670945, "hard++"=>72.92259936198194, "medium"=>50.751058324040606}
+ -> easy
+74,2,5,13,32,1	pocket (big move),jug (big move),crimp,pinch,sloper (big move),jug
+{"easy"=>141.1961934373906, "hard++"=>122.81900570241154, "medium"=>115.4960203692985}
+ -> medium
+102,103,6,15,40,1	pocket (big move),jug bad (big move),crimp ,pinch ,sloper (big move),jug 
+{"easy"=>271.2564666596436, "hard++"=>258.3217384844231, "medium"=>243.84330995966678}
+ -> medium
+290 hard++ (V10)
+11,4,12,35,35,1	pinch,crimp,undercling ,ledge,ledge,jug
+{"easy"=>41.14844434347297, "hard++"=>112.08143527938462, "medium"=>115.07242578559615}
+ -> easy
+51,5,97,65,65,1	pinch bad,crimp ,undercling small ,ledge bad,ledge bad,jug 
+{"easy"=>169.99371357222321, "hard++"=>314.96607392446293, "medium"=>297.9617706803807}
+ -> easy
+13,5,14,91,55,2	pinch,crimp,undercling ,ledge (cross),ledge,jug (big move)
+{"easy"=>140.26652747993984, "hard++"=>187.9200591172367, "medium"=>201.86498246887317}
+ -> easy
+58,6,129,130,79,2	pinch bad,crimp ,undercling small ,ledge bad (cross),ledge bad,jug (big move)
+{"easy"=>345.17567356113716, "hard++"=>430.8244712664347, "medium"=>420.80976758693555}
+ -> easy
+149 hard++ (V6)
+4,4,1,11,4,23,1	crimp,crimp,jug,pinch,crimp,sloper,jug
+{"easy"=>34.05779645570715, "hard++"=>46.62264220869495, "medium"=>46.14232179937959}
+ -> easy
+5,5,1,14,5,33,1	crimp ,crimp ,jug ,pinch ,crimp ,sloper ,jug 
+{"easy"=>32.61876374117155, "hard++"=>74.74091139530861, "medium"=>52.5343493498342}
+ -> easy
+5,5,2,75,28,32,1	crimp,crimp,jug (big move),pinch (big move),crimp (cross),sloper (big move),jug
+{"easy"=>179.978477969008, "hard++"=>139.24997653294832, "medium"=>140.3165634565673}
+ -> hard++
+6,6,2,106,34,40,1	crimp ,crimp ,jug (big move),pinch (big move),crimp (cross),sloper (big move),jug 
+{"easy"=>226.01268352671482, "hard++"=>196.11204408497306, "medium"=>177.6528100705481}
+ -> medium
+156 hard++ (5.12)
+4,10,10,11,4,4,23,3,1,24,12,11,2,1,3,3,50,2,1	crimp,pocket,pocket,pinch,crimp,crimp,sloper,sidepull ,jug,gaston,undercling ,pinch,match ,jug,sidepull ,sidepull ,rail,match ,jug
+{"easy"=>168.1461275512527, "hard++"=>235.61453083404103, "medium"=>186.99383103471695}
+ -> easy
+13,12,12,51,13,35,33,84,1,34,15,51,2,1,22,22,85,2,1	crimp bad,pocket ,pocket ,pinch bad,crimp bad,crimp small ,sloper ,sidepull bad,jug ,gaston ,undercling ,pinch bad,match ,jug ,sidepull ,sidepull ,rail ,match ,jug 
+{"easy"=>468.81815558231256, "hard++"=>510.49806961198016, "medium"=>498.1637644235125}
+ -> easy
+5,12,12,75,5,5,30,22,1,31,14,13,3,2,22,22,76,3,1	crimp,pocket,pocket,pinch (big move),crimp,crimp,sloper,sidepull ,jug,gaston,undercling ,pinch,match ,jug (big move),sidepull ,sidepull ,rail,match ,jug
+{"easy"=>315.20715357895574, "hard++"=>389.2162302041178, "medium"=>377.81954515522375}
+ -> easy
+14,13,13,107,14,39,37,108,1,38,16,58,3,2,24,24,109,3,1	crimp bad,pocket ,pocket ,pinch bad (big move),crimp bad,crimp small ,sloper ,sidepull bad,jug ,gaston ,undercling ,pinch bad,match ,jug (big move),sidepull ,sidepull ,rail ,match ,jug 
+{"easy"=>602.2802504819072, "hard++"=>634.4172788618549, "medium"=>666.3841192365551}
+ -> easy
+159 medium (V3)
+12,8,22,12,22,1	undercling ,jug sidepull ,generichold ,undercling ,generichold ,jug
+{"easy"=>98.24921181409532, "hard++"=>84.29152645570201, "medium"=>98.07242578559615}
+ -> hard++
+86,10,43,15,43,1	undercling bad,jug sidepull ,generichold ,undercling ,generichold ,jug 
+{"easy"=>215.2376035703218, "hard++"=>214.1382181498889, "medium"=>212.96177068038065}
+ -> medium
+14,10,37,14,37,52	undercling ,jug sidepull ,generichold ,undercling ,generichold ,jug (cross)
+{"easy"=>186.20909893889947, "hard++"=>158.72538148683608, "medium"=>182.8649824688732}
+ -> hard++
+110,11,48,16,48,84	undercling bad,jug sidepull ,generichold ,undercling ,generichold ,jug (cross)
+{"easy"=>332.23760357032194, "hard++"=>324.9358609786481, "medium"=>331.8097675869356}
+ -> hard++
+164 hard++ (5.12)
+11,11,4,24,24,4	pinch,pinch,crimp,gaston,gaston,crimp
+{"easy"=>65.03577452330143, "hard++"=>98.16889412696736, "medium"=>55.63239331028962}
+ -> medium
+14,14,45,34,34,37	pinch ,pinch ,crimp big bad,gaston ,gaston ,crimp big 
+{"easy"=>161.7012451366837, "hard++"=>206.9660739244629, "medium"=>192.8097675869356}
+ -> easy
+13,13,5,31,31,25	pinch,pinch,crimp,gaston,gaston,crimp (good hold)
+{"easy"=>113.66391998741025, "hard++"=>143.32173848442318, "medium"=>80.6934227436872}
+ -> medium
+15,15,50,38,38,42	pinch ,pinch ,crimp big bad,gaston ,gaston ,crimp big (good hold)
+{"easy"=>183.7012451366837, "hard++"=>224.82447126643478, "medium"=>214.80976758693566}
+ -> easy
+169 easy (5.10)
+23,23,1,12,12,2,17,11,11,24,4,4,1,12,23,0,1,12,11,11,11,11,1,1,50,1,1,17,24	sloper,sloper,jug,undercling ,undercling ,match ,mantle ,pinch,pinch,gaston,crimp,crimp,jug,undercling ,sloper,,jug,undercling ,pinch,pinch,pinch,pinch,jug,jug,rail,jug,jug,mantle ,gaston
+{"easy"=>302.66960773132723, "hard++"=>352.51979065529275, "medium"=>297.133381754623}
+ -> medium
+33,33,1,15,15,2,20,14,14,34,5,5,1,15,33,0,1,15,14,14,14,14,1,1,85,1,1,20,34	sloper ,sloper ,jug ,undercling ,undercling ,match ,mantle ,pinch ,pinch ,gaston ,crimp ,crimp ,jug ,undercling ,sloper ,,jug ,undercling ,pinch ,pinch ,pinch ,pinch ,jug ,jug ,rail ,jug ,jug ,mantle ,gaston 
+{"easy"=>377.8522849484475, "hard++"=>447.6333563963012, "medium"=>435.9704841715006}
+ -> easy
+30,30,1,14,14,3,19,13,13,31,5,5,1,14,30,0,1,14,13,13,13,13,1,1,76,1,1,19,31	sloper,sloper,jug,undercling ,undercling ,match ,mantle ,pinch,pinch,gaston,crimp,crimp,jug,undercling ,sloper,,jug,undercling ,pinch,pinch,pinch,pinch,jug,jug,rail,jug,jug,mantle ,gaston
+{"easy"=>377.3916133396121, "hard++"=>407.86495604579306, "medium"=>438.7604436511278}
+ -> easy
+37,37,1,16,16,3,21,15,15,38,6,6,1,16,37,0,1,16,15,15,15,15,1,1,109,1,1,21,38	sloper ,sloper ,jug ,undercling ,undercling ,match ,mantle ,pinch ,pinch ,gaston ,crimp ,crimp ,jug ,undercling ,sloper ,,jug ,undercling ,pinch ,pinch ,pinch ,pinch ,jug ,jug ,rail ,jug ,jug ,mantle ,gaston 
+{"easy"=>444.0418575200698, "hard++"=>488.91463049043097, "medium"=>593.0994156957315}
+ -> easy
+170 hard++ (V4)
+23,3,10,23,23,9	sloper,sidepull ,pocket,sloper,sloper,jug mantle 
+{"easy"=>36.881654680677094, "hard++"=>47.20915205050558, "medium"=>43.77506723757255}
+ -> easy
+49,3,87,33,33,11	sloper big ,sidepull big ,pocket small ,sloper ,sloper ,jug mantle 
+{"easy"=>168.2252862061364, "hard++"=>176.26522641545148, "medium"=>169.57284614550784}
+ -> easy
+41,4,12,30,30,11	sloper (good hold),sidepull (good hold),pocket,sloper,sloper,jug mantle 
+{"easy"=>92.75207701550025, "hard++"=>94.22284686033376, "medium"=>150.86498246887317}
+ -> easy
+56,4,111,37,37,12	sloper big (good hold),sidepull big (good hold),pocket small ,sloper ,sloper ,jug mantle 
+{"easy"=>205.28373403476633, "hard++"=>207.2228468603338, "medium"=>274.8097675869356}
+ -> easy
+177 medium (5.11)
+22,22,11,37,23,9	generichold ,generichold ,pinch,crimp sloper,sloper,jug mantle 
+{"easy"=>105.82672471335847, "hard++"=>129.92259936198195, "medium"=>123.2369163097618}
+ -> easy
+43,43,14,67,33,11	generichold ,generichold ,pinch ,crimp sloper ,sloper ,jug mantle 
+{"easy"=>177.75030797755082, "hard++"=>205.92259936198195, "medium"=>194.69130686622174}
+ -> easy
+37,37,75,57,30,77	generichold ,generichold ,pinch (big move),crimp sloper,sloper,jug mantle (big move)
+{"easy"=>291.73177349689274, "hard++"=>300.87617161768804, "medium"=>327.86498246887317}
+ -> easy
+48,48,106,81,37,112	generichold ,generichold ,pinch (big move),crimp sloper ,sloper ,jug mantle (big move)
+{"easy"=>403.26066880254416, "hard++"=>412.8761716176881, "medium"=>445.8097675869356}
+ -> easy
+179 hard++ (V4)
+2,2,51,51,11,11,1	match ,match ,crimp jug,crimp jug,pinch,pinch,jug
+{"easy"=>123.26305805782256, "hard++"=>170.78438595778954, "medium"=>140.49024530382812}
+ -> easy
+2,2,88,89,51,14,1	match ,match ,crimp jug bad,crimp jug ,pinch bad,pinch ,jug 
+{"easy"=>245.04982202084688, "hard++"=>286.7843859577896, "medium"=>257.7050165987417}
+ -> easy
+3,3,78,78,75,13,2	match ,match ,crimp jug,crimp jug,pinch (big move),pinch,jug (big move)
+{"easy"=>252.21664103753992, "hard++"=>288.6147768669847, "medium"=>264.76822881427535}
+ -> easy
+3,3,113,114,107,15,2	match ,match ,crimp jug bad,crimp jug ,pinch bad (big move),pinch ,jug (big move)
+{"easy"=>353.0498220208469, "hard++"=>393.61477686698464, "medium"=>368.5530135052967}
+ -> easy
+182 easy (5.10)
+4,4,23,11,4,1,2,3,4,12,23,23,4	crimp,crimp,sloper,pinch,crimp,jug,match ,sidepull ,crimp,undercling ,sloper,sloper,crimp
+{"easy"=>57.92883435665312, "hard++"=>69.68555903924735, "medium"=>89.71392297840912}
+ -> easy
+5,5,33,14,5,1,2,22,5,15,33,33,5	crimp ,crimp ,sloper ,pinch ,crimp ,jug ,match ,sidepull ,crimp ,undercling ,sloper ,sloper ,crimp 
+{"easy"=>61.70524396959489, "hard++"=>131.84390522447626, "medium"=>114.26842000926351}
+ -> easy
+5,5,30,13,28,1,3,22,28,14,30,30,5	crimp,crimp,sloper,pinch,crimp (cross),jug,match ,sidepull ,crimp (cross),undercling ,sloper,sloper,crimp
+{"easy"=>138.59259681674044, "hard++"=>147.22989257250651, "medium"=>256.08354828291345}
+ -> easy
+6,6,37,15,34,1,3,24,34,16,37,37,6	crimp ,crimp ,sloper ,pinch ,crimp (cross),jug ,match ,sidepull ,crimp (cross),undercling ,sloper ,sloper ,crimp 
+{"easy"=>159.74171076058389, "hard++"=>192.7144569384508, "medium"=>287.6238021714052}
+ -> easy
+188 easy (V0)
+52,24,3,24,2,3,52	downpull ,gaston,sidepull ,gaston,match ,sidepull ,downpull 
+{"easy"=>162.9252116139656, "hard++"=>197.78438595778954, "medium"=>132.88399574159948}
+ -> medium
+90,34,22,34,2,22,90	downpull ,gaston ,sidepull ,gaston ,match ,sidepull ,downpull 
+{"easy"=>258.0177666650937, "hard++"=>327.78438595778954, "medium"=>307.1196383013399}
+ -> easy
+79,31,22,31,3,22,79	downpull ,gaston,sidepull ,gaston,match ,sidepull ,downpull 
+{"easy"=>236.95836990808164, "hard++"=>298.61477686698476, "medium"=>224.43045200216727}
+ -> medium
+115,38,24,38,3,24,115	downpull ,gaston ,sidepull ,gaston ,match ,sidepull ,downpull 
+{"easy"=>321.08076005447833, "hard++"=>388.61477686698476, "medium"=>371.11963830133993}
+ -> easy
+194 easy (5.10)
+4,3,10,35,3,12,2,4,10,1,2,23	crimp,sidepull ,pocket,ledge,sidepull ,undercling ,match ,crimp,pocket,jug,match ,sloper
+{"easy"=>76.56784616514827, "hard++"=>130.01070723847985, "medium"=>117.84606763313072}
+ -> easy
+5,22,57,82,22,15,2,5,57,1,2,33	crimp ,sidepull ,pocket bad,ledge ,sidepull ,undercling ,match ,crimp ,pocket bad,jug ,match ,sloper 
+{"easy"=>246.1829539457387, "hard++"=>317.24543764715446, "medium"=>292.95210258466216}
+ -> easy
+5,22,12,55,22,14,3,5,12,1,3,30	crimp,sidepull ,pocket,ledge,sidepull ,undercling ,match ,crimp,pocket,jug,match ,sloper
+{"easy"=>102.97209315830698, "hard++"=>189.10322844836665, "medium"=>215.17949136685593}
+ -> easy
+6,24,68,104,24,16,3,6,68,1,3,37	crimp ,sidepull ,pocket bad,ledge ,sidepull ,undercling ,match ,crimp ,pocket bad,jug ,match ,sloper 
+{"easy"=>311.6040308943746, "hard++"=>365.94748372356196, "medium"=>380.31467266404684}
+ -> easy
+199 easy (5.10)
+24,4,1,23,3,24,4,23,1,1,4,24	gaston,crimp,jug,sloper,sidepull ,gaston,crimp,sloper,jug,jug,crimp,gaston
+{"easy"=>115.2217442926977, "hard++"=>132.79189248051338, "medium"=>53.739486659204395}
+ -> medium
+34,5,1,33,22,34,5,33,1,1,5,34	gaston ,crimp ,jug ,sloper ,sidepull ,gaston ,crimp ,sloper ,jug ,jug ,crimp ,gaston 
+{"easy"=>145.8278629408141, "hard++"=>204.788996999461, "medium"=>176.07446464865401}
+ -> easy
+31,5,1,30,22,31,5,30,1,1,5,31	gaston,crimp,jug,sloper,sidepull ,gaston,crimp,sloper,jug,jug,crimp,gaston
+{"easy"=>162.1800271869425, "hard++"=>173.50740023109518, "medium"=>135.28028629945658}
+ -> medium
+38,6,1,37,24,38,6,37,1,1,6,38	gaston ,crimp ,jug ,sloper ,sidepull ,gaston ,crimp ,sloper ,jug ,jug ,crimp ,gaston 
+{"easy"=>189.32074643989998, "hard++"=>221.66970557224093, "medium"=>268.31138609008184}
+ -> easy
+205 easy (5.10)
+12,4,10,53,35,4,4,1	undercling ,crimp,pocket,cup,ledge,crimp,crimp,jug
+{"easy"=>105.68179240885003, "hard++"=>135.58565768541655, "medium"=>147.71351196013381}
+ -> easy
+15,35,87,91,65,35,35,1	undercling ,crimp small ,pocket small ,cup big ,ledge bad,crimp small ,crimp small ,jug 
+{"easy"=>316.1953187572244, "hard++"=>383.7560062969294, "medium"=>381.58077090214334}
+ -> easy
+80,5,12,81,55,5,5,2	undercling (big move),crimp,pocket,cup (big move) (good hold),ledge,crimp,crimp,jug (big move)
+{"easy"=>227.64267113930293, "hard++"=>264.85267524088493, "medium"=>272.5060686434108}
+ -> easy
+116,39,111,117,79,39,39,2	undercling (big move),crimp small ,pocket small ,cup big (big move) (good hold),ledge bad,crimp small ,crimp small ,jug (big move)
+{"easy"=>480.72583347392316, "hard++"=>573.4050824675346, "medium"=>564.4287678086981}
+ -> easy
+207 hard++ (5.12)
+23,23,18,25,11,11,54,24,11,17	sloper,sloper,edge,foothook sloper,pinch,pinch,gaston pinch,gaston,pinch,mantle 
+{"easy"=>165.22770774280914, "hard++"=>213.43599354205008, "medium"=>181.06901116646742}
+ -> easy
+33,33,23,36,14,14,92,34,14,20	sloper ,sloper ,edge ,foothook sloper ,pinch ,pinch ,gaston pinch ,gaston ,pinch ,mantle 
+{"easy"=>230.70446977316752, "hard++"=>289.43599354205014, "medium"=>275.03729722694385}
+ -> easy
+30,30,20,82,83,13,84,31,13,19	sloper,sloper,edge,foothook sloper,pinch (cross),pinch,gaston pinch,gaston,pinch,mantle 
+{"easy"=>346.20973377893625, "hard++"=>382.2923853778391, "medium"=>408.06137495535546}
+ -> easy
+37,37,26,118,119,15,120,38,15,21	sloper ,sloper ,edge ,foothook sloper ,pinch (cross),pinch ,gaston pinch ,gaston ,pinch ,mantle 
+{"easy"=>468.8448900716456, "hard++"=>509.29238537783914, "medium"=>573.0477680304608}
+ -> easy
+284 hard++ (V4)
+11,35,11,35,4,0,11,12,1,2,4,4	pinch,ledge,pinch,ledge,crimp,,pinch,undercling ,jug,match ,crimp,crimp
+{"easy"=>65.68093816259676, "hard++"=>168.19412768184915, "medium"=>166.77757836847442}
+ -> easy
+14,82,93,83,35,0,51,15,41,2,35,35	pinch ,ledge ,pinch small bad,ledge small bad,crimp small ,,pinch bad,undercling ,jug small ,match ,crimp small ,crimp small 
+{"easy"=>488.8208532764275, "hard++"=>527.048090349849, "medium"=>512.1671388557464}
+ -> easy
+13,55,13,55,5,0,13,14,1,3,5,5	pinch,ledge,pinch,ledge,crimp,,pinch,undercling ,jug,match ,crimp,crimp
+{"easy"=>89.25285951794451, "hard++"=>213.78002323075464, "medium"=>218.26300519564464}
+ -> easy
+15,104,121,105,39,0,58,16,46,3,39,39	pinch ,ledge ,pinch small bad,ledge small bad,crimp small ,,pinch bad,undercling ,jug small ,match ,crimp small ,crimp small 
+{"easy"=>594.8208532764274, "hard++"=>619.6776945819475, "medium"=>613.1671388557464}
+ -> easy
+211 medium (5.11)
+4,24,0,41,28,4,18,41,18,4,4,18,23,18,23,23,22,55,17	crimp,gaston,,edge sidepull ,edge undercling ,crimp,edge,edge sidepull ,edge,crimp,crimp,edge,sloper,edge,sloper,sloper,generichold ,pinch sloper,mantle 
+{"easy"=>348.2743650314677, "hard++"=>320.14650817005867, "medium"=>359.0315495467419}
+ -> hard++
+5,34,0,71,44,5,32,71,94,5,5,32,49,21,49,49,95,96,20	crimp ,gaston ,,edge sidepull ,edge undercling ,crimp ,edge big bad,edge sidepull ,edge big ,crimp ,crimp ,edge big bad,sloper big ,edge bad,sloper big ,sloper big ,generichold small ,pinch sloper bad,mantle 
+{"easy"=>785.4444795872643, "hard++"=>870.6041303577097, "medium"=>825.3332690283926}
+ -> easy
+5,31,0,85,38,5,86,63,87,5,5,20,47,20,41,88,37,89,90	crimp,gaston,,edge sidepull (big move),edge undercling ,crimp,edge (big move),edge sidepull ,edge (good hold),crimp,crimp,edge,sloper (big move) (good hold),edge,sloper (good hold),sloper (cross) (good hold),generichold ,pinch sloper,mantle (big move)
+{"easy"=>897.2110263303103, "hard++"=>799.8644509289029, "medium"=>865.4462627407746}
+ -> hard++
+6,38,0,122,49,6,123,88,124,6,6,36,65,22,56,125,126,127,128	crimp ,gaston ,,edge sidepull (big move),edge undercling ,crimp ,edge big bad (big move),edge sidepull ,edge big (good hold),crimp ,crimp ,edge big bad,sloper big (big move) (good hold),edge bad,sloper big (good hold),sloper big (cross) (good hold),generichold small ,pinch sloper bad,mantle (big move)
+{"easy"=>1297.3136430034308, "hard++"=>1333.0984440735836, "medium"=>1300.3332690283926}
+ -> easy
+221 hard++ (V4)
+3,3	sidepull ,sidepull 
+{"easy"=>9.02126378683865, "hard++"=>21.692825791156206, "medium"=>15.582810119797886}
+ -> easy
+22,22	sidepull ,sidepull 
+{"easy"=>8.8204573444879, "hard++"=>55.69282579115621, "medium"=>51.571767143410376}
+ -> easy
+22,22	sidepull ,sidepull 
+{"easy"=>6.7699357785095176, "hard++"=>55.6632488642351, "medium"=>53.5828101197979}
+ -> easy
+24,24	sidepull ,sidepull 
+{"easy"=>6.741201372016119, "hard++"=>59.6632488642351, "medium"=>55.571767143410376}
+ -> easy
+226 easy (5.10)
+23,23,23,0,11,2	sloper,sloper,sloper,,pinch,match 
+{"easy"=>22.94933111978342, "hard++"=>36.80613935605343, "medium"=>32.9270703310176}
+ -> easy
+33,33,33,0,14,2	sloper ,sloper ,sloper ,,pinch ,match 
+{"easy"=>22.024955883429563, "hard++"=>39.80613935605342, "medium"=>35.91088822246918}
+ -> easy
+30,30,30,0,13,3	sloper,sloper,sloper,,pinch,match 
+{"easy"=>19.672128307144213, "hard++"=>39.832879160901946, "medium"=>128.01698556231824}
+ -> easy
+37,37,37,0,15,3	sloper ,sloper ,sloper ,,pinch ,match 
+{"easy"=>24.185878257840134, "hard++"=>41.832879160901946, "medium"=>146.03981974670006}
+ -> easy
+230 easy (5.10)
+1,1,22,23,23,56,56,1,24,4,1,4,4,4,1,1,4,1,1,12,12,1,1,4,1,1	jug,jug,generichold ,sloper,sloper,teeth,teeth,jug,gaston,crimp,jug,crimp,crimp,crimp,jug,jug,crimp,jug,jug,undercling ,undercling ,jug,jug,crimp,jug,jug
+{"easy"=>311.8175929963571, "hard++"=>301.63505830981126, "medium"=>252.5408669386826}
+ -> medium
+4,1,95,33,33,98,98,1,34,35,4,5,5,5,41,1,5,41,4,15,15,1,1,13,1,1	jug bad,jug ,generichold small ,sloper ,sloper ,teeth ,teeth ,jug ,gaston ,crimp small ,jug bad,crimp ,crimp ,crimp ,jug small ,jug ,crimp ,jug small ,jug bad,undercling ,undercling ,jug ,jug ,crimp bad,jug ,jug 
+{"easy"=>601.669584939573, "hard++"=>619.9189726623329, "medium"=>579.5331820469347}
+ -> medium
+1,1,37,30,30,92,92,2,31,5,2,5,5,5,1,2,5,1,1,14,14,1,1,5,1,1	jug,jug,generichold ,sloper,sloper,teeth,teeth,jug (big move),gaston,crimp,jug (big move),crimp,crimp,crimp,jug,jug (big move),crimp,jug,jug,undercling ,undercling ,jug,jug,crimp,jug,jug
+{"easy"=>461.13965761767076, "hard++"=>395.1469238424595, "medium"=>422.29973102355024}
+ -> hard++
+5,1,126,37,37,131,131,2,38,39,103,6,6,6,46,2,6,46,5,16,16,1,1,14,1,1	jug bad,jug ,generichold small ,sloper ,sloper ,teeth ,teeth ,jug (big move),gaston ,crimp small ,jug bad (big move),crimp ,crimp ,crimp ,jug small ,jug (big move),crimp ,jug small ,jug bad,undercling ,undercling ,jug ,jug ,crimp bad,jug ,jug 
+{"easy"=>861.7853331626263, "hard++"=>832.7490055137471, "medium"=>884.0992765654165}
+ -> hard++
+232 hard++ (V5)
+1,11,12,1,1,12,3,20,23,23	jug,pinch,undercling ,jug,jug,undercling ,sidepull ,crimp sidepull ,sloper,sloper
+{"easy"=>69.88503576965093, "hard++"=>86.97830510323256, "medium"=>89.68955340183095}
+ -> easy
+1,48,15,1,1,15,22,99,33,33	jug ,pinch big ,undercling ,jug ,jug ,undercling ,sidepull ,crimp sidepull small ,sloper ,sloper 
+{"easy"=>219.09919705761706, "hard++"=>216.97830510323263, "medium"=>229.95237887896118}
+ -> hard++
+2,34,14,1,1,14,22,26,30,32	jug (big move),pinch (good hold),undercling ,jug,jug,undercling ,sidepull ,crimp sidepull ,sloper,sloper (big move)
+{"easy"=>139.61068472230642, "hard++"=>133.93410707835358, "medium"=>176.07404838278404}
+ -> hard++
+2,55,16,1,1,16,24,132,37,40	jug (big move),pinch big (good hold),undercling ,jug ,jug ,undercling ,sidepull ,crimp sidepull small ,sloper ,sloper (big move)
+{"easy"=>305.3798517174379, "hard++"=>260.9341070783536, "medium"=>313.9628496824781}
+ -> hard++
+237 medium (5.11)
+10,18,2,1	pocket,edge,match ,jug
+{"easy"=>45.180369229358185, "hard++"=>57.32944985780954, "medium"=>41.38544891145965}
+ -> medium
+12,23,2,25	pocket ,edge ,match ,jug big 
+{"easy"=>74.16971405580087, "hard++"=>87.32944985780955, "medium"=>70.69113796869595}
+ -> medium
+74,20,3,40	pocket (big move),edge,match ,jug (big move) (good hold)
+{"easy"=>144.6408720267103, "hard++"=>156.24386006533493, "medium"=>145.1403824655468}
+ -> easy
+102,26,3,54	pocket (big move),edge ,match ,jug big (big move) (good hold)
+{"easy"=>191.16971405580088, "hard++"=>204.24386006533493, "medium"=>190.69113796869595}
+ -> medium
+238 easy (5.10)
+57,3,23,23,11,58,2,3,59,59,18,1,1,11,4,42,8,57,1,57,11,57,11,17	arete,sidepull ,sloper,sloper,pinch,ledge pinch,match ,sidepull ,sidepull undercling ,sidepull undercling ,edge,jug,jug,pinch,crimp,pocket sidepull ,jug sidepull ,arete,jug,arete,pinch,arete,pinch,mantle 
+{"easy"=>554.9034928825175, "hard++"=>422.64578488382057, "medium"=>609.8957607069033}
+ -> hard++
+100,22,33,33,14,101,2,22,102,102,23,1,1,14,5,72,10,100,1,100,14,100,14,20	arete ,sidepull ,sloper ,sloper ,pinch ,ledge pinch ,match ,sidepull ,sidepull undercling ,sidepull undercling ,edge ,jug ,jug ,pinch ,crimp ,pocket sidepull ,jug sidepull ,arete ,jug ,arete ,pinch ,arete ,pinch ,mantle 
+{"easy"=>890.2187553936951, "hard++"=>649.702567754325, "medium"=>998.2888365827528}
+ -> hard++
+93,22,30,30,13,94,3,22,95,96,20,1,1,13,5,64,53,93,1,93,13,93,13,19	arete,sidepull ,sloper,sloper,pinch,ledge pinch,match ,sidepull ,sidepull undercling ,sidepull undercling (big move),edge,jug,jug,pinch,crimp,pocket sidepull ,jug sidepull (cross),arete,jug,arete,pinch,arete,pinch,mantle 
+{"easy"=>896.4814695839054, "hard++"=>638.7442025228041, "medium"=>1039.6664661979557}
+ -> hard++
+133,24,37,37,15,134,3,24,135,136,26,1,1,15,6,89,75,133,1,133,15,133,15,21	arete ,sidepull ,sloper ,sloper ,pinch ,ledge pinch ,match ,sidepull ,sidepull undercling ,sidepull undercling (big move),edge ,jug ,jug ,pinch ,crimp ,pocket sidepull ,jug sidepull (cross),arete ,jug ,arete ,pinch ,arete ,pinch ,mantle 
+{"easy"=>1225.3199774059715, "hard++"=>837.2469353048156, "medium"=>1396.5257580241807}
+ -> hard++
+240 hard++ (5.12)
+1,1,60,11,61,21,23,23,35,4,62,62,1,4,11,4,63,63,4,4,23,3,1,1,4,4,57,23,57,34,17	jug,jug,pocket undercling ,pinch,pinch sidepull ,crimp dish,sloper,sloper,ledge,crimp,flake,flake,jug,crimp,pinch,crimp,tufa,tufa,crimp,crimp,sloper,sidepull ,jug,jug,crimp,crimp,arete,sloper,arete,sloper sidepull ,mantle 
+{"easy"=>648.4172303286533, "hard++"=>630.2371395675084, "medium"=>732.423805273594}
+ -> hard++
+1,1,103,26,104,105,33,33,82,13,106,106,41,5,14,5,107,107,42,42,63,22,1,1,5,5,100,33,100,64,20	jug ,jug ,pocket undercling ,pinch small ,pinch sidepull ,crimp dish bad,sloper ,sloper ,ledge ,crimp bad,flake ,flake ,jug small ,crimp ,pinch ,crimp ,tufa ,tufa ,crimp small bad,crimp small bad,sloper bad,sidepull ,jug ,jug ,crimp ,crimp ,arete ,sloper ,arete ,sloper sidepull ,mantle 
+{"easy"=>1336.4912394241, "hard++"=>1313.4480672604498, "medium"=>1466.444495951882}
+ -> hard++
+1,1,97,13,98,27,30,30,55,5,99,99,1,5,13,5,100,100,5,5,30,22,1,1,5,5,93,30,93,54,90	jug,jug,pocket undercling ,pinch,pinch sidepull ,crimp dish,sloper,sloper,ledge,crimp,flake,flake,jug,crimp,pinch,crimp,tufa,tufa,crimp,crimp,sloper,sidepull ,jug,jug,crimp,crimp,arete,sloper,arete,sloper sidepull ,mantle (big move)
+{"easy"=>1100.695636799944, "hard++"=>983.655646868976, "medium"=>1294.4797894285284}
+ -> hard++
+1,1,137,29,138,139,37,37,104,14,140,140,46,6,15,6,141,141,47,47,77,24,1,1,6,6,133,37,133,78,128	jug ,jug ,pocket undercling ,pinch small ,pinch sidepull ,crimp dish bad,sloper ,sloper ,ledge ,crimp bad,flake ,flake ,jug small ,crimp ,pinch ,crimp ,tufa ,tufa ,crimp small bad,crimp small bad,sloper bad,sidepull ,jug ,jug ,crimp ,crimp ,arete ,sloper ,arete ,sloper sidepull ,mantle (big move)
+{"easy"=>1850.763445624219, "hard++"=>1719.3628679661333, "medium"=>2061.7998781140245}
+ -> hard++
+243 hard++ (V4)
+23,23,23,4,4,9	sloper,sloper,sloper,crimp,crimp,jug mantle 
+{"easy"=>30.06676485999975, "hard++"=>27.625969207018947, "medium"=>38.77506723757255}
+ -> hard++
+33,33,33,5,5,11	sloper ,sloper ,sloper ,crimp ,crimp ,jug mantle 
+{"easy"=>34.08841667888527, "hard++"=>45.80613935605343, "medium"=>41.68083606270475}
+ -> easy
+30,30,30,5,5,11	sloper,sloper,sloper,crimp,crimp,jug mantle 
+{"easy"=>47.17833218012748, "hard++"=>28.42633532274977, "medium"=>135.86498246887317}
+ -> hard++
+37,37,37,6,6,12	sloper ,sloper ,sloper ,crimp ,crimp ,jug mantle 
+{"easy"=>54.72990929965241, "hard++"=>48.83287916090195, "medium"=>153.80976758693564}
+ -> hard++
+246 easy (5.10)
+4,4,1,1,4,17	crimp,crimp,jug,jug,crimp,mantle 
+{"easy"=>47.84334095021804, "hard++"=>50.67456064528406, "medium"=>49.655814484132726}
+ -> easy
+5,5,1,1,5,20	crimp ,crimp ,jug ,jug ,crimp ,mantle 
+{"easy"=>50.65560748420363, "hard++"=>77.96607392446289, "medium"=>55.57284614550784}
+ -> easy
+5,5,1,1,5,19	crimp,crimp,jug,jug,crimp,mantle 
+{"easy"=>73.2090989388995, "hard++"=>51.45967093239841, "medium"=>54.17038765696248}
+ -> hard++
+6,6,1,1,6,21	crimp ,crimp ,jug ,jug ,crimp ,mantle 
+{"easy"=>78.23760357032185, "hard++"=>81.82447126643477, "medium"=>59.57284614550784}
+ -> medium
+285 medium (5.11)
+11,4,24,2,3,3,3,35,35,3,2,4,23	pinch,crimp,gaston,match ,sidepull ,sidepull ,sidepull ,ledge,ledge,sidepull ,match ,crimp,sloper
+{"easy"=>66.64002962210343, "hard++"=>188.62387977692993, "medium"=>143.00661128199027}
+ -> easy
+14,35,108,2,22,84,22,83,65,84,2,35,33	pinch ,crimp small ,gaston bad,match ,sidepull ,sidepull bad,sidepull ,ledge small bad,ledge bad,sidepull bad,match ,crimp small ,sloper 
+{"easy"=>451.25293875690954, "hard++"=>613.891605455055, "medium"=>473.0338062240976}
+ -> easy
+83,5,101,3,49,22,22,55,91,22,3,103,30	pinch (cross),crimp,gaston (cross),match ,sidepull (big move),sidepull ,sidepull ,ledge,ledge (cross),sidepull ,match ,crimp (big move),sloper
+{"easy"=>363.7875414584498, "hard++"=>601.123666829887, "medium"=>618.4417564221775}
+ -> easy
+119,39,142,3,67,108,24,105,130,108,3,144,37	pinch (cross),crimp small ,gaston bad (cross),match ,sidepull (big move),sidepull bad,sidepull ,ledge small bad,ledge bad (cross),sidepull bad,match ,crimp small (big move),sloper 
+{"easy"=>976.8835654857766, "hard++"=>1037.6263996118987, "medium"=>1048.4770095701508}
+ -> easy
+256 hard++ (V4)
+1,57,12,23,12,64,23,64,23,23,18	jug,arete,undercling ,sloper,undercling ,crimper,sloper,crimper,sloper,sloper,edge
+{"easy"=>257.25235766278547, "hard++"=>181.1591768578068, "medium"=>259.68306290306106}
+ -> hard++
+1,100,15,33,15,109,33,109,33,33,23	jug ,arete ,undercling ,sloper ,undercling ,crimper bad,sloper ,crimper bad,sloper ,sloper ,edge 
+{"easy"=>400.08836862391587, "hard++"=>278.1591768578068, "medium"=>402.4914151756836}
+ -> hard++
+1,93,80,30,14,102,30,102,61,30,20	jug,arete,undercling (big move),sloper,undercling ,crimper,sloper,crimper,sloper (cross),sloper,edge
+{"easy"=>498.62401776342193, "hard++"=>399.0858136768986, "medium"=>592.3473306329516}
+ -> hard++
+1,133,116,37,16,143,37,143,86,37,26	jug ,arete ,undercling (big move),sloper ,undercling ,crimper bad,sloper ,crimper bad,sloper (cross),sloper ,edge 
+{"easy"=>691.1821990489537, "hard++"=>550.0858136768986, "medium"=>801.965258058539}
+ -> hard++
+261 easy (5.10)
+1,1,24,3,1,1,1,43,1,1,23,23,23,59,1,1,4,4,1,1	jug,jug,gaston,sidepull ,jug,jug,jug,layback,jug,jug,sloper,sloper,sloper,sidepull undercling ,jug,jug,crimp,crimp,jug,jug
+{"easy"=>233.15980679269612, "hard++"=>244.95985036279782, "medium"=>163.0355142302006}
+ -> medium
+41,41,34,22,1,1,4,110,41,41,49,33,33,102,1,1,5,5,1,1	jug small ,jug small ,gaston ,sidepull ,jug ,jug ,jug bad,layback bad,jug small ,jug small ,sloper big ,sloper ,sloper ,sidepull undercling ,jug ,jug ,crimp ,crimp ,jug ,jug 
+{"easy"=>536.070820630649, "hard++"=>600.721594882025, "medium"=>546.3732955520956}
+ -> easy
+1,52,31,22,1,1,1,65,1,52,41,30,30,95,52,1,5,5,1,52	jug,jug (cross),gaston,sidepull ,jug,jug,jug,layback,jug,jug (cross),sloper (good hold),sloper,sloper,sidepull undercling ,jug (cross),jug,crimp,crimp,jug,jug (cross)
+{"easy"=>537.5104779355107, "hard++"=>555.2374508233947, "medium"=>545.8768825298431}
+ -> easy
+46,73,38,24,1,1,5,145,46,73,56,37,37,135,84,1,6,6,1,84	jug small ,jug small (cross),gaston ,sidepull ,jug ,jug ,jug bad,layback bad,jug small ,jug small (cross),sloper big (good hold),sloper ,sloper ,sidepull undercling ,jug (cross),jug ,crimp ,crimp ,jug ,jug (cross)
+{"easy"=>868.1537165135898, "hard++"=>909.2871252680328, "medium"=>942.5766746207923}
+ -> easy
+266 hard++ (V4)
+23,1,4,29,3,29,4,4,23,65,4,23	sloper,jug,crimp,foothook ,sidepull ,foothook ,crimp,crimp,sloper,jib ,crimp,sloper
+{"easy"=>157.38276519756798, "hard++"=>169.7656971677331, "medium"=>179.20338689568777}
+ -> easy
+33,1,5,47,22,47,5,5,33,111,5,33	sloper ,jug ,crimp ,foothook ,sidepull ,foothook ,crimp ,crimp ,sloper ,jib small ,crimp ,sloper 
+{"easy"=>237.84292743582614, "hard++"=>303.97374449430157, "medium"=>280.6898398214377}
+ -> easy
+32,1,28,39,22,39,5,5,32,104,5,30	sloper (big move),jug,crimp (cross),foothook ,sidepull ,foothook ,crimp,crimp,sloper (big move),jib ,crimp,sloper
+{"easy"=>331.04946595289374, "hard++"=>276.98198745456216, "medium"=>315.1179044185657}
+ -> hard++
+40,1,34,53,24,53,6,6,40,146,6,37	sloper (big move),jug ,crimp (cross),foothook ,sidepull ,foothook ,crimp ,crimp ,sloper (big move),jib small ,crimp ,sloper 
+{"easy"=>427.14394473285364, "hard++"=>383.99183873615334, "medium"=>399.5378367279926}
+ -> hard++
+275 hard++ (V4)
+66,2,11,4,11,4,23	crimp ledge,match ,pinch,crimp,pinch,crimp,sloper
+{"easy"=>82.97366218753436, "hard++"=>119.71400757696995, "medium"=>119.26858799362806}
+ -> easy
+113,2,14,5,14,5,33	crimp ledge ,match ,pinch ,crimp ,pinch ,crimp ,sloper 
+{"easy"=>131.03487132859453, "hard++"=>190.98173325509504, "medium"=>168.27164139478498}
+ -> easy
+105,3,83,5,13,5,61	crimp ledge,match ,pinch (cross),crimp,pinch,crimp,sloper (cross)
+{"easy"=>278.936103615527, "hard++"=>294.60931130296143, "medium"=>292.60201172735333}
+ -> easy
+149,3,119,6,15,6,86	crimp ledge ,match ,pinch (cross),crimp ,pinch ,crimp ,sloper (cross)
+{"easy"=>383.51381701430154, "hard++"=>419.61477686698464, "medium"=>397.1196383013399}
+ -> easy
+283 medium (V3)
+4,29,4,1,4,0,1,4,11,29,24,29,24,4,4	crimp,foothook ,crimp,jug,crimp,,jug,crimp,pinch,foothook ,gaston,foothook ,gaston,crimp,crimp
+{"easy"=>186.32456595962762, "hard++"=>217.18540627722427, "medium"=>172.60776834793595}
+ -> medium
+5,47,5,1,5,0,1,5,14,47,34,47,34,5,35	crimp ,foothook ,crimp ,jug ,crimp ,,jug ,crimp ,pinch ,foothook ,gaston ,foothook ,gaston ,crimp ,crimp small 
+{"easy"=>290.3040223046824, "hard++"=>370.33088222440296, "medium"=>325.8583471434397}
+ -> easy
+5,39,103,1,5,0,1,28,13,39,31,39,31,103,5	crimp,foothook ,crimp (big move),jug,crimp,,jug,crimp (cross),pinch,foothook ,gaston,foothook ,gaston,crimp (big move),crimp
+{"easy"=>287.8986187436095, "hard++"=>490.24496948963383, "medium"=>423.69794412699304}
+ -> easy
+6,53,148,1,6,0,1,34,15,53,38,53,38,148,39	crimp ,foothook ,crimp (big move),jug ,crimp ,,jug ,crimp (cross),pinch ,foothook ,gaston ,foothook ,gaston ,crimp (big move),crimp small 
+{"easy"=>381.97411143330027, "hard++"=>702.9372216713841, "medium"=>674.8583471434396}
+ -> easy
+296 medium (V3)
+64,64,23,11,1,17	crimper,crimper,sloper,pinch,jug,mantle 
+{"easy"=>163.8267247133585, "hard++"=>181.92259936198192, "medium"=>173.53215993587528}
+ -> easy
+114,114,49,14,1,20	crimper small ,crimper small ,sloper big ,pinch ,jug ,mantle 
+{"easy"=>312.2564666596436, "hard++"=>340.9660739244629, "medium"=>325.6913068662217}
+ -> easy
+102,102,41,13,2,19	crimper,crimper,sloper (good hold),pinch,jug (big move),mantle 
+{"easy"=>286.19619343739055, "hard++"=>302.8244712664348, "medium"=>298.86498246887317}
+ -> easy
+150,150,56,15,2,21	crimper small ,crimper small ,sloper big (good hold),pinch ,jug (big move),mantle 
+{"easy"=>395.25646665964354, "hard++"=>419.8244712664348, "medium"=>411.8097675869356}
+ -> easy
+298 easy (5.10)
+67,11,11,22,2,11,11,15,4,55,2,68,24,2,10,10,37,4,23,2,9	incut pinch,pinch,pinch,generichold ,match ,pinch,pinch,bucket,crimp,pinch sloper,match ,thumb sidepull ,gaston,match ,pocket,pocket,crimp sloper,crimp,sloper,match ,jug mantle 
+{"easy"=>363.56093368535795, "hard++"=>415.89195424696317, "medium"=>407.46713827945973}
+ -> easy
+115,48,48,50,2,48,48,18,37,116,2,117,108,2,58,58,118,37,49,2,11	incut pinch ,pinch big ,pinch big ,generichold big ,match ,pinch big ,pinch big ,bucket bad,crimp big ,pinch sloper big ,match ,thumb sidepull bad,gaston bad,match ,pocket big bad,pocket big bad,crimp sloper big ,crimp big ,sloper big ,match ,jug mantle 
+{"easy"=>1104.7928845092772, "hard++"=>1185.2407544243629, "medium"=>1010.3585452247488}
+ -> medium
+106,107,34,29,3,34,34,17,25,108,3,109,31,3,12,110,111,25,88,3,11	incut pinch,pinch (cross) (good hold),pinch (good hold),generichold (good hold),match ,pinch (good hold),pinch (good hold),bucket,crimp (good hold),pinch sloper (cross) (good hold),match ,thumb sidepull ,gaston,match ,pocket,pocket (cross),crimp sloper (good hold),crimp (good hold),sloper (cross) (good hold),match ,jug mantle 
+{"easy"=>1032.631908982639, "hard++"=>1082.6790552746836, "medium"=>1013.7532936001578}
+ -> medium
+151,152,55,63,3,55,55,19,42,153,3,154,155,3,69,156,157,42,125,3,12	incut pinch ,pinch big (cross) (good hold),pinch big (good hold),generichold big (good hold),match ,pinch big (good hold),pinch big (good hold),bucket bad,crimp big (good hold),pinch sloper big (cross) (good hold),match ,thumb sidepull bad,gaston bad,match ,pocket big bad,pocket big bad (cross),crimp sloper big (good hold),crimp big (good hold),sloper big (cross) (good hold),match ,jug mantle 
+{"easy"=>1639.7928845092767, "hard++"=>1702.6790552746836, "medium"=>1496.3585452247487}
+ -> medium
+301 medium (V3)
+23,2,55,55,3	sloper,match ,pinch sloper,pinch sloper,sidepull 
+{"easy"=>118.29512496812208, "hard++"=>26.530840619005097, "medium"=>123.10351092069915}
+ -> hard++
+49,2,119,119,3	sloper big ,match ,pinch sloper small ,pinch sloper small ,sidepull big 
+{"easy"=>297.9447940121938, "hard++"=>317.1477618911362, "medium"=>299.50063807957724}
+ -> easy
+41,3,89,89,112	sloper (good hold),match ,pinch sloper,pinch sloper,sidepull (big move) (good hold)
+{"easy"=>337.4102510568188, "hard++"=>172.5271041815511, "medium"=>341.9609255528156}
+ -> hard++
+56,3,158,158,159	sloper big (good hold),match ,pinch sloper small ,pinch sloper small ,sidepull big (big move) (good hold)
+{"easy"=>532.9447940121939, "hard++"=>551.0341656658849, "medium"=>537.5006380795774}
+ -> easy
+325 medium (5.11)
+10,4,23,11,10,4,12,12,23,10,4,1,17	pocket,crimp,sloper,pinch,pocket,crimp,undercling ,undercling ,sloper,pocket,crimp,jug,mantle 
+{"easy"=>119.59697682957088, "hard++"=>116.95882484651341, "medium"=>141.6478953876457}
+ -> hard++
+87,5,33,51,12,13,15,15,33,57,5,41,20	pocket small ,crimp ,sloper ,pinch bad,pocket ,crimp bad,undercling ,undercling ,sloper ,pocket bad,crimp ,jug small ,mantle 
+{"easy"=>345.73580162927414, "hard++"=>334.89914649495677, "medium"=>357.23934692167705}
+ -> hard++
+12,5,30,13,12,5,14,14,30,12,5,1,19	pocket,crimp,sloper,pinch,pocket,crimp,undercling ,undercling ,sloper,pocket,crimp,jug,mantle 
+{"easy"=>163.57949585755043, "hard++"=>129.1165956787088, "medium"=>219.41860087869816}
+ -> hard++
+111,6,37,58,13,14,16,16,37,68,6,46,21	pocket small ,crimp ,sloper ,pinch bad,pocket ,crimp bad,undercling ,undercling ,sloper ,pocket bad,crimp ,jug small ,mantle 
+{"easy"=>426.70929372951736, "hard++"=>381.7761682378429, "medium"=>483.47626836310474}
+ -> hard++
+329 medium (V3)
+4,24,3,69,0	crimp,gaston,sidepull ,layback ,
+{"easy"=>107.75152916874936, "hard++"=>120.96981435296594, "medium"=>97.42814480231259}
+ -> medium
+5,34,22,120,0	crimp ,gaston ,sidepull ,layback ,
+{"easy"=>167.70407617352802, "hard++"=>208.1477618911362, "medium"=>197.00026747605432}
+ -> easy
+5,31,22,113,0	crimp,gaston,sidepull ,layback ,
+{"easy"=>168.4268144072821, "hard++"=>187.69264317270117, "medium"=>160.95865951901135}
+ -> medium
+6,38,24,160,0	crimp ,gaston ,sidepull ,layback ,
+{"easy"=>222.48138670325056, "hard++"=>254.03416566588484, "medium"=>245.0002674760543}
+ -> easy
+332 easy (5.10)
+10,10,4,1,17	pocket,pocket,crimp,jug,mantle 
+{"easy"=>59.94211121402356, "hard++"=>67.09097902063193, "medium"=>59.33968300771783}
+ -> medium
+57,57,5,1,20	pocket bad,pocket bad,crimp ,jug ,mantle 
+{"easy"=>151.40352306759712, "hard++"=>168.1477618911362, "medium"=>153.88180675534042}
+ -> easy
+12,110,5,1,90	pocket,pocket (cross),crimp,jug,mantle (big move)
+{"easy"=>238.43971990879098, "hard++"=>234.53143288387324, "medium"=>230.8542561805476}
+ -> medium
+68,161,6,1,128	pocket bad,pocket bad (cross),crimp ,jug ,mantle (big move)
+{"easy"=>378.46252361392885, "hard++"=>387.0341656658848, "medium"=>375.8818067553404}
+ -> medium
+352 hard++ (V4)
+12,12,11,11,1,42,11,1,1	undercling ,undercling ,pinch,pinch,jug,pocket sidepull ,pinch,jug,jug
+{"easy"=>107.72685196011408, "hard++"=>128.746462555682, "medium"=>126.32488706266217}
+ -> easy
+15,15,48,48,61,124,48,1,1	undercling ,undercling ,pinch big ,pinch big ,jug small bad,pocket sidepull bad,pinch big ,jug ,jug 
+{"easy"=>385.5628434395009, "hard++"=>371.74646255568206, "medium"=>381.2718102923107}
+ -> hard++
+80,14,34,34,1,64,118,1,1	undercling (big move),undercling ,pinch (good hold),pinch (good hold),jug,pocket sidepull ,pinch (big move) (good hold),jug,jug
+{"easy"=>378.51723602922505, "hard++"=>371.30677778029786, "medium"=>362.8394602354919}
+ -> medium
+116,16,55,55,72,166,167,1,1	undercling (big move),undercling ,pinch big (good hold),pinch big (good hold),jug small bad,pocket sidepull bad,pinch big (big move) (good hold),jug ,jug 
+{"easy"=>671.562843439501, "hard++"=>667.3067777802978, "medium"=>667.2718102923106}
+ -> medium
+371 hard++ (V5)
+8,1,3,4,2,22,22,2,24,11,17	jug sidepull ,jug,sidepull ,crimp,match ,generichold ,generichold ,match ,gaston,pinch,mantle 
+{"easy"=>127.23769568200385, "hard++"=>175.00085122059195, "medium"=>123.18251049159669}
+ -> medium
+10,4,22,37,2,46,46,2,34,48,20	jug sidepull ,jug bad,sidepull ,crimp big ,match ,generichold bad,generichold bad,match ,gaston ,pinch big ,mantle 
+{"easy"=>273.10060938103913, "hard++"=>329.0576340910963, "medium"=>285.7657577127619}
+ -> easy
+10,1,22,25,3,37,37,3,31,107,19	jug sidepull ,jug,sidepull ,crimp (good hold),match ,generichold ,generichold ,match ,gaston,pinch (cross) (good hold),mantle 
+{"easy"=>301.984150883989, "hard++"=>347.77599926918435, "medium"=>286.91947608576294}
+ -> medium
+11,5,24,42,3,52,52,3,38,152,21	jug sidepull ,jug bad,sidepull ,crimp big (good hold),match ,generichold bad,generichold bad,match ,gaston ,pinch big (cross) (good hold),mantle 
+{"easy"=>405.09640723813857, "hard++"=>455.77599926918447, "medium"=>415.76575771276197}
+ -> easy
+372 hard++ (V4)
+14,2,20,4,55,2,72,1,1,8,9	gaston jug,match ,crimp sidepull ,crimp,pinch sloper,match ,crimp pinch,jug,jug,jug sidepull ,jug mantle 
+{"easy"=>195.00563396969832, "hard++"=>187.63584725411647, "medium"=>212.62064860855887}
+ -> hard++
+125,2,29,5,116,2,126,61,25,62,11	gaston jug ,match ,crimp sidepull ,crimp ,pinch sloper big ,match ,crimp pinch big ,jug small bad,jug big ,jug sidepull small ,jug mantle 
+{"easy"=>542.9718476844298, "hard++"=>619.0576340910962, "medium"=>579.8580093483881}
+ -> easy
+119,3,26,5,120,3,121,52,7,10,122	gaston jug,match ,crimp sidepull ,crimp,pinch sloper (good hold),match ,crimp pinch (good hold),jug (cross),jug (good hold),jug sidepull ,jug mantle (cross)
+{"easy"=>581.7174792045441, "hard++"=>625.2732664871727, "medium"=>611.8006702476398}
+ -> easy
+168,3,32,6,169,3,170,171,28,74,172	gaston jug ,match ,crimp sidepull ,crimp ,pinch sloper big (good hold),match ,crimp pinch big (good hold),jug small bad (cross),jug big (good hold),jug sidepull small ,jug mantle (cross)
+{"easy"=>970.4318351966499, "hard++"=>1039.7759992691842, "medium"=>1006.8580093483881}
+ -> easy
+373 easy (V0)
+33,1,2,1,1,2,1,9	jug undercling ,jug,match ,jug,jug,match ,jug,jug mantle 
+{"easy"=>81.7759362755072, "hard++"=>102.60269799111623, "medium"=>59.321675323367224}
+ -> medium
+127,1,2,1,1,2,1,11	jug undercling ,jug ,match ,jug ,jug ,match ,jug ,jug mantle 
+{"easy"=>178.75230427963785, "hard++"=>198.60269799111617, "medium"=>158.5200472406418}
+ -> medium
+51,52,3,1,1,3,1,11	jug undercling ,jug (cross),match ,jug,jug,match ,jug,jug mantle 
+{"easy"=>151.68891929517233, "hard++"=>170.40508246753464, "medium"=>132.2779704642497}
+ -> medium
+173,84,3,1,1,3,1,12	jug undercling ,jug (cross),match ,jug ,jug ,match ,jug ,jug mantle 
+{"easy"=>302.7523042796379, "hard++"=>325.40508246753467, "medium"=>288.87288403586433}
+ -> medium
+374 hard++ (V4)
+1,12,8,1,11,11,10,14,9	jug,undercling ,jug sidepull ,jug,pinch,pinch,pocket,gaston jug,jug mantle 
+{"easy"=>94.67837351658888, "hard++"=>118.5931542498689, "medium"=>105.84948499108236}
+ -> easy
+4,15,10,61,48,128,129,125,11	jug bad,undercling ,jug sidepull ,jug small bad,pinch big ,pinch big bad,pocket big ,gaston jug ,jug mantle 
+{"easy"=>549.5628434395009, "hard++"=>558.5931542498689, "medium"=>544.6782090637455}
+ -> medium
+1,123,10,1,34,13,124,119,11	jug,undercling (cross),jug sidepull ,jug,pinch (good hold),pinch,pocket (good hold),gaston jug,jug mantle 
+{"easy"=>454.50433052771615, "hard++"=>474.1953880680845, "medium"=>455.5160612573572}
+ -> easy
+5,174,11,72,55,175,176,168,12	jug bad,undercling (cross),jug sidepull ,jug small bad,pinch big (good hold),pinch big bad,pocket big (good hold),gaston jug ,jug mantle 
+{"easy"=>865.5628434395007, "hard++"=>883.1953880680845, "medium"=>858.6782090637456}
+ -> medium
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374]
+377 medium (V3)
+1,18,18,73,22,1,30,23,23,12,18,22,1,74,75	jug,edge,edge,flake undercling ,generichold ,jug,sloper undercling ,sloper,sloper,undercling ,edge,generichold ,jug,beam edge,beam
+{"easy"=>445.6615202357622, "hard++"=>403.80771004821344, "medium"=>453.473015986869}
+ -> hard++
+1,23,23,130,43,7,131,33,33,97,23,50,41,132,133	jug ,edge ,edge ,flake undercling big ,generichold ,jug good,sloper undercling bad,sloper ,sloper ,undercling small ,edge ,generichold big ,jug small ,beam edge ,beam 
+{"easy"=>939.1563966574012, "hard++"=>927.2133231778589, "medium"=>934.4730159868689}
+ -> hard++
+1,20,20,125,37,7,43,30,30,14,23,29,1,126,127	jug,edge,edge,flake undercling (good hold),generichold ,jug (good hold),sloper undercling ,sloper,sloper,undercling ,edge (cross),generichold (good hold),jug,beam edge,beam
+{"easy"=>679.3313847717078, "hard++"=>660.2596237213301, "medium"=>676.4730159868689}
+ -> hard++
+1,26,26,177,48,8,178,37,37,129,90,63,46,179,180	jug ,edge ,edge ,flake undercling big (good hold),generichold ,jug good (good hold),sloper undercling bad,sloper ,sloper ,undercling small ,edge (cross),generichold big (good hold),jug small ,beam edge ,beam 
+{"easy"=>1270.3675346476439, "hard++"=>1259.213323177859, "medium"=>1258.473015986869}
+ -> medium
+380 easy (5.10)
+33,37,22,34,43,11,17	jug undercling ,crimp sloper,generichold ,sloper sidepull ,layback,pinch,mantle 
+{"easy"=>183.3957325791433, "hard++"=>188.16715974897411, "medium"=>214.20970927000752}
+ -> easy
+127,67,43,64,73,14,134	jug undercling ,crimp sloper ,generichold ,sloper sidepull ,layback ,pinch ,mantle bad
+{"easy"=>416.3957325791433, "hard++"=>530.0126835267149, "medium"=>536.2097092700075}
+ -> easy
+51,57,37,54,65,83,19	jug undercling ,crimp sloper,generichold ,sloper sidepull ,layback,pinch (cross),mantle 
+{"easy"=>331.3923461454147, "hard++"=>380.94457729159905, "medium"=>382.2097092700075}
+ -> easy
+173,81,48,78,91,119,181	jug undercling ,crimp sloper ,generichold ,sloper sidepull ,layback ,pinch (cross),mantle bad
+{"easy"=>619.3228052121616, "hard++"=>782.0126835267149, "medium"=>783.2097092700075}
+ -> easy
+384 medium (V3)
+23,37,1,22,11,2,17	sloper,crimp sloper,jug,generichold ,pinch,match ,mantle 
+{"easy"=>130.08300500787865, "hard++"=>111.01410212177622, "medium"=>137.20970927000752}
+ -> hard++
+33,67,4,43,14,2,20	sloper ,crimp sloper ,jug bad,generichold ,pinch ,match ,mantle 
+{"easy"=>204.33044321869804, "hard++"=>204.0315466160366, "medium"=>208.2097092700075}
+ -> hard++
+30,57,1,37,13,3,19	sloper,crimp sloper,jug,generichold ,pinch,match ,mantle 
+{"easy"=>178.83885134466854, "hard++"=>165.84371705581398, "medium"=>185.20970927000752}
+ -> hard++
+37,81,5,48,15,3,21	sloper ,crimp sloper ,jug bad,generichold ,pinch ,match ,mantle 
+{"easy"=>234.87500122060456, "hard++"=>232.9536829803831, "medium"=>235.2097092700075}
+ -> hard++
+385 easy (5.10)
+4,4,1,2,29,11,4,1,4,1,17	crimp,crimp,jug,match ,foothook ,pinch,crimp,jug,crimp,jug,mantle 
+{"easy"=>107.0149546796423, "hard++"=>100.68546940719635, "medium"=>97.84113992415868}
+ -> medium
+5,5,1,2,47,51,5,1,5,1,20	crimp ,crimp ,jug ,match ,foothook ,pinch bad,crimp ,jug ,crimp ,jug ,mantle 
+{"easy"=>172.0149546796423, "hard++"=>202.11300335228682, "medium"=>159.79192194855597}
+ -> medium
+5,5,1,3,39,13,5,1,5,1,19	crimp,crimp,jug,match ,foothook ,pinch,crimp,jug,crimp,jug,mantle 
+{"easy"=>130.41937938846343, "hard++"=>122.56999252809456, "medium"=>115.79192194855602}
+ -> medium
+6,6,1,3,53,58,6,1,6,1,21	crimp ,crimp ,jug ,match ,foothook ,pinch bad,crimp ,jug ,crimp ,jug ,mantle 
+{"easy"=>195.41937938846343, "hard++"=>224.11300335228682, "medium"=>174.791921948556}
+ -> medium
+395 hard++ (V4)
+10,10,11,11,4,8,76,1	pocket,pocket,pinch,pinch,crimp,jug sidepull ,pinch slope,jug
+{"easy"=>154.257906440772, "hard++"=>101.96460630768249, "medium"=>150.00809277152044}
+ -> hard++
+57,57,14,14,5,10,135,1	pocket bad,pocket bad,pinch ,pinch ,crimp ,jug sidepull ,pinch slope ,jug 
+{"easy"=>316.257906440772, "hard++"=>309.27003388137285, "medium"=>312.0007239947787}
+ -> hard++
+12,12,13,13,5,10,128,2	pocket,pocket,pinch,pinch,crimp,jug sidepull ,pinch slope (big move),jug (big move)
+{"easy"=>228.27121732045765, "hard++"=>187.30766244926386, "medium"=>218.00072399477872}
+ -> hard++
+68,68,15,15,6,11,182,2	pocket bad,pocket bad,pinch ,pinch ,crimp ,jug sidepull ,pinch slope (big move),jug (big move)
+{"easy"=>400.2712173204577, "hard++"=>384.27003388137285, "medium"=>385.00072399477864}
+ -> hard++
+398 easy (5.8)
+1,43,0,22,22,12,17,22,24,11,17,1,1,2	jug,layback,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston,pinch,mantle ,jug,jug,match 
+{"easy"=>227.0125247029996, "hard++"=>194.14362418046332, "medium"=>218.8345475053875}
+ -> hard++
+1,73,0,43,43,15,20,43,34,14,20,1,1,2	jug ,layback ,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston ,pinch ,mantle ,jug ,jug ,match 
+{"easy"=>343.0125247029996, "hard++"=>355.45710631078754, "medium"=>324.2932765607908}
+ -> medium
+1,65,0,37,37,14,19,37,31,13,19,1,1,3	jug,layback,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston,pinch,mantle ,jug,jug,match 
+{"easy"=>316.7317700651229, "hard++"=>302.1093469271881, "medium"=>295.2932765607908}
+ -> medium
+1,91,0,48,48,16,21,48,38,15,21,1,1,3	jug ,layback ,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston ,pinch ,mantle ,jug ,jug ,match 
+{"easy"=>391.73177006512276, "hard++"=>419.43824322146594, "medium"=>362.29327656079073}
+ -> medium
+408 easy (5.10)
+4,4,35,11,35,2,4,35,4,23	crimp,crimp,ledge,pinch,ledge,match ,crimp,ledge,crimp,sloper
+{"easy"=>186.87443393836296, "hard++"=>177.40027165383603, "medium"=>166.058226584551}
+ -> medium
+5,5,136,14,82,2,5,82,5,33	crimp ,crimp ,ledge small ,pinch ,ledge ,match ,crimp ,ledge ,crimp ,sloper 
+{"easy"=>400.87443393836287, "hard++"=>406.3379233958939, "medium"=>375.00900860894836}
+ -> medium
+5,103,129,13,55,3,5,55,5,30	crimp,crimp (big move),ledge (big move),pinch,ledge,match ,crimp,ledge,crimp,sloper
+{"easy"=>433.05063133972703, "hard++"=>423.29922390570886, "medium"=>412.0093469931125}
+ -> medium
+6,148,183,15,104,3,6,104,6,37	crimp ,crimp (big move),ledge small (big move),pinch ,ledge ,match ,crimp ,ledge ,crimp ,sloper 
+{"easy"=>645.050631339727, "hard++"=>648.337923395894, "medium"=>618.0093469931126}
+ -> medium
+409 hard++ (5.12)
+55,35,55,72,35,55,2,35,72,23	pinch sloper,ledge,pinch sloper,crimp pinch,ledge,pinch sloper,match ,ledge,crimp pinch,sloper
+{"easy"=>459.87443393836287, "hard++"=>444.0615395029426, "medium"=>460.5584492888305}
+ -> hard++
+137,136,137,138,82,137,2,82,138,33	pinch sloper ,ledge small ,pinch sloper ,crimp pinch ,ledge ,pinch sloper ,match ,ledge ,crimp pinch ,sloper 
+{"easy"=>1044.8744339383627, "hard++"=>1021.3379233958938, "medium"=>1039.5584492888304}
+ -> hard++
+89,55,89,130,55,131,3,55,130,30	pinch sloper,ledge,pinch sloper,crimp pinch,ledge,pinch sloper (big move),match ,ledge,crimp pinch,sloper
+{"easy"=>786.050631339727, "hard++"=>782.2357640432201, "medium"=>787.5584492888304}
+ -> hard++
+184,185,184,186,104,187,3,104,186,37	pinch sloper ,ledge small ,pinch sloper ,crimp pinch ,ledge ,pinch sloper (big move),match ,ledge ,crimp pinch ,sloper 
+{"easy"=>1381.050631339727, "hard++"=>1362.3379233958938, "medium"=>1377.5584492888306}
+ -> hard++
+414 easy (5.10)
+35,77,22,2,78,35,77,78,22,17	ledge,bucket pocket,generichold ,match ,ledge sloper,ledge,bucket pocket,ledge sloper,generichold ,mantle 
+{"easy"=>465.87443393836287, "hard++"=>448.06153950294254, "medium"=>464.5584492888306}
+ -> hard++
+82,139,43,2,140,82,139,141,43,20	ledge ,bucket pocket ,generichold ,match ,ledge sloper big ,ledge ,bucket pocket ,ledge sloper bad,generichold ,mantle 
+{"easy"=>855.8744339383628, "hard++"=>840.3379233958939, "medium"=>851.5584492888306}
+ -> hard++
+55,132,37,3,133,55,132,134,37,90	ledge,bucket pocket,generichold ,match ,ledge sloper (big move) (good hold),ledge,bucket pocket,ledge sloper,generichold ,mantle (big move)
+{"easy"=>829.050631339727, "hard++"=>819.2357640432203, "medium"=>826.5584492888306}
+ -> hard++
+104,188,48,3,189,104,188,190,48,128	ledge ,bucket pocket ,generichold ,match ,ledge sloper big (big move) (good hold),ledge ,bucket pocket ,ledge sloper bad,generichold ,mantle (big move)
+{"easy"=>1214.0506313397273, "hard++"=>1202.3379233958938, "medium"=>1208.5584492888304}
+ -> hard++
+415 medium (V2)
+22,19,19,11,3,71,9	generichold ,crimp rail,crimp rail,pinch,sidepull ,crimp incut,jug mantle 
+{"easy"=>167.4099095342171, "hard++"=>145.42665894798424, "medium"=>168.7323838280008}
+ -> hard++
+46,122,122,14,22,123,11	generichold bad,crimp rail ,crimp rail ,pinch ,sidepull ,crimp incut ,jug mantle 
+{"easy"=>471.40990953421704, "hard++"=>465.2454797186663, "medium"=>452.7397526047426}
+ -> medium
+37,115,115,13,116,117,11	generichold ,crimp rail,crimp rail,pinch,sidepull (cross),crimp incut (big move),jug mantle 
+{"easy"=>531.7903743923439, "hard++"=>515.2498411093916, "medium"=>538.2097092700076}
+ -> hard++
+52,163,163,15,164,165,12	generichold bad,crimp rail ,crimp rail ,pinch ,sidepull (cross),crimp incut (big move),jug mantle 
+{"easy"=>744.7903743923439, "hard++"=>741.245479718666, "medium"=>748.2097092700076}
+ -> hard++
+428 medium (V3)
+11,12,23,3,1,2,2	pinch,undercling ,sloper,sidepull ,jug,match ,match 
+{"easy"=>70.26984656850634, "hard++"=>56.66077298926505, "medium"=>76.73238382800078}
+ -> hard++
+14,15,33,22,1,2,2	pinch ,undercling ,sloper ,sidepull ,jug ,match ,match 
+{"easy"=>104.26984656850634, "hard++"=>109.03154661603658, "medium"=>94.73975260474253}
+ -> medium
+13,14,30,22,1,3,3	pinch,undercling ,sloper,sidepull ,jug,match ,match 
+{"easy"=>101.85569907028379, "hard++"=>95.5167047671238, "medium"=>91.73975260474253}
+ -> medium
+15,16,37,24,1,3,3	pinch ,undercling ,sloper ,sidepull ,jug ,match ,match 
+{"easy"=>114.85569907028378, "hard++"=>136.01268352671485, "medium"=>102.73975260474253}
+ -> medium
+440 easy (5.8)
+1,24,1,1,3,3,3,3,1,1,12,12,1,1	jug,gaston,jug,jug,sidepull ,sidepull ,sidepull ,sidepull ,jug,jug,undercling ,undercling ,jug,jug
+{"easy"=>95.70374908046571, "hard++"=>84.95809652897333, "medium"=>85.18113428435126}
+ -> hard++
+1,34,1,1,22,22,22,22,1,1,15,15,1,1	jug ,gaston ,jug ,jug ,sidepull ,sidepull ,sidepull ,sidepull ,jug ,jug ,undercling ,undercling ,jug ,jug 
+{"easy"=>183.70374908046568, "hard++"=>198.94838447240502, "medium"=>91.14694918272376}
+ -> medium
+1,31,1,1,22,22,22,22,1,1,14,14,1,1	jug,gaston,jug,jug,sidepull ,sidepull ,sidepull ,sidepull ,jug,jug,undercling ,undercling ,jug,jug
+{"easy"=>184.52307745119512, "hard++"=>184.22335544288248, "medium"=>89.14694918272377}
+ -> medium
+1,38,1,1,24,24,24,24,1,1,16,16,1,1	jug ,gaston ,jug ,jug ,sidepull ,sidepull ,sidepull ,sidepull ,jug ,jug ,undercling ,undercling ,jug ,jug 
+{"easy"=>203.5230774511951, "hard++"=>248.43824322146583, "medium"=>93.14694918272376}
+ -> medium
+446 hard++ (5.12)
+22,22,4,23,23,10,12,50,50,79,23,4,12,24,3,3,24,17,17	generichold ,generichold ,crimp,sloper,sloper,pocket,undercling ,rail,rail,sloper mantle ,sloper,crimp,undercling ,gaston,sidepull ,sidepull ,gaston,mantle ,mantle 
+{"easy"=>479.43386931943144, "hard++"=>421.26302008229663, "medium"=>408.37825937324607}
+ -> medium
+43,43,37,33,33,87,15,85,85,142,33,35,97,34,22,22,143,20,20	generichold ,generichold ,crimp big ,sloper ,sloper ,pocket small ,undercling ,rail ,rail ,sloper mantle ,sloper ,crimp small ,undercling small ,gaston ,sidepull ,sidepull ,gaston small ,mantle ,mantle 
+{"easy"=>1083.4338693194313, "hard++"=>1051.3325060927527, "medium"=>994.2457582459434}
+ -> medium
+37,37,25,61,30,12,14,76,76,135,30,5,123,31,22,22,31,71,19	generichold ,generichold ,crimp (good hold),sloper (cross),sloper,pocket,undercling ,rail,rail,sloper mantle ,sloper,crimp,undercling (cross),gaston,sidepull ,sidepull ,gaston,mantle (cross),mantle 
+{"easy"=>918.24852775724, "hard++"=>784.0654387234599, "medium"=>791.105462036955}
+ -> hard++
+48,48,42,86,37,111,16,109,109,191,37,39,192,38,24,24,193,98,21	generichold ,generichold ,crimp big (good hold),sloper (cross),sloper ,pocket small ,undercling ,rail ,rail ,sloper mantle ,sloper ,crimp small ,undercling small (cross),gaston ,sidepull ,sidepull ,gaston small ,mantle (cross),mantle 
+{"easy"=>1524.2485277572398, "hard++"=>1508.3136430034306, "medium"=>1416.2457582459435}
+ -> medium
+452 hard++ (V7)
+3,11,3,11,11,11,1	sidepull ,pinch,sidepull ,pinch,pinch,pinch,jug
+{"easy"=>72.40990953421708, "hard++"=>30.46925046009226, "medium"=>64.31908185540073}
+ -> hard++
+22,14,22,14,14,14,1	sidepull ,pinch ,sidepull ,pinch ,pinch ,pinch ,jug 
+{"easy"=>120.40990953421706, "hard++"=>130.01268352671485, "medium"=>80.31252825591011}
+ -> medium
+22,13,22,13,13,13,1	sidepull ,pinch,sidepull ,pinch,pinch,pinch,jug
+{"easy"=>120.8662140717853, "hard++"=>65.3070701860381, "medium"=>76.3125282559101}
+ -> hard++
+24,15,24,15,15,15,1	sidepull ,pinch ,sidepull ,pinch ,pinch ,pinch ,jug 
+{"easy"=>132.8662140717853, "hard++"=>140.01268352671482, "medium"=>84.31252825591011}
+ -> medium
+458 hard++ (V8)
+3,12,11,24,11,23,23,9	sidepull ,undercling ,pinch,gaston,pinch,sloper,sloper,jug mantle 
+{"easy"=>133.25790644077202, "hard++"=>91.47887471875437, "medium"=>111.48676716028942}
+ -> hard++
+22,15,38,34,38,33,33,11	sidepull ,undercling ,pinch good,gaston ,pinch good,sloper ,sloper ,jug mantle 
+{"easy"=>238.25790644077202, "hard++"=>223.03942276438102, "medium"=>189.93157383946033}
+ -> medium
+22,14,34,31,34,32,30,11	sidepull ,undercling ,pinch (good hold),gaston,pinch (good hold),sloper (big move),sloper,jug mantle 
+{"easy"=>227.51558443205138, "hard++"=>153.84335343877274, "medium"=>175.9315738394603}
+ -> hard++
+24,16,43,38,43,40,37,12	sidepull ,undercling ,pinch good (good hold),gaston ,pinch good (good hold),sloper (big move),sloper ,jug mantle 
+{"easy"=>271.51558443205136, "hard++"=>272.0205596750593, "medium"=>211.93157383946036}
+ -> medium
+464 medium (V3)
+1,11,1,23,23,3	jug,pinch,jug,sloper,sloper,sidepull 
+{"easy"=>77.27698628758709, "hard++"=>62.47145010804735, "medium"=>80.66379426525181}
+ -> hard++
+41,14,1,53,33,22	jug small ,pinch ,jug ,sloper small ,sloper ,sidepull 
+{"easy"=>181.16247132339768, "hard++"=>186.23760357032185, "medium"=>160.67116304199354}
+ -> medium
+1,83,1,30,30,22	jug,pinch (cross),jug,sloper,sloper,sidepull 
+{"easy"=>182.80449441434058, "hard++"=>179.3860634664667, "medium"=>165.67116304199357}
+ -> medium
+46,119,1,60,37,24	jug small ,pinch (cross),jug ,sloper small ,sloper ,sidepull 
+{"easy"=>306.78464736510665, "hard++"=>311.2376035703218, "medium"=>279.67116304199357}
+ -> medium
+473 easy (5.10)
+35,35,35,12,35,1,35,35,23,23,3,3,4,39,23,31,17	ledge,ledge,ledge,undercling ,ledge,jug,ledge,ledge,sloper,sloper,sidepull ,sidepull ,crimp,incut,sloper,rail sloper,mantle 
+{"easy"=>433.4904372955021, "hard++"=>398.08818930534517, "medium"=>420.58745677720526}
+ -> hard++
+136,136,136,15,82,1,82,82,49,49,22,22,35,144,33,54,20	ledge small ,ledge small ,ledge small ,undercling ,ledge ,jug ,ledge ,ledge ,sloper big ,sloper big ,sidepull ,sidepull ,crimp small ,incut small ,sloper ,rail sloper ,mantle 
+{"easy"=>1142.4904372955023, "hard++"=>1107.782346179967, "medium"=>1090.0890952081693}
+ -> medium
+55,55,55,14,55,1,55,55,47,41,22,22,5,60,30,44,19	ledge,ledge,ledge,undercling ,ledge,jug,ledge,ledge,sloper (big move) (good hold),sloper (good hold),sidepull ,sidepull ,crimp,incut,sloper,rail sloper,mantle 
+{"easy"=>683.761957801889, "hard++"=>674.4175463653957, "medium"=>627.5948255539471}
+ -> medium
+185,185,185,16,104,1,104,104,65,56,24,24,39,194,37,61,21	ledge small ,ledge small ,ledge small ,undercling ,ledge ,jug ,ledge ,ledge ,sloper big (big move) (good hold),sloper big (good hold),sidepull ,sidepull ,crimp small ,incut small ,sloper ,rail sloper ,mantle 
+{"easy"=>1455.7619578018887, "hard++"=>1440.7634830906445, "medium"=>1393.0890952081693}
+ -> medium
+487 medium (V3)
+1,23,23,1,85	jug,sloper,sloper,jug,mantle mantle 
+{"easy"=>143.42898938103215, "hard++"=>134.54794834094895, "medium"=>150.64388259079217}
+ -> hard++
+1,33,33,1,150	jug ,sloper ,sloper ,jug ,mantle mantle 
+{"easy"=>228.42898938103215, "hard++"=>236.46252361392885, "medium"=>235.64388259079215}
+ -> easy
+2,30,30,2,141	jug (big move),sloper,sloper,jug (big move),mantle mantle 
+{"easy"=>227.09558720133523, "hard++"=>222.417119457185, "medium"=>222.64388259079215}
+ -> hard++
+2,37,37,2,200	jug (big move),sloper ,sloper ,jug (big move),mantle mantle 
+{"easy"=>300.0955872013352, "hard++"=>298.46252361392885, "medium"=>295.64388259079215}
+ -> medium
+499 medium (V3)
+23,1,23,1,85	sloper,jug,sloper,jug,mantle mantle 
+{"easy"=>144.06703620602332, "hard++"=>135.03357107377698, "medium"=>150.64388259079217}
+ -> hard++
+33,1,33,1,150	sloper ,jug ,sloper ,jug ,mantle mantle 
+{"easy"=>229.06703620602332, "hard++"=>236.46252361392882, "medium"=>235.64388259079215}
+ -> easy
+30,2,30,2,141	sloper,jug (big move),sloper,jug (big move),mantle mantle 
+{"easy"=>227.09558720133523, "hard++"=>222.417119457185, "medium"=>222.64388259079215}
+ -> hard++
+37,2,37,2,200	sloper ,jug (big move),sloper ,jug (big move),mantle mantle 
+{"easy"=>300.0955872013352, "hard++"=>298.4625236139288, "medium"=>295.64388259079215}
+ -> medium
+536 easy (5.10)
+23,4,4,78,12,11,87,15,3,15,4,1	sloper,crimp,crimp,ledge sloper,undercling ,pinch,knob,bucket,sidepull ,bucket,crimp,jug
+{"easy"=>292.64989406699186, "hard++"=>265.1176251076768, "medium"=>271.1981000571997}
+ -> hard++
+33,5,5,152,15,26,153,18,22,18,5,1	sloper ,crimp ,crimp ,ledge sloper small ,undercling ,pinch small ,knob big ,bucket bad,sidepull ,bucket bad,crimp ,jug 
+{"easy"=>487.6498940669918, "hard++"=>476.90694639800154, "medium"=>448.69082559171545}
+ -> medium
+30,5,5,134,14,13,143,17,22,17,5,1	sloper,crimp,crimp,ledge sloper,undercling ,pinch,knob (good hold),bucket,sidepull ,bucket,crimp,jug
+{"easy"=>447.4922642703227, "hard++"=>426.06848569542683, "medium"=>402.69082559171545}
+ -> medium
+37,6,6,202,16,29,203,19,24,19,6,1	sloper ,crimp ,crimp ,ledge sloper small ,undercling ,pinch small ,knob big (good hold),bucket bad,sidepull ,bucket bad,crimp ,jug 
+{"easy"=>609.4922642703226, "hard++"=>611.8880833086799, "medium"=>558.6908255917155}
+ -> medium
+521 hard++ (V5)
+72,86,62,82,37,23,23,23,23	crimp pinch,mono undercling ,flake,crimp mono pinch,crimp sloper,sloper,sloper,sloper,sloper
+{"easy"=>453.95390025388184, "hard++"=>430.31716886798864, "medium"=>449.7755359492228}
+ -> hard++
+138,151,106,147,67,63,63,63,63	crimp pinch ,mono undercling ,flake ,crimp mono pinch ,crimp sloper ,sloper bad,sloper bad,sloper bad,sloper bad
+{"easy"=>885.953900253882, "hard++"=>860.5628434395007, "medium"=>875.7755359492228}
+ -> hard++
+130,142,99,138,57,30,30,30,30	crimp pinch,mono undercling ,flake,crimp mono pinch,crimp sloper,sloper,sloper,sloper,sloper
+{"easy"=>710.9964273601651, "hard++"=>698.4720351260131, "medium"=>704.7755359492228}
+ -> hard++
+186,201,140,197,81,77,77,77,77	crimp pinch ,mono undercling ,flake ,crimp mono pinch ,crimp sloper ,sloper bad,sloper bad,sloper bad,sloper bad
+{"easy"=>1140.9964273601652, "hard++"=>1118.562843439501, "medium"=>1127.775535949223}
+ -> hard++
+537 medium (5.11)
+3,87,39,24,1,3,12,11,1,2,88,23,3,3,3,1	sidepull ,knob,incut,gaston,jug,sidepull ,undercling ,pinch,jug,match ,incut sidepull ,sloper,sidepull ,sidepull ,sidepull ,jug
+{"easy"=>344.65438051668144, "hard++"=>326.0874755744863, "medium"=>309.8360300303523}
+ -> medium
+22,154,69,34,1,22,15,14,1,2,155,33,22,22,22,1	sidepull ,knob ,incut ,gaston ,jug ,sidepull ,undercling ,pinch ,jug ,match ,incut sidepull ,sloper ,sidepull ,sidepull ,sidepull ,jug 
+{"easy"=>625.6543805166815, "hard++"=>626.0072662235735, "medium"=>490.29538564049176}
+ -> medium
+22,144,60,31,52,22,14,13,1,3,145,30,116,22,22,2	sidepull ,knob,incut,gaston,jug (cross),sidepull ,undercling ,pinch,jug,match ,incut sidepull ,sloper,sidepull (cross),sidepull ,sidepull ,jug (big move)
+{"easy"=>695.9729209232411, "hard++"=>725.7310843433676, "medium"=>620.7751764331417}
+ -> medium
+24,204,85,38,84,24,16,15,1,3,205,37,164,24,24,2	sidepull ,knob ,incut ,gaston ,jug (cross),sidepull ,undercling ,pinch ,jug ,match ,incut sidepull ,sloper ,sidepull (cross),sidepull ,sidepull ,jug (big move)
+{"easy"=>916.50343563994, "hard++"=>1002.9884031342518, "medium"=>856.7751764331418}
+ -> medium
+546 hard++ (V9)
+23,23,24,3,4,4,3,24,4,3,1,1	sloper,sloper,gaston,sidepull ,crimp,crimp,sidepull ,gaston,crimp,sidepull ,jug,jug
+{"easy"=>154.0045089464613, "hard++"=>155.39827496097317, "medium"=>84.24372560547982}
+ -> medium
+33,33,34,22,5,5,22,34,5,22,1,1	sloper ,sloper ,gaston ,sidepull ,crimp ,crimp ,sidepull ,gaston ,crimp ,sidepull ,jug ,jug 
+{"easy"=>251.00450894646124, "hard++"=>268.8880833086797, "medium"=>104.48355611036344}
+ -> medium
+30,30,31,22,5,5,22,31,5,22,1,1	sloper,sloper,gaston,sidepull ,crimp,crimp,sidepull ,gaston,crimp,sidepull ,jug,jug
+{"easy"=>246.8836038670767, "hard++"=>246.55501809351458, "medium"=>98.48355611036344}
+ -> medium
+37,37,38,24,6,6,24,38,6,24,1,1	sloper ,sloper ,gaston ,sidepull ,crimp ,crimp ,sidepull ,gaston ,crimp ,sidepull ,jug ,jug 
+{"easy"=>283.8836038670767, "hard++"=>300.88808330867977, "medium"=>112.48355611036341}
+ -> medium
+549 hard++ (V4)
+23,23,23,2,23,26,85	sloper,sloper,sloper,match ,sloper,dish,mantle mantle 
+{"easy"=>224.330443218698, "hard++"=>210.82842759808065, "medium"=>225.20970927000752}
+ -> hard++
+49,49,33,2,53,156,150	sloper big ,sloper big ,sloper ,match ,sloper small ,dish ,mantle mantle 
+{"easy"=>510.330443218698, "hard++"=>504.0126835267148, "medium"=>508.2097092700075}
+ -> hard++
+41,41,30,3,30,146,141	sloper (good hold),sloper (good hold),sloper,match ,sloper,dish (big move),mantle mantle 
+{"easy"=>451.87500122060453, "hard++"=>445.94457729159905, "medium"=>449.2097092700075}
+ -> hard++
+56,56,37,3,60,206,200	sloper big (good hold),sloper big (good hold),sloper ,match ,sloper small ,dish (big move),mantle mantle 
+{"easy"=>637.8750012206045, "hard++"=>634.0126835267148, "medium"=>634.2097092700075}
+ -> hard++
+550 medium (V3)
+11,11,3,3,3,3,4,12,11,3,17	pinch,pinch,sidepull ,sidepull ,sidepull ,sidepull ,crimp,undercling ,pinch,sidepull ,mantle 
+{"easy"=>120.64989406699182, "hard++"=>80.81866782137847, "medium"=>91.45325833476741}
+ -> hard++
+14,14,22,22,22,22,5,15,14,22,20	pinch ,pinch ,sidepull ,sidepull ,sidepull ,sidepull ,crimp ,undercling ,pinch ,sidepull ,mantle 
+{"easy"=>226.64989406699178, "hard++"=>216.1318664416085, "medium"=>110.4678072657359}
+ -> medium
+13,13,22,22,22,22,5,14,13,22,19	pinch,pinch,sidepull ,sidepull ,sidepull ,sidepull ,crimp,undercling ,pinch,sidepull ,mantle 
+{"easy"=>230.44684743958013, "hard++"=>181.36678023469167, "medium"=>105.46780726573593}
+ -> medium
+15,15,24,24,24,24,6,16,15,24,21	pinch ,pinch ,sidepull ,sidepull ,sidepull ,sidepull ,crimp ,undercling ,pinch ,sidepull ,mantle 
+{"easy"=>251.44684743958015, "hard++"=>253.1130033522868, "medium"=>115.46780726573591}
+ -> medium
+565 medium (V2)
+18,4,11,18,18,1,18,29,18,41,4	edge,crimp,pinch,edge,edge,jug,edge,foothook ,edge,edge sidepull ,crimp
+{"easy"=>212.40245585617245, "hard++"=>182.99158466159213, "medium"=>202.6011999019372}
+ -> hard++
+94,5,14,94,94,25,157,47,23,71,37	edge big ,crimp ,pinch ,edge big ,edge big ,jug big ,edge small ,foothook ,edge ,edge sidepull ,crimp big 
+{"easy"=>694.6498940669918, "hard++"=>684.1130033522869, "medium"=>680.3494640136017}
+ -> medium
+87,5,13,87,87,7,20,39,20,63,46	edge (good hold),crimp,pinch,edge (good hold),edge (good hold),jug (good hold),edge,foothook ,edge,edge sidepull ,crimp (big move) (good hold)
+{"easy"=>510.4468474395801, "hard++"=>492.0629528229159, "medium"=>498.3494640136018}
+ -> hard++
+124,6,15,124,124,28,207,53,26,88,64	edge big (good hold),crimp ,pinch ,edge big (good hold),edge big (good hold),jug big (good hold),edge small ,foothook ,edge ,edge sidepull ,crimp big (big move) (good hold)
+{"easy"=>896.4468474395802, "hard++"=>889.1130033522867, "medium"=>877.3494640136017}
+ -> medium
+593 hard++ (V5)
+11,11,24,89,23,18,18	pinch,pinch,gaston,thumb,sloper,edge,edge
+{"easy"=>215.25790644077196, "hard++"=>174.53334014574645, "medium"=>190.1171557932818}
+ -> hard++
+14,14,34,158,33,21,23	pinch ,pinch ,gaston ,thumb small ,sloper ,edge bad,edge 
+{"easy"=>318.257906440772, "hard++"=>315.01268352671485, "medium"=>285.57588484868506}
+ -> medium
+13,13,147,148,30,20,20	pinch,pinch,gaston (big move),thumb (cross),sloper,edge,edge
+{"easy"=>414.54600728075025, "hard++"=>377.2484047033749, "medium"=>412.2097092700075}
+ -> hard++
+15,15,208,209,37,22,26	pinch ,pinch ,gaston (big move),thumb small (cross),sloper ,edge bad,edge 
+{"easy"=>555.5460072807502, "hard++"=>548.0126835267148, "medium"=>552.2097092700075}
+ -> hard++
+594 hard++ (V4)
+23,2,4,19,2,23,2,17	sloper,match ,crimp,crimp rail,match ,sloper,match ,mantle 
+{"easy"=>112.32351368110506, "hard++"=>115.57279823303463, "medium"=>117.00809277152044}
+ -> easy
+33,2,42,122,2,33,2,20	sloper ,match ,crimp small bad,crimp rail ,match ,sloper ,match ,mantle 
+{"easy"=>275.32351368110506, "hard++"=>289.7877634831078, "medium"=>283.9926226096152}
+ -> easy
+30,3,5,149,3,30,3,19	sloper,match ,crimp,crimp rail (cross),match ,sloper,match ,mantle 
+{"easy"=>261.25819914002085, "hard++"=>273.70830620880616, "medium"=>265.0007239947787}
+ -> easy
+37,3,47,210,3,37,3,21	sloper ,match ,crimp small bad,crimp rail (cross),match ,sloper ,match ,mantle 
+{"easy"=>379.25819914002085, "hard++"=>395.7877634831078, "medium"=>388.9926226096152}
+ -> easy
+597 easy (5.10)
+90,2,57,12,2,91,4,11,0,10,17	arete sidepull ,match ,arete,undercling ,match ,gaston pocket,crimp,pinch,,pocket,mantle 
+{"easy"=>326.7949676228439, "hard++"=>296.19224734146536, "medium"=>321.59383112519544}
+ -> hard++
+159,2,100,97,2,160,5,14,0,57,20	arete sidepull ,match ,arete ,undercling small ,match ,gaston pocket bad,crimp ,pinch ,,pocket bad,mantle 
+{"easy"=>647.794967622844, "hard++"=>649.1130033522869, "medium"=>640.5864623484537}
+ -> medium
+150,3,93,14,3,151,28,75,0,110,19	arete sidepull ,match ,arete,undercling ,match ,gaston pocket,crimp (cross),pinch (big move),,pocket (cross),mantle 
+{"easy"=>674.1048353192889, "hard++"=>676.9994929604272, "medium"=>676.5783609632903}
+ -> easy
+211,3,133,129,3,212,34,106,0,161,21	arete sidepull ,match ,arete ,undercling small ,match ,gaston pocket bad,crimp (cross),pinch (big move),,pocket bad (cross),mantle 
+{"easy"=>1043.104835319289, "hard++"=>1045.113003352287, "medium"=>1040.5783609632902}
+ -> medium
+613 hard++ (5.12)
+22,22,4,3,0,0,4,0,0,79,9	generichold ,generichold ,crimp,sidepull ,,,crimp,,,sloper mantle ,jug mantle 
+{"easy"=>181.80189716043688, "hard++"=>182.06540933690667, "medium"=>159.365004077152}
+ -> medium
+43,43,5,22,0,0,5,0,0,142,11	generichold ,generichold ,crimp ,sidepull ,,,crimp ,,,sloper mantle ,jug mantle 
+{"easy"=>306.80189716043685, "hard++"=>309.3457995442383, "medium"=>264.85017221241094}
+ -> medium
+37,37,5,22,0,0,5,0,0,135,11	generichold ,generichold ,crimp,sidepull ,,,crimp,,,sloper mantle ,jug mantle 
+{"easy"=>294.6912145511738, "hard++"=>289.2412969157311, "medium"=>245.850172212411}
+ -> medium
+48,48,6,24,0,0,6,0,0,191,12	generichold ,generichold ,crimp ,sidepull ,,,crimp ,,,sloper mantle ,jug mantle 
+{"easy"=>376.6912145511738, "hard++"=>375.3457995442383, "medium"=>324.85017221241094}
+ -> medium
+621 easy (5.10)
+1,1,11,1,4,1,1,4,23,11,1,23,1	jug,jug,pinch,jug,crimp,jug,jug,crimp,sloper,pinch,jug,sloper,jug
+{"easy"=>107.13034440393673, "hard++"=>89.68628086515633, "medium"=>124.9381296314641}
+ -> hard++
+1,1,14,1,5,1,1,5,33,14,1,33,1	jug ,jug ,pinch ,jug ,crimp ,jug ,jug ,crimp ,sloper ,pinch ,jug ,sloper ,jug 
+{"easy"=>135.1303444039367, "hard++"=>184.66316326507285, "medium"=>152.92339207798062}
+ -> easy
+1,1,13,1,5,1,1,5,30,13,1,30,1	jug,jug,pinch,jug,crimp,jug,jug,crimp,sloper,pinch,jug,sloper,jug
+{"easy"=>132.40016218229476, "hard++"=>112.59680436065896, "medium"=>144.9233920779806}
+ -> hard++
+1,1,15,1,6,1,1,6,37,15,1,37,1	jug ,jug ,pinch ,jug ,crimp ,jug ,jug ,crimp ,sloper ,pinch ,jug ,sloper ,jug 
+{"easy"=>152.40016218229476, "hard++"=>198.66316326507282, "medium"=>162.92339207798062}
+ -> easy
+629 easy (5.10)
+3,12,3,1,3,3,12,12	sidepull ,undercling ,sidepull ,jug,sidepull ,sidepull ,undercling ,undercling 
+{"easy"=>75.85846513650758, "hard++"=>51.5099696691272, "medium"=>57.644973271609146}
+ -> hard++
+22,15,22,1,22,22,161,161	sidepull ,undercling ,sidepull ,jug ,sidepull ,sidepull ,undercling big ,undercling big 
+{"easy"=>446.8584651365076, "hard++"=>429.80662657242954, "medium"=>355.1456941376028}
+ -> medium
+22,14,22,52,22,22,72,72	sidepull ,undercling ,sidepull ,jug (cross),sidepull ,sidepull ,undercling (good hold),undercling (good hold)
+{"easy"=>274.12640890482595, "hard++"=>318.70830620880605, "medium"=>226.14569413760276}
+ -> medium
+24,16,24,84,24,24,213,213	sidepull ,undercling ,sidepull ,jug (cross),sidepull ,sidepull ,undercling big (good hold),undercling big (good hold)
+{"easy"=>565.6569236215248, "hard++"=>639.7877634831078, "medium"=>540.1456941376028}
+ -> medium
+641 easy (5.10)
+23,4,1,1	sloper,crimp,jug,jug
+{"easy"=>38.220533694021675, "hard++"=>39.443309881341406, "medium"=>40.876439413089756}
+ -> easy
+33,5,1,1	sloper ,crimp ,jug ,jug 
+{"easy"=>49.22053369402168, "hard++"=>63.68744365753585, "medium"=>50.869070636348006}
+ -> easy
+30,5,1,1	sloper,crimp,jug,jug
+{"easy"=>47.08192354941683, "hard++"=>50.445186755858316, "medium"=>47.869070636348006}
+ -> easy
+37,6,1,1	sloper ,crimp ,jug ,jug 
+{"easy"=>55.08192354941683, "hard++"=>69.68744365753585, "medium"=>54.86907063634801}
+ -> medium
+643 easy (5.10)
+24,24,24,24	gaston,gaston,gaston,gaston
+{"easy"=>109.71391572110716, "hard++"=>96.59531569321877, "medium"=>15.094461441431966}
+ -> medium
+34,34,34,34	gaston ,gaston ,gaston ,gaston 
+{"easy"=>149.71391572110716, "hard++"=>148.68744365753585, "medium"=>12.868459479681047}
+ -> medium
+31,31,31,31	gaston,gaston,gaston,gaston
+{"easy"=>140.37037716162774, "hard++"=>136.65339053997795, "medium"=>12.868459479681047}
+ -> medium
+38,38,38,38	gaston ,gaston ,gaston ,gaston 
+{"easy"=>168.37037716162774, "hard++"=>168.68744365753582, "medium"=>12.868459479681047}
+ -> medium
+648 easy (5.10)
+24,11,12,4,4,24,10,17	gaston,pinch,undercling ,crimp,crimp,gaston,pocket,mantle 
+{"easy"=>133.10590334732697, "hard++"=>93.95913543660348, "medium"=>73.08834978734326}
+ -> medium
+34,14,15,5,5,34,12,20	gaston ,pinch ,undercling ,crimp ,crimp ,gaston ,pocket ,mantle 
+{"easy"=>166.10590334732697, "hard++"=>156.8066265724296, "medium"=>86.64175129572862}
+ -> medium
+31,13,14,5,28,31,12,19	gaston,pinch,undercling ,crimp,crimp (cross),gaston,pocket,mantle 
+{"easy"=>185.27121732045768, "hard++"=>166.7717660712948, "medium"=>112.49003555115267}
+ -> medium
+38,15,16,6,34,38,13,21	gaston ,pinch ,undercling ,crimp ,crimp (cross),gaston ,pocket ,mantle 
+{"easy"=>213.27121732045768, "hard++"=>214.78776348310785, "medium"=>125.49003555115266}
+ -> medium
+650 easy (V0)
+1,1,3,1,9	jug,jug,sidepull ,jug,jug mantle 
+{"easy"=>14.927049262627511, "hard++"=>22.49526067971506, "medium"=>32.16655714878544}
+ -> easy
+1,1,22,1,11	jug ,jug ,sidepull ,jug ,jug mantle 
+{"easy"=>32.927049262627506, "hard++"=>52.69531980588029, "medium"=>35.173925925527186}
+ -> easy
+1,1,22,2,77	jug,jug,sidepull ,jug (big move),jug mantle (big move)
+{"easy"=>116.76597159773709, "hard++"=>118.56101478974435, "medium"=>100.1739259255272}
+ -> medium
+1,1,24,2,112	jug ,jug ,sidepull ,jug (big move),jug mantle (big move)
+{"easy"=>154.7659715977371, "hard++"=>167.46252361392882, "medium"=>135.1739259255272}
+ -> medium
+652 medium (V2)
+23,23,4,11,23,9,1	sloper,sloper,crimp,pinch,sloper,jug mantle ,jug
+{"easy"=>105.56191262766212, "hard++"=>86.68615814699439, "medium"=>112.22517943191278}
+ -> hard++
+33,33,13,14,33,11,1	sloper ,sloper ,crimp bad,pinch ,sloper ,jug mantle ,jug 
+{"easy"=>146.56191262766214, "hard++"=>154.24547971866627, "medium"=>164.20970927000752}
+ -> easy
+30,30,5,75,61,11,2	sloper,sloper,crimp,pinch (big move),sloper (cross),jug mantle ,jug (big move)
+{"easy"=>228.79037439234392, "hard++"=>228.18638124690298, "medium"=>230.2178106551711}
+ -> hard++
+37,37,14,106,86,12,2	sloper ,sloper ,crimp bad,pinch (big move),sloper (cross),jug mantle ,jug (big move)
+{"easy"=>308.79037439234395, "hard++"=>308.2454797186663, "medium"=>317.2097092700075}
+ -> hard++
+655 hard++ (V5)
+11,11,35,35,23,4,24,23,9	pinch,pinch,ledge,ledge,sloper,crimp,gaston,sloper,jug mantle 
+{"easy"=>193.10590334732697, "hard++"=>155.2815806146645, "medium"=>171.08445786934712}
+ -> hard++
+14,14,82,65,33,5,34,33,11	pinch ,pinch ,ledge ,ledge bad,sloper ,crimp ,gaston ,sloper ,jug mantle 
+{"easy"=>309.10590334732694, "hard++"=>307.7956396314523, "medium"=>278.2812251390324}
+ -> medium
+13,13,55,55,32,5,31,30,11	pinch,pinch,ledge,ledge,sloper (big move),crimp,gaston,sloper,jug mantle 
+{"easy"=>265.2407944717589, "hard++"=>235.01766649309283, "medium"=>234.28122513903244}
+ -> medium
+15,15,104,79,40,6,38,37,12	pinch ,pinch ,ledge ,ledge bad,sloper (big move),crimp ,gaston ,sloper ,jug mantle 
+{"easy"=>368.2407944717589, "hard++"=>366.7956396314523, "medium"=>327.2812251390324}
+ -> medium
+657 medium (V3)
+22,22,23,4,1,19,9	generichold ,generichold ,sloper,crimp,jug,crimp rail,jug mantle 
+{"easy"=>112.1624713233977, "hard++"=>100.93486916989293, "medium"=>118.22517943191279}
+ -> hard++
+43,43,33,5,1,162,11	generichold ,generichold ,sloper ,crimp ,jug ,crimp rail bad,jug mantle 
+{"easy"=>307.16247132339765, "hard++"=>310.2454797186663, "medium"=>312.21781065517104}
+ -> easy
+37,37,30,5,2,115,122	generichold ,generichold ,sloper,crimp,jug (big move),crimp rail,jug mantle (cross)
+{"easy"=>374.5460072807502, "hard++"=>369.9445772915991, "medium"=>359.21781065517104}
+ -> medium
+48,48,37,6,2,214,172	generichold ,generichold ,sloper ,crimp ,jug (big move),crimp rail bad,jug mantle (cross)
+{"easy"=>554.5460072807501, "hard++"=>551.0126835267148, "medium"=>537.217810655171}
+ -> medium
+669 hard++ (V4)
+22,1,23,1,11,23,9	generichold ,jug,sloper,jug,pinch,sloper,jug mantle 
+{"easy"=>98.91503311257829, "hard++"=>77.26125351438154, "medium"=>115.20970927000754}
+ -> hard++
+43,1,33,1,14,33,11	generichold ,jug ,sloper ,jug ,pinch ,sloper ,jug mantle 
+{"easy"=>142.91503311257827, "hard++"=>155.2454797186663, "medium"=>162.20970927000752}
+ -> easy
+37,1,61,2,13,30,77	generichold ,jug,sloper (cross),jug (big move),pinch,sloper,jug mantle (big move)
+{"easy"=>243.50985740481414, "hard++"=>225.84371705581395, "medium"=>244.20970927000755}
+ -> hard++
+48,1,86,2,15,37,112	generichold ,jug ,sloper (cross),jug (big move),pinch ,sloper ,jug mantle (big move)
+{"easy"=>325.50985740481417, "hard++"=>331.01268352671485, "medium"=>324.20970927000747}
+ -> medium
+692 hard++ (V4)
+23,1,23,1,11,23,1	sloper,jug,sloper,jug,pinch,sloper,jug
+{"easy"=>97.91503311257827, "hard++"=>77.26125351438154, "medium"=>110.20970927000752}
+ -> hard++
+33,1,33,1,14,33,1	sloper ,jug ,sloper ,jug ,pinch ,sloper ,jug 
+{"easy"=>130.91503311257827, "hard++"=>150.01268352671482, "medium"=>144.2097092700075}
+ -> easy
+30,1,61,2,13,30,2	sloper,jug,sloper (cross),jug (big move),pinch,sloper,jug (big move)
+{"easy"=>165.50985740481414, "hard++"=>148.84371705581395, "medium"=>166.20970927000752}
+ -> hard++
+37,1,86,2,15,37,2	sloper ,jug ,sloper (cross),jug (big move),pinch ,sloper ,jug (big move)
+{"easy"=>207.5098574048141, "hard++"=>215.01268352671485, "medium"=>207.2097092700075}
+ -> medium
+694 hard++ (V5)
+11,11,35,11,23,1	pinch,pinch,ledge,pinch,sloper,jug
+{"easy"=>107.56191262766211, "hard++"=>65.38720086069604, "medium"=>111.42679593039983}
+ -> hard++
+14,14,82,14,33,1	pinch ,pinch ,ledge ,pinch ,sloper ,jug 
+{"easy"=>174.5619126276621, "hard++"=>181.23760357032182, "medium"=>180.42679593039986}
+ -> easy
+13,13,55,13,30,2	pinch,pinch,ledge,pinch,sloper,jug (big move)
+{"easy"=>149.8207972410427, "hard++"=>105.54813564865646, "medium"=>148.42679593039983}
+ -> hard++
+15,15,104,15,37,2	pinch ,pinch ,ledge ,pinch ,sloper ,jug (big move)
+{"easy"=>212.8207972410427, "hard++"=>213.23760357032182, "medium"=>210.4267959303998}
+ -> medium
+701 easy (V0)
+1,1	jug,jug
+{"easy"=>2.807946926962401, "hard++"=>7.826711412938528, "medium"=>13.295142571969135}
+ -> easy
+1,1	jug ,jug 
+{"easy"=>2.807946926962401, "hard++"=>17.13728374474985, "medium"=>13.295142571969135}
+ -> easy
+1,1	jug,jug
+{"easy"=>2.9444602051881805, "hard++"=>7.675952091700941, "medium"=>13.295142571969135}
+ -> easy
+1,1	jug ,jug 
+{"easy"=>2.9444602051881805, "hard++"=>17.13728374474985, "medium"=>13.295142571969135}
+ -> easy
+702 hard++ (V4)
+12,2,12,20,12,50,85	undercling ,match ,undercling ,crimp sidepull ,undercling ,rail,mantle mantle 
+{"easy"=>211.33044321869806, "hard++"=>177.4840350203153, "medium"=>213.20970927000752}
+ -> hard++
+15,2,15,29,15,164,150	undercling ,match ,undercling ,crimp sidepull ,undercling ,rail big ,mantle mantle 
+{"easy"=>408.33044321869806, "hard++"=>363.5009092748409, "medium"=>412.2097092700075}
+ -> hard++
+14,3,14,153,14,154,141	undercling ,match ,undercling ,crimp sidepull (cross) (big move),undercling ,rail (big move) (good hold),mantle mantle 
+{"easy"=>510.87500122060453, "hard++"=>504.94457729159905, "medium"=>513.2097092700076}
+ -> hard++
+16,3,16,216,16,217,200	undercling ,match ,undercling ,crimp sidepull (cross) (big move),undercling ,rail big (big move) (good hold),mantle mantle 
+{"easy"=>701.8750012206044, "hard++"=>697.0126835267149, "medium"=>704.2097092700075}
+ -> hard++
+706 hard++ (V4)
+0,23,10,64,23,4,4,2,10,1,2,85	,sloper,pocket,crimper,sloper,crimp,crimp,match ,pocket,jug,match ,mantle mantle 
+{"easy"=>261.4303647857621, "hard++"=>244.5431088915857, "medium"=>254.46088399019928}
+ -> hard++
+0,63,165,166,33,35,13,2,87,4,2,150	,sloper bad,pocket small bad,crimper big ,sloper ,crimp small ,crimp bad,match ,pocket small ,jug bad,match ,mantle mantle 
+{"easy"=>753.6429645293989, "hard++"=>745.9069463980015, "medium"=>750.9252046209441}
+ -> hard++
+0,32,74,155,30,5,5,3,12,1,3,156	,sloper (big move),pocket (big move),crimper (big move) (good hold),sloper,crimp,crimp,match ,pocket,jug,match ,mantle mantle (big move)
+{"easy"=>510.5458831198973, "hard++"=>516.5989017793604, "medium"=>498.95360952471503}
+ -> medium
+0,218,219,220,37,39,14,3,111,5,3,221	,sloper bad (big move),pocket small bad (big move),crimper big (big move) (good hold),sloper ,crimp small ,crimp bad,match ,pocket small ,jug bad,match ,mantle mantle (big move)
+{"easy"=>1123.8300453589961, "hard++"=>1113.829082762348, "medium"=>1119.925204620944}
+ -> hard++
+738 medium (5.11)
+9,9,38,9,9,38,1,1,93,93	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug,jug,crimp jug mantle ,crimp jug mantle 
+{"easy"=>284.5323471176822, "hard++"=>278.0807274193823, "medium"=>327.5584492888305}
+ -> hard++
+11,11,68,11,11,68,1,1,167,167	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug ,jug ,crimp jug mantle small ,crimp jug mantle small 
+{"easy"=>494.5323471176822, "hard++"=>494.8415649292429, "medium"=>547.5584492888305}
+ -> easy
+11,11,58,11,11,58,1,1,157,157	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug,jug,crimp jug mantle ,crimp jug mantle 
+{"easy"=>451.82634823905437, "hard++"=>448.15210102892934, "medium"=>507.5584492888305}
+ -> hard++
+12,12,82,12,12,82,1,1,222,222	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug ,jug ,crimp jug mantle small ,crimp jug mantle small 
+{"easy"=>633.8263482390543, "hard++"=>634.841564929243, "medium"=>689.5584492888306}
+ -> easy
+741 easy (5.10)
+1,29,1	jug,foothook ,jug
+{"easy"=>36.13243687218668, "hard++"=>33.47176389724903, "medium"=>44.07805591157681}
+ -> hard++
+4,47,1	jug bad,foothook ,jug 
+{"easy"=>61.01792190799726, "hard++"=>63.36286327062548, "medium"=>65.07805591157681}
+ -> easy
+1,39,2	jug,foothook ,jug (big move)
+{"easy"=>53.66501417115417, "hard++"=>51.25919681311938, "medium"=>55.078055911576804}
+ -> hard++
+5,53,2	jug bad,foothook ,jug (big move)
+{"easy"=>75.64516712192025, "hard++"=>69.13085102851977, "medium"=>73.07805591157681}
+ -> hard++
+744 medium (V1)
+1,1,11,1,11,33,23,17	jug,jug,pinch,jug,pinch,jug undercling ,sloper,mantle 
+{"easy"=>83.88332050268225, "hard++"=>87.2647753960632, "medium"=>126.99262260961518}
+ -> easy
+1,1,14,1,14,127,33,20	jug ,jug ,pinch ,jug ,pinch ,jug undercling ,sloper ,mantle 
+{"easy"=>102.88332050268227, "hard++"=>245.78776348310785, "medium"=>241.99262260961515}
+ -> easy
+1,1,13,2,13,51,32,19	jug,jug,pinch,jug (big move),pinch,jug undercling ,sloper (big move),mantle 
+{"easy"=>106.94414624308392, "hard++"=>128.4517097881838, "medium"=>162.99262260961518}
+ -> easy
+1,1,15,2,15,173,40,21	jug ,jug ,pinch ,jug (big move),pinch ,jug undercling ,sloper (big move),mantle 
+{"easy"=>121.89905835355536, "hard++"=>305.7877634831078, "medium"=>297.9926226096152}
+ -> easy
+748 medium (V2)
+1,1,23,10,11,11,1,9	jug,jug,sloper,pocket,pinch,pinch,jug,jug mantle 
+{"easy"=>74.47103998229237, "hard++"=>45.077487154125805, "medium"=>96.99262260961518}
+ -> hard++
+1,1,53,57,14,14,1,11	jug ,jug ,sloper small ,pocket bad,pinch ,pinch ,jug ,jug mantle 
+{"easy"=>157.47103998229233, "hard++"=>177.0205596750593, "medium"=>182.99262260961518}
+ -> easy
+1,1,30,12,13,13,2,11	jug,jug,sloper,pocket,pinch,pinch,jug (big move),jug mantle 
+{"easy"=>98.18596882845324, "hard++"=>71.64744644989172, "medium"=>116.99262260961518}
+ -> hard++
+1,1,60,68,15,15,2,12	jug ,jug ,sloper small ,pocket bad,pinch ,pinch ,jug (big move),jug mantle 
+{"easy"=>188.1859688284533, "hard++"=>200.02055967505925, "medium"=>204.99262260961518}
+ -> easy
+752 hard++ (V4)
+4,4,11,11,10,1,2	crimp,crimp,pinch,pinch,pocket,jug,match 
+{"easy"=>61.344205627129625, "hard++"=>37.032101856991694, "medium"=>58.67854624191745}
+ -> hard++
+5,5,14,14,12,1,2	crimp ,crimp ,pinch ,pinch ,pocket ,jug ,match 
+{"easy"=>71.34420562712961, "hard++"=>91.01268352671485, "medium"=>70.64406581979827}
+ -> medium
+5,5,13,13,12,1,3	crimp,crimp,pinch,pinch,pocket,jug,match 
+{"easy"=>73.06727098634622, "hard++"=>54.33369814654763, "medium"=>69.64406581979827}
+ -> hard++
+6,6,15,15,13,1,3	crimp ,crimp ,pinch ,pinch ,pocket ,jug ,match 
+{"easy"=>80.06727098634623, "hard++"=>97.01268352671485, "medium"=>74.64406581979827}
+ -> medium
+760 medium (V2)
+23,3,4,23,11,1,9	sloper,sidepull ,crimp,sloper,pinch,jug,jug mantle 
+{"easy"=>85.94007890206123, "hard++"=>75.3136371184862, "medium"=>88.738019862521}
+ -> hard++
+33,22,5,33,14,41,11	sloper ,sidepull ,crimp ,sloper ,pinch ,jug small ,jug mantle 
+{"easy"=>171.40990953421706, "hard++"=>173.2454797186663, "medium"=>153.24548295052026}
+ -> medium
+30,116,5,30,13,1,11	sloper,sidepull (cross),crimp,sloper,pinch,jug,jug mantle 
+{"easy"=>216.5477887315504, "hard++"=>205.81364040265854, "medium"=>223.21781065517104}
+ -> hard++
+37,164,6,37,15,46,12	sloper ,sidepull (cross),crimp ,sloper ,pinch ,jug small ,jug mantle 
+{"easy"=>331.7903743923439, "hard++"=>332.24547971866633, "medium"=>330.21781065517104}
+ -> medium
+796 easy (5.10)
+4,20,18,4,41,18,18,4,3,18,18,20,4	crimp,crimp sidepull ,edge,crimp,edge sidepull ,edge,edge,crimp,sidepull ,edge,edge,crimp sidepull ,crimp
+{"easy"=>233.3458878801017, "hard++"=>218.29465140780448, "medium"=>203.13814599221757}
+ -> medium
+5,29,94,5,71,94,94,5,3,94,32,29,5	crimp ,crimp sidepull ,edge big ,crimp ,edge sidepull ,edge big ,edge big ,crimp ,sidepull big ,edge big ,edge big bad,crimp sidepull ,crimp 
+{"easy"=>604.3458878801018, "hard++"=>603.663163265073, "medium"=>570.5950853467874}
+ -> medium
+5,26,158,5,63,87,87,5,4,87,20,26,5	crimp,crimp sidepull ,edge (big move) (good hold),crimp,edge sidepull ,edge (good hold),edge (good hold),crimp,sidepull (good hold),edge (good hold),edge,crimp sidepull ,crimp
+{"easy"=>622.897267518995, "hard++"=>622.5269507948412, "medium"=>588.5950853467874}
+ -> medium
+6,32,223,6,88,124,124,6,4,124,36,32,6	crimp ,crimp sidepull ,edge big (big move) (good hold),crimp ,edge sidepull ,edge big (good hold),edge big (good hold),crimp ,sidepull big (good hold),edge big (good hold),edge big bad,crimp sidepull ,crimp 
+{"easy"=>859.897267518995, "hard++"=>858.663163265073, "medium"=>816.5950853467874}
+ -> medium
+807 easy (5.10)
+4,23,1,1,23,1,1,11,4	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"easy"=>89.84263161058702, "hard++"=>78.66748556350434, "medium"=>93.44067561853909}
+ -> hard++
+5,33,1,1,33,1,1,14,5	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"easy"=>114.84263161058703, "hard++"=>143.56284343950085, "medium"=>117.4472292180297}
+ -> easy
+5,30,1,1,30,1,1,13,5	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"easy"=>111.1656338156347, "hard++"=>100.77942783494814, "medium"=>110.4472292180297}
+ -> hard++
+6,37,1,1,37,1,1,15,6	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"easy"=>129.16563381563472, "hard++"=>156.56284343950082, "medium"=>126.4472292180297}
+ -> medium
+810 easy (5.10)
+4,23,1,1,23,1,1,11,4	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"easy"=>89.84263161058702, "hard++"=>78.66748556350434, "medium"=>93.44067561853909}
+ -> hard++
+5,33,1,1,33,1,1,14,5	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"easy"=>114.84263161058703, "hard++"=>143.56284343950085, "medium"=>117.4472292180297}
+ -> easy
+5,30,1,1,30,1,1,13,5	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"easy"=>111.1656338156347, "hard++"=>100.77942783494814, "medium"=>110.4472292180297}
+ -> hard++
+6,37,1,1,37,1,1,15,6	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"easy"=>129.16563381563472, "hard++"=>156.56284343950082, "medium"=>126.4472292180297}
+ -> medium
+815 easy (5.10)
+1,4,4,1,1,4,4,4,4	jug,crimp,crimp,jug,jug,crimp,crimp,crimp,crimp
+{"easy"=>53.51278089642388, "hard++"=>66.11392586987735, "medium"=>32.11621005212175}
+ -> medium
+1,5,5,1,1,5,5,5,5	jug ,crimp ,crimp ,jug ,jug ,crimp ,crimp ,crimp ,crimp 
+{"easy"=>59.512780896423884, "hard++"=>89.56284343950085, "medium"=>34.10184974366824}
+ -> medium
+1,5,5,1,1,5,5,5,5	jug,crimp,crimp,jug,jug,crimp,crimp,crimp,crimp
+{"easy"=>64.60087763713383, "hard++"=>72.22724247866427, "medium"=>34.10184974366824}
+ -> medium
+1,6,6,1,1,6,6,6,6	jug ,crimp ,crimp ,jug ,jug ,crimp ,crimp ,crimp ,crimp 
+{"easy"=>70.60087763713383, "hard++"=>95.56284343950085, "medium"=>34.10184974366824}
+ -> medium
+821 hard++ (V5)
+2,2,4,29,3	match ,match ,crimp,foothook ,sidepull 
+{"easy"=>54.04132580173752, "hard++"=>64.33968632817272, "medium"=>49.89635108754939}
+ -> medium
+2,2,5,47,22	match ,match ,crimp ,foothook ,sidepull 
+{"easy"=>91.04132580173751, "hard++"=>104.46252361392885, "medium"=>67.89635108754939}
+ -> medium
+3,3,5,39,22	match ,match ,crimp,foothook ,sidepull 
+{"easy"=>85.5327665635845, "hard++"=>95.417119457185, "medium"=>61.89635108754939}
+ -> medium
+3,3,6,53,24	match ,match ,crimp ,foothook ,sidepull 
+{"easy"=>102.5327665635845, "hard++"=>117.46252361392885, "medium"=>75.89635108754939}
+ -> medium
+822 hard++ (V5)
+2,2,4,29,3	match ,match ,crimp,foothook ,sidepull 
+{"easy"=>54.04132580173752, "hard++"=>64.33968632817272, "medium"=>49.89635108754939}
+ -> medium
+2,2,5,47,22	match ,match ,crimp ,foothook ,sidepull 
+{"easy"=>91.04132580173751, "hard++"=>104.46252361392885, "medium"=>67.89635108754939}
+ -> medium
+3,3,5,39,22	match ,match ,crimp,foothook ,sidepull 
+{"easy"=>85.5327665635845, "hard++"=>95.417119457185, "medium"=>61.89635108754939}
+ -> medium
+3,3,6,53,24	match ,match ,crimp ,foothook ,sidepull 
+{"easy"=>102.5327665635845, "hard++"=>117.46252361392885, "medium"=>75.89635108754939}
+ -> medium
+823 easy (5.10)
+4,23,23,1	crimp,sloper,sloper,jug
+{"easy"=>62.86591881455222, "hard++"=>58.8548148922289, "medium"=>60.281741808907}
+ -> hard++
+13,33,33,1	crimp bad,sloper ,sloper ,jug 
+{"easy"=>90.86591881455222, "hard++"=>97.68744365753585, "medium"=>95.86096925118449}
+ -> easy
+5,30,30,1	crimp,sloper,sloper,jug
+{"easy"=>79.69058395266285, "hard++"=>79.89519449528187, "medium"=>74.29566418513936}
+ -> medium
+14,37,37,1	crimp bad,sloper ,sloper ,jug 
+{"easy"=>101.69058395266285, "hard++"=>108.68744365753587, "medium"=>104.86096925118447}
+ -> easy
+849 hard++ (V4)
+11,11,3,23,25,23,94	pinch,pinch,sidepull ,sloper,foothook sloper,sloper,mantle sidepull 
+{"easy"=>212.25790644077205, "hard++"=>176.53334014574642, "medium"=>203.7323838280008}
+ -> hard++
+14,14,22,33,36,33,168	pinch ,pinch ,sidepull ,sloper ,foothook sloper ,sloper ,mantle sidepull small 
+{"easy"=>341.257906440772, "hard++"=>338.01268352671485, "medium"=>316.73975260474253}
+ -> medium
+13,13,49,32,82,30,159	pinch,pinch,sidepull (big move),sloper (big move),foothook sloper,sloper,mantle sidepull 
+{"easy"=>401.54600728075013, "hard++"=>366.24840470337483, "medium"=>396.20970927000747}
+ -> hard++
+15,15,67,40,118,37,224	pinch ,pinch ,sidepull (big move),sloper (big move),foothook sloper ,sloper ,mantle sidepull small 
+{"easy"=>540.5460072807502, "hard++"=>535.0126835267148, "medium"=>534.2097092700075}
+ -> medium
+862 easy (5.10)
+23,4,2,23,20,24,0,23	sloper,crimp,match ,sloper,crimp sidepull ,gaston,,sloper
+{"easy"=>146.178440125253, "hard++"=>137.57279823303463, "medium"=>115.62921990531608}
+ -> medium
+33,5,2,33,29,34,0,33	sloper ,crimp ,match ,sloper ,crimp sidepull ,gaston ,,sloper 
+{"easy"=>196.17844012525296, "hard++"=>203.78776348310785, "medium"=>155.17303060683122}
+ -> medium
+30,5,3,30,26,31,0,30	sloper,crimp,match ,sloper,crimp sidepull ,gaston,,sloper
+{"easy"=>186.60021126031205, "hard++"=>188.70830620880608, "medium"=>144.17303060683125}
+ -> medium
+37,6,3,37,32,38,0,37	sloper ,crimp ,match ,sloper ,crimp sidepull ,gaston ,,sloper 
+{"easy"=>221.60021126031205, "hard++"=>229.78776348310785, "medium"=>171.17303060683122}
+ -> medium
+877 hard++ (V4)
+18,18,22,18,18,11,18,18,12,18,18,18,18,95	edge,edge,generichold ,edge,edge,pinch,edge,edge,undercling ,edge,edge,edge,edge,edge mantle 
+{"easy"=>361.19388478665667, "hard++"=>302.3468671785746, "medium"=>358.6901026472612}
+ -> hard++
+94,94,43,23,23,14,94,94,15,157,157,94,94,169	edge big ,edge big ,generichold ,edge ,edge ,pinch ,edge big ,edge big ,undercling ,edge small ,edge small ,edge big ,edge big ,edge mantle 
+{"easy"=>1204.1938847866568, "hard++"=>1165.4571063107874, "medium"=>1194.6901026472613}
+ -> hard++
+87,87,37,20,20,13,87,87,14,20,20,87,87,160	edge (good hold),edge (good hold),generichold ,edge,edge,pinch,edge (good hold),edge (good hold),undercling ,edge,edge,edge (good hold),edge (good hold),edge mantle 
+{"easy"=>865.6224775587025, "hard++"=>841.3541395745369, "medium"=>863.6901026472611}
+ -> hard++
+124,124,48,26,26,15,124,124,16,207,207,124,124,225	edge big (good hold),edge big (good hold),generichold ,edge ,edge ,pinch ,edge big (good hold),edge big (good hold),undercling ,edge small ,edge small ,edge big (good hold),edge big (good hold),edge mantle 
+{"easy"=>1555.6224775587027, "hard++"=>1538.4382432214657, "medium"=>1543.6901026472613}
+ -> hard++
+881 easy (5.10)
+23,22,20	sloper,generichold ,crimp sidepull 
+{"easy"=>75.86591881455222, "hard++"=>65.8509450582648, "medium"=>75.07805591157681}
+ -> hard++
+33,43,29	sloper ,generichold ,crimp sidepull 
+{"easy"=>115.86591881455219, "hard++"=>114.91236370114285, "medium"=>114.07805591157683}
+ -> medium
+30,37,26	sloper,generichold ,crimp sidepull 
+{"easy"=>105.64516712192025, "hard++"=>101.88966162277092, "medium"=>102.07805591157681}
+ -> hard++
+37,48,32	sloper ,generichold ,crimp sidepull 
+{"easy"=>129.64516712192025, "hard++"=>129.91236370114282, "medium"=>126.07805591157681}
+ -> medium
+883 easy (5.10)
+11,23	pinch,sloper
+{"easy"=>42.01792190799726, "hard++"=>26.12286445677039, "medium"=>41.29514257196913}
+ -> hard++
+14,33	pinch ,sloper 
+{"easy"=>55.017921907997255, "hard++"=>55.13728374474986, "medium"=>55.29514257196914}
+ -> easy
+13,30	pinch,sloper
+{"easy"=>51.91995708221277, "hard++"=>34.86238027936239, "medium"=>51.29514257196914}
+ -> hard++
+15,37	pinch ,sloper 
+{"easy"=>60.919957082212775, "hard++"=>61.13728374474985, "medium"=>60.29514257196913}
+ -> medium
+897 easy (5.10)
+1,11,4	jug,pinch,crimp
+{"easy"=>24.980433778741634, "hard++"=>14.201266659116476, "medium"=>23.322423023170526}
+ -> hard++
+1,14,5	jug ,pinch ,crimp 
+{"easy"=>28.980433778741634, "hard++"=>37.91236370114285, "medium"=>27.315054246428776}
+ -> medium
+1,13,5	jug,pinch,crimp
+{"easy"=>29.665014171154166, "hard++"=>16.15063320828174, "medium"=>26.315054246428772}
+ -> hard++
+1,15,6	jug ,pinch ,crimp 
+{"easy"=>32.66501417115416, "hard++"=>39.912363701142844, "medium"=>28.315054246428772}
+ -> medium
+912 easy (5.10)
+4,23	crimp,sloper
+{"easy"=>36.01792190799726, "hard++"=>34.10657442331082, "medium"=>28.71591512969164}
+ -> medium
+5,33	crimp ,sloper 
+{"easy"=>47.01792190799727, "hard++"=>48.13728374474986, "medium"=>38.72983750592402}
+ -> medium
+5,30	crimp,sloper
+{"easy"=>44.91995708221277, "hard++"=>45.12593270556388, "medium"=>35.72983750592401}
+ -> medium
+6,37	crimp ,sloper 
+{"easy"=>52.919957082212775, "hard++"=>54.13728374474985, "medium"=>42.72983750592402}
+ -> medium
+916 hard++ (5.12)
+35,35,4,4,12,24,11,17,3,17	ledge,ledge,crimp,crimp,undercling ,gaston,pinch,mantle ,sidepull ,mantle 
+{"easy"=>193.80189716043685, "hard++"=>163.36938463875873, "medium"=>152.52424973935337}
+ -> medium
+82,82,5,35,15,34,14,20,22,20	ledge ,ledge ,crimp ,crimp small ,undercling ,gaston ,pinch ,mantle ,sidepull ,mantle 
+{"easy"=>360.8018971604368, "hard++"=>344.35678648521554, "medium"=>296.4627695874066}
+ -> medium
+55,55,5,5,14,31,13,19,22,19	ledge,ledge,crimp,crimp,undercling ,gaston,pinch,mantle ,sidepull ,mantle 
+{"easy"=>274.72163739987263, "hard++"=>257.2992239057088, "medium"=>204.48307310601413}
+ -> medium
+104,104,6,39,16,38,15,21,24,21	ledge ,ledge ,crimp ,crimp small ,undercling ,gaston ,pinch ,mantle ,sidepull ,mantle 
+{"easy"=>425.7216373998726, "hard++"=>425.3379233958938, "medium"=>348.4627695874067}
+ -> medium
+922 medium (5.11)
+4,12,96,18,12,23,23,95,17	crimp,undercling ,crimp undercling ,edge,undercling ,sloper,sloper,edge mantle ,mantle 
+{"easy"=>326.95390025388195, "hard++"=>291.25539483783405, "medium"=>317.19630850694534}
+ -> hard++
+35,15,170,94,15,63,33,169,20	crimp small ,undercling ,crimp undercling ,edge big ,undercling ,sloper bad,sloper ,edge mantle ,mantle 
+{"easy"=>639.9539002538819, "hard++"=>598.6005696181443, "medium"=>636.7755359492229}
+ -> hard++
+5,14,161,87,14,61,30,162,19	crimp,undercling ,crimp undercling (big move),edge (good hold),undercling ,sloper (cross),sloper,edge mantle (big move),mantle 
+{"easy"=>580.9964273601652, "hard++"=>572.472035126013, "medium"=>570.2102308831778}
+ -> medium
+39,16,226,124,16,227,37,228,21	crimp small ,undercling ,crimp undercling (big move),edge big (good hold),undercling ,sloper bad (cross),sloper ,edge mantle (big move),mantle 
+{"easy"=>961.9964273601653, "hard++"=>949.5628434395009, "medium"=>955.775535949223}
+ -> hard++
+931 medium (V1)
+1,23,2,24,1,2	jug,sloper,match ,gaston,jug,match 
+{"easy"=>61.68326046269013, "hard++"=>66.29231897590292, "medium"=>56.33424245367414}
+ -> medium
+4,33,2,108,1,2	jug bad,sloper ,match ,gaston bad,jug ,match 
+{"easy"=>162.5687454985007, "hard++"=>175.6881031398045, "medium"=>175.42679593039983}
+ -> easy
+1,32,3,31,1,3	jug,sloper (big move),match ,gaston,jug,match 
+{"easy"=>79.69090193572704, "hard++"=>90.38606346646671, "medium"=>65.7929715090774}
+ -> medium
+5,40,3,155,1,3	jug bad,sloper (big move),match ,gaston bad,jug ,match 
+{"easy"=>218.67105488649312, "hard++"=>231.45609089769874, "medium"=>231.42679593039983}
+ -> easy
+945 hard++ (V7)
+12,23,4,23,12,23,23,23,23,55,55,57,79	undercling ,sloper,crimp,sloper,undercling ,sloper,sloper,sloper,sloper,pinch sloper,pinch sloper,arete,sloper mantle 
+{"easy"=>448.34588788010166, "hard++"=>401.9811458451164, "medium"=>439.9226594695589}
+ -> hard++
+15,33,13,33,15,33,33,33,33,137,137,100,142	undercling ,sloper ,crimp bad,sloper ,undercling ,sloper ,sloper ,sloper ,sloper ,pinch sloper ,pinch sloper ,arete ,sloper mantle 
+{"easy"=>793.3458878801018, "hard++"=>751.1325259238773, "medium"=>790.9071893076537}
+ -> hard++
+14,30,5,32,14,30,30,30,30,89,89,93,135	undercling ,sloper,crimp,sloper (big move),undercling ,sloper,sloper,sloper,sloper,pinch sloper,pinch sloper,arete,sloper mantle 
+{"easy"=>663.8972675189951, "hard++"=>654.5269507948412, "medium"=>648.915290692817}
+ -> medium
+16,37,14,40,16,37,37,37,37,184,184,133,191	undercling ,sloper ,crimp bad,sloper (big move),undercling ,sloper ,sloper ,sloper ,sloper ,pinch sloper ,pinch sloper ,arete ,sloper mantle 
+{"easy"=>1005.897267518995, "hard++"=>993.6631632650727, "medium"=>995.9071893076534}
+ -> hard++
+950 easy (5.7)
+1,1,1,8,1,1,8,1	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug
+{"easy"=>34.212251631254965, "hard++"=>25.81152047136468, "medium"=>57.992622609615196}
+ -> hard++
+1,1,1,10,1,1,10,1	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug 
+{"easy"=>38.212251631254965, "hard++"=>54.75230427963787, "medium"=>63.992622609615196}
+ -> easy
+1,1,1,10,1,1,10,2	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug (big move)
+{"easy"=>46.891150705051814, "hard++"=>33.15309339876278, "medium"=>64.99262260961518}
+ -> hard++
+1,1,1,11,1,1,11,2	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug (big move)
+{"easy"=>48.89115070505182, "hard++"=>55.75230427963787, "medium"=>66.99262260961518}
+ -> easy
+953 easy (5.7)
+1,1,1,8,1,1,8,1	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug
+{"easy"=>34.212251631254965, "hard++"=>25.81152047136468, "medium"=>57.992622609615196}
+ -> hard++
+1,1,1,10,1,1,10,1	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug 
+{"easy"=>38.212251631254965, "hard++"=>54.75230427963787, "medium"=>63.992622609615196}
+ -> easy
+1,1,1,10,1,1,10,2	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug (big move)
+{"easy"=>46.891150705051814, "hard++"=>33.15309339876278, "medium"=>64.99262260961518}
+ -> hard++
+1,1,1,11,1,1,11,2	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug (big move)
+{"easy"=>48.89115070505182, "hard++"=>55.75230427963787, "medium"=>66.99262260961518}
+ -> easy
+965 easy (5.10)
+4,24,1,23,4	crimp,gaston,jug,sloper,crimp
+{"easy"=>72.31447441684271, "hard++"=>69.18662870097485, "medium"=>38.727621403807255}
+ -> medium
+5,34,1,33,5	crimp ,gaston ,jug ,sloper ,crimp 
+{"easy"=>94.31447441684273, "hard++"=>103.46252361392885, "medium"=>47.590714930740454}
+ -> medium
+5,31,1,30,5	crimp,gaston,jug,sloper,crimp
+{"easy"=>91.05943732539919, "hard++"=>91.25279935891123, "medium"=>44.59071493074046}
+ -> medium
+6,38,1,37,6	crimp ,gaston ,jug ,sloper ,crimp 
+{"easy"=>107.05943732539919, "hard++"=>115.46252361392887, "medium"=>51.590714930740454}
+ -> medium
+975 easy (5.10)
+35,2,20,23,4,23,3,11,2	ledge,match ,crimp sidepull ,sloper,crimp,sloper,sidepull ,pinch,match 
+{"easy"=>147.17844012525302, "hard++"=>137.65590101888205, "medium"=>143.3136806691214}
+ -> hard++
+65,2,29,63,5,33,22,14,2	ledge bad,match ,crimp sidepull ,sloper bad,crimp ,sloper ,sidepull ,pinch ,match 
+{"easy"=>259.178440125253, "hard++"=>269.56284343950085, "medium"=>235.31368066912142}
+ -> medium
+55,3,26,30,103,30,22,13,3	ledge,match ,crimp sidepull ,sloper,crimp (big move),sloper,sidepull ,pinch,match 
+{"easy"=>307.5902813887978, "hard++"=>301.53549498850174, "medium"=>291.30557928395785}
+ -> medium
+79,3,32,77,148,37,24,15,3	ledge bad,match ,crimp sidepull ,sloper bad,crimp (big move),sloper ,sidepull ,pinch ,match 
+{"easy"=>443.5902813887978, "hard++"=>453.56284343950085, "medium"=>421.3055792839578}
+ -> medium
+[16, 19, 21]
+[22, 22, 12]
+[9, 19, 6]
+accuracy = 0.3013698630136986
+[29, 2, 25]
+[29, 13, 14]
+[21, 4, 9]
+accuracy = 0.3493150684931507
+[16, 13, 27]
+[16, 26, 14]
+[11, 14, 9]
+accuracy = 0.3493150684931507
+[22, 4, 30]
+[17, 16, 23]
+[17, 6, 11]
+accuracy = 0.3356164383561644
+
+Done
+2019-01-30 10:57:49 +0100
+Took 35 mins
