@@ -48,16 +48,16 @@ class Move
 
   def k2
     # Remove the terminals from descriptions
-    if @size =~ /HoldSizeBig/
-      @size = "[HoldSize].[HoldSizeBig].big"
-    elsif @size =~ /HoldSizeSmall/
-      @size = "[HoldSize].[HoldSizeSmall].small"
-    end
-    if @shape =~ /HoldShapeGood/
-      @shape = "[HoldShape].[HoldShapeGood].good"
-    elsif @shape =~ /HoldShapeBad/
-      @shape = "[HoldShape].[HoldShapeBad].bad"
-    end
+    # if @size =~ /HoldSizeBig/
+    #   @size = "[HoldSize].[HoldSizeBig].big"
+    # elsif @size =~ /HoldSizeSmall/
+    #   @size = "[HoldSize].[HoldSizeSmall].small"
+    # end
+    # if @shape =~ /HoldShapeGood/
+    #   @shape = "[HoldShape].[HoldShapeGood].good"
+    # elsif @shape =~ /HoldShapeBad/
+    #   @shape = "[HoldShape].[HoldShapeBad].bad"
+    # end
     [k1,@size,@shape].join(":")
   end
 
