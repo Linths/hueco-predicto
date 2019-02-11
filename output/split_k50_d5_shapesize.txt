@@ -1,0 +1,1986 @@
+2019-01-30 23:34:53 +0100
+K = 50, depth = 5
+DoRemove = false, DoReplace = false, DoMatchReplace = false
+blacklist = [67, 160, 344, 312, 270] ["V5-V10", "5.11-5.12", "5.7-5.10", "5.7-5.10", "V4-V4"]
+
+whole set = [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975] ["5.7-5.10", "5.7-5.10", "5.11-5.12", "5.11-5.12", "5.11-5.12", "5.7-5.10", "V5-V10", "5.11-5.12", "V5-V10", "V5-V10", "V5-V10", "V5-V10", "V5-V10", "V5-V10", "5.11-5.12", "5.7-5.10", "5.7-5.10", "V0-V3", "5.7-5.10", "5.7-5.10", "V4-V4", "V4-V4", "5.7-5.10", "5.7-5.10", "V0-V3", "V0-V3", "V5-V10", "V5-V10", "5.7-5.10", "V5-V10", "V5-V10", "V5-V10", "5.11-5.12", "V0-V3", "5.11-5.12", "5.7-5.10", "V4-V4", "5.11-5.12", "V4-V4", "5.7-5.10", "V0-V3", "5.7-5.10", "5.7-5.10", "5.7-5.10", "5.11-5.12", "V4-V4", "5.11-5.12", "V4-V4", "5.7-5.10", "5.7-5.10", "V5-V10", "5.11-5.12", "5.7-5.10", "5.11-5.12", "V4-V4", "5.7-5.10", "5.11-5.12", "V4-V4", "5.7-5.10", "V4-V4", "V4-V4", "V0-V3", "V0-V3", "5.7-5.10", "V0-V3", "5.11-5.12", "V0-V3", "5.7-5.10", "V4-V4", "V5-V10", "V4-V4", "V0-V3", "V4-V4", "V0-V3", "5.7-5.10", "V0-V3", "5.7-5.10", "V4-V4", "5.7-5.10", "5.7-5.10", "5.11-5.12", "5.7-5.10", "V0-V3", "V0-V3", "5.7-5.10", "5.11-5.12", "V5-V10", "V5-V10", "V0-V3", "5.7-5.10", "V0-V3", "V0-V3", "5.7-5.10", "V5-V10", "5.11-5.12", "V5-V10", "V4-V4", "V0-V3", "V0-V3", "V5-V10", "V4-V4", "5.7-5.10", "5.11-5.12", "5.7-5.10", "5.7-5.10", "5.7-5.10", "5.7-5.10", "5.7-5.10", "V0-V3", "V0-V3", "V5-V10", "V0-V3", "V4-V4", "V4-V4", "V5-V10", "V0-V3", "V4-V4", "V4-V4", "5.11-5.12", "5.7-5.10", "V0-V3", "V0-V3", "V4-V4", "V0-V3", "5.7-5.10", "5.7-5.10", "5.7-5.10", "5.7-5.10", "V5-V10", "V5-V10", "5.7-5.10", "V4-V4", "5.7-5.10", "V4-V4", "5.7-5.10", "5.7-5.10", "5.7-5.10", "5.7-5.10", "5.11-5.12", "5.11-5.12", "V0-V3", "V5-V10", "5.7-5.10", "5.7-5.10", "5.7-5.10", "5.7-5.10"] ["5.10", "5.10", "5.11", "5.11", "5.11", "5.8", "V5", "5.12", "V8", "V5", "V7", "V8", "V6", "V7", "5.11", "5.10", "5.10", "V0", "5.10", "5.8", "V4", "V4", "5.10", "5.8", "V2", "V2", "V6", "V8", "5.10", "V7", "V10", "V6", "5.12", "V3", "5.12", "5.10", "V4", "5.11", "V4", "5.10", "V0", "5.10", "5.10", "5.10", "5.12", "V4", "5.11", "V4", "5.10", "5.10", "V5", "5.11", "5.10", "5.12", "V4", "5.10", "5.11", "V4", "5.10", "V4", "V4", "V3", "V3", "5.10", "V3", "5.11", "V3", "5.10", "V4", "V5", "V4", "V0", "V4", "V3", "5.10", "V3", "5.10", "V4", "5.8", "5.10", "5.12", "5.10", "V2", "V3", "5.8", "5.12", "V7", "V8", "V3", "5.10", "V3", "V3", "5.10", "V5", "5.11", "V9", "V4", "V3", "V2", "V5", "V4", "5.10", "5.12", "5.10", "5.10", "5.10", "5.10", "5.10", "V0", "V2", "V5", "V3", "V4", "V4", "V5", "V0", "V4", "V4", "5.11", "5.10", "V1", "V2", "V4", "V2", "5.10", "5.10", "5.10", "5.10", "V5", "V5", "5.10", "V4", "5.10", "V4", "5.10", "5.10", "5.10", "5.10", "5.12", "5.11", "V1", "V7", "5.7", "5.7", "5.10", "5.10"]
+test groups = [[1, 2, 5], [6, 13, 32], [34, 43, 45], [46, 47, 48], [49, 50, 56], [57, 58, 59], [61, 64, 115], [71, 72, 73], [79, 81, 94], [124, 125, 135], [290, 149, 156], [159, 164, 169], [170, 177, 179], [182, 188, 194], [199, 205, 207], [284, 211, 221], [226, 230, 232], [237, 238, 240], [243, 246, 285], [256, 261, 266], [275, 283, 296], [298, 301, 325], [329, 332, 352], [371, 372, 373], [374, 377, 380], [384, 385, 395], [398, 408, 409], [414, 415, 428], [440, 446, 452], [458, 464, 473], [487, 499, 536], [521, 537, 546], [549, 550, 565], [593, 594, 597], [613, 621, 629], [641, 643, 648], [650, 652, 655], [657, 669, 692], [694, 701, 702], [706, 738, 741], [744, 748, 752], [760, 796, 807], [810, 815, 821], [822, 823, 849], [862, 877, 881], [883, 897, 912], [916, 922, 931], [945, 950, 953], [965, 975]] [["5.7-5.10", "5.7-5.10", "5.11-5.12"], ["5.11-5.12", "5.11-5.12", "5.7-5.10"], ["V5-V10", "5.11-5.12", "V5-V10"], ["V5-V10", "V5-V10", "V5-V10"], ["V5-V10", "V5-V10", "5.11-5.12"], ["5.7-5.10", "5.7-5.10", "V0-V3"], ["5.7-5.10", "5.7-5.10", "V4-V4"], ["V4-V4", "5.7-5.10", "5.7-5.10"], ["V0-V3", "V0-V3", "V5-V10"], ["V5-V10", "5.7-5.10", "V5-V10"], ["V5-V10", "V5-V10", "5.11-5.12"], ["V0-V3", "5.11-5.12", "5.7-5.10"], ["V4-V4", "5.11-5.12", "V4-V4"], ["5.7-5.10", "V0-V3", "5.7-5.10"], ["5.7-5.10", "5.7-5.10", "5.11-5.12"], ["V4-V4", "5.11-5.12", "V4-V4"], ["5.7-5.10", "5.7-5.10", "V5-V10"], ["5.11-5.12", "5.7-5.10", "5.11-5.12"], ["V4-V4", "5.7-5.10", "5.11-5.12"], ["V4-V4", "5.7-5.10", "V4-V4"], ["V4-V4", "V0-V3", "V0-V3"], ["5.7-5.10", "V0-V3", "5.11-5.12"], ["V0-V3", "5.7-5.10", "V4-V4"], ["V5-V10", "V4-V4", "V0-V3"], ["V4-V4", "V0-V3", "5.7-5.10"], ["V0-V3", "5.7-5.10", "V4-V4"], ["5.7-5.10", "5.7-5.10", "5.11-5.12"], ["5.7-5.10", "V0-V3", "V0-V3"], ["5.7-5.10", "5.11-5.12", "V5-V10"], ["V5-V10", "V0-V3", "5.7-5.10"], ["V0-V3", "V0-V3", "5.7-5.10"], ["V5-V10", "5.11-5.12", "V5-V10"], ["V4-V4", "V0-V3", "V0-V3"], ["V5-V10", "V4-V4", "5.7-5.10"], ["5.11-5.12", "5.7-5.10", "5.7-5.10"], ["5.7-5.10", "5.7-5.10", "5.7-5.10"], ["V0-V3", "V0-V3", "V5-V10"], ["V0-V3", "V4-V4", "V4-V4"], ["V5-V10", "V0-V3", "V4-V4"], ["V4-V4", "5.11-5.12", "5.7-5.10"], ["V0-V3", "V0-V3", "V4-V4"], ["V0-V3", "5.7-5.10", "5.7-5.10"], ["5.7-5.10", "5.7-5.10", "V5-V10"], ["V5-V10", "5.7-5.10", "V4-V4"], ["5.7-5.10", "V4-V4", "5.7-5.10"], ["5.7-5.10", "5.7-5.10", "5.7-5.10"], ["5.11-5.12", "5.11-5.12", "V0-V3"], ["V5-V10", "5.7-5.10", "5.7-5.10"], ["5.7-5.10", "5.7-5.10"]]
+Training [6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+1 5.7-5.10 (5.10)
+1,1,2,3,3,1,4,5,1,5,1,1,2,4,1,6,1,7,8,1,4,9	jug,jug,match ,sidepull ,sidepull ,jug,crimp,jug pinch,jug,jug pinch,jug,jug,match ,crimp,jug,slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"5.11-5.12"=>194.22381439385356, "5.7-5.10"=>156.14918479345803}
+ -> 5.7-5.10
+1,1,2,3,3,4,5,6,4,6,4,7,2,5,7,8,1,9,10,1,5,11	jug ,jug ,match ,sidepull big ,sidepull big ,jug bad,crimp ,jug pinch ,jug bad,jug pinch ,jug bad,jug good,match ,crimp ,jug good,slot bad,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"5.11-5.12"=>255.4005110497046, "5.7-5.10"=>194.97450198099972}
+ -> 5.7-5.10
+1,2,3,4,4,1,5,6,1,6,1,7,3,5,7,8,1,9,10,1,5,11	jug,jug (big move),match ,sidepull (good hold),sidepull (good hold),jug,crimp,jug pinch,jug,jug pinch,jug,jug (good hold),match ,crimp,jug (good hold),slot,jug,jug slot,jug sidepull ,jug,crimp,jug mantle 
+{"5.11-5.12"=>219.53825691141097, "5.7-5.10"=>222.46022571669172}
+ -> 5.11-5.12
+1,2,3,4,4,5,6,7,5,7,5,8,3,6,8,9,1,10,11,1,6,12	jug ,jug (big move),match ,sidepull big (good hold),sidepull big (good hold),jug bad,crimp ,jug pinch ,jug bad,jug pinch ,jug bad,jug good (good hold),match ,crimp ,jug good (good hold),slot bad,jug ,jug slot ,jug sidepull ,jug ,crimp ,jug mantle 
+{"5.11-5.12"=>274.18775703868806, "5.7-5.10"=>243.60342366913986}
+ -> 5.7-5.10
+2 5.7-5.10 (5.10)
+1,10,1,4,1,11,1,1,12,13,1,8,1,2,14,10,2,1,15,15,15,16,17	jug,pocket,jug,crimp,jug,pinch,jug,jug,undercling ,crimp edge,jug,jug sidepull ,jug,match ,gaston jug,pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"5.11-5.12"=>267.435981592474, "5.7-5.10"=>251.95573980132377}
+ -> 5.7-5.10
+1,12,1,13,4,14,7,7,15,16,1,10,7,2,17,12,2,1,18,18,18,19,20	jug ,pocket ,jug ,crimp bad,jug bad,pinch ,jug good,jug good,undercling ,crimp edge bad,jug ,jug sidepull ,jug good,match ,gaston jug good,pocket ,match ,jug ,bucket bad,bucket bad,bucket bad,crimp gaston bad,mantle 
+{"5.11-5.12"=>341.75629699677165, "5.7-5.10"=>323.3973667148545}
+ -> 5.7-5.10
+1,12,1,5,1,13,7,7,14,15,1,10,7,3,16,12,3,1,17,17,17,18,19	jug,pocket,jug,crimp,jug,pinch,jug (good hold),jug (good hold),undercling ,crimp edge,jug,jug sidepull ,jug (good hold),match ,gaston jug (good hold),pocket,match ,jug,bucket,bucket,bucket,crimp gaston,mantle 
+{"5.11-5.12"=>305.28763911117727, "5.7-5.10"=>319.21669924529135}
+ -> 5.11-5.12
+1,13,1,14,5,15,8,8,16,17,1,11,8,3,18,13,3,1,19,19,19,20,21	jug ,pocket ,jug ,crimp bad,jug bad,pinch ,jug good (good hold),jug good (good hold),undercling ,crimp edge bad,jug ,jug sidepull ,jug good (good hold),match ,gaston jug good (good hold),pocket ,match ,jug ,bucket bad,bucket bad,bucket bad,crimp gaston bad,mantle 
+{"5.11-5.12"=>358.8525158187717, "5.7-5.10"=>354.3973667148545}
+ -> 5.7-5.10
+5 5.11-5.12 (5.11)
+1,5,8,15,12,1,2,8,3,11,18,1,1,2,11,1,2,11,12,18,18,11,17	jug,jug pinch,jug sidepull ,bucket,undercling ,jug,match ,jug sidepull ,sidepull ,pinch,edge,jug,jug,match ,pinch,jug,match ,pinch,undercling ,edge,edge,pinch,mantle 
+{"5.11-5.12"=>218.89548492944706, "5.7-5.10"=>224.52245021447504}
+ -> 5.11-5.12
+1,6,10,18,15,1,2,10,22,14,21,1,25,2,14,25,2,14,15,21,23,26,20	jug ,jug pinch ,jug sidepull ,bucket bad,undercling ,jug ,match ,jug sidepull ,sidepull ,pinch ,edge bad,jug ,jug big ,match ,pinch ,jug big ,match ,pinch ,undercling ,edge bad,edge ,pinch small ,mantle 
+{"5.11-5.12"=>385.1065500713276, "5.7-5.10"=>329.4042580031493}
+ -> 5.7-5.10
+1,6,10,17,14,21,3,10,22,13,20,1,7,3,13,7,3,13,14,23,20,13,19	jug,jug pinch,jug sidepull ,bucket,undercling ,jug (cross) (big move),match ,jug sidepull ,sidepull ,pinch,edge,jug,jug (good hold),match ,pinch,jug (good hold),match ,pinch,undercling ,edge (cross),edge,pinch,mantle 
+{"5.11-5.12"=>343.077403725668, "5.7-5.10"=>295.5752461058533}
+ -> 5.7-5.10
+1,7,11,19,16,23,3,11,24,15,22,1,28,3,15,28,3,15,16,25,26,29,21	jug ,jug pinch ,jug sidepull ,bucket bad,undercling ,jug (cross) (big move),match ,jug sidepull ,sidepull ,pinch ,edge bad,jug ,jug big (good hold),match ,pinch ,jug big (good hold),match ,pinch ,undercling ,edge bad (cross),edge ,pinch small ,mantle 
+{"5.11-5.12"=>434.5117417263442, "5.7-5.10"=>385.40005586024887}
+ -> 5.7-5.10
+Training [1, 2, 5, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+6 5.11-5.12 (5.11)
+19,2,19,4,4,3,3,11,20,20,21,12,4,2,20,4,22,2,4,3,11,4,1	crimp rail,match ,crimp rail,crimp,crimp,sidepull ,sidepull ,pinch,crimp sidepull ,crimp sidepull ,crimp dish,undercling ,crimp,match ,crimp sidepull ,crimp,generichold ,match ,crimp,sidepull ,pinch,crimp,jug
+{"5.11-5.12"=>284.2177190428217, "5.7-5.10"=>168.97729591343517}
+ -> 5.7-5.10
+24,2,24,27,5,28,22,14,29,29,30,15,5,2,29,13,31,2,5,22,14,5,1	crimp rail good,match ,crimp rail good,crimp good,crimp ,sidepull good,sidepull ,pinch ,crimp sidepull ,crimp sidepull ,crimp dish ,undercling ,crimp ,match ,crimp sidepull ,crimp bad,generichold good,match ,crimp ,sidepull ,pinch ,crimp ,jug 
+{"5.11-5.12"=>492.51449304146763, "5.7-5.10"=>261.6750595592532}
+ -> 5.7-5.10
+24,3,24,25,5,4,22,13,26,26,27,14,28,3,26,5,29,3,5,22,13,5,1	crimp rail (good hold),match ,crimp rail (good hold),crimp (good hold),crimp,sidepull (good hold),sidepull ,pinch,crimp sidepull ,crimp sidepull ,crimp dish,undercling ,crimp (cross),match ,crimp sidepull ,crimp,generichold (good hold),match ,crimp,sidepull ,pinch,crimp,jug
+{"5.11-5.12"=>424.18358101757957, "5.7-5.10"=>283.63129647366105}
+ -> 5.7-5.10
+27,3,27,30,6,31,24,15,32,32,33,16,34,3,32,14,35,3,6,24,15,6,1	crimp rail good (good hold),match ,crimp rail good (good hold),crimp good (good hold),crimp ,sidepull good (good hold),sidepull ,pinch ,crimp sidepull ,crimp sidepull ,crimp dish ,undercling ,crimp (cross),match ,crimp sidepull ,crimp bad,generichold good (good hold),match ,crimp ,sidepull ,pinch ,crimp ,jug 
+{"5.11-5.12"=>560.6005807200859, "5.7-5.10"=>351.48539247548626}
+ -> 5.7-5.10
+13 5.11-5.12 (5.11)
+11,18,23,11,23,1	pinch,edge,sloper,pinch,sloper,jug
+{"5.11-5.12"=>49.93685939814307, "5.7-5.10"=>44.92437357047259}
+ -> 5.7-5.10
+14,32,33,14,33,1	pinch ,edge big bad,sloper ,pinch ,sloper ,jug 
+{"5.11-5.12"=>92.23250948676126, "5.7-5.10"=>58.242728815795836}
+ -> 5.7-5.10
+13,20,30,13,30,1	pinch,edge,sloper,pinch,sloper,jug
+{"5.11-5.12"=>74.30776809936937, "5.7-5.10"=>45.356457047644774}
+ -> 5.7-5.10
+15,36,37,15,37,1	pinch ,edge big bad,sloper ,pinch ,sloper ,jug 
+{"5.11-5.12"=>97.23290375282889, "5.7-5.10"=>62.69437196465144}
+ -> 5.7-5.10
+32 5.7-5.10 (5.8)
+0,17,4,4,23,1,1,24,1,0,0	,mantle ,crimp,crimp,sloper,jug,jug,gaston,jug,,
+{"5.11-5.12"=>82.54550198729304, "5.7-5.10"=>99.56459678362461}
+ -> 5.11-5.12
+0,20,5,5,33,1,1,34,1,0,0	,mantle ,crimp ,crimp ,sloper ,jug ,jug ,gaston ,jug ,,
+{"5.11-5.12"=>111.76712747191573, "5.7-5.10"=>112.78115129403263}
+ -> 5.11-5.12
+0,19,5,5,30,1,1,31,1,0,0	,mantle ,crimp,crimp,sloper,jug,jug,gaston,jug,,
+{"5.11-5.12"=>90.84500315482764, "5.7-5.10"=>124.57866864743544}
+ -> 5.11-5.12
+0,21,6,6,37,1,1,38,1,0,0	,mantle ,crimp ,crimp ,sloper ,jug ,jug ,gaston ,jug ,,
+{"5.11-5.12"=>117.20147217296824, "5.7-5.10"=>138.1360685845091}
+ -> 5.11-5.12
+Training [1, 2, 5, 6, 13, 32, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+34 V5-V10 (V5)
+4,3,23,4,25,1	crimp,sidepull ,sloper,crimp,foothook sloper,jug
+{"V0-V3"=>55.44435962648477, "V4-V4"=>91.77439281419952, "V5-V10"=>57.40691973597466}
+ -> V0-V3
+35,22,33,35,36,1	crimp small ,sidepull ,sloper ,crimp small ,foothook sloper ,jug 
+{"V0-V3"=>144.84330995966678, "V4-V4"=>191.17272929178043, "V5-V10"=>155.92259936198192}
+ -> V0-V3
+5,22,32,5,33,2	crimp,sidepull ,sloper (big move),crimp,foothook sloper (big move),jug (big move)
+{"V0-V3"=>90.70640159306303, "V4-V4"=>133.1195962919712, "V5-V10"=>84.96441412982806}
+ -> V5-V10
+39,24,40,39,41,2	crimp small ,sidepull ,sloper (big move),crimp small ,foothook sloper (big move),jug (big move)
+{"V0-V3"=>165.6913068662217, "V4-V4"=>214.17272929178037, "V5-V10"=>173.32173848442315}
+ -> V0-V3
+43 5.11-5.12 (5.12)
+3,4,4,23,24	sidepull ,crimp,crimp,sloper,gaston
+{"5.11-5.12"=>45.81977897855909, "5.7-5.10"=>40.5537142787093}
+ -> 5.7-5.10
+22,5,5,33,34	sidepull ,crimp ,crimp ,sloper ,gaston 
+{"5.11-5.12"=>91.94295001336961, "5.7-5.10"=>47.497468686392914}
+ -> 5.7-5.10
+22,5,5,30,31	sidepull ,crimp,crimp,sloper,gaston
+{"5.11-5.12"=>70.02082569628148, "5.7-5.10"=>61.125008867638265}
+ -> 5.7-5.10
+24,6,6,37,38	sidepull ,crimp ,crimp ,sloper ,gaston 
+{"5.11-5.12"=>99.42795043133081, "5.7-5.10"=>72.93608841563372}
+ -> 5.7-5.10
+45 V5-V10 (V8)
+1,4,11,20,26,27,2,1,1,1,17	jug,crimp,pinch,crimp sidepull ,dish,jug pocket,match ,jug,jug,jug,mantle 
+{"V0-V3"=>135.43585724431333, "V4-V4"=>155.24443362119123, "V5-V10"=>170.00085122059193}
+ -> V0-V3
+1,37,38,29,39,40,2,41,1,1,20	jug ,crimp big ,pinch good,crimp sidepull ,dish bad,jug pocket bad,match ,jug small ,jug ,jug ,mantle 
+{"V0-V3"=>271.2287072206343, "V4-V4"=>306.3665818751266, "V5-V10"=>307.05763409109625}
+ -> V0-V3
+1,25,34,26,35,36,3,1,1,1,19	jug,crimp (good hold),pinch (good hold),crimp sidepull ,dish,jug pocket (big move),match ,jug,jug,jug,mantle 
+{"V0-V3"=>202.10243351058813, "V4-V4"=>242.260315875508, "V5-V10"=>240.77599926918447}
+ -> V0-V3
+1,42,43,32,44,45,3,46,1,1,21	jug ,crimp big (good hold),pinch good (good hold),crimp sidepull ,dish bad,jug pocket bad (big move),match ,jug small ,jug ,jug ,mantle 
+{"V0-V3"=>300.22870722063425, "V4-V4"=>336.3665818751266, "V5-V10"=>331.7759992691844}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+46 V5-V10 (V5)
+4,22,28,4,4,4,4,4,22,2,1	crimp,generichold ,edge undercling ,crimp,crimp,crimp,crimp,crimp,generichold ,match ,jug
+{"V0-V3"=>134.1292505223414, "V4-V4"=>116.90781776481242, "V5-V10"=>126.59577220040458}
+ -> V4-V4
+42,43,44,35,45,45,45,37,46,2,1	crimp small bad,generichold ,edge undercling ,crimp small ,crimp big bad,crimp big bad,crimp big bad,crimp big ,generichold bad,match ,jug 
+{"V0-V3"=>404.5262084666954, "V4-V4"=>387.75023388892237, "V5-V10"=>435.0576340910963}
+ -> V4-V4
+5,37,38,5,5,5,28,25,37,3,1	crimp,generichold ,edge undercling ,crimp,crimp,crimp,crimp (cross),crimp (good hold),generichold ,match ,jug
+{"V0-V3"=>219.12925052234132, "V4-V4"=>177.2294482705802, "V5-V10"=>216.83786066873628}
+ -> V4-V4
+47,48,49,39,50,50,51,42,52,3,1	crimp small bad,generichold ,edge undercling ,crimp small ,crimp big bad,crimp big bad,crimp big bad (cross),crimp big (good hold),generichold bad,match ,jug 
+{"V0-V3"=>451.52620846669544, "V4-V4"=>429.7502338889224, "V5-V10"=>473.77599926918435}
+ -> V4-V4
+47 V5-V10 (V7)
+1,1,4,29,11,2,1,11,29,18,23,2,29,22,2,4,4,2,1	jug,jug,crimp,foothook ,pinch,match ,jug,pinch,foothook ,edge,sloper,match ,foothook ,generichold ,match ,crimp,crimp,match ,jug
+{"V0-V3"=>211.46256815784355, "V4-V4"=>226.20964867402063, "V5-V10"=>263.3903071837159}
+ -> V0-V3
+1,1,37,47,14,2,25,48,47,21,49,2,47,50,2,37,37,2,1	jug ,jug ,crimp big ,foothook ,pinch ,match ,jug big ,pinch big ,foothook ,edge bad,sloper big ,match ,foothook ,generichold big ,match ,crimp big ,crimp big ,match ,jug 
+{"V0-V3"=>497.49285036079783, "V4-V4"=>548.0186128060733, "V5-V10"=>569.6041303577097}
+ -> V0-V3
+1,1,25,39,13,3,40,34,39,20,41,3,39,42,3,25,25,3,1	jug,jug,crimp (good hold),foothook ,pinch,match ,jug (big move) (good hold),pinch (good hold),foothook ,edge,sloper (good hold),match ,foothook ,generichold (big move) (good hold),match ,crimp (good hold),crimp (good hold),match ,jug
+{"V0-V3"=>428.4290615250284, "V4-V4"=>453.48568552935143, "V5-V10"=>491.0984440735838}
+ -> V0-V3
+1,1,42,53,15,3,54,55,53,22,56,3,53,57,3,42,42,3,1	jug ,jug ,crimp big (good hold),foothook ,pinch ,match ,jug big (big move) (good hold),pinch big (good hold),foothook ,edge bad,sloper big (good hold),match ,foothook ,generichold big (big move) (good hold),match ,crimp big (good hold),crimp big (good hold),match ,jug 
+{"V0-V3"=>581.4928503607978, "V4-V4"=>635.0186128060733, "V5-V10"=>647.0984440735838}
+ -> V0-V3
+48 V5-V10 (V8)
+11,2,23,30,23,11,31,1	pinch,match ,sloper,sloper undercling ,sloper,pinch,rail sloper,jug
+{"V0-V3"=>105.37386581312232, "V4-V4"=>139.90130105155393, "V5-V10"=>124.51574886615434}
+ -> V0-V3
+51,2,33,52,53,48,54,1	pinch bad,match ,sloper ,sloper undercling ,sloper small ,pinch big ,rail sloper ,jug 
+{"V0-V3"=>276.4481076121226, "V4-V4"=>327.8502703251189, "V5-V10"=>297.5592234286353}
+ -> V0-V3
+13,3,30,43,30,34,44,2	pinch,match ,sloper,sloper undercling ,sloper,pinch (good hold),rail sloper,jug (big move)
+{"V0-V3"=>221.4225548146221, "V4-V4"=>222.86399455839708, "V5-V10"=>172.50848317004122}
+ -> V5-V10
+58,3,37,59,60,55,61,2	pinch bad,match ,sloper ,sloper undercling ,sloper small ,pinch big (good hold),rail sloper ,jug (big move)
+{"V0-V3"=>350.9291384122212, "V4-V4"=>368.8502703251189, "V5-V10"=>329.45678281878793}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+49 V5-V10 (V6)
+24,24,2,4,29,4,1	gaston,gaston,match ,crimp,foothook ,crimp,jug
+{"V0-V3"=>58.10079588689202, "V4-V4"=>121.93572414687362, "V5-V10"=>114.670820216781}
+ -> V0-V3
+55,55,2,35,47,5,1	gaston big ,gaston big ,match ,crimp small ,foothook ,crimp ,jug 
+{"V0-V3"=>212.27164139478492, "V4-V4"=>235.01149980844966, "V5-V10"=>237.78438595778957}
+ -> V0-V3
+45,45,3,5,39,5,1	gaston (good hold),gaston (good hold),match ,crimp,foothook ,crimp,jug
+{"V0-V3"=>156.80945504407623, "V4-V4"=>180.94774020867854, "V5-V10"=>165.60931130296143}
+ -> V0-V3
+62,62,3,39,53,6,1	gaston big (good hold),gaston big (good hold),match ,crimp small ,foothook ,crimp ,jug 
+{"V0-V3"=>238.27164139478492, "V4-V4"=>261.0114998084497, "V5-V10"=>260.6147768669847}
+ -> V0-V3
+50 V5-V10 (V7)
+22,22,29,4,2,23	generichold ,generichold ,foothook ,crimp,match ,sloper
+{"V0-V3"=>96.9334717335295, "V4-V4"=>83.57863838620577, "V5-V10"=>102.10663835126411}
+ -> V4-V4
+50,50,47,37,2,49	generichold big ,generichold big ,foothook ,crimp big ,match ,sloper big 
+{"V0-V3"=>244.3101381904586, "V4-V4"=>259.17272929178046, "V5-V10"=>262.96607392446293}
+ -> V0-V3
+29,29,39,46,3,47	generichold (good hold),generichold (good hold),foothook ,crimp (big move) (good hold),match ,sloper (big move) (good hold)
+{"V0-V3"=>206.78146864008446, "V4-V4"=>218.1195962919712, "V5-V10"=>219.82447126643478}
+ -> V0-V3
+63,63,53,64,3,65	generichold big (good hold),generichold big (good hold),foothook ,crimp big (big move) (good hold),match ,sloper big (big move) (good hold)
+{"V0-V3"=>319.3101381904586, "V4-V4"=>334.17272929178034, "V5-V10"=>333.82447126643484}
+ -> V0-V3
+56 5.11-5.12 (5.11)
+3,3,11,20,1,5,15,12,1,4,20	sidepull ,sidepull ,pinch,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug,crimp,crimp sidepull 
+{"5.11-5.12"=>134.24403477401617, "5.7-5.10"=>80.25083971021247}
+ -> 5.7-5.10
+28,22,14,29,1,6,18,15,1,5,29	sidepull good,sidepull ,pinch ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug ,crimp ,crimp sidepull 
+{"5.11-5.12"=>214.34974603498318, "5.7-5.10"=>113.77186389997583}
+ -> 5.7-5.10
+4,22,13,26,1,6,17,14,21,28,26	sidepull (good hold),sidepull ,pinch,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull 
+{"5.11-5.12"=>215.83517286215343, "5.7-5.10"=>140.15573008092915}
+ -> 5.7-5.10
+31,24,15,32,1,7,19,16,23,34,32	sidepull good (good hold),sidepull ,pinch ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull 
+{"5.11-5.12"=>275.55740743418244, "5.7-5.10"=>177.70059903980496}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+57 5.7-5.10 (5.10)
+32,3,1,3,10,10	downpull crimp,sidepull ,jug,sidepull ,pocket,pocket
+{"5.11-5.12"=>94.08405696312671, "5.7-5.10"=>75.1072719350537}
+ -> 5.7-5.10
+56,22,1,22,57,58	downpull crimp ,sidepull ,jug ,sidepull ,pocket bad,pocket big bad
+{"5.11-5.12"=>242.180848374392, "5.7-5.10"=>190.28373403476633}
+ -> 5.7-5.10
+48,49,1,22,12,12	downpull crimp,sidepull (big move),jug,sidepull ,pocket,pocket
+{"5.11-5.12"=>173.18084837439204, "5.7-5.10"=>149.1961934373906}
+ -> 5.7-5.10
+66,67,1,24,68,69	downpull crimp ,sidepull (big move),jug ,sidepull ,pocket bad,pocket big bad
+{"5.11-5.12"=>319.13019265748324, "5.7-5.10"=>290.2564666596436}
+ -> 5.7-5.10
+58 5.7-5.10 (5.10)
+3,3,20,1,5,15,12,1,4,20,32,3,1,1,3,3	sidepull ,sidepull ,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug,crimp,crimp sidepull ,downpull crimp,sidepull ,jug,jug,sidepull ,sidepull 
+{"5.11-5.12"=>195.96588794878602, "5.7-5.10"=>135.06213112102037}
+ -> 5.7-5.10
+28,22,29,1,6,18,15,1,5,29,56,22,1,1,22,28	sidepull good,sidepull ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug ,crimp ,crimp sidepull ,downpull crimp ,sidepull ,jug ,jug ,sidepull ,sidepull good
+{"5.11-5.12"=>354.1683906210184, "5.7-5.10"=>221.57199530640546}
+ -> 5.7-5.10
+4,22,26,1,6,17,14,21,28,26,48,49,1,1,22,4	sidepull (good hold),sidepull ,crimp sidepull ,jug,jug pinch,bucket,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull ,downpull crimp,sidepull (big move),jug,jug,sidepull ,sidepull (good hold)
+{"5.11-5.12"=>351.65381744818865, "5.7-5.10"=>267.90084974190404}
+ -> 5.7-5.10
+31,24,32,1,7,19,16,23,34,32,66,67,1,1,24,31	sidepull good (good hold),sidepull ,crimp sidepull ,jug ,jug pinch ,bucket bad,undercling ,jug (cross) (big move),crimp (cross),crimp sidepull ,downpull crimp ,sidepull (big move),jug ,jug ,sidepull ,sidepull good (good hold)
+{"5.11-5.12"=>472.32539630330876, "5.7-5.10"=>365.9165325060328}
+ -> 5.7-5.10
+59 V0-V3 (V0)
+1,1,1,15,1,1	jug,jug,jug,bucket,jug,jug
+{"V0-V3"=>30.535037181961158, "V4-V4"=>57.774392814199516, "V5-V10"=>60.96607392446288}
+ -> V0-V3
+1,1,1,59,1,1	jug ,jug ,jug ,bucket ,jug ,jug 
+{"V0-V3"=>79.71437843543592, "V4-V4"=>103.17272929178043, "V5-V10"=>103.96607392446286}
+ -> V0-V3
+2,1,2,50,2,2	jug (big move),jug,jug (big move),bucket (big move),jug (big move),jug (big move)
+{"V0-V3"=>81.67479926781638, "V4-V4"=>98.11959629197118, "V5-V10"=>97.82447126643478}
+ -> V0-V3
+2,1,2,70,2,2	jug (big move),jug ,jug (big move),bucket (big move),jug (big move),jug (big move)
+{"V0-V3"=>104.69130686622174, "V4-V4"=>118.17272929178041, "V5-V10"=>117.82447126643477}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+61 5.7-5.10 (5.10)
+11,33,8,1,1,4,8,1,24,8,8,20,4,8,23,4,8,1,8,1,1,8,11,34,8,4,20	pinch,jug undercling ,jug sidepull ,jug,jug,crimp,jug sidepull ,jug,gaston,jug sidepull ,jug sidepull ,crimp sidepull ,crimp,jug sidepull ,sloper,crimp,jug sidepull ,jug,jug sidepull ,jug,jug,jug sidepull ,pinch,sloper sidepull ,jug sidepull ,crimp,crimp sidepull 
+{"5.11-5.12"=>365.6594919913941, "5.7-5.10"=>278.4946002967278}
+ -> 5.7-5.10
+38,60,10,61,61,13,10,41,34,62,10,29,13,62,63,13,10,4,10,61,61,62,14,64,10,13,29	pinch good,jug undercling small ,jug sidepull ,jug small bad,jug small bad,crimp bad,jug sidepull ,jug small ,gaston ,jug sidepull small ,jug sidepull ,crimp sidepull ,crimp bad,jug sidepull small ,sloper bad,crimp bad,jug sidepull ,jug bad,jug sidepull ,jug small bad,jug small bad,jug sidepull small ,pinch ,sloper sidepull ,jug sidepull ,crimp bad,crimp sidepull 
+{"5.11-5.12"=>984.2881270564496, "5.7-5.10"=>860.2103462312117}
+ -> 5.7-5.10
+34,51,10,1,1,5,10,52,31,10,53,26,5,53,30,5,10,1,10,1,1,53,13,54,10,5,26	pinch (good hold),jug undercling ,jug sidepull ,jug,jug,crimp,jug sidepull ,jug (cross),gaston,jug sidepull ,jug sidepull (cross),crimp sidepull ,crimp,jug sidepull (cross),sloper,crimp,jug sidepull ,jug,jug sidepull ,jug,jug,jug sidepull (cross),pinch,sloper sidepull ,jug sidepull ,crimp,crimp sidepull 
+{"5.11-5.12"=>635.4800836798607, "5.7-5.10"=>584.632080491725}
+ -> 5.7-5.10
+43,71,11,72,72,14,11,73,38,74,75,32,14,76,77,14,11,5,11,72,72,76,15,78,11,14,32	pinch good (good hold),jug undercling small ,jug sidepull ,jug small bad,jug small bad,crimp bad,jug sidepull ,jug small (cross),gaston ,jug sidepull small ,jug sidepull (cross),crimp sidepull ,crimp bad,jug sidepull small (cross),sloper bad,crimp bad,jug sidepull ,jug bad,jug sidepull ,jug small bad,jug small bad,jug sidepull small (cross),pinch ,sloper sidepull ,jug sidepull ,crimp bad,crimp sidepull 
+{"5.11-5.12"=>1288.9557459078144, "5.7-5.10"=>1100.7394197865367}
+ -> 5.7-5.10
+64 5.7-5.10 (5.8)
+18,2,35,20,11,23,4	edge,match ,ledge,crimp sidepull ,pinch,sloper,crimp
+{"5.11-5.12"=>97.39945485987104, "5.7-5.10"=>40.50704168987959}
+ -> 5.7-5.10
+23,2,65,29,14,63,5	edge ,match ,ledge bad,crimp sidepull ,pinch ,sloper bad,crimp 
+{"5.11-5.12"=>175.01354871230882, "5.7-5.10"=>47.84567381294981}
+ -> 5.7-5.10
+20,3,55,26,13,30,5	edge,match ,ledge,crimp sidepull ,pinch,sloper,crimp
+{"5.11-5.12"=>148.26364814208213, "5.7-5.10"=>52.35937891564193}
+ -> 5.7-5.10
+26,3,79,32,15,77,6	edge ,match ,ledge bad,crimp sidepull ,pinch ,sloper bad,crimp 
+{"5.11-5.12"=>274.8837904313086, "5.7-5.10"=>59.510513608356845}
+ -> 5.7-5.10
+115 V4-V4 (V4)
+39,23,1,1,24,4,23,0,29,39,23,4,1,43,22,29,0,23,17	incut,sloper,jug,jug,gaston,crimp,sloper,,foothook ,incut,sloper,crimp,jug,layback,generichold ,foothook ,,sloper,mantle 
+{"V0-V3"=>286.0717344885162, "V4-V4"=>398.53508428258397, "V5-V10"=>327.20896124200976}
+ -> V0-V3
+69,33,1,1,34,5,33,0,47,69,33,5,1,73,43,47,0,33,20	incut ,sloper ,jug ,jug ,gaston ,crimp ,sloper ,,foothook ,incut ,sloper ,crimp ,jug ,layback ,generichold ,foothook ,,sloper ,mantle 
+{"V0-V3"=>472.50404398339555, "V4-V4"=>596.4603980222763, "V5-V10"=>503.4302321077859}
+ -> V0-V3
+59,30,1,52,31,5,32,0,39,60,61,5,2,65,37,39,0,30,19	incut (cross),sloper,jug,jug (cross),gaston,crimp,sloper (big move),,foothook ,incut,sloper (cross),crimp,jug (big move),layback,generichold ,foothook ,,sloper,mantle 
+{"V0-V3"=>563.0974986639079, "V4-V4"=>617.3700334067033, "V5-V10"=>539.8903093702247}
+ -> V5-V10
+83,37,1,84,38,6,40,0,53,85,86,6,2,91,48,53,0,37,21	incut (cross),sloper ,jug ,jug (cross),gaston ,crimp ,sloper (big move),,foothook ,incut ,sloper (cross),crimp ,jug (big move),layback ,generichold ,foothook ,,sloper ,mantle 
+{"V0-V3"=>787.096347586965, "V4-V4"=>810.4603980222761, "V5-V10"=>738.6991119940787}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+71 V4-V4 (V4)
+12,1,40	undercling ,jug,crimpbeam
+{"V0-V3"=>60.69859683318018, "V4-V4"=>54.43126024456227, "V5-V10"=>56.664446130295985}
+ -> V4-V4
+15,1,70	undercling ,jug ,crimpbeam 
+{"V0-V3"=>95.26280653357779, "V4-V4"=>85.49505701648343, "V5-V10"=>86.664446130296}
+ -> V4-V4
+14,1,62	undercling ,jug,crimpbeam
+{"V0-V3"=>84.21317000600995, "V4-V4"=>78.48026781346135, "V5-V10"=>77.24307497297299}
+ -> V5-V10
+16,1,87	undercling ,jug ,crimpbeam 
+{"V0-V3"=>113.2628065335778, "V4-V4"=>102.49505701648343, "V5-V10"=>102.24307497297299}
+ -> V5-V10
+72 5.7-5.10 (5.10)
+41,42,23,24	edge sidepull ,pocket sidepull ,sloper,gaston
+{"5.11-5.12"=>115.49097840919126, "5.7-5.10"=>112.22344305953786}
+ -> 5.7-5.10
+71,72,33,34	edge sidepull ,pocket sidepull ,sloper ,gaston 
+{"5.11-5.12"=>188.17922109616256, "5.7-5.10"=>180.18128497544313}
+ -> 5.7-5.10
+63,64,61,31	edge sidepull ,pocket sidepull ,sloper (cross),gaston
+{"5.11-5.12"=>169.1000121773093, "5.7-5.10"=>224.67034087868242}
+ -> 5.11-5.12
+88,89,86,38	edge sidepull ,pocket sidepull ,sloper (cross),gaston 
+{"5.11-5.12"=>314.62299710983274, "5.7-5.10"=>303.6874436575358}
+ -> 5.7-5.10
+73 5.7-5.10 (5.8)
+23,18,11,3	sloper,edge,pinch,sidepull 
+{"5.11-5.12"=>34.04638228394984, "5.7-5.10"=>32.63647562836336}
+ -> 5.7-5.10
+33,23,14,22	sloper ,edge ,pinch ,sidepull 
+{"5.11-5.12"=>78.24215932492795, "5.7-5.10"=>37.287005800814974}
+ -> 5.7-5.10
+30,23,13,22	sloper,edge (cross),pinch,sidepull 
+{"5.11-5.12"=>73.38983811377646, "5.7-5.10"=>35.018940428480306}
+ -> 5.7-5.10
+37,90,15,24	sloper ,edge (cross),pinch ,sidepull 
+{"5.11-5.12"=>145.36578897138637, "5.7-5.10"=>101.85769327599088}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+79 V0-V3 (V2)
+22,22,3,0,1,2,1,1,44	generichold ,generichold ,sidepull ,,jug,match ,jug,jug,horn mantle 
+{"V0-V3"=>118.62983107828761, "V4-V4"=>100.06263238422804, "V5-V10"=>152.4210100244429}
+ -> V4-V4
+43,43,22,0,1,2,4,4,74	generichold ,generichold ,sidepull ,,jug ,match ,jug bad,jug bad,horn mantle bad
+{"V0-V3"=>207.74900488622785, "V4-V4"=>158.35573315167628, "V5-V10"=>245.42101002444292}
+ -> V4-V4
+37,37,22,0,1,3,1,52,66	generichold ,generichold ,sidepull ,,jug,match ,jug,jug (cross),horn mantle 
+{"V0-V3"=>236.64881586197131, "V4-V4"=>191.93369751124175, "V5-V10"=>264.1953880680846}
+ -> V4-V4
+48,48,24,0,1,3,5,92,93	generichold ,generichold ,sidepull ,,jug ,match ,jug bad,jug bad (cross),horn mantle bad
+{"V0-V3"=>329.31011672063903, "V4-V4"=>265.3557331516763, "V5-V10"=>359.1953880680846}
+ -> V4-V4
+81 V0-V3 (V2)
+22,22,1,1,45,46,47,47,47,47,48,17	generichold ,generichold ,jug,jug,ball,boobies gaston,boobies,boobies,boobies,boobies,arete cobble,mantle 
+{"V0-V3"=>417.57907300774565, "V4-V4"=>386.5466263822504, "V5-V10"=>446.87594612442285}
+ -> V4-V4
+43,43,1,1,75,76,77,77,77,77,78,20	generichold ,generichold ,jug ,jug ,ball bad,boobies gaston bad,boobies ,boobies ,boobies ,boobies ,arete cobble ,mantle 
+{"V0-V3"=>671.4298468107957, "V4-V4"=>606.8720447016839, "V5-V10"=>699.8759461244229}
+ -> V4-V4
+37,37,1,1,67,68,69,69,69,69,70,71	generichold ,generichold ,jug,jug,ball,boobies gaston,boobies,boobies,boobies,boobies,arete cobble,mantle (cross)
+{"V0-V3"=>649.0936461805754, "V4-V4"=>600.4181292613639, "V5-V10"=>671.5663048697342}
+ -> V4-V4
+48,48,1,1,94,95,96,96,96,96,97,98	generichold ,generichold ,jug ,jug ,ball bad,boobies gaston bad,boobies ,boobies ,boobies ,boobies ,arete cobble ,mantle (cross)
+{"V0-V3"=>891.4298468107959, "V4-V4"=>815.872044701684, "V5-V10"=>909.5663048697346}
+ -> V4-V4
+94 V5-V10 (V6)
+4,12,11,23	crimp,undercling ,pinch,sloper
+{"V0-V3"=>43.375899387780585, "V4-V4"=>45.77849843609373, "V5-V10"=>27.52099384237077}
+ -> V5-V10
+35,79,51,80	crimp small ,undercling good,pinch bad,sloper good
+{"V0-V3"=>254.19076736517303, "V4-V4"=>259.49518825844194, "V5-V10"=>262.32944985780955}
+ -> V0-V3
+5,72,13,41	crimp,undercling (good hold),pinch,sloper (good hold)
+{"V0-V3"=>144.22389629433553, "V4-V4"=>137.34142992926, "V5-V10"=>142.90233757215125}
+ -> V4-V4
+39,99,58,100	crimp small ,undercling good (good hold),pinch bad,sloper good (good hold)
+{"V0-V3"=>306.190767365173, "V4-V4"=>310.495188258442, "V5-V10"=>310.2438600653349}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+124 V5-V10 (V8)
+3,4,12,23,23,24,4,1	sidepull ,crimp,undercling ,sloper,sloper,gaston,crimp,jug
+{"V0-V3"=>51.84108506261928, "V4-V4"=>119.76043962316889, "V5-V10"=>60.682253879315326}
+ -> V0-V3
+22,35,15,33,33,34,35,1	sidepull ,crimp small ,undercling ,sloper ,sloper ,gaston ,crimp small ,jug 
+{"V0-V3"=>164.34384946071552, "V4-V4"=>229.80718071092866, "V5-V10"=>157.79581962032387}
+ -> V5-V10
+22,5,14,61,30,31,5,1	sidepull ,crimp,undercling ,sloper (cross),sloper,gaston,crimp,jug
+{"V0-V3"=>164.6277320975408, "V4-V4"=>196.26045032292194, "V5-V10"=>149.0496378875782}
+ -> V5-V10
+24,39,16,86,37,38,39,1	sidepull ,crimp small ,undercling ,sloper (cross),sloper ,gaston ,crimp small ,jug 
+{"V0-V3"=>302.58077090214334, "V4-V4"=>299.80718071092866, "V5-V10"=>260.56817253100127}
+ -> V5-V10
+125 5.7-5.10 (5.10)
+49,11,4,1	slope,pinch,crimp,jug
+{"5.11-5.12"=>80.67192478370654, "5.7-5.10"=>64.68422564426659}
+ -> 5.7-5.10
+81,14,5,1	slope ,pinch ,crimp ,jug 
+{"5.11-5.12"=>124.65339053997796, "5.7-5.10"=>95.1197212728216}
+ -> 5.7-5.10
+73,13,5,1	slope,pinch,crimp,jug
+{"5.11-5.12"=>106.69930582721341, "5.7-5.10"=>97.65743537717356}
+ -> 5.7-5.10
+101,15,6,1	slope ,pinch ,crimp ,jug 
+{"5.11-5.12"=>147.6229971098327, "5.7-5.10"=>125.70630674685759}
+ -> 5.7-5.10
+135 V5-V10 (V7)
+10,1,4,11,23,1	pocket,jug,crimp,pinch,sloper,jug
+{"V0-V3"=>44.32177871211077, "V4-V4"=>72.43777695782072, "V5-V10"=>55.86581649147767}
+ -> V0-V3
+12,4,5,14,33,1	pocket ,jug bad,crimp ,pinch ,sloper ,jug 
+{"V0-V3"=>50.751058324040606, "V4-V4"=>93.11459608937315, "V5-V10"=>72.92259936198194}
+ -> V0-V3
+74,2,5,13,32,1	pocket (big move),jug (big move),crimp,pinch,sloper (big move),jug
+{"V0-V3"=>115.4960203692985, "V4-V4"=>147.99771776267477, "V5-V10"=>122.81900570241154}
+ -> V0-V3
+102,103,6,15,40,1	pocket (big move),jug bad (big move),crimp ,pinch ,sloper (big move),jug 
+{"V0-V3"=>243.84330995966678, "V4-V4"=>282.11459608937315, "V5-V10"=>258.3217384844231}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+290 V5-V10 (V10)
+11,4,12,35,35,1	pinch,crimp,undercling ,ledge,ledge,jug
+{"V0-V3"=>115.07242578559615, "V4-V4"=>100.57863838620577, "V5-V10"=>112.08143527938462}
+ -> V4-V4
+51,5,97,65,65,1	pinch bad,crimp ,undercling small ,ledge bad,ledge bad,jug 
+{"V0-V3"=>297.9617706803807, "V4-V4"=>310.17272929178046, "V5-V10"=>314.96607392446293}
+ -> V0-V3
+13,5,14,91,55,2	pinch,crimp,undercling ,ledge (cross),ledge,jug (big move)
+{"V0-V3"=>201.86498246887317, "V4-V4"=>181.6922729225184, "V5-V10"=>187.9200591172367}
+ -> V4-V4
+58,6,129,130,79,2	pinch bad,crimp ,undercling small ,ledge bad (cross),ledge bad,jug (big move)
+{"V0-V3"=>420.80976758693555, "V4-V4"=>429.17272929178046, "V5-V10"=>430.8244712664347}
+ -> V0-V3
+149 V5-V10 (V6)
+4,4,1,11,4,23,1	crimp,crimp,jug,pinch,crimp,sloper,jug
+{"V0-V3"=>46.14232179937959, "V4-V4"=>76.59910829049481, "V5-V10"=>46.62264220869495}
+ -> V0-V3
+5,5,1,14,5,33,1	crimp ,crimp ,jug ,pinch ,crimp ,sloper ,jug 
+{"V0-V3"=>52.5343493498342, "V4-V4"=>94.95336660604237, "V5-V10"=>74.74091139530861}
+ -> V0-V3
+5,5,2,75,28,32,1	crimp,crimp,jug (big move),pinch (big move),crimp (cross),sloper (big move),jug
+{"V0-V3"=>140.3165634565673, "V4-V4"=>187.94774020867854, "V5-V10"=>139.24997653294832}
+ -> V5-V10
+6,6,2,106,34,40,1	crimp ,crimp ,jug (big move),pinch (big move),crimp (cross),sloper (big move),jug 
+{"V0-V3"=>177.6528100705481, "V4-V4"=>235.01149980844966, "V5-V10"=>196.11204408497306}
+ -> V0-V3
+156 5.11-5.12 (5.12)
+4,10,10,11,4,4,23,3,1,24,12,11,2,1,3,3,50,2,1	crimp,pocket,pocket,pinch,crimp,crimp,sloper,sidepull ,jug,gaston,undercling ,pinch,match ,jug,sidepull ,sidepull ,rail,match ,jug
+{"5.11-5.12"=>228.29504282487287, "5.7-5.10"=>168.1461275512527}
+ -> 5.7-5.10
+13,12,12,51,13,35,33,84,1,34,15,51,2,1,22,22,85,2,1	crimp bad,pocket ,pocket ,pinch bad,crimp bad,crimp small ,sloper ,sidepull bad,jug ,gaston ,undercling ,pinch bad,match ,jug ,sidepull ,sidepull ,rail ,match ,jug 
+{"5.11-5.12"=>497.5027951516708, "5.7-5.10"=>468.81815558231256}
+ -> 5.7-5.10
+5,12,12,75,5,5,30,22,1,31,14,13,3,2,22,22,76,3,1	crimp,pocket,pocket,pinch (big move),crimp,crimp,sloper,sidepull ,jug,gaston,undercling ,pinch,match ,jug (big move),sidepull ,sidepull ,rail,match ,jug
+{"5.11-5.12"=>380.1355715211113, "5.7-5.10"=>315.20715357895574}
+ -> 5.7-5.10
+14,13,13,107,14,39,37,108,1,38,16,58,3,2,24,24,109,3,1	crimp bad,pocket ,pocket ,pinch bad (big move),crimp bad,crimp small ,sloper ,sidepull bad,jug ,gaston ,undercling ,pinch bad,match ,jug (big move),sidepull ,sidepull ,rail ,match ,jug 
+{"5.11-5.12"=>625.145023861644, "5.7-5.10"=>602.2802504819072}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+159 V0-V3 (V3)
+12,8,22,12,22,1	undercling ,jug sidepull ,generichold ,undercling ,generichold ,jug
+{"V0-V3"=>98.07242578559615, "V4-V4"=>37.905406673448155, "V5-V10"=>84.29152645570201}
+ -> V4-V4
+86,10,43,15,43,1	undercling bad,jug sidepull ,generichold ,undercling ,generichold ,jug 
+{"V0-V3"=>212.96177068038065, "V4-V4"=>127.38745494460242, "V5-V10"=>214.1382181498889}
+ -> V4-V4
+14,10,37,14,37,52	undercling ,jug sidepull ,generichold ,undercling ,generichold ,jug (cross)
+{"V0-V3"=>182.8649824688732, "V4-V4"=>90.41839815619164, "V5-V10"=>158.72538148683608}
+ -> V4-V4
+110,11,48,16,48,84	undercling bad,jug sidepull ,generichold ,undercling ,generichold ,jug (cross)
+{"V0-V3"=>331.8097675869356, "V4-V4"=>231.38745494460244, "V5-V10"=>324.9358609786481}
+ -> V4-V4
+164 5.11-5.12 (5.12)
+11,11,4,24,24,4	pinch,pinch,crimp,gaston,gaston,crimp
+{"5.11-5.12"=>93.42016525262461, "5.7-5.10"=>65.03577452330143}
+ -> 5.7-5.10
+14,14,45,34,34,37	pinch ,pinch ,crimp big bad,gaston ,gaston ,crimp big 
+{"5.11-5.12"=>206.18084837439204, "5.7-5.10"=>161.7012451366837}
+ -> 5.7-5.10
+13,13,5,31,31,25	pinch,pinch,crimp,gaston,gaston,crimp (good hold)
+{"5.11-5.12"=>139.22676366162744, "5.7-5.10"=>113.66391998741025}
+ -> 5.7-5.10
+15,15,50,38,38,42	pinch ,pinch ,crimp big bad,gaston ,gaston ,crimp big (good hold)
+{"5.11-5.12"=>226.13019265748335, "5.7-5.10"=>183.7012451366837}
+ -> 5.7-5.10
+169 5.7-5.10 (5.10)
+23,23,1,12,12,2,17,11,11,24,4,4,1,12,23,0,1,12,11,11,11,11,1,1,50,1,1,17,24	sloper,sloper,jug,undercling ,undercling ,match ,mantle ,pinch,pinch,gaston,crimp,crimp,jug,undercling ,sloper,,jug,undercling ,pinch,pinch,pinch,pinch,jug,jug,rail,jug,jug,mantle ,gaston
+{"5.11-5.12"=>298.54846873902983, "5.7-5.10"=>302.66960773132723}
+ -> 5.11-5.12
+33,33,1,15,15,2,20,14,14,34,5,5,1,15,33,0,1,15,14,14,14,14,1,1,85,1,1,20,34	sloper ,sloper ,jug ,undercling ,undercling ,match ,mantle ,pinch ,pinch ,gaston ,crimp ,crimp ,jug ,undercling ,sloper ,,jug ,undercling ,pinch ,pinch ,pinch ,pinch ,jug ,jug ,rail ,jug ,jug ,mantle ,gaston 
+{"5.11-5.12"=>405.7359002893667, "5.7-5.10"=>377.8522849484475}
+ -> 5.7-5.10
+30,30,1,14,14,3,19,13,13,31,5,5,1,14,30,0,1,14,13,13,13,13,1,1,76,1,1,19,31	sloper,sloper,jug,undercling ,undercling ,match ,mantle ,pinch,pinch,gaston,crimp,crimp,jug,undercling ,sloper,,jug,undercling ,pinch,pinch,pinch,pinch,jug,jug,rail,jug,jug,mantle ,gaston
+{"5.11-5.12"=>358.6673755192302, "5.7-5.10"=>377.3916133396121}
+ -> 5.11-5.12
+37,37,1,16,16,3,21,15,15,38,6,6,1,16,37,0,1,16,15,15,15,15,1,1,109,1,1,21,38	sloper ,sloper ,jug ,undercling ,undercling ,match ,mantle ,pinch ,pinch ,gaston ,crimp ,crimp ,jug ,undercling ,sloper ,,jug ,undercling ,pinch ,pinch ,pinch ,pinch ,jug ,jug ,rail ,jug ,jug ,mantle ,gaston 
+{"5.11-5.12"=>447.1617484972144, "5.7-5.10"=>444.0418575200698}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+170 V4-V4 (V4)
+23,3,10,23,23,9	sloper,sidepull ,pocket,sloper,sloper,jug mantle 
+{"V0-V3"=>43.77506723757255, "V4-V4"=>118.77439281419953, "V5-V10"=>47.20915205050558}
+ -> V0-V3
+49,3,87,33,33,11	sloper big ,sidepull big ,pocket small ,sloper ,sloper ,jug mantle 
+{"V0-V3"=>169.57284614550784, "V4-V4"=>245.17272929178046, "V5-V10"=>176.26522641545148}
+ -> V0-V3
+41,4,12,30,30,11	sloper (good hold),sidepull (good hold),pocket,sloper,sloper,jug mantle 
+{"V0-V3"=>150.86498246887317, "V4-V4"=>161.1195962919712, "V5-V10"=>94.22284686033376}
+ -> V5-V10
+56,4,111,37,37,12	sloper big (good hold),sidepull big (good hold),pocket small ,sloper ,sloper ,jug mantle 
+{"V0-V3"=>274.8097675869356, "V4-V4"=>286.1727292917804, "V5-V10"=>207.2228468603338}
+ -> V5-V10
+177 5.11-5.12 (5.11)
+22,22,11,37,23,9	generichold ,generichold ,pinch,crimp sloper,sloper,jug mantle 
+{"5.11-5.12"=>122.9797196790992, "5.7-5.10"=>105.82672471335847}
+ -> 5.7-5.10
+43,43,14,67,33,11	generichold ,generichold ,pinch ,crimp sloper ,sloper ,jug mantle 
+{"5.11-5.12"=>202.70667893057663, "5.7-5.10"=>177.75030797755082}
+ -> 5.7-5.10
+37,37,75,57,30,77	generichold ,generichold ,pinch (big move),crimp sloper,sloper,jug mantle (big move)
+{"5.11-5.12"=>298.2443082368807, "5.7-5.10"=>291.73177349689274}
+ -> 5.7-5.10
+48,48,106,81,37,112	generichold ,generichold ,pinch (big move),crimp sloper ,sloper ,jug mantle (big move)
+{"5.11-5.12"=>412.1815482051561, "5.7-5.10"=>403.26066880254416}
+ -> 5.7-5.10
+179 V4-V4 (V4)
+2,2,51,51,11,11,1	match ,match ,crimp jug,crimp jug,pinch,pinch,jug
+{"V0-V3"=>140.49024530382812, "V4-V4"=>140.26249243411604, "V5-V10"=>170.78438595778954}
+ -> V4-V4
+2,2,88,89,51,14,1	match ,match ,crimp jug bad,crimp jug ,pinch bad,pinch ,jug 
+{"V0-V3"=>257.7050165987417, "V4-V4"=>268.9533666060424, "V5-V10"=>286.7843859577896}
+ -> V0-V3
+3,3,78,78,75,13,2	match ,match ,crimp jug,crimp jug,pinch (big move),pinch,jug (big move)
+{"V0-V3"=>264.76822881427535, "V4-V4"=>274.8258616793822, "V5-V10"=>288.6147768669847}
+ -> V0-V3
+3,3,113,114,107,15,2	match ,match ,crimp jug bad,crimp jug ,pinch bad (big move),pinch ,jug (big move)
+{"V0-V3"=>368.5530135052967, "V4-V4"=>377.9533666060424, "V5-V10"=>393.61477686698464}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+182 5.7-5.10 (5.10)
+4,4,23,11,4,1,2,3,4,12,23,23,4	crimp,crimp,sloper,pinch,crimp,jug,match ,sidepull ,crimp,undercling ,sloper,sloper,crimp
+{"5.11-5.12"=>69.24345407370217, "5.7-5.10"=>57.92883435665312}
+ -> 5.7-5.10
+5,5,33,14,5,1,2,22,5,15,33,33,5	crimp ,crimp ,sloper ,pinch ,crimp ,jug ,match ,sidepull ,crimp ,undercling ,sloper ,sloper ,crimp 
+{"5.11-5.12"=>136.18281492949183, "5.7-5.10"=>61.70524396959489}
+ -> 5.7-5.10
+5,5,30,13,28,1,3,22,28,14,30,30,5	crimp,crimp,sloper,pinch,crimp (cross),jug,match ,sidepull ,crimp (cross),undercling ,sloper,sloper,crimp
+{"5.11-5.12"=>148.1892602032728, "5.7-5.10"=>138.59259681674044}
+ -> 5.7-5.10
+6,6,37,15,34,1,3,24,34,16,37,37,6	crimp ,crimp ,sloper ,pinch ,crimp (cross),jug ,match ,sidepull ,crimp (cross),undercling ,sloper ,sloper ,crimp 
+{"5.11-5.12"=>196.13255347865072, "5.7-5.10"=>159.74171076058389}
+ -> 5.7-5.10
+188 V0-V3 (V0)
+52,24,3,24,2,3,52	downpull ,gaston,sidepull ,gaston,match ,sidepull ,downpull 
+{"V0-V3"=>132.88399574159948, "V4-V4"=>189.9357241468736, "V5-V10"=>197.78438595778954}
+ -> V0-V3
+90,34,22,34,2,22,90	downpull ,gaston ,sidepull ,gaston ,match ,sidepull ,downpull 
+{"V0-V3"=>307.1196383013399, "V4-V4"=>326.0114998084496, "V5-V10"=>327.78438595778954}
+ -> V0-V3
+79,31,22,31,3,22,79	downpull ,gaston,sidepull ,gaston,match ,sidepull ,downpull 
+{"V0-V3"=>224.43045200216727, "V4-V4"=>296.9477402086785, "V5-V10"=>298.61477686698476}
+ -> V0-V3
+115,38,24,38,3,24,115	downpull ,gaston ,sidepull ,gaston ,match ,sidepull ,downpull 
+{"V0-V3"=>371.11963830133993, "V4-V4"=>389.0114998084497, "V5-V10"=>388.61477686698476}
+ -> V0-V3
+194 5.7-5.10 (5.10)
+4,3,10,35,3,12,2,4,10,1,2,23	crimp,sidepull ,pocket,ledge,sidepull ,undercling ,match ,crimp,pocket,jug,match ,sloper
+{"5.11-5.12"=>125.98918436247695, "5.7-5.10"=>76.56784616514827}
+ -> 5.7-5.10
+5,22,57,82,22,15,2,5,57,1,2,33	crimp ,sidepull ,pocket bad,ledge ,sidepull ,undercling ,match ,crimp ,pocket bad,jug ,match ,sloper 
+{"5.11-5.12"=>311.3552789074941, "5.7-5.10"=>246.1829539457387}
+ -> 5.7-5.10
+5,22,12,55,22,14,3,5,12,1,3,30	crimp,sidepull ,pocket,ledge,sidepull ,undercling ,match ,crimp,pocket,jug,match ,sloper
+{"5.11-5.12"=>186.49653823757924, "5.7-5.10"=>102.97209315830698}
+ -> 5.7-5.10
+6,24,68,104,24,16,3,6,68,1,3,37	crimp ,sidepull ,pocket bad,ledge ,sidepull ,undercling ,match ,crimp ,pocket bad,jug ,match ,sloper 
+{"5.11-5.12"=>364.56294030669335, "5.7-5.10"=>311.6040308943746}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+199 5.7-5.10 (5.10)
+24,4,1,23,3,24,4,23,1,1,4,24	gaston,crimp,jug,sloper,sidepull ,gaston,crimp,sloper,jug,jug,crimp,gaston
+{"5.11-5.12"=>126.57143347625887, "5.7-5.10"=>115.2217442926977}
+ -> 5.7-5.10
+34,5,1,33,22,34,5,33,1,1,5,34	gaston ,crimp ,jug ,sloper ,sidepull ,gaston ,crimp ,sloper ,jug ,jug ,crimp ,gaston 
+{"5.11-5.12"=>204.8148829900035, "5.7-5.10"=>145.8278629408141}
+ -> 5.7-5.10
+31,5,1,30,22,31,5,30,1,1,5,31	gaston,crimp,jug,sloper,sidepull ,gaston,crimp,sloper,jug,jug,crimp,gaston
+{"5.11-5.12"=>167.02788746431796, "5.7-5.10"=>162.1800271869425}
+ -> 5.7-5.10
+38,6,1,37,24,38,6,37,1,1,6,38	gaston ,crimp ,jug ,sloper ,sidepull ,gaston ,crimp ,sloper ,jug ,jug ,crimp ,gaston 
+{"5.11-5.12"=>220.7544903957807, "5.7-5.10"=>189.32074643989998}
+ -> 5.7-5.10
+205 5.7-5.10 (5.10)
+12,4,10,53,35,4,4,1	undercling ,crimp,pocket,cup,ledge,crimp,crimp,jug
+{"5.11-5.12"=>131.69447504855387, "5.7-5.10"=>105.68179240885003}
+ -> 5.7-5.10
+15,35,87,91,65,35,35,1	undercling ,crimp small ,pocket small ,cup big ,ledge bad,crimp small ,crimp small ,jug 
+{"5.11-5.12"=>271.1127321939574, "5.7-5.10"=>316.1953187572244}
+ -> 5.11-5.12
+80,5,12,81,55,5,5,2	undercling (big move),crimp,pocket,cup (big move) (good hold),ledge,crimp,crimp,jug (big move)
+{"5.11-5.12"=>261.29446787264936, "5.7-5.10"=>227.64267113930293}
+ -> 5.7-5.10
+116,39,111,117,79,39,39,2	undercling (big move),crimp small ,pocket small ,cup big (big move) (good hold),ledge bad,crimp small ,crimp small ,jug (big move)
+{"5.11-5.12"=>455.8145768662827, "5.7-5.10"=>480.72583347392316}
+ -> 5.11-5.12
+207 5.11-5.12 (5.12)
+23,23,18,25,11,11,54,24,11,17	sloper,sloper,edge,foothook sloper,pinch,pinch,gaston pinch,gaston,pinch,mantle 
+{"5.11-5.12"=>169.46072780689, "5.7-5.10"=>165.22770774280914}
+ -> 5.7-5.10
+33,33,23,36,14,14,92,34,14,20	sloper ,sloper ,edge ,foothook sloper ,pinch ,pinch ,gaston pinch ,gaston ,pinch ,mantle 
+{"5.11-5.12"=>271.6569256806796, "5.7-5.10"=>230.70446977316752}
+ -> 5.7-5.10
+30,30,20,82,83,13,84,31,13,19	sloper,sloper,edge,foothook sloper,pinch (cross),pinch,gaston pinch,gaston,pinch,mantle 
+{"5.11-5.12"=>358.78139541029987, "5.7-5.10"=>346.20973377893625}
+ -> 5.7-5.10
+37,37,26,118,119,15,120,38,15,21	sloper ,sloper ,edge ,foothook sloper ,pinch (cross),pinch ,gaston pinch ,gaston ,pinch ,mantle 
+{"5.11-5.12"=>492.1014015251137, "5.7-5.10"=>468.8448900716456}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+284 V4-V4 (V4)
+11,35,11,35,4,0,11,12,1,2,4,4	pinch,ledge,pinch,ledge,crimp,,pinch,undercling ,jug,match ,crimp,crimp
+{"V0-V3"=>166.77757836847442, "V4-V4"=>142.8733946694927, "V5-V10"=>168.19412768184915}
+ -> V4-V4
+14,82,93,83,35,0,51,15,41,2,35,35	pinch ,ledge ,pinch small bad,ledge small bad,crimp small ,,pinch bad,undercling ,jug small ,match ,crimp small ,crimp small 
+{"V0-V3"=>512.1671388557464, "V4-V4"=>507.6653636362521, "V5-V10"=>527.048090349849}
+ -> V4-V4
+13,55,13,55,5,0,13,14,1,3,5,5	pinch,ledge,pinch,ledge,crimp,,pinch,undercling ,jug,match ,crimp,crimp
+{"V0-V3"=>218.26300519564464, "V4-V4"=>195.41737936416988, "V5-V10"=>213.78002323075464}
+ -> V4-V4
+15,104,121,105,39,0,58,16,46,3,39,39	pinch ,ledge ,pinch small bad,ledge small bad,crimp small ,,pinch bad,undercling ,jug small ,match ,crimp small ,crimp small 
+{"V0-V3"=>613.1671388557464, "V4-V4"=>604.6653636362522, "V5-V10"=>619.6776945819475}
+ -> V4-V4
+211 5.11-5.12 (5.11)
+4,24,0,41,28,4,18,41,18,4,4,18,23,18,23,23,22,55,17	crimp,gaston,,edge sidepull ,edge undercling ,crimp,edge,edge sidepull ,edge,crimp,crimp,edge,sloper,edge,sloper,sloper,generichold ,pinch sloper,mantle 
+{"5.11-5.12"=>268.8567011224432, "5.7-5.10"=>348.2743650314677}
+ -> 5.11-5.12
+5,34,0,71,44,5,32,71,94,5,5,32,49,21,49,49,95,96,20	crimp ,gaston ,,edge sidepull ,edge undercling ,crimp ,edge big bad,edge sidepull ,edge big ,crimp ,crimp ,edge big bad,sloper big ,edge bad,sloper big ,sloper big ,generichold small ,pinch sloper bad,mantle 
+{"5.11-5.12"=>739.3996066969125, "5.7-5.10"=>785.4444795872643}
+ -> 5.11-5.12
+5,31,0,85,38,5,86,63,87,5,5,20,47,20,41,88,37,89,90	crimp,gaston,,edge sidepull (big move),edge undercling ,crimp,edge (big move),edge sidepull ,edge (good hold),crimp,crimp,edge,sloper (big move) (good hold),edge,sloper (good hold),sloper (cross) (good hold),generichold ,pinch sloper,mantle (big move)
+{"5.11-5.12"=>790.7792412897941, "5.7-5.10"=>897.2110263303103}
+ -> 5.11-5.12
+6,38,0,122,49,6,123,88,124,6,6,36,65,22,56,125,126,127,128	crimp ,gaston ,,edge sidepull (big move),edge undercling ,crimp ,edge big bad (big move),edge sidepull ,edge big (good hold),crimp ,crimp ,edge big bad,sloper big (big move) (good hold),edge bad,sloper big (good hold),sloper big (cross) (good hold),generichold small ,pinch sloper bad,mantle (big move)
+{"5.11-5.12"=>1204.9860266042617, "5.7-5.10"=>1297.3136430034308}
+ -> 5.11-5.12
+221 V4-V4 (V4)
+3,3	sidepull ,sidepull 
+{"V0-V3"=>15.582810119797886, "V4-V4"=>21.12906748350314, "V5-V10"=>21.692825791156206}
+ -> V0-V3
+22,22	sidepull ,sidepull 
+{"V0-V3"=>51.571767143410376, "V4-V4"=>55.81764722510348, "V5-V10"=>55.69282579115621}
+ -> V0-V3
+22,22	sidepull ,sidepull 
+{"V0-V3"=>53.5828101197979, "V4-V4"=>53.807020625141625, "V5-V10"=>55.6632488642351}
+ -> V0-V3
+24,24	sidepull ,sidepull 
+{"V0-V3"=>55.571767143410376, "V4-V4"=>59.81764722510348, "V5-V10"=>59.6632488642351}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+226 5.7-5.10 (5.10)
+23,23,23,0,11,2	sloper,sloper,sloper,,pinch,match 
+{"5.11-5.12"=>37.69680890224026, "5.7-5.10"=>22.94933111978342}
+ -> 5.7-5.10
+33,33,33,0,14,2	sloper ,sloper ,sloper ,,pinch ,match 
+{"5.11-5.12"=>48.41441681825233, "5.7-5.10"=>22.024955883429563}
+ -> 5.7-5.10
+30,30,30,0,13,3	sloper,sloper,sloper,,pinch,match 
+{"5.11-5.12"=>44.974656876901456, "5.7-5.10"=>19.672128307144213}
+ -> 5.7-5.10
+37,37,37,0,15,3	sloper ,sloper ,sloper ,,pinch ,match 
+{"5.11-5.12"=>49.89941723621353, "5.7-5.10"=>24.185878257840134}
+ -> 5.7-5.10
+230 5.7-5.10 (5.10)
+1,1,22,23,23,56,56,1,24,4,1,4,4,4,1,1,4,1,1,12,12,1,1,4,1,1	jug,jug,generichold ,sloper,sloper,teeth,teeth,jug,gaston,crimp,jug,crimp,crimp,crimp,jug,jug,crimp,jug,jug,undercling ,undercling ,jug,jug,crimp,jug,jug
+{"5.11-5.12"=>289.64876498928976, "5.7-5.10"=>311.8175929963571}
+ -> 5.11-5.12
+4,1,95,33,33,98,98,1,34,35,4,5,5,5,41,1,5,41,4,15,15,1,1,13,1,1	jug bad,jug ,generichold small ,sloper ,sloper ,teeth ,teeth ,jug ,gaston ,crimp small ,jug bad,crimp ,crimp ,crimp ,jug small ,jug ,crimp ,jug small ,jug bad,undercling ,undercling ,jug ,jug ,crimp bad,jug ,jug 
+{"5.11-5.12"=>588.0046847922646, "5.7-5.10"=>601.669584939573}
+ -> 5.11-5.12
+1,1,37,30,30,92,92,2,31,5,2,5,5,5,1,2,5,1,1,14,14,1,1,5,1,1	jug,jug,generichold ,sloper,sloper,teeth,teeth,jug (big move),gaston,crimp,jug (big move),crimp,crimp,crimp,jug,jug (big move),crimp,jug,jug,undercling ,undercling ,jug,jug,crimp,jug,jug
+{"5.11-5.12"=>388.56686316174427, "5.7-5.10"=>461.13965761767076}
+ -> 5.11-5.12
+5,1,126,37,37,131,131,2,38,39,103,6,6,6,46,2,6,46,5,16,16,1,1,14,1,1	jug bad,jug ,generichold small ,sloper ,sloper ,teeth ,teeth ,jug (big move),gaston ,crimp small ,jug bad (big move),crimp ,crimp ,crimp ,jug small ,jug (big move),crimp ,jug small ,jug bad,undercling ,undercling ,jug ,jug ,crimp bad,jug ,jug 
+{"5.11-5.12"=>805.5962577853288, "5.7-5.10"=>861.7853331626263}
+ -> 5.11-5.12
+232 V5-V10 (V5)
+1,11,12,1,1,12,3,20,23,23	jug,pinch,undercling ,jug,jug,undercling ,sidepull ,crimp sidepull ,sloper,sloper
+{"V0-V3"=>89.68955340183095, "V4-V4"=>118.40987057575948, "V5-V10"=>86.97830510323256}
+ -> V5-V10
+1,48,15,1,1,15,22,99,33,33	jug ,pinch big ,undercling ,jug ,jug ,undercling ,sidepull ,crimp sidepull small ,sloper ,sloper 
+{"V0-V3"=>229.95237887896118, "V4-V4"=>285.441632130077, "V5-V10"=>216.97830510323263}
+ -> V5-V10
+2,34,14,1,1,14,22,26,30,32	jug (big move),pinch (good hold),undercling ,jug,jug,undercling ,sidepull ,crimp sidepull ,sloper,sloper (big move)
+{"V0-V3"=>176.07404838278404, "V4-V4"=>198.40130435387283, "V5-V10"=>133.93410707835358}
+ -> V5-V10
+2,55,16,1,1,16,24,132,37,40	jug (big move),pinch big (good hold),undercling ,jug ,jug ,undercling ,sidepull ,crimp sidepull small ,sloper ,sloper (big move)
+{"V0-V3"=>313.9628496824781, "V4-V4"=>339.4416321300769, "V5-V10"=>260.9341070783536}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+237 5.11-5.12 (5.11)
+10,18,2,1	pocket,edge,match ,jug
+{"5.11-5.12"=>37.65679269629012, "5.7-5.10"=>45.180369229358185}
+ -> 5.11-5.12
+12,23,2,25	pocket ,edge ,match ,jug big 
+{"5.11-5.12"=>86.65339053997795, "5.7-5.10"=>74.16971405580087}
+ -> 5.7-5.10
+74,20,3,40	pocket (big move),edge,match ,jug (big move) (good hold)
+{"5.11-5.12"=>153.65339053997795, "5.7-5.10"=>144.6408720267103}
+ -> 5.7-5.10
+102,26,3,54	pocket (big move),edge ,match ,jug big (big move) (good hold)
+{"5.11-5.12"=>203.6229971098327, "5.7-5.10"=>191.16971405580088}
+ -> 5.7-5.10
+238 5.7-5.10 (5.10)
+57,3,23,23,11,58,2,3,59,59,18,1,1,11,4,42,8,57,1,57,11,57,11,17	arete,sidepull ,sloper,sloper,pinch,ledge pinch,match ,sidepull ,sidepull undercling ,sidepull undercling ,edge,jug,jug,pinch,crimp,pocket sidepull ,jug sidepull ,arete,jug,arete,pinch,arete,pinch,mantle 
+{"5.11-5.12"=>607.2855204274034, "5.7-5.10"=>554.9034928825175}
+ -> 5.7-5.10
+100,22,33,33,14,101,2,22,102,102,23,1,1,14,5,72,10,100,1,100,14,100,14,20	arete ,sidepull ,sloper ,sloper ,pinch ,ledge pinch ,match ,sidepull ,sidepull undercling ,sidepull undercling ,edge ,jug ,jug ,pinch ,crimp ,pocket sidepull ,jug sidepull ,arete ,jug ,arete ,pinch ,arete ,pinch ,mantle 
+{"5.11-5.12"=>1019.7498141573121, "5.7-5.10"=>890.2187553936951}
+ -> 5.7-5.10
+93,22,30,30,13,94,3,22,95,96,20,1,1,13,5,64,53,93,1,93,13,93,13,19	arete,sidepull ,sloper,sloper,pinch,ledge pinch,match ,sidepull ,sidepull undercling ,sidepull undercling (big move),edge,jug,jug,pinch,crimp,pocket sidepull ,jug sidepull (cross),arete,jug,arete,pinch,arete,pinch,mantle 
+{"5.11-5.12"=>980.7691290798804, "5.7-5.10"=>896.4814695839054}
+ -> 5.7-5.10
+133,24,37,37,15,134,3,24,135,136,26,1,1,15,6,89,75,133,1,133,15,133,15,21	arete ,sidepull ,sloper ,sloper ,pinch ,ledge pinch ,match ,sidepull ,sidepull undercling ,sidepull undercling (big move),edge ,jug ,jug ,pinch ,crimp ,pocket sidepull ,jug sidepull (cross),arete ,jug ,arete ,pinch ,arete ,pinch ,mantle 
+{"5.11-5.12"=>1350.0625851377836, "5.7-5.10"=>1225.3199774059715}
+ -> 5.7-5.10
+240 5.11-5.12 (5.12)
+1,1,60,11,61,21,23,23,35,4,62,62,1,4,11,4,63,63,4,4,23,3,1,1,4,4,57,23,57,34,17	jug,jug,pocket undercling ,pinch,pinch sidepull ,crimp dish,sloper,sloper,ledge,crimp,flake,flake,jug,crimp,pinch,crimp,tufa,tufa,crimp,crimp,sloper,sidepull ,jug,jug,crimp,crimp,arete,sloper,arete,sloper sidepull ,mantle 
+{"5.11-5.12"=>713.5480413507578, "5.7-5.10"=>648.4172303286533}
+ -> 5.7-5.10
+1,1,103,26,104,105,33,33,82,13,106,106,41,5,14,5,107,107,42,42,63,22,1,1,5,5,100,33,100,64,20	jug ,jug ,pocket undercling ,pinch small ,pinch sidepull ,crimp dish bad,sloper ,sloper ,ledge ,crimp bad,flake ,flake ,jug small ,crimp ,pinch ,crimp ,tufa ,tufa ,crimp small bad,crimp small bad,sloper bad,sidepull ,jug ,jug ,crimp ,crimp ,arete ,sloper ,arete ,sloper sidepull ,mantle 
+{"5.11-5.12"=>1420.6907185546554, "5.7-5.10"=>1336.4912394241}
+ -> 5.7-5.10
+1,1,97,13,98,27,30,30,55,5,99,99,1,5,13,5,100,100,5,5,30,22,1,1,5,5,93,30,93,54,90	jug,jug,pocket undercling ,pinch,pinch sidepull ,crimp dish,sloper,sloper,ledge,crimp,flake,flake,jug,crimp,pinch,crimp,tufa,tufa,crimp,crimp,sloper,sidepull ,jug,jug,crimp,crimp,arete,sloper,arete,sloper sidepull ,mantle (big move)
+{"5.11-5.12"=>1159.1726705976896, "5.7-5.10"=>1100.695636799944}
+ -> 5.7-5.10
+1,1,137,29,138,139,37,37,104,14,140,140,46,6,15,6,141,141,47,47,77,24,1,1,6,6,133,37,133,78,128	jug ,jug ,pocket undercling ,pinch small ,pinch sidepull ,crimp dish bad,sloper ,sloper ,ledge ,crimp bad,flake ,flake ,jug small ,crimp ,pinch ,crimp ,tufa ,tufa ,crimp small bad,crimp small bad,sloper bad,sidepull ,jug ,jug ,crimp ,crimp ,arete ,sloper ,arete ,sloper sidepull ,mantle (big move)
+{"5.11-5.12"=>1999.1371900035479, "5.7-5.10"=>1850.763445624219}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+243 V4-V4 (V4)
+23,23,23,4,4,9	sloper,sloper,sloper,crimp,crimp,jug mantle 
+{"V0-V3"=>38.77506723757255, "V4-V4"=>113.77439281419953, "V5-V10"=>27.625969207018947}
+ -> V5-V10
+33,33,33,5,5,11	sloper ,sloper ,sloper ,crimp ,crimp ,jug mantle 
+{"V0-V3"=>41.68083606270475, "V4-V4"=>154.17272929178043, "V5-V10"=>45.80613935605343}
+ -> V0-V3
+30,30,30,5,5,11	sloper,sloper,sloper,crimp,crimp,jug mantle 
+{"V0-V3"=>135.86498246887317, "V4-V4"=>145.11959629197116, "V5-V10"=>28.42633532274977}
+ -> V5-V10
+37,37,37,6,6,12	sloper ,sloper ,sloper ,crimp ,crimp ,jug mantle 
+{"V0-V3"=>153.80976758693564, "V4-V4"=>169.1727292917804, "V5-V10"=>48.83287916090195}
+ -> V5-V10
+246 5.7-5.10 (5.10)
+4,4,1,1,4,17	crimp,crimp,jug,jug,crimp,mantle 
+{"5.11-5.12"=>30.35713992075461, "5.7-5.10"=>47.84334095021804}
+ -> 5.11-5.12
+5,5,1,1,5,20	crimp ,crimp ,jug ,jug ,crimp ,mantle 
+{"5.11-5.12"=>55.42265232969594, "5.7-5.10"=>50.65560748420363}
+ -> 5.7-5.10
+5,5,1,1,5,19	crimp,crimp,jug,jug,crimp,mantle 
+{"5.11-5.12"=>30.398512600227185, "5.7-5.10"=>73.2090989388995}
+ -> 5.11-5.12
+6,6,1,1,6,21	crimp ,crimp ,jug ,jug ,crimp ,mantle 
+{"5.11-5.12"=>58.382127756168984, "5.7-5.10"=>78.23760357032185}
+ -> 5.11-5.12
+285 5.11-5.12 (5.11)
+11,4,24,2,3,3,3,35,35,3,2,4,23	pinch,crimp,gaston,match ,sidepull ,sidepull ,sidepull ,ledge,ledge,sidepull ,match ,crimp,sloper
+{"5.11-5.12"=>183.7560891309606, "5.7-5.10"=>66.64002962210343}
+ -> 5.7-5.10
+14,35,108,2,22,84,22,83,65,84,2,35,33	pinch ,crimp small ,gaston bad,match ,sidepull ,sidepull bad,sidepull ,ledge small bad,ledge bad,sidepull bad,match ,crimp small ,sloper 
+{"5.11-5.12"=>535.3551133937016, "5.7-5.10"=>451.25293875690954}
+ -> 5.7-5.10
+83,5,101,3,49,22,22,55,91,22,3,103,30	pinch (cross),crimp,gaston (cross),match ,sidepull (big move),sidepull ,sidepull ,ledge,ledge (cross),sidepull ,match ,crimp (big move),sloper
+{"5.11-5.12"=>596.837726170855, "5.7-5.10"=>363.7875414584498}
+ -> 5.7-5.10
+119,39,142,3,67,108,24,105,130,108,3,144,37	pinch (cross),crimp small ,gaston bad (cross),match ,sidepull (big move),sidepull bad,sidepull ,ledge small bad,ledge bad (cross),sidepull bad,match ,crimp small (big move),sloper 
+{"5.11-5.12"=>998.7163750599958, "5.7-5.10"=>976.8835654857766}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+256 V4-V4 (V4)
+1,57,12,23,12,64,23,64,23,23,18	jug,arete,undercling ,sloper,undercling ,crimper,sloper,crimper,sloper,sloper,edge
+{"V0-V3"=>259.68306290306106, "V4-V4"=>310.48920970994914, "V5-V10"=>181.1591768578068}
+ -> V5-V10
+1,100,15,33,15,109,33,109,33,33,23	jug ,arete ,undercling ,sloper ,undercling ,crimper bad,sloper ,crimper bad,sloper ,sloper ,edge 
+{"V0-V3"=>402.4914151756836, "V4-V4"=>491.4324057401913, "V5-V10"=>278.1591768578068}
+ -> V5-V10
+1,93,80,30,14,102,30,102,61,30,20	jug,arete,undercling (big move),sloper,undercling ,crimper,sloper,crimper,sloper (cross),sloper,edge
+{"V0-V3"=>592.3473306329516, "V4-V4"=>566.8968851664893, "V5-V10"=>399.0858136768986}
+ -> V5-V10
+1,133,116,37,16,143,37,143,86,37,26	jug ,arete ,undercling (big move),sloper ,undercling ,crimper bad,sloper ,crimper bad,sloper (cross),sloper ,edge 
+{"V0-V3"=>801.965258058539, "V4-V4"=>771.4754953543815, "V5-V10"=>550.0858136768986}
+ -> V5-V10
+261 5.7-5.10 (5.10)
+1,1,24,3,1,1,1,43,1,1,23,23,23,59,1,1,4,4,1,1	jug,jug,gaston,sidepull ,jug,jug,jug,layback,jug,jug,sloper,sloper,sloper,sidepull undercling ,jug,jug,crimp,crimp,jug,jug
+{"5.11-5.12"=>239.58379867044724, "5.7-5.10"=>233.15980679269612}
+ -> 5.7-5.10
+41,41,34,22,1,1,4,110,41,41,49,33,33,102,1,1,5,5,1,1	jug small ,jug small ,gaston ,sidepull ,jug ,jug ,jug bad,layback bad,jug small ,jug small ,sloper big ,sloper ,sloper ,sidepull undercling ,jug ,jug ,crimp ,crimp ,jug ,jug 
+{"5.11-5.12"=>593.45309453318, "5.7-5.10"=>536.070820630649}
+ -> 5.7-5.10
+1,52,31,22,1,1,1,65,1,52,41,30,30,95,52,1,5,5,1,52	jug,jug (cross),gaston,sidepull ,jug,jug,jug,layback,jug,jug (cross),sloper (good hold),sloper,sloper,sidepull undercling ,jug (cross),jug,crimp,crimp,jug,jug (cross)
+{"5.11-5.12"=>552.9667405451205, "5.7-5.10"=>537.5104779355107}
+ -> 5.7-5.10
+46,73,38,24,1,1,5,145,46,73,56,37,37,135,84,1,6,6,1,84	jug small ,jug small (cross),gaston ,sidepull ,jug ,jug ,jug bad,layback bad,jug small ,jug small (cross),sloper big (good hold),sloper ,sloper ,sidepull undercling ,jug (cross),jug ,crimp ,crimp ,jug ,jug (cross)
+{"5.11-5.12"=>910.7962589437969, "5.7-5.10"=>868.1537165135898}
+ -> 5.7-5.10
+266 V4-V4 (V4)
+23,1,4,29,3,29,4,4,23,65,4,23	sloper,jug,crimp,foothook ,sidepull ,foothook ,crimp,crimp,sloper,jib ,crimp,sloper
+{"V0-V3"=>179.20338689568777, "V4-V4"=>264.7423808102441, "V5-V10"=>169.7656971677331}
+ -> V5-V10
+33,1,5,47,22,47,5,5,33,111,5,33	sloper ,jug ,crimp ,foothook ,sidepull ,foothook ,crimp ,crimp ,sloper ,jib small ,crimp ,sloper 
+{"V0-V3"=>280.6898398214377, "V4-V4"=>407.2053523917959, "V5-V10"=>303.97374449430157}
+ -> V0-V3
+32,1,28,39,22,39,5,5,32,104,5,30	sloper (big move),jug,crimp (cross),foothook ,sidepull ,foothook ,crimp,crimp,sloper (big move),jib ,crimp,sloper
+{"V0-V3"=>315.1179044185657, "V4-V4"=>398.0884597922155, "V5-V10"=>276.98198745456216}
+ -> V5-V10
+40,1,34,53,24,53,6,6,40,146,6,37	sloper (big move),jug ,crimp (cross),foothook ,sidepull ,foothook ,crimp ,crimp ,sloper (big move),jib small ,crimp ,sloper 
+{"V0-V3"=>399.5378367279926, "V4-V4"=>503.2053523917959, "V5-V10"=>383.99183873615334}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+275 V4-V4 (V4)
+66,2,11,4,11,4,23	crimp ledge,match ,pinch,crimp,pinch,crimp,sloper
+{"V0-V3"=>119.26858799362806, "V4-V4"=>132.26249243411604, "V5-V10"=>119.71400757696995}
+ -> V0-V3
+113,2,14,5,14,5,33	crimp ledge ,match ,pinch ,crimp ,pinch ,crimp ,sloper 
+{"V0-V3"=>168.27164139478498, "V4-V4"=>195.89523340363507, "V5-V10"=>190.98173325509504}
+ -> V0-V3
+105,3,83,5,13,5,61	crimp ledge,match ,pinch (cross),crimp,pinch,crimp,sloper (cross)
+{"V0-V3"=>292.60201172735333, "V4-V4"=>296.8258616793821, "V5-V10"=>294.60931130296143}
+ -> V0-V3
+149,3,119,6,15,6,86	crimp ledge ,match ,pinch (cross),crimp ,pinch ,crimp ,sloper (cross)
+{"V0-V3"=>397.1196383013399, "V4-V4"=>403.9533666060424, "V5-V10"=>419.61477686698464}
+ -> V0-V3
+283 V0-V3 (V3)
+4,29,4,1,4,0,1,4,11,29,24,29,24,4,4	crimp,foothook ,crimp,jug,crimp,,jug,crimp,pinch,foothook ,gaston,foothook ,gaston,crimp,crimp
+{"V0-V3"=>172.60776834793595, "V4-V4"=>233.8897589518876, "V5-V10"=>217.18540627722427}
+ -> V0-V3
+5,47,5,1,5,0,1,5,14,47,34,47,34,5,35	crimp ,foothook ,crimp ,jug ,crimp ,,jug ,crimp ,pinch ,foothook ,gaston ,foothook ,gaston ,crimp ,crimp small 
+{"V0-V3"=>325.8583471434397, "V4-V4"=>352.6635307393963, "V5-V10"=>370.33088222440296}
+ -> V0-V3
+5,39,103,1,5,0,1,28,13,39,31,39,31,103,5	crimp,foothook ,crimp (big move),jug,crimp,,jug,crimp (cross),pinch,foothook ,gaston,foothook ,gaston,crimp (big move),crimp
+{"V0-V3"=>423.69794412699304, "V4-V4"=>501.4510130130413, "V5-V10"=>490.24496948963383}
+ -> V0-V3
+6,53,148,1,6,0,1,34,15,53,38,53,38,148,39	crimp ,foothook ,crimp (big move),jug ,crimp ,,jug ,crimp (cross),pinch ,foothook ,gaston ,foothook ,gaston ,crimp (big move),crimp small 
+{"V0-V3"=>674.8583471434396, "V4-V4"=>686.6635307393963, "V5-V10"=>702.9372216713841}
+ -> V0-V3
+296 V0-V3 (V3)
+64,64,23,11,1,17	crimper,crimper,sloper,pinch,jug,mantle 
+{"V0-V3"=>173.53215993587528, "V4-V4"=>192.4377769578207, "V5-V10"=>181.92259936198192}
+ -> V0-V3
+114,114,49,14,1,20	crimper small ,crimper small ,sloper big ,pinch ,jug ,mantle 
+{"V0-V3"=>325.6913068662217, "V4-V4"=>323.11459608937315, "V5-V10"=>340.9660739244629}
+ -> V4-V4
+102,102,41,13,2,19	crimper,crimper,sloper (good hold),pinch,jug (big move),mantle 
+{"V0-V3"=>298.86498246887317, "V4-V4"=>290.9977177626747, "V5-V10"=>302.8244712664348}
+ -> V4-V4
+150,150,56,15,2,21	crimper small ,crimper small ,sloper big (good hold),pinch ,jug (big move),mantle 
+{"V0-V3"=>411.8097675869356, "V4-V4"=>404.1145960893731, "V5-V10"=>419.8244712664348}
+ -> V4-V4
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+298 5.7-5.10 (5.10)
+67,11,11,22,2,11,11,15,4,55,2,68,24,2,10,10,37,4,23,2,9	incut pinch,pinch,pinch,generichold ,match ,pinch,pinch,bucket,crimp,pinch sloper,match ,thumb sidepull ,gaston,match ,pocket,pocket,crimp sloper,crimp,sloper,match ,jug mantle 
+{"5.11-5.12"=>463.29849738438423, "5.7-5.10"=>363.56093368535795}
+ -> 5.7-5.10
+115,48,48,50,2,48,48,18,37,116,2,117,108,2,58,58,118,37,49,2,11	incut pinch ,pinch big ,pinch big ,generichold big ,match ,pinch big ,pinch big ,bucket bad,crimp big ,pinch sloper big ,match ,thumb sidepull bad,gaston bad,match ,pocket big bad,pocket big bad,crimp sloper big ,crimp big ,sloper big ,match ,jug mantle 
+{"5.11-5.12"=>1164.6367821324977, "5.7-5.10"=>1104.7928845092772}
+ -> 5.7-5.10
+106,107,34,29,3,34,34,17,25,108,3,109,31,3,12,110,111,25,88,3,11	incut pinch,pinch (cross) (good hold),pinch (good hold),generichold (good hold),match ,pinch (good hold),pinch (good hold),bucket,crimp (good hold),pinch sloper (cross) (good hold),match ,thumb sidepull ,gaston,match ,pocket,pocket (cross),crimp sloper (good hold),crimp (good hold),sloper (cross) (good hold),match ,jug mantle 
+{"5.11-5.12"=>1075.6367821324977, "5.7-5.10"=>1032.631908982639}
+ -> 5.7-5.10
+151,152,55,63,3,55,55,19,42,153,3,154,155,3,69,156,157,42,125,3,12	incut pinch ,pinch big (cross) (good hold),pinch big (good hold),generichold big (good hold),match ,pinch big (good hold),pinch big (good hold),bucket bad,crimp big (good hold),pinch sloper big (cross) (good hold),match ,thumb sidepull bad,gaston bad,match ,pocket big bad,pocket big bad (cross),crimp sloper big (good hold),crimp big (good hold),sloper big (cross) (good hold),match ,jug mantle 
+{"5.11-5.12"=>1701.434159264863, "5.7-5.10"=>1639.7928845092767}
+ -> 5.7-5.10
+301 V0-V3 (V3)
+23,2,55,55,3	sloper,match ,pinch sloper,pinch sloper,sidepull 
+{"V0-V3"=>123.10351092069915, "V4-V4"=>159.61306148152542, "V5-V10"=>26.530840619005097}
+ -> V5-V10
+49,2,119,119,3	sloper big ,match ,pinch sloper small ,pinch sloper small ,sidepull big 
+{"V0-V3"=>299.50063807957724, "V4-V4"=>314.33395877511117, "V5-V10"=>317.1477618911362}
+ -> V0-V3
+41,3,89,89,112	sloper (good hold),match ,pinch sloper,pinch sloper,sidepull (big move) (good hold)
+{"V0-V3"=>341.9609255528156, "V4-V4"=>351.2914523752638, "V5-V10"=>172.5271041815511}
+ -> V5-V10
+56,3,158,158,159	sloper big (good hold),match ,pinch sloper small ,pinch sloper small ,sidepull big (big move) (good hold)
+{"V0-V3"=>537.5006380795774, "V4-V4"=>551.3339587751112, "V5-V10"=>551.0341656658849}
+ -> V0-V3
+325 5.11-5.12 (5.11)
+10,4,23,11,10,4,12,12,23,10,4,1,17	pocket,crimp,sloper,pinch,pocket,crimp,undercling ,undercling ,sloper,pocket,crimp,jug,mantle 
+{"5.11-5.12"=>94.9997312461503, "5.7-5.10"=>119.59697682957088}
+ -> 5.11-5.12
+87,5,33,51,12,13,15,15,33,57,5,41,20	pocket small ,crimp ,sloper ,pinch bad,pocket ,crimp bad,undercling ,undercling ,sloper ,pocket bad,crimp ,jug small ,mantle 
+{"5.11-5.12"=>323.92040038366724, "5.7-5.10"=>345.73580162927414}
+ -> 5.11-5.12
+12,5,30,13,12,5,14,14,30,12,5,1,19	pocket,crimp,sloper,pinch,pocket,crimp,undercling ,undercling ,sloper,pocket,crimp,jug,mantle 
+{"5.11-5.12"=>103.73645316331945, "5.7-5.10"=>163.57949585755043}
+ -> 5.11-5.12
+111,6,37,58,13,14,16,16,37,68,6,46,21	pocket small ,crimp ,sloper ,pinch bad,pocket ,crimp bad,undercling ,undercling ,sloper ,pocket bad,crimp ,jug small ,mantle 
+{"5.11-5.12"=>374.8802700762079, "5.7-5.10"=>426.70929372951736}
+ -> 5.11-5.12
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+329 V0-V3 (V3)
+4,24,3,69,0	crimp,gaston,sidepull ,layback ,
+{"V0-V3"=>97.42814480231259, "V4-V4"=>125.61306148152542, "V5-V10"=>120.96981435296594}
+ -> V0-V3
+5,34,22,120,0	crimp ,gaston ,sidepull ,layback ,
+{"V0-V3"=>197.00026747605432, "V4-V4"=>207.3339587751112, "V5-V10"=>208.1477618911362}
+ -> V0-V3
+5,31,22,113,0	crimp,gaston,sidepull ,layback ,
+{"V0-V3"=>160.95865951901135, "V4-V4"=>196.2914523752638, "V5-V10"=>187.69264317270117}
+ -> V0-V3
+6,38,24,160,0	crimp ,gaston ,sidepull ,layback ,
+{"V0-V3"=>245.0002674760543, "V4-V4"=>254.3339587751112, "V5-V10"=>254.03416566588484}
+ -> V0-V3
+332 5.7-5.10 (5.10)
+10,10,4,1,17	pocket,pocket,crimp,jug,mantle 
+{"5.11-5.12"=>47.675794617670654, "5.7-5.10"=>59.94211121402356}
+ -> 5.11-5.12
+57,57,5,1,20	pocket bad,pocket bad,crimp ,jug ,mantle 
+{"5.11-5.12"=>143.65892341248895, "5.7-5.10"=>151.40352306759712}
+ -> 5.11-5.12
+12,110,5,1,90	pocket,pocket (cross),crimp,jug,mantle (big move)
+{"5.11-5.12"=>232.46303474442047, "5.7-5.10"=>238.43971990879098}
+ -> 5.11-5.12
+68,161,6,1,128	pocket bad,pocket bad (cross),crimp ,jug ,mantle (big move)
+{"5.11-5.12"=>385.376594883658, "5.7-5.10"=>378.46252361392885}
+ -> 5.7-5.10
+352 V4-V4 (V4)
+12,12,11,11,1,42,11,1,1	undercling ,undercling ,pinch,pinch,jug,pocket sidepull ,pinch,jug,jug
+{"V0-V3"=>126.32488706266217, "V4-V4"=>86.05278481509163, "V5-V10"=>128.746462555682}
+ -> V4-V4
+15,15,48,48,61,124,48,1,1	undercling ,undercling ,pinch big ,pinch big ,jug small bad,pocket sidepull bad,pinch big ,jug ,jug 
+{"V0-V3"=>381.2718102923107, "V4-V4"=>366.92899152369034, "V5-V10"=>371.74646255568206}
+ -> V4-V4
+80,14,34,34,1,64,118,1,1	undercling (big move),undercling ,pinch (good hold),pinch (good hold),jug,pocket sidepull ,pinch (big move) (good hold),jug,jug
+{"V0-V3"=>362.8394602354919, "V4-V4"=>375.08859423962934, "V5-V10"=>371.30677778029786}
+ -> V0-V3
+116,16,55,55,72,166,167,1,1	undercling (big move),undercling ,pinch big (good hold),pinch big (good hold),jug small bad,pocket sidepull bad,pinch big (big move) (good hold),jug ,jug 
+{"V0-V3"=>667.2718102923106, "V4-V4"=>667.6459512275978, "V5-V10"=>667.3067777802978}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+371 V5-V10 (V5)
+8,1,3,4,2,22,22,2,24,11,17	jug sidepull ,jug,sidepull ,crimp,match ,generichold ,generichold ,match ,gaston,pinch,mantle 
+{"V0-V3"=>123.18251049159669, "V4-V4"=>118.57120190843361, "V5-V10"=>175.00085122059195}
+ -> V4-V4
+10,4,22,37,2,46,46,2,34,48,20	jug sidepull ,jug bad,sidepull ,crimp big ,match ,generichold bad,generichold bad,match ,gaston ,pinch big ,mantle 
+{"V0-V3"=>285.7657577127619, "V4-V4"=>326.36658187512666, "V5-V10"=>329.0576340910963}
+ -> V0-V3
+10,1,22,25,3,37,37,3,31,107,19	jug sidepull ,jug,sidepull ,crimp (good hold),match ,generichold ,generichold ,match ,gaston,pinch (cross) (good hold),mantle 
+{"V0-V3"=>286.91947608576294, "V4-V4"=>277.2294482705802, "V5-V10"=>347.77599926918435}
+ -> V4-V4
+11,5,24,42,3,52,52,3,38,152,21	jug sidepull ,jug bad,sidepull ,crimp big (good hold),match ,generichold bad,generichold bad,match ,gaston ,pinch big (cross) (good hold),mantle 
+{"V0-V3"=>415.76575771276197, "V4-V4"=>457.36658187512654, "V5-V10"=>455.77599926918447}
+ -> V0-V3
+372 V4-V4 (V4)
+14,2,20,4,55,2,72,1,1,8,9	gaston jug,match ,crimp sidepull ,crimp,pinch sloper,match ,crimp pinch,jug,jug,jug sidepull ,jug mantle 
+{"V0-V3"=>212.62064860855887, "V4-V4"=>245.58104947757002, "V5-V10"=>187.63584725411647}
+ -> V5-V10
+125,2,29,5,116,2,126,61,25,62,11	gaston jug ,match ,crimp sidepull ,crimp ,pinch sloper big ,match ,crimp pinch big ,jug small bad,jug big ,jug sidepull small ,jug mantle 
+{"V0-V3"=>579.8580093483881, "V4-V4"=>612.3665818751266, "V5-V10"=>619.0576340910962}
+ -> V0-V3
+119,3,26,5,120,3,121,52,7,10,122	gaston jug,match ,crimp sidepull ,crimp,pinch sloper (good hold),match ,crimp pinch (good hold),jug (cross),jug (good hold),jug sidepull ,jug mantle (cross)
+{"V0-V3"=>611.8006702476398, "V4-V4"=>638.2603158755081, "V5-V10"=>625.2732664871727}
+ -> V0-V3
+168,3,32,6,169,3,170,171,28,74,172	gaston jug ,match ,crimp sidepull ,crimp ,pinch sloper big (good hold),match ,crimp pinch big (good hold),jug small bad (cross),jug big (good hold),jug sidepull small ,jug mantle (cross)
+{"V0-V3"=>1006.8580093483881, "V4-V4"=>1038.3665818751267, "V5-V10"=>1039.7759992691842}
+ -> V0-V3
+373 V0-V3 (V0)
+33,1,2,1,1,2,1,9	jug undercling ,jug,match ,jug,jug,match ,jug,jug mantle 
+{"V0-V3"=>59.321675323367224, "V4-V4"=>98.0970554795477, "V5-V10"=>102.60269799111623}
+ -> V0-V3
+127,1,2,1,1,2,1,11	jug undercling ,jug ,match ,jug ,jug ,match ,jug ,jug mantle 
+{"V0-V3"=>158.5200472406418, "V4-V4"=>197.85027032511888, "V5-V10"=>198.60269799111617}
+ -> V0-V3
+51,52,3,1,1,3,1,11	jug undercling ,jug (cross),match ,jug,jug,match ,jug,jug mantle 
+{"V0-V3"=>132.2779704642497, "V4-V4"=>171.77588412538597, "V5-V10"=>170.40508246753464}
+ -> V0-V3
+173,84,3,1,1,3,1,12	jug undercling ,jug (cross),match ,jug ,jug ,match ,jug ,jug mantle 
+{"V0-V3"=>288.87288403586433, "V4-V4"=>325.8502703251189, "V5-V10"=>325.40508246753467}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+374 V4-V4 (V4)
+1,12,8,1,11,11,10,14,9	jug,undercling ,jug sidepull ,jug,pinch,pinch,pocket,gaston jug,jug mantle 
+{"V0-V3"=>105.84948499108236, "V4-V4"=>92.2485392430854, "V5-V10"=>118.5931542498689}
+ -> V4-V4
+4,15,10,61,48,128,129,125,11	jug bad,undercling ,jug sidepull ,jug small bad,pinch big ,pinch big bad,pocket big ,gaston jug ,jug mantle 
+{"V0-V3"=>544.6782090637455, "V4-V4"=>553.6459512275978, "V5-V10"=>558.5931542498689}
+ -> V0-V3
+1,123,10,1,34,13,124,119,11	jug,undercling (cross),jug sidepull ,jug,pinch (good hold),pinch,pocket (good hold),gaston jug,jug mantle 
+{"V0-V3"=>455.5160612573572, "V4-V4"=>466.48214951279687, "V5-V10"=>474.1953880680845}
+ -> V0-V3
+5,174,11,72,55,175,176,168,12	jug bad,undercling (cross),jug sidepull ,jug small bad,pinch big (good hold),pinch big bad,pocket big (good hold),gaston jug ,jug mantle 
+{"V0-V3"=>858.6782090637456, "V4-V4"=>883.6890408417881, "V5-V10"=>883.1953880680845}
+ -> V0-V3
+377 V0-V3 (V3)
+1,18,18,73,22,1,30,23,23,12,18,22,1,74,75	jug,edge,edge,flake undercling ,generichold ,jug,sloper undercling ,sloper,sloper,undercling ,edge,generichold ,jug,beam edge,beam
+{"V0-V3"=>403.81185482258604, "V4-V4"=>350.2846498355758, "V5-V10"=>416.02047286401836}
+ -> V4-V4
+1,23,23,130,43,7,131,33,33,97,23,50,41,132,133	jug ,edge ,edge ,flake undercling big ,generichold ,jug good,sloper undercling bad,sloper ,sloper ,undercling small ,edge ,generichold big ,jug small ,beam edge ,beam 
+{"V0-V3"=>866.9663370606365, "V4-V4"=>840.6834552164862, "V5-V10"=>893.6300347153915}
+ -> V4-V4
+1,20,20,125,37,7,43,30,30,14,23,29,1,126,127	jug,edge,edge,flake undercling (good hold),generichold ,jug (good hold),sloper undercling ,sloper,sloper,undercling ,edge (cross),generichold (good hold),jug,beam edge,beam
+{"V0-V3"=>673.4393197809701, "V4-V4"=>601.2440353422422, "V5-V10"=>615.0801262877942}
+ -> V4-V4
+1,26,26,177,48,8,178,37,37,129,90,63,46,179,180	jug ,edge ,edge ,flake undercling big (good hold),generichold ,jug good (good hold),sloper undercling bad,sloper ,sloper ,undercling small ,edge (cross),generichold big (good hold),jug small ,beam edge ,beam 
+{"V0-V3"=>1255.2032585020643, "V4-V4"=>1177.0263154076938, "V5-V10"=>1200.335597265283}
+ -> V4-V4
+380 5.7-5.10 (5.10)
+33,37,22,34,43,11,17	jug undercling ,crimp sloper,generichold ,sloper sidepull ,layback,pinch,mantle 
+{"5.11-5.12"=>200.0879267970908, "5.7-5.10"=>197.07509186276826}
+ -> 5.7-5.10
+127,67,43,64,73,14,134	jug undercling ,crimp sloper ,generichold ,sloper sidepull ,layback ,pinch ,mantle bad
+{"5.11-5.12"=>539.9445772915991, "5.7-5.10"=>509.0315466160365}
+ -> 5.7-5.10
+51,57,37,54,65,83,19	jug undercling ,crimp sloper,generichold ,sloper sidepull ,layback,pinch (cross),mantle 
+{"5.11-5.12"=>366.186381246903, "5.7-5.10"=>379.978477969008}
+ -> 5.11-5.12
+173,81,48,78,91,119,181	jug undercling ,crimp sloper ,generichold ,sloper sidepull ,layback ,pinch (cross),mantle bad
+{"5.11-5.12"=>789.8837904313085, "5.7-5.10"=>772.0126835267149}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+384 V0-V3 (V3)
+23,37,1,22,11,2,17	sloper,crimp sloper,jug,generichold ,pinch,match ,mantle 
+{"V0-V3"=>106.57804561321859, "V4-V4"=>111.26249243411601, "V5-V10"=>126.72831159284364}
+ -> V0-V3
+33,67,4,43,14,2,20	sloper ,crimp sloper ,jug bad,generichold ,pinch ,match ,mantle 
+{"V0-V3"=>161.13537658291065, "V4-V4"=>161.82752985925882, "V5-V10"=>185.72831159284365}
+ -> V0-V3
+30,57,1,37,13,3,19	sloper,crimp sloper,jug,generichold ,pinch,match ,mantle 
+{"V0-V3"=>175.4118285262965, "V4-V4"=>146.31042787691817, "V5-V10"=>163.55824799488255}
+ -> V4-V4
+37,81,5,48,15,3,21	sloper ,crimp sloper ,jug bad,generichold ,pinch ,match ,mantle 
+{"V0-V3"=>219.02738666571372, "V4-V4"=>182.82752985925882, "V5-V10"=>206.55824799488252}
+ -> V4-V4
+385 5.7-5.10 (5.10)
+4,4,1,2,29,11,4,1,4,1,17	crimp,crimp,jug,match ,foothook ,pinch,crimp,jug,crimp,jug,mantle 
+{"5.11-5.12"=>98.72439043257397, "5.7-5.10"=>93.20612664198141}
+ -> 5.7-5.10
+5,5,1,2,47,51,5,1,5,1,20	crimp ,crimp ,jug ,match ,foothook ,pinch bad,crimp ,jug ,crimp ,jug ,mantle 
+{"5.11-5.12"=>187.2412969157311, "5.7-5.10"=>162.9542771181019}
+ -> 5.7-5.10
+5,5,1,3,39,13,5,1,5,1,19	crimp,crimp,jug,match ,foothook ,pinch,crimp,jug,crimp,jug,mantle 
+{"5.11-5.12"=>112.81465667136088, "5.7-5.10"=>138.01361973596113}
+ -> 5.11-5.12
+6,6,1,3,53,58,6,1,6,1,21	crimp ,crimp ,jug ,match ,foothook ,pinch bad,crimp ,jug ,crimp ,jug ,mantle 
+{"5.11-5.12"=>205.15011662529545, "5.7-5.10"=>214.59527375055185}
+ -> 5.11-5.12
+395 V4-V4 (V4)
+10,10,11,11,4,8,76,1	pocket,pocket,pinch,pinch,crimp,jug sidepull ,pinch slope,jug
+{"V0-V3"=>157.7135119601338, "V4-V4"=>152.42382376679012, "V5-V10"=>170.54591512061194}
+ -> V4-V4
+57,57,14,14,5,10,135,1	pocket bad,pocket bad,pinch ,pinch ,crimp ,jug sidepull ,pinch slope ,jug 
+{"V0-V3"=>312.5807709021433, "V4-V4"=>304.73400392030436, "V5-V10"=>337.60269799111626}
+ -> V4-V4
+12,12,13,13,5,10,128,2	pocket,pocket,pinch,pinch,crimp,jug sidepull ,pinch slope (big move),jug (big move)
+{"V0-V3"=>226.50606864341086, "V4-V4"=>216.53212706679307, "V5-V10"=>232.90234968552303}
+ -> V4-V4
+68,68,15,15,6,11,182,2	pocket bad,pocket bad,pinch ,pinch ,crimp ,jug sidepull ,pinch slope (big move),jug (big move)
+{"V0-V3"=>389.42876780869824, "V4-V4"=>376.73400392030436, "V5-V10"=>408.40508246753456}
+ -> V4-V4
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+398 5.7-5.10 (5.8)
+1,43,0,22,22,12,17,22,24,11,17,1,1,2	jug,layback,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston,pinch,mantle ,jug,jug,match 
+{"5.11-5.12"=>211.14651542989122, "5.7-5.10"=>230.74503436616536}
+ -> 5.11-5.12
+1,73,0,43,43,15,20,43,34,14,20,1,1,2	jug ,layback ,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston ,pinch ,mantle ,jug ,jug ,match 
+{"5.11-5.12"=>320.32427988323263, "5.7-5.10"=>341.689902502739}
+ -> 5.11-5.12
+1,65,0,37,37,14,19,37,31,13,19,1,1,3	jug,layback,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston,pinch,mantle ,jug,jug,match 
+{"5.11-5.12"=>289.32427988323263, "5.7-5.10"=>318.5955091300087}
+ -> 5.11-5.12
+1,91,0,48,48,16,21,48,38,15,21,1,1,3	jug ,layback ,,generichold ,generichold ,undercling ,mantle ,generichold ,gaston ,pinch ,mantle ,jug ,jug ,match 
+{"5.11-5.12"=>360.2229684494152, "5.7-5.10"=>389.689902502739}
+ -> 5.11-5.12
+408 5.7-5.10 (5.10)
+4,4,35,11,35,2,4,35,4,23	crimp,crimp,ledge,pinch,ledge,match ,crimp,ledge,crimp,sloper
+{"5.11-5.12"=>154.02874014079038, "5.7-5.10"=>37.09301198410501}
+ -> 5.7-5.10
+5,5,136,14,82,2,5,82,5,33	crimp ,crimp ,ledge small ,pinch ,ledge ,match ,crimp ,ledge ,crimp ,sloper 
+{"5.11-5.12"=>385.47756799852414, "5.7-5.10"=>318.78407152862195}
+ -> 5.7-5.10
+5,103,129,13,55,3,5,55,5,30	crimp,crimp (big move),ledge (big move),pinch,ledge,match ,crimp,ledge,crimp,sloper
+{"5.11-5.12"=>394.1793157886744, "5.7-5.10"=>182.58267235793318}
+ -> 5.7-5.10
+6,148,183,15,104,3,6,104,6,37	crimp ,crimp (big move),ledge small (big move),pinch ,ledge ,match ,crimp ,ledge ,crimp ,sloper 
+{"5.11-5.12"=>622.3965188514701, "5.7-5.10"=>439.94701780139246}
+ -> 5.7-5.10
+409 5.11-5.12 (5.12)
+55,35,55,72,35,55,2,35,72,23	pinch sloper,ledge,pinch sloper,crimp pinch,ledge,pinch sloper,match ,ledge,crimp pinch,sloper
+{"5.11-5.12"=>440.3697590451232, "5.7-5.10"=>328.35857632112965}
+ -> 5.7-5.10
+137,136,137,138,82,137,2,82,138,33	pinch sloper ,ledge small ,pinch sloper ,crimp pinch ,ledge ,pinch sloper ,match ,ledge ,crimp pinch ,sloper 
+{"5.11-5.12"=>1008.477567998524, "5.7-5.10"=>984.0645609057526}
+ -> 5.7-5.10
+89,55,89,130,55,131,3,55,130,30	pinch sloper,ledge,pinch sloper,crimp pinch,ledge,pinch sloper (big move),match ,ledge,crimp pinch,sloper
+{"5.11-5.12"=>760.5006241319984, "5.7-5.10"=>589.1785869627724}
+ -> 5.7-5.10
+184,185,184,186,104,187,3,104,186,37	pinch sloper ,ledge small ,pinch sloper ,crimp pinch ,ledge ,pinch sloper (big move),match ,ledge ,crimp pinch ,sloper 
+{"5.11-5.12"=>1350.3965188514705, "5.7-5.10"=>1319.0571921290107}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+414 5.7-5.10 (5.10)
+35,77,22,2,78,35,77,78,22,17	ledge,bucket pocket,generichold ,match ,ledge sloper,ledge,bucket pocket,ledge sloper,generichold ,mantle 
+{"5.11-5.12"=>453.32103870195266, "5.7-5.10"=>388.9645238523822}
+ -> 5.7-5.10
+82,139,43,2,140,82,139,141,43,20	ledge ,bucket pocket ,generichold ,match ,ledge sloper big ,ledge ,bucket pocket ,ledge sloper bad,generichold ,mantle 
+{"5.11-5.12"=>834.4775679985241, "5.7-5.10"=>830.8201937941589}
+ -> 5.7-5.10
+55,132,37,3,133,55,132,134,37,90	ledge,bucket pocket,generichold ,match ,ledge sloper (big move) (good hold),ledge,bucket pocket,ledge sloper,generichold ,mantle (big move)
+{"5.11-5.12"=>831.2357640432203, "5.7-5.10"=>710.3393967894648}
+ -> 5.7-5.10
+104,188,48,3,189,104,188,190,48,128	ledge ,bucket pocket ,generichold ,match ,ledge sloper big (big move) (good hold),ledge ,bucket pocket ,ledge sloper bad,generichold ,mantle (big move)
+{"5.11-5.12"=>1218.1445837527847, "5.7-5.10"=>1188.820193794159}
+ -> 5.7-5.10
+415 V0-V3 (V2)
+22,19,19,11,3,71,9	generichold ,crimp rail,crimp rail,pinch,sidepull ,crimp incut,jug mantle 
+{"V0-V3"=>180.685525556142, "V4-V4"=>150.73996971887985, "V5-V10"=>190.78438595778954}
+ -> V4-V4
+46,122,122,14,22,123,11	generichold bad,crimp rail ,crimp rail ,pinch ,sidepull ,crimp incut ,jug mantle 
+{"V0-V3"=>474.61926769781695, "V4-V4"=>472.9533666060424, "V5-V10"=>491.7843859577896}
+ -> V4-V4
+37,115,115,13,116,117,11	generichold ,crimp rail,crimp rail,pinch,sidepull (cross),crimp incut (big move),jug mantle 
+{"V0-V3"=>542.685525556142, "V4-V4"=>498.6709649509944, "V5-V10"=>543.6147768669847}
+ -> V4-V4
+52,163,163,15,164,165,12	generichold bad,crimp rail ,crimp rail ,pinch ,sidepull (cross),crimp incut (big move),jug mantle 
+{"V0-V3"=>746.6192676978169, "V4-V4"=>742.9533666060423, "V5-V10"=>758.6147768669847}
+ -> V4-V4
+428 V0-V3 (V3)
+11,12,23,3,1,2,2	pinch,undercling ,sloper,sidepull ,jug,match ,match 
+{"V0-V3"=>47.139674363311585, "V4-V4"=>66.73996971887985, "V5-V10"=>58.91738750255595}
+ -> V0-V3
+14,15,33,22,1,2,2	pinch ,undercling ,sloper ,sidepull ,jug ,match ,match 
+{"V0-V3"=>70.39137968516486, "V4-V4"=>99.47151105290591, "V5-V10"=>78.91738750255595}
+ -> V0-V3
+13,14,30,22,1,3,3	pinch,undercling ,sloper,sidepull ,jug,match ,match 
+{"V0-V3"=>100.76774052242295, "V4-V4"=>97.52041683922577, "V5-V10"=>79.88704643248823}
+ -> V5-V10
+15,16,37,24,1,3,3	pinch ,undercling ,sloper ,sidepull ,jug ,match ,match 
+{"V0-V3"=>110.50984040587876, "V4-V4"=>107.47151105290591, "V5-V10"=>83.88704643248823}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+440 5.7-5.10 (5.8)
+1,24,1,1,3,3,3,3,1,1,12,12,1,1	jug,gaston,jug,jug,sidepull ,sidepull ,sidepull ,sidepull ,jug,jug,undercling ,undercling ,jug,jug
+{"5.11-5.12"=>124.98903257750283, "5.7-5.10"=>124.51906893704862}
+ -> 5.7-5.10
+1,34,1,1,22,22,22,22,1,1,15,15,1,1	jug ,gaston ,jug ,jug ,sidepull ,sidepull ,sidepull ,sidepull ,jug ,jug ,undercling ,undercling ,jug ,jug 
+{"5.11-5.12"=>205.1909250471807, "5.7-5.10"=>143.53050415035477}
+ -> 5.7-5.10
+1,31,1,1,22,22,22,22,1,1,14,14,1,1	jug,gaston,jug,jug,sidepull ,sidepull ,sidepull ,sidepull ,jug,jug,undercling ,undercling ,jug,jug
+{"5.11-5.12"=>197.67635187435098, "5.7-5.10"=>138.3106604865582}
+ -> 5.7-5.10
+1,38,1,1,24,24,24,24,1,1,16,16,1,1	jug ,gaston ,jug ,jug ,sidepull ,sidepull ,sidepull ,sidepull ,jug ,jug ,undercling ,undercling ,jug ,jug 
+{"5.11-5.12"=>217.3783241596164, "5.7-5.10"=>149.337521391995}
+ -> 5.7-5.10
+446 5.11-5.12 (5.12)
+22,22,4,23,23,10,12,50,50,79,23,4,12,24,3,3,24,17,17	generichold ,generichold ,crimp,sloper,sloper,pocket,undercling ,rail,rail,sloper mantle ,sloper,crimp,undercling ,gaston,sidepull ,sidepull ,gaston,mantle ,mantle 
+{"5.11-5.12"=>342.0472646256374, "5.7-5.10"=>380.01742006213397}
+ -> 5.11-5.12
+43,43,37,33,33,87,15,85,85,142,33,35,97,34,22,22,143,20,20	generichold ,generichold ,crimp big ,sloper ,sloper ,pocket small ,undercling ,rail ,rail ,sloper mantle ,sloper ,crimp small ,undercling small ,gaston ,sidepull ,sidepull ,gaston small ,mantle ,mantle 
+{"5.11-5.12"=>891.059122979106, "5.7-5.10"=>912.841297421597}
+ -> 5.11-5.12
+37,37,25,61,30,12,14,76,76,135,30,5,123,31,22,22,31,71,19	generichold ,generichold ,crimp (good hold),sloper (cross),sloper,pocket,undercling ,rail,rail,sloper mantle ,sloper,crimp,undercling (cross),gaston,sidepull ,sidepull ,gaston,mantle (cross),mantle 
+{"5.11-5.12"=>749.9691781366672, "5.7-5.10"=>798.2299482142213}
+ -> 5.11-5.12
+48,48,42,86,37,111,16,109,109,191,37,39,192,38,24,24,193,98,21	generichold ,generichold ,crimp big (good hold),sloper (cross),sloper ,pocket small ,undercling ,rail ,rail ,sloper mantle ,sloper ,crimp small ,undercling small (cross),gaston ,sidepull ,sidepull ,gaston small ,mantle (cross),mantle 
+{"5.11-5.12"=>1368.4893107717182, "5.7-5.10"=>1370.3387749175997}
+ -> 5.11-5.12
+452 V5-V10 (V7)
+3,11,3,11,11,11,1	sidepull ,pinch,sidepull ,pinch,pinch,pinch,jug
+{"V0-V3"=>75.89296887286494, "V4-V4"=>43.589260721358414, "V5-V10"=>96.78438595778954}
+ -> V4-V4
+22,14,22,14,14,14,1	sidepull ,pinch ,sidepull ,pinch ,pinch ,pinch ,jug 
+{"V0-V3"=>121.771270791262, "V4-V4"=>82.77896699882052, "V5-V10"=>142.78438595778954}
+ -> V4-V4
+22,13,22,13,13,13,1	sidepull ,pinch,sidepull ,pinch,pinch,pinch,jug
+{"V0-V3"=>121.89296887286497, "V4-V4"=>80.46022609149287, "V5-V10"=>138.61477686698473}
+ -> V4-V4
+24,15,24,15,15,15,1	sidepull ,pinch ,sidepull ,pinch ,pinch ,pinch ,jug 
+{"V0-V3"=>129.771270791262, "V4-V4"=>86.77896699882054, "V5-V10"=>150.61477686698473}
+ -> V4-V4
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+458 V5-V10 (V8)
+3,12,11,24,11,23,23,9	sidepull ,undercling ,pinch,gaston,pinch,sloper,sloper,jug mantle 
+{"V0-V3"=>77.63364174589633, "V4-V4"=>115.08720791041131, "V5-V10"=>95.07399470753083}
+ -> V0-V3
+22,15,38,34,38,33,33,11	sidepull ,undercling ,pinch good,gaston ,pinch good,sloper ,sloper ,jug mantle 
+{"V0-V3"=>181.19184636727047, "V4-V4"=>245.80718071092872, "V5-V10"=>175.07399470753083}
+ -> V5-V10
+22,14,34,31,34,32,30,11	sidepull ,undercling ,pinch (good hold),gaston,pinch (good hold),sloper (big move),sloper,jug mantle 
+{"V0-V3"=>173.26170790500768, "V4-V4"=>230.260450322922, "V5-V10"=>164.41133275387875}
+ -> V5-V10
+24,16,43,38,43,40,37,12	sidepull ,undercling ,pinch good (good hold),gaston ,pinch good (good hold),sloper (big move),sloper ,jug mantle 
+{"V0-V3"=>236.31030708798437, "V4-V4"=>273.80718071092866, "V5-V10"=>193.41133275387872}
+ -> V5-V10
+464 V0-V3 (V3)
+1,11,1,23,23,3	jug,pinch,jug,sloper,sloper,sidepull 
+{"V0-V3"=>31.272594248376308, "V4-V4"=>80.43777695782072, "V5-V10"=>47.26522641545149}
+ -> V0-V3
+41,14,1,53,33,22	jug small ,pinch ,jug ,sloper small ,sloper ,sidepull 
+{"V0-V3"=>148.57284614550784, "V4-V4"=>179.11459608937312, "V5-V10"=>159.92259936198195}
+ -> V0-V3
+1,83,1,30,30,22	jug,pinch (cross),jug,sloper,sloper,sidepull 
+{"V0-V3"=>181.0544319955507, "V4-V4"=>197.11959629197116, "V5-V10"=>133.22284686033382}
+ -> V5-V10
+46,119,1,60,37,24	jug small ,pinch (cross),jug ,sloper small ,sloper ,sidepull 
+{"V0-V3"=>302.69130686622174, "V4-V4"=>314.1727292917804, "V5-V10"=>273.8761716176881}
+ -> V5-V10
+473 5.7-5.10 (5.10)
+35,35,35,12,35,1,35,35,23,23,3,3,4,39,23,31,17	ledge,ledge,ledge,undercling ,ledge,jug,ledge,ledge,sloper,sloper,sidepull ,sidepull ,crimp,incut,sloper,rail sloper,mantle 
+{"5.11-5.12"=>335.2706272412585, "5.7-5.10"=>163.81547915116602}
+ -> 5.7-5.10
+136,136,136,15,82,1,82,82,49,49,22,22,35,144,33,54,20	ledge small ,ledge small ,ledge small ,undercling ,ledge ,jug ,ledge ,ledge ,sloper big ,sloper big ,sidepull ,sidepull ,crimp small ,incut small ,sloper ,rail sloper ,mantle 
+{"5.11-5.12"=>1039.768725470424, "5.7-5.10"=>1042.3034548729966}
+ -> 5.11-5.12
+55,55,55,14,55,1,55,55,47,41,22,22,5,60,30,44,19	ledge,ledge,ledge,undercling ,ledge,jug,ledge,ledge,sloper (big move) (good hold),sloper (good hold),sidepull ,sidepull ,crimp,incut,sloper,rail sloper,mantle 
+{"5.11-5.12"=>620.7687254704235, "5.7-5.10"=>295.83002273885955}
+ -> 5.7-5.10
+185,185,185,16,104,1,104,104,65,56,24,24,39,194,37,61,21	ledge small ,ledge small ,ledge small ,undercling ,ledge ,jug ,ledge ,ledge ,sloper big (big move) (good hold),sloper big (good hold),sidepull ,sidepull ,crimp small ,incut small ,sloper ,rail sloper ,mantle 
+{"5.11-5.12"=>1343.4413476105424, "5.7-5.10"=>1349.7655497725914}
+ -> 5.11-5.12
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+487 V0-V3 (V3)
+1,23,23,1,85	jug,sloper,sloper,jug,mantle mantle 
+{"V0-V3"=>95.83964212277539, "V4-V4"=>154.61306148152542, "V5-V10"=>106.44691438212482}
+ -> V0-V3
+1,33,33,1,150	jug ,sloper ,sloper ,jug ,mantle mantle 
+{"V0-V3"=>166.75287523110956, "V4-V4"=>243.33395877511117, "V5-V10"=>171.44691438212482}
+ -> V0-V3
+2,30,30,2,141	jug (big move),sloper,sloper,jug (big move),mantle mantle 
+{"V0-V3"=>226.04443938160435, "V4-V4"=>230.2914523752638, "V5-V10"=>163.43254125978385}
+ -> V5-V10
+2,37,37,2,200	jug (big move),sloper ,sloper ,jug (big move),mantle mantle 
+{"V0-V3"=>296.0002674760543, "V4-V4"=>303.3339587751112, "V5-V10"=>222.43254125978385}
+ -> V5-V10
+499 V0-V3 (V3)
+23,1,23,1,85	sloper,jug,sloper,jug,mantle mantle 
+{"V0-V3"=>97.63336449300085, "V4-V4"=>154.61306148152542, "V5-V10"=>107.04821296370936}
+ -> V0-V3
+33,1,33,1,150	sloper ,jug ,sloper ,jug ,mantle mantle 
+{"V0-V3"=>166.75287523110956, "V4-V4"=>243.33395877511117, "V5-V10"=>172.04821296370937}
+ -> V0-V3
+30,2,30,2,141	sloper,jug (big move),sloper,jug (big move),mantle mantle 
+{"V0-V3"=>226.04443938160435, "V4-V4"=>230.2914523752638, "V5-V10"=>164.029337145036}
+ -> V5-V10
+37,2,37,2,200	sloper ,jug (big move),sloper ,jug (big move),mantle mantle 
+{"V0-V3"=>296.0002674760543, "V4-V4"=>303.3339587751112, "V5-V10"=>223.029337145036}
+ -> V5-V10
+536 5.7-5.10 (5.10)
+23,4,4,78,12,11,87,15,3,15,4,1	sloper,crimp,crimp,ledge sloper,undercling ,pinch,knob,bucket,sidepull ,bucket,crimp,jug
+{"5.11-5.12"=>260.0291488294051, "5.7-5.10"=>241.8524042134494}
+ -> 5.7-5.10
+33,5,5,152,15,26,153,18,22,18,5,1	sloper ,crimp ,crimp ,ledge sloper small ,undercling ,pinch small ,knob big ,bucket bad,sidepull ,bucket bad,crimp ,jug 
+{"5.11-5.12"=>458.70224373714024, "5.7-5.10"=>420.34125612307497}
+ -> 5.7-5.10
+30,5,5,134,14,13,143,17,22,17,5,1	sloper,crimp,crimp,ledge sloper,undercling ,pinch,knob (good hold),bucket,sidepull ,bucket,crimp,jug
+{"5.11-5.12"=>392.834266264578, "5.7-5.10"=>388.3862601439328}
+ -> 5.7-5.10
+37,6,6,202,16,29,203,19,24,19,6,1	sloper ,crimp ,crimp ,ledge sloper small ,undercling ,pinch small ,knob big (good hold),bucket bad,sidepull ,bucket bad,crimp ,jug 
+{"5.11-5.12"=>570.0537970695613, "5.7-5.10"=>556.3531216628877}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+521 V5-V10 (V5)
+72,86,62,82,37,23,23,23,23	crimp pinch,mono undercling ,flake,crimp mono pinch,crimp sloper,sloper,sloper,sloper,sloper
+{"V0-V3"=>362.59441634679064, "V4-V4"=>453.2583868122219, "V5-V10"=>354.11159441986837}
+ -> V5-V10
+138,151,106,147,67,63,63,63,63	crimp pinch ,mono undercling ,flake ,crimp mono pinch ,crimp sloper ,sloper bad,sloper bad,sloper bad,sloper bad
+{"V0-V3"=>876.2382679195797, "V4-V4"=>884.689040841788, "V5-V10"=>888.4210100244429}
+ -> V0-V3
+130,142,99,138,57,30,30,30,30	crimp pinch,mono undercling ,flake,crimp mono pinch,crimp sloper,sloper,sloper,sloper,sloper
+{"V0-V3"=>712.3266117306795, "V4-V4"=>713.6040280420934, "V5-V10"=>575.9819476358008}
+ -> V5-V10
+186,201,140,197,81,77,77,77,77	crimp pinch ,mono undercling ,flake ,crimp mono pinch ,crimp sloper ,sloper bad,sloper bad,sloper bad,sloper bad
+{"V0-V3"=>1128.2382679195798, "V4-V4"=>1136.6890408417878, "V5-V10"=>1131.1953880680842}
+ -> V0-V3
+537 5.11-5.12 (5.11)
+3,87,39,24,1,3,12,11,1,2,88,23,3,3,3,1	sidepull ,knob,incut,gaston,jug,sidepull ,undercling ,pinch,jug,match ,incut sidepull ,sloper,sidepull ,sidepull ,sidepull ,jug
+{"5.11-5.12"=>346.7849415742708, "5.7-5.10"=>299.2872918194245}
+ -> 5.7-5.10
+22,154,69,34,1,22,15,14,1,2,155,33,22,22,22,1	sidepull ,knob ,incut ,gaston ,jug ,sidepull ,undercling ,pinch ,jug ,match ,incut sidepull ,sloper ,sidepull ,sidepull ,sidepull ,jug 
+{"5.11-5.12"=>610.694221177203, "5.7-5.10"=>480.42489071556344}
+ -> 5.7-5.10
+22,144,60,31,52,22,14,13,1,3,145,30,116,22,22,2	sidepull ,knob,incut,gaston,jug (cross),sidepull ,undercling ,pinch,jug,match ,incut sidepull ,sloper,sidepull (cross),sidepull ,sidepull ,jug (big move)
+{"5.11-5.12"=>711.7172773106772, "5.7-5.10"=>609.5064711117664}
+ -> 5.7-5.10
+24,204,85,38,84,24,16,15,1,3,205,37,164,24,24,2	sidepull ,knob ,incut ,gaston ,jug (cross),sidepull ,undercling ,pinch ,jug ,match ,incut sidepull ,sloper ,sidepull (cross),sidepull ,sidepull ,jug (big move)
+{"5.11-5.12"=>962.3767518509817, "5.7-5.10"=>840.9609659625893}
+ -> 5.7-5.10
+546 V5-V10 (V9)
+23,23,24,3,4,4,3,24,4,3,1,1	sloper,sloper,gaston,sidepull ,crimp,crimp,sidepull ,gaston,crimp,sidepull ,jug,jug
+{"V0-V3"=>62.79683446758233, "V4-V4"=>177.74238081024407, "V5-V10"=>115.90226899719063}
+ -> V0-V3
+33,33,34,22,5,5,22,34,5,22,1,1	sloper ,sloper ,gaston ,sidepull ,crimp ,crimp ,sidepull ,gaston ,crimp ,sidepull ,jug ,jug 
+{"V0-V3"=>184.6898398214377, "V4-V4"=>283.2053523917959, "V5-V10"=>211.0726176087035}
+ -> V0-V3
+30,30,31,22,5,5,22,31,5,22,1,1	sloper,sloper,gaston,sidepull ,crimp,crimp,sidepull ,gaston,crimp,sidepull ,jug,jug
+{"V0-V3"=>184.31971297316917, "V4-V4"=>268.08845979221536, "V5-V10"=>181.3205893522893}
+ -> V5-V10
+37,37,38,24,6,6,24,38,6,24,1,1	sloper ,sloper ,gaston ,sidepull ,crimp ,crimp ,sidepull ,gaston ,crimp ,sidepull ,jug ,jug 
+{"V0-V3"=>276.7003106249547, "V4-V4"=>308.2053523917958, "V5-V10"=>227.87299657893897}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+549 V4-V4 (V4)
+23,23,23,2,23,26,85	sloper,sloper,sloper,match ,sloper,dish,mantle mantle 
+{"V0-V3"=>128.89080827867713, "V4-V4"=>226.93572414687364, "V5-V10"=>130.58097682689916}
+ -> V0-V3
+49,49,33,2,53,156,150	sloper big ,sloper big ,sloper ,match ,sloper small ,dish ,mantle mantle 
+{"V0-V3"=>468.77061665697477, "V4-V4"=>517.0114998084497, "V5-V10"=>482.7409113953086}
+ -> V0-V3
+41,41,30,3,30,146,141	sloper (good hold),sloper (good hold),sloper,match ,sloper,dish (big move),mantle mantle 
+{"V0-V3"=>447.6020117273533, "V4-V4"=>457.9477402086785, "V5-V10"=>389.71817756949133}
+ -> V5-V10
+56,56,37,3,60,206,200	sloper big (good hold),sloper big (good hold),sloper ,match ,sloper small ,dish (big move),mantle mantle 
+{"V0-V3"=>627.1196383013398, "V4-V4"=>643.0114998084496, "V5-V10"=>599.666477218238}
+ -> V5-V10
+550 V0-V3 (V3)
+11,11,3,3,3,3,4,12,11,3,17	pinch,pinch,sidepull ,sidepull ,sidepull ,sidepull ,crimp,undercling ,pinch,sidepull ,mantle 
+{"V0-V3"=>124.96769790521728, "V4-V4"=>93.71206333681863, "V5-V10"=>131.17299544601798}
+ -> V4-V4
+14,14,22,22,22,22,5,15,14,22,20	pinch ,pinch ,sidepull ,sidepull ,sidepull ,sidepull ,crimp ,undercling ,pinch ,sidepull ,mantle 
+{"V0-V3"=>224.85726814134216, "V4-V4"=>191.13706834275425, "V5-V10"=>236.22977831652224}
+ -> V4-V4
+13,13,22,22,22,22,5,14,13,22,19	pinch,pinch,sidepull ,sidepull ,sidepull ,sidepull ,crimp,undercling ,pinch,sidepull ,mantle 
+{"V0-V3"=>230.96769790521725, "V4-V4"=>184.58923544746244, "V5-V10"=>223.8715871199863}
+ -> V4-V4
+15,15,24,24,24,24,6,16,15,24,21	pinch ,pinch ,sidepull ,sidepull ,sidepull ,sidepull ,crimp ,undercling ,pinch ,sidepull ,mantle 
+{"V0-V3"=>240.8572681413422, "V4-V4"=>203.13706834275425, "V5-V10"=>250.88738898139775}
+ -> V4-V4
+565 V0-V3 (V2)
+18,4,11,18,18,1,18,29,18,41,4	edge,crimp,pinch,edge,edge,jug,edge,foothook ,edge,edge sidepull ,crimp
+{"V0-V3"=>216.2629415313307, "V4-V4"=>113.65892595269702, "V5-V10"=>225.2604542936007}
+ -> V4-V4
+94,5,14,94,94,25,157,47,23,71,37	edge big ,crimp ,pinch ,edge big ,edge big ,jug big ,edge small ,foothook ,edge ,edge sidepull ,crimp big 
+{"V0-V3"=>685.8572681413422, "V4-V4"=>219.2773728669117, "V5-V10"=>709.0576340910962}
+ -> V4-V4
+87,5,13,87,87,7,20,39,20,63,46	edge (good hold),crimp,pinch,edge (good hold),edge (good hold),jug (good hold),edge,foothook ,edge,edge sidepull ,crimp (big move) (good hold)
+{"V0-V3"=>505.9676979052173, "V4-V4"=>194.4879886480498, "V5-V10"=>513.2732664871728}
+ -> V4-V4
+124,6,15,124,124,28,207,53,26,88,64	edge big (good hold),crimp ,pinch ,edge big (good hold),edge big (good hold),jug big (good hold),edge small ,foothook ,edge ,edge sidepull ,crimp big (big move) (good hold)
+{"V0-V3"=>883.8572681413422, "V4-V4"=>272.2773728669117, "V5-V10"=>899.7759992691845}
+ -> V4-V4
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+593 V5-V10 (V5)
+11,11,24,89,23,18,18	pinch,pinch,gaston,thumb,sloper,edge,edge
+{"V0-V3"=>173.44116481773887, "V4-V4"=>152.883264791567, "V5-V10"=>200.74091139530861}
+ -> V4-V4
+14,14,34,158,33,21,23	pinch ,pinch ,gaston ,thumb small ,sloper ,edge bad,edge 
+{"V0-V3"=>283.500806977103, "V4-V4"=>273.6084705581339, "V5-V10"=>293.7409113953086}
+ -> V4-V4
+13,13,147,148,30,20,20	pinch,pinch,gaston (big move),thumb (cross),sloper,edge,edge
+{"V0-V3"=>415.68552555614195, "V4-V4"=>347.049426076464, "V5-V10"=>385.66647721823796}
+ -> V4-V4
+15,15,208,209,37,22,26	pinch ,pinch ,gaston (big move),thumb small (cross),sloper ,edge bad,edge 
+{"V0-V3"=>549.6192676978169, "V4-V4"=>500.6084705581339, "V5-V10"=>519.6664772182381}
+ -> V4-V4
+594 V4-V4 (V4)
+23,2,4,19,2,23,2,17	sloper,match ,crimp,crimp rail,match ,sloper,match ,mantle 
+{"V0-V3"=>59.09875240243998, "V4-V4"=>131.09705547954772, "V5-V10"=>81.44636619318511}
+ -> V0-V3
+33,2,42,122,2,33,2,20	sloper ,match ,crimp small bad,crimp rail ,match ,sloper ,match ,mantle 
+{"V0-V3"=>195.50982740999342, "V4-V4"=>296.8502703251189, "V5-V10"=>227.5031490636894}
+ -> V0-V3
+30,3,5,149,3,30,3,19	sloper,match ,crimp,crimp rail (cross),match ,sloper,match ,mantle 
+{"V0-V3"=>257.2555271570446, "V4-V4"=>285.7758841253859, "V5-V10"=>211.8975211646742}
+ -> V5-V10
+37,3,47,210,3,37,3,21	sloper ,match ,crimp small bad,crimp rail (cross),match ,sloper ,match ,mantle 
+{"V0-V3"=>365.9298796192671, "V4-V4"=>400.85027032511886, "V5-V10"=>320.40025394668584}
+ -> V5-V10
+597 5.7-5.10 (5.10)
+90,2,57,12,2,91,4,11,0,10,17	arete sidepull ,match ,arete,undercling ,match ,gaston pocket,crimp,pinch,,pocket,mantle 
+{"5.11-5.12"=>309.5035339730264, "5.7-5.10"=>303.62692053955146}
+ -> 5.7-5.10
+159,2,100,97,2,160,5,14,0,57,20	arete sidepull ,match ,arete ,undercling small ,match ,gaston pocket bad,crimp ,pinch ,,pocket bad,mantle 
+{"5.11-5.12"=>640.2412969157311, "5.7-5.10"=>613.1267575872586}
+ -> 5.7-5.10
+150,3,93,14,3,151,28,75,0,110,19	arete sidepull ,match ,arete,undercling ,match ,gaston pocket,crimp (cross),pinch (big move),,pocket (cross),mantle 
+{"5.11-5.12"=>648.0769768174573, "5.7-5.10"=>664.9970563854978}
+ -> 5.11-5.12
+211,3,133,129,3,212,34,106,0,161,21	arete sidepull ,match ,arete ,undercling small ,match ,gaston pocket bad,crimp (cross),pinch (big move),,pocket bad (cross),mantle 
+{"5.11-5.12"=>1033.1501166252956, "5.7-5.10"=>1023.0775441488169}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+613 5.11-5.12 (5.12)
+22,22,4,3,0,0,4,0,0,79,9	generichold ,generichold ,crimp,sidepull ,,,crimp,,,sloper mantle ,jug mantle 
+{"5.11-5.12"=>190.9591283188721, "5.7-5.10"=>177.5760889791531}
+ -> 5.7-5.10
+43,43,5,22,0,0,5,0,0,142,11	generichold ,generichold ,crimp ,sidepull ,,,crimp ,,,sloper mantle ,jug mantle 
+{"5.11-5.12"=>330.9994929604272, "5.7-5.10"=>282.5872001903686}
+ -> 5.7-5.10
+37,37,5,22,0,0,5,0,0,135,11	generichold ,generichold ,crimp,sidepull ,,,crimp,,,sloper mantle ,jug mantle 
+{"5.11-5.12"=>294.0913235348981, "5.7-5.10"=>283.0430885879333}
+ -> 5.7-5.10
+48,48,6,24,0,0,6,0,0,191,12	generichold ,generichold ,crimp ,sidepull ,,,crimp ,,,sloper mantle ,jug mantle 
+{"5.11-5.12"=>395.89818152660985, "5.7-5.10"=>363.13186644160857}
+ -> 5.7-5.10
+621 5.7-5.10 (5.10)
+1,1,11,1,4,1,1,4,23,11,1,23,1	jug,jug,pinch,jug,crimp,jug,jug,crimp,sloper,pinch,jug,sloper,jug
+{"5.11-5.12"=>100.23919502072505, "5.7-5.10"=>76.17515426802015}
+ -> 5.7-5.10
+1,1,14,1,5,1,1,5,33,14,1,33,1	jug ,jug ,pinch ,jug ,crimp ,jug ,jug ,crimp ,sloper ,pinch ,jug ,sloper ,jug 
+{"5.11-5.12"=>125.57861190721053, "5.7-5.10"=>75.57667688845618}
+ -> 5.7-5.10
+1,1,13,1,5,1,1,5,30,13,1,30,1	jug,jug,pinch,jug,crimp,jug,jug,crimp,sloper,pinch,jug,sloper,jug
+{"5.11-5.12"=>104.74570109428953, "5.7-5.10"=>88.56659035604157}
+ -> 5.7-5.10
+1,1,15,1,6,1,1,6,37,15,1,37,1	jug ,jug ,pinch ,jug ,crimp ,jug ,jug ,crimp ,sloper ,pinch ,jug ,sloper ,jug 
+{"5.11-5.12"=>128.50808816960594, "5.7-5.10"=>93.68829517924154}
+ -> 5.7-5.10
+629 5.7-5.10 (5.10)
+3,12,3,1,3,3,12,12	sidepull ,undercling ,sidepull ,jug,sidepull ,sidepull ,undercling ,undercling 
+{"5.11-5.12"=>54.78230796678915, "5.7-5.10"=>64.9098420458784}
+ -> 5.11-5.12
+22,15,22,1,22,22,161,161	sidepull ,undercling ,sidepull ,jug ,sidepull ,sidepull ,undercling big ,undercling big 
+{"5.11-5.12"=>441.05855928336206, "5.7-5.10"=>363.30313444466066}
+ -> 5.7-5.10
+22,14,22,52,22,22,72,72	sidepull ,undercling ,sidepull ,jug (cross),sidepull ,sidepull ,undercling (good hold),undercling (good hold)
+{"5.11-5.12"=>308.54398611053233, "5.7-5.10"=>233.87113866638595}
+ -> 5.7-5.10
+24,16,24,84,24,24,213,213	sidepull ,undercling ,sidepull ,jug (cross),sidepull ,sidepull ,undercling big (good hold),undercling big (good hold)
+{"5.11-5.12"=>634.2966141127064, "5.7-5.10"=>544.2361275916363}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+641 5.7-5.10 (5.10)
+23,4,1,1	sloper,crimp,jug,jug
+{"5.11-5.12"=>25.128238269727575, "5.7-5.10"=>20.41224263146328}
+ -> 5.7-5.10
+33,5,1,1	sloper ,crimp ,jug ,jug 
+{"5.11-5.12"=>30.24215932492795, "5.7-5.10"=>24.14620143692046}
+ -> 5.7-5.10
+30,5,1,1	sloper,crimp,jug,jug
+{"5.11-5.12"=>25.348508648587703, "5.7-5.10"=>28.257038906082368}
+ -> 5.11-5.12
+37,6,1,1	sloper ,crimp ,jug ,jug 
+{"5.11-5.12"=>30.36578897138636, "5.7-5.10"=>33.13361892242194}
+ -> 5.11-5.12
+643 5.7-5.10 (5.10)
+24,24,24,24	gaston,gaston,gaston,gaston
+{"5.11-5.12"=>104.59531569321877, "5.7-5.10"=>100.69440860379993}
+ -> 5.7-5.10
+34,34,34,34	gaston ,gaston ,gaston ,gaston 
+{"5.11-5.12"=>152.65339053997795, "5.7-5.10"=>140.68744365753585}
+ -> 5.7-5.10
+31,31,31,31	gaston,gaston,gaston,gaston
+{"5.11-5.12"=>136.65339053997795, "5.7-5.10"=>132.67034087868242}
+ -> 5.7-5.10
+38,38,38,38	gaston ,gaston ,gaston ,gaston 
+{"5.11-5.12"=>168.62299710983274, "5.7-5.10"=>160.68744365753585}
+ -> 5.7-5.10
+648 5.7-5.10 (5.10)
+24,11,12,4,4,24,10,17	gaston,pinch,undercling ,crimp,crimp,gaston,pocket,mantle 
+{"5.11-5.12"=>99.00522235557115, "5.7-5.10"=>110.36333254675604}
+ -> 5.11-5.12
+34,14,15,5,5,34,12,20	gaston ,pinch ,undercling ,crimp ,crimp ,gaston ,pocket ,mantle 
+{"5.11-5.12"=>144.30036323866602, "5.7-5.10"=>140.77797637521795}
+ -> 5.7-5.10
+31,13,14,5,28,31,12,19	gaston,pinch,undercling ,crimp,crimp (cross),gaston,pocket,mantle 
+{"5.11-5.12"=>147.5460177119219, "5.7-5.10"=>172.73495149760765}
+ -> 5.11-5.12
+38,15,16,6,34,38,13,21	gaston ,pinch ,undercling ,crimp ,crimp (cross),gaston ,pocket ,mantle 
+{"5.11-5.12"=>182.54854921139216, "5.7-5.10"=>198.80662657242954}
+ -> 5.11-5.12
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+650 V0-V3 (V0)
+1,1,3,1,9	jug,jug,sidepull ,jug,jug mantle 
+{"V0-V3"=>26.81111762579068, "V4-V4"=>48.61306148152543, "V5-V10"=>50.14776189113622}
+ -> V0-V3
+1,1,22,1,11	jug ,jug ,sidepull ,jug ,jug mantle 
+{"V0-V3"=>50.87133595182343, "V4-V4"=>70.33395877511118, "V5-V10"=>70.14776189113621}
+ -> V0-V3
+1,1,22,2,77	jug,jug,sidepull ,jug (big move),jug mantle (big move)
+{"V0-V3"=>117.03044717250695, "V4-V4"=>132.2914523752638, "V5-V10"=>133.03416566588487}
+ -> V0-V3
+1,1,24,2,112	jug ,jug ,sidepull ,jug (big move),jug mantle (big move)
+{"V0-V3"=>155.98979667253732, "V4-V4"=>170.33395877511117, "V5-V10"=>170.03416566588487}
+ -> V0-V3
+652 V0-V3 (V2)
+23,23,4,11,23,9,1	sloper,sloper,crimp,pinch,sloper,jug mantle ,jug
+{"V0-V3"=>46.80305364156433, "V4-V4"=>114.59910829049484, "V5-V10"=>49.81419560105893}
+ -> V0-V3
+33,33,13,14,33,11,1	sloper ,sloper ,crimp bad,pinch ,sloper ,jug mantle ,jug 
+{"V0-V3"=>61.64233926703112, "V4-V4"=>162.95336660604238, "V5-V10"=>55.814195601058934}
+ -> V5-V10
+30,30,5,75,61,11,2	sloper,sloper,crimp,pinch (big move),sloper (cross),jug mantle ,jug (big move)
+{"V0-V3"=>239.68552555614198, "V4-V4"=>249.94774020867854, "V5-V10"=>175.51128142742206}
+ -> V5-V10
+37,37,14,106,86,12,2	sloper ,sloper ,crimp bad,pinch (big move),sloper (cross),jug mantle ,jug (big move)
+{"V0-V3"=>315.61926769781695, "V4-V4"=>330.0114998084497, "V5-V10"=>233.5112814274221}
+ -> V5-V10
+655 V5-V10 (V5)
+11,11,35,35,23,4,24,23,9	pinch,pinch,ledge,ledge,sloper,crimp,gaston,sloper,jug mantle 
+{"V0-V3"=>136.45418483316513, "V4-V4"=>185.062632384228, "V5-V10"=>162.996328811644}
+ -> V0-V3
+14,14,82,65,33,5,34,33,11	pinch ,pinch ,ledge ,ledge bad,sloper ,crimp ,gaston ,sloper ,jug mantle 
+{"V0-V3"=>251.00134647815173, "V4-V4"=>305.13400849802736, "V5-V10"=>267.3340608994811}
+ -> V0-V3
+13,13,55,55,32,5,31,30,11	pinch,pinch,ledge,ledge,sloper (big move),crimp,gaston,sloper,jug mantle 
+{"V0-V3"=>214.0822509922765, "V4-V4"=>260.57025994580806, "V5-V10"=>216.72855377591483}
+ -> V0-V3
+15,15,104,79,40,6,38,37,12	pinch ,pinch ,ledge ,ledge bad,sloper (big move),crimp ,gaston ,sloper ,jug mantle 
+{"V0-V3"=>332.11980719886566, "V4-V4"=>358.13400849802724, "V5-V10"=>311.7443556373262}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+657 V0-V3 (V3)
+22,22,23,4,1,19,9	generichold ,generichold ,sloper,crimp,jug,crimp rail,jug mantle 
+{"V0-V3"=>101.3527030231441, "V4-V4"=>88.73996971887985, "V5-V10"=>107.40317930747163}
+ -> V4-V4
+43,43,33,5,1,162,11	generichold ,generichold ,sloper ,crimp ,jug ,crimp rail bad,jug mantle 
+{"V0-V3"=>283.3823462563891, "V4-V4"=>246.6781921183378, "V5-V10"=>297.74091139530856}
+ -> V4-V4
+37,37,30,5,2,115,122	generichold ,generichold ,sloper,crimp,jug (big move),crimp rail,jug mantle (cross)
+{"V0-V3"=>369.68552555614195, "V4-V4"=>305.27740967782694, "V5-V10"=>333.9265467976047}
+ -> V4-V4
+48,48,37,6,2,214,172	generichold ,generichold ,sloper ,crimp ,jug (big move),crimp rail bad,jug mantle (cross)
+{"V0-V3"=>544.6192676978169, "V4-V4"=>460.67819211833785, "V5-V10"=>514.666477218238}
+ -> V4-V4
+669 V4-V4 (V4)
+22,1,23,1,11,23,9	generichold ,jug,sloper,jug,pinch,sloper,jug mantle 
+{"V0-V3"=>64.05041916567262, "V4-V4"=>88.73996971887985, "V5-V10"=>79.69743683282768}
+ -> V0-V3
+43,1,33,1,14,33,11	generichold ,jug ,sloper ,jug ,pinch ,sloper ,jug mantle 
+{"V0-V3"=>92.14542481496137, "V4-V4"=>117.23640690213475, "V5-V10"=>105.69743683282766}
+ -> V0-V3
+37,1,61,2,13,30,77	generichold ,jug,sloper (cross),jug (big move),pinch,sloper,jug mantle (big move)
+{"V0-V3"=>240.49534235508523, "V4-V4"=>204.67096495099446, "V5-V10"=>222.666477218238}
+ -> V4-V4
+48,1,86,2,15,37,112	generichold ,jug ,sloper (cross),jug (big move),pinch ,sloper ,jug mantle (big move)
+{"V0-V3"=>321.500806977103, "V4-V4"=>271.2364069021348, "V5-V10"=>295.66647721823796}
+ -> V4-V4
+692 V4-V4 (V4)
+23,1,23,1,11,23,1	sloper,jug,sloper,jug,pinch,sloper,jug
+{"V0-V3"=>30.436003284662636, "V4-V4"=>103.59910829049481, "V5-V10"=>47.64136246788177}
+ -> V0-V3
+33,1,33,1,14,33,1	sloper ,jug ,sloper ,jug ,pinch ,sloper ,jug 
+{"V0-V3"=>39.40541782560332, "V4-V4"=>140.95336660604238, "V5-V10"=>50.64136246788177}
+ -> V0-V3
+30,1,61,2,13,30,2	sloper,jug,sloper (cross),jug (big move),pinch,sloper,jug (big move)
+{"V0-V3"=>163.49534235508523, "V4-V4"=>163.82586167938214, "V5-V10"=>113.60994834613587}
+ -> V5-V10
+37,1,86,2,15,37,2	sloper ,jug ,sloper (cross),jug (big move),pinch ,sloper ,jug (big move)
+{"V0-V3"=>204.50080697710305, "V4-V4"=>202.95336660604238, "V5-V10"=>140.60994834613587}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+694 V5-V10 (V5)
+11,11,35,11,23,1	pinch,pinch,ledge,pinch,sloper,jug
+{"V0-V3"=>88.02653508599728, "V4-V4"=>82.24202252982695, "V5-V10"=>100.92259936198194}
+ -> V4-V4
+14,14,82,14,33,1	pinch ,pinch ,ledge ,pinch ,sloper ,jug 
+{"V0-V3"=>142.84330995966678, "V4-V4"=>145.5595637456123, "V5-V10"=>156.92259936198195}
+ -> V0-V3
+13,13,55,13,30,2	pinch,pinch,ledge,pinch,sloper,jug (big move)
+{"V0-V3"=>149.86498246887317, "V4-V4"=>115.96394966638951, "V5-V10"=>126.8761716176881}
+ -> V4-V4
+15,15,104,15,37,2	pinch ,pinch ,ledge ,pinch ,sloper ,jug (big move)
+{"V0-V3"=>207.80976758693564, "V4-V4"=>172.55956374561234, "V5-V10"=>181.8761716176881}
+ -> V4-V4
+701 V0-V3 (V0)
+1,1	jug,jug
+{"V0-V3"=>5.966444428480227, "V4-V4"=>17.129067483503142, "V5-V10"=>17.692825791156206}
+ -> V0-V3
+1,1	jug ,jug 
+{"V0-V3"=>7.831760154052337, "V4-V4"=>17.817647225103478, "V5-V10"=>17.692825791156206}
+ -> V0-V3
+1,1	jug,jug
+{"V0-V3"=>5.966444428480227, "V4-V4"=>17.80702062514163, "V5-V10"=>17.6632488642351}
+ -> V0-V3
+1,1	jug ,jug 
+{"V0-V3"=>7.831760154052337, "V4-V4"=>17.817647225103478, "V5-V10"=>17.6632488642351}
+ -> V0-V3
+702 V4-V4 (V4)
+12,2,12,20,12,50,85	undercling ,match ,undercling ,crimp sidepull ,undercling ,rail,mantle mantle 
+{"V0-V3"=>213.11658490018297, "V4-V4"=>183.40335386250104, "V5-V10"=>186.2819827144547}
+ -> V4-V4
+15,2,15,29,15,164,150	undercling ,match ,undercling ,crimp sidepull ,undercling ,rail big ,mantle mantle 
+{"V0-V3"=>403.11963830133993, "V4-V4"=>370.76395985477996, "V5-V10"=>371.2819827144547}
+ -> V4-V4
+14,3,14,153,14,154,141	undercling ,match ,undercling ,crimp sidepull (cross) (big move),undercling ,rail (big move) (good hold),mantle mantle 
+{"V0-V3"=>510.6020117273532, "V4-V4"=>477.761975875363, "V5-V10"=>469.6270767995993}
+ -> V5-V10
+16,3,16,216,16,217,200	undercling ,match ,undercling ,crimp sidepull (cross) (big move),undercling ,rail big (big move) (good hold),mantle mantle 
+{"V0-V3"=>694.1196383013398, "V4-V4"=>658.76395985478, "V5-V10"=>654.6270767995993}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+706 V4-V4 (V4)
+0,23,10,64,23,4,4,2,10,1,2,85	,sloper,pocket,crimper,sloper,crimp,crimp,match ,pocket,jug,match ,mantle mantle 
+{"V0-V3"=>212.9525053942927, "V4-V4"=>288.7423808102441, "V5-V10"=>228.39448204111974}
+ -> V0-V3
+0,63,165,166,33,35,13,2,87,4,2,150	,sloper bad,pocket small bad,crimper big ,sloper ,crimp small ,crimp bad,match ,pocket small ,jug bad,match ,mantle mantle 
+{"V0-V3"=>705.484357015756, "V4-V4"=>773.2053523917958, "V5-V10"=>722.7756886914377}
+ -> V0-V3
+0,32,74,155,30,5,5,3,12,1,3,156	,sloper (big move),pocket (big move),crimper (big move) (good hold),sloper,crimp,crimp,match ,pocket,jug,match ,mantle mantle (big move)
+{"V0-V3"=>473.0209104910457, "V4-V4"=>540.0884597922155, "V5-V10"=>453.3789853289578}
+ -> V5-V10
+0,218,219,220,37,39,14,3,111,5,3,221	,sloper bad (big move),pocket small bad (big move),crimper big (big move) (good hold),sloper ,crimp small ,crimp bad,match ,pocket small ,jug bad,match ,mantle mantle (big move)
+{"V0-V3"=>1104.6028177364701, "V4-V4"=>1140.205352391796, "V5-V10"=>1080.115272438976}
+ -> V5-V10
+738 5.11-5.12 (5.11)
+9,9,38,9,9,38,1,1,93,93	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug,jug,crimp jug mantle ,crimp jug mantle 
+{"5.11-5.12"=>345.06153950294254, "5.7-5.10"=>329.35881823468605}
+ -> 5.7-5.10
+11,11,68,11,11,68,1,1,167,167	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug ,jug ,crimp jug mantle small ,crimp jug mantle small 
+{"5.11-5.12"=>563.2357640432203, "5.7-5.10"=>545.3379233958939}
+ -> 5.7-5.10
+11,11,58,11,11,58,1,1,157,157	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug,jug,crimp jug mantle ,crimp jug mantle 
+{"5.11-5.12"=>521.2357640432202, "5.7-5.10"=>515.2866150593336}
+ -> 5.7-5.10
+12,12,82,12,12,82,1,1,222,222	jug mantle ,jug mantle ,crimp mantle ,jug mantle ,jug mantle ,crimp mantle ,jug ,jug ,crimp jug mantle small ,crimp jug mantle small 
+{"5.11-5.12"=>709.1445837527845, "5.7-5.10"=>693.3379233958938}
+ -> 5.7-5.10
+741 5.7-5.10 (5.10)
+1,29,1	jug,foothook ,jug
+{"5.11-5.12"=>47.850945058264784, "5.7-5.10"=>46.91700699865224}
+ -> 5.7-5.10
+4,47,1	jug bad,foothook ,jug 
+{"5.11-5.12"=>69.88966162277093, "5.7-5.10"=>66.91236370114285}
+ -> 5.7-5.10
+1,39,2	jug,foothook ,jug (big move)
+{"5.11-5.12"=>59.889661622770916, "5.7-5.10"=>58.900961848573914}
+ -> 5.7-5.10
+5,53,2	jug bad,foothook ,jug (big move)
+{"5.11-5.12"=>77.86939933600743, "5.7-5.10"=>75.91236370114284}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+744 V0-V3 (V1)
+1,1,11,1,11,33,23,17	jug,jug,pinch,jug,pinch,jug undercling ,sloper,mantle 
+{"V0-V3"=>95.64468072848577, "V4-V4"=>113.42382376679011, "V5-V10"=>119.55922342863529}
+ -> V0-V3
+1,1,14,1,14,127,33,20	jug ,jug ,pinch ,jug ,pinch ,jug undercling ,sloper ,mantle 
+{"V0-V3"=>200.1813755637535, "V4-V4"=>225.73400392030433, "V5-V10"=>221.55922342863528}
+ -> V0-V3
+1,1,13,2,13,51,32,19	jug,jug,pinch,jug (big move),pinch,jug undercling ,sloper (big move),mantle 
+{"V0-V3"=>125.33349555850327, "V4-V4"=>149.5321270667931, "V5-V10"=>145.902349685523}
+ -> V0-V3
+1,1,15,2,15,173,40,21	jug ,jug ,pinch ,jug (big move),pinch ,jug undercling ,sloper (big move),mantle 
+{"V0-V3"=>252.29983628446735, "V4-V4"=>280.7340039203043, "V5-V10"=>272.902349685523}
+ -> V0-V3
+748 V0-V3 (V2)
+1,1,23,10,11,11,1,9	jug,jug,sloper,pocket,pinch,pinch,jug,jug mantle 
+{"V0-V3"=>65.78555156580892, "V4-V4"=>88.42382376679011, "V5-V10"=>91.55922342863528}
+ -> V0-V3
+1,1,53,57,14,14,1,11	jug ,jug ,sloper small ,pocket bad,pinch ,pinch ,jug ,jug mantle 
+{"V0-V3"=>173.2998362844674, "V4-V4"=>168.73400392030436, "V5-V10"=>200.60269799111626}
+ -> V4-V4
+1,1,30,12,13,13,2,11	jug,jug,sloper,pocket,pinch,pinch,jug (big move),jug mantle 
+{"V0-V3"=>110.49207643431343, "V4-V4"=>106.5321270667931, "V5-V10"=>100.45678281878793}
+ -> V5-V10
+1,1,60,68,15,15,2,12	jug ,jug ,sloper small ,pocket bad,pinch ,pinch ,jug (big move),jug mantle 
+{"V0-V3"=>197.41829700518124, "V4-V4"=>188.73400392030433, "V5-V10"=>220.40508246753464}
+ -> V4-V4
+752 V4-V4 (V4)
+4,4,11,11,10,1,2	crimp,crimp,pinch,pinch,pocket,jug,match 
+{"V0-V3"=>63.3958066815343, "V4-V4"=>62.262492434116005, "V5-V10"=>75.549655549115}
+ -> V4-V4
+5,5,14,14,12,1,2	crimp ,crimp ,pinch ,pinch ,pocket ,jug ,match 
+{"V0-V3"=>69.49648306235882, "V4-V4"=>70.89523340363509, "V5-V10"=>100.78438595778955}
+ -> V0-V3
+5,5,13,13,12,1,3	crimp,crimp,pinch,pinch,pocket,jug,match 
+{"V0-V3"=>71.39580668153431, "V4-V4"=>71.70398315008572, "V5-V10"=>80.75270931495994}
+ -> V0-V3
+6,6,15,15,13,1,3	crimp ,crimp ,pinch ,pinch ,pocket ,jug ,match 
+{"V0-V3"=>74.49648306235882, "V4-V4"=>74.89523340363509, "V5-V10"=>106.61477686698471}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+760 V0-V3 (V2)
+23,3,4,23,11,1,9	sloper,sidepull ,crimp,sloper,pinch,jug,jug mantle 
+{"V0-V3"=>50.51892011006621, "V4-V4"=>98.59910829049483, "V5-V10"=>57.8012982524236}
+ -> V0-V3
+33,22,5,33,14,41,11	sloper ,sidepull ,crimp ,sloper ,pinch ,jug small ,jug mantle 
+{"V0-V3"=>114.60879689429994, "V4-V4"=>181.95336660604238, "V5-V10"=>126.68483703036271}
+ -> V0-V3
+30,116,5,30,13,1,11	sloper,sidepull (cross),crimp,sloper,pinch,jug,jug mantle 
+{"V0-V3"=>228.49534235508517, "V4-V4"=>229.82586167938214, "V5-V10"=>170.45310856901335}
+ -> V5-V10
+37,164,6,37,15,46,12	sloper ,sidepull (cross),crimp ,sloper ,pinch ,jug small ,jug mantle 
+{"V0-V3"=>335.6192676978169, "V4-V4"=>335.9533666060423, "V5-V10"=>272.60994834613587}
+ -> V5-V10
+796 5.7-5.10 (5.10)
+4,20,18,4,41,18,18,4,3,18,18,20,4	crimp,crimp sidepull ,edge,crimp,edge sidepull ,edge,edge,crimp,sidepull ,edge,edge,crimp sidepull ,crimp
+{"5.11-5.12"=>132.5697367213498, "5.7-5.10"=>171.06829508713804}
+ -> 5.11-5.12
+5,29,94,5,71,94,94,5,3,94,32,29,5	crimp ,crimp sidepull ,edge big ,crimp ,edge sidepull ,edge big ,edge big ,crimp ,sidepull big ,edge big ,edge big bad,crimp sidepull ,crimp 
+{"5.11-5.12"=>250.72086456894215, "5.7-5.10"=>502.8653958779966}
+ -> 5.11-5.12
+5,26,158,5,63,87,87,5,4,87,20,26,5	crimp,crimp sidepull ,edge (big move) (good hold),crimp,edge sidepull ,edge (good hold),edge (good hold),crimp,sidepull (good hold),edge (good hold),edge,crimp sidepull ,crimp
+{"5.11-5.12"=>345.0412975395338, "5.7-5.10"=>570.6185236545963}
+ -> 5.11-5.12
+6,32,223,6,88,124,124,6,4,124,36,32,6	crimp ,crimp sidepull ,edge big (big move) (good hold),crimp ,edge sidepull ,edge big (good hold),edge big (good hold),crimp ,sidepull big (good hold),edge big (good hold),edge big bad,crimp sidepull ,crimp 
+{"5.11-5.12"=>504.5825657354091, "5.7-5.10"=>783.5535664582105}
+ -> 5.11-5.12
+807 5.7-5.10 (5.10)
+4,23,1,1,23,1,1,11,4	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"5.11-5.12"=>60.060552910270026, "5.7-5.10"=>47.28239722008095}
+ -> 5.7-5.10
+5,33,1,1,33,1,1,14,5	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"5.11-5.12"=>81.52369623838237, "5.7-5.10"=>45.778022409974824}
+ -> 5.7-5.10
+5,30,1,1,30,1,1,13,5	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"5.11-5.12"=>62.4276198884995, "5.7-5.10"=>60.54967964370275}
+ -> 5.7-5.10
+6,37,1,1,37,1,1,15,6	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"5.11-5.12"=>83.49369707430478, "5.7-5.10"=>67.62783699326704}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+810 5.7-5.10 (5.10)
+4,23,1,1,23,1,1,11,4	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"5.11-5.12"=>60.060552910270026, "5.7-5.10"=>47.28239722008095}
+ -> 5.7-5.10
+5,33,1,1,33,1,1,14,5	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"5.11-5.12"=>81.52369623838237, "5.7-5.10"=>45.778022409974824}
+ -> 5.7-5.10
+5,30,1,1,30,1,1,13,5	crimp,sloper,jug,jug,sloper,jug,jug,pinch,crimp
+{"5.11-5.12"=>62.4276198884995, "5.7-5.10"=>60.54967964370275}
+ -> 5.7-5.10
+6,37,1,1,37,1,1,15,6	crimp ,sloper ,jug ,jug ,sloper ,jug ,jug ,pinch ,crimp 
+{"5.11-5.12"=>83.49369707430478, "5.7-5.10"=>67.62783699326704}
+ -> 5.7-5.10
+815 5.7-5.10 (5.10)
+1,4,4,1,1,4,4,4,4	jug,crimp,crimp,jug,jug,crimp,crimp,crimp,crimp
+{"5.11-5.12"=>44.68456053319082, "5.7-5.10"=>46.44200119703434}
+ -> 5.11-5.12
+1,5,5,1,1,5,5,5,5	jug ,crimp ,crimp ,jug ,jug ,crimp ,crimp ,crimp ,crimp 
+{"5.11-5.12"=>95.47203512601315, "5.7-5.10"=>45.858040481600916}
+ -> 5.7-5.10
+1,5,5,1,1,5,5,5,5	jug,crimp,crimp,jug,jug,crimp,crimp,crimp,crimp
+{"5.11-5.12"=>44.73707872604203, "5.7-5.10"=>89.51723602922509}
+ -> 5.11-5.12
+1,6,6,1,1,6,6,6,6	jug ,crimp ,crimp ,jug ,jug ,crimp ,crimp ,crimp ,crimp 
+{"5.11-5.12"=>101.3909859789592, "5.7-5.10"=>95.56284343950085}
+ -> 5.7-5.10
+821 V5-V10 (V5)
+2,2,4,29,3	match ,match ,crimp,foothook ,sidepull 
+{"V0-V3"=>49.64171581256748, "V4-V4"=>69.61306148152542, "V5-V10"=>66.09097902063193}
+ -> V0-V3
+2,2,5,47,22	match ,match ,crimp ,foothook ,sidepull 
+{"V0-V3"=>85.93401328353401, "V4-V4"=>108.33395877511118, "V5-V10"=>109.14776189113623}
+ -> V0-V3
+3,3,5,39,22	match ,match ,crimp,foothook ,sidepull 
+{"V0-V3"=>80.12714263973773, "V4-V4"=>101.29145237526377, "V5-V10"=>94.53143288387324}
+ -> V0-V3
+3,3,6,53,24	match ,match ,crimp ,foothook ,sidepull 
+{"V0-V3"=>94.93401328353401, "V4-V4"=>119.33395877511118, "V5-V10"=>119.03416566588487}
+ -> V0-V3
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+822 V5-V10 (V5)
+2,2,4,29,3	match ,match ,crimp,foothook ,sidepull 
+{"V0-V3"=>49.64171581256748, "V4-V4"=>69.61306148152542, "V5-V10"=>66.09097902063193}
+ -> V0-V3
+2,2,5,47,22	match ,match ,crimp ,foothook ,sidepull 
+{"V0-V3"=>85.93401328353401, "V4-V4"=>108.33395877511118, "V5-V10"=>109.14776189113623}
+ -> V0-V3
+3,3,5,39,22	match ,match ,crimp,foothook ,sidepull 
+{"V0-V3"=>80.12714263973773, "V4-V4"=>101.29145237526377, "V5-V10"=>94.53143288387324}
+ -> V0-V3
+3,3,6,53,24	match ,match ,crimp ,foothook ,sidepull 
+{"V0-V3"=>94.93401328353401, "V4-V4"=>119.33395877511118, "V5-V10"=>119.03416566588487}
+ -> V0-V3
+823 5.7-5.10 (5.10)
+4,23,23,1	crimp,sloper,sloper,jug
+{"5.11-5.12"=>16.69308184708091, "5.7-5.10"=>17.647741891588527}
+ -> 5.11-5.12
+13,33,33,1	crimp bad,sloper ,sloper ,jug 
+{"5.11-5.12"=>35.233431857867416, "5.7-5.10"=>33.6751262933504}
+ -> 5.7-5.10
+5,30,30,1	crimp,sloper,sloper,jug
+{"5.11-5.12"=>18.79369257540539, "5.7-5.10"=>24.21331895528319}
+ -> 5.11-5.12
+14,37,37,1	crimp bad,sloper ,sloper ,jug 
+{"5.11-5.12"=>35.7386945625921, "5.7-5.10"=>36.733574121980325}
+ -> 5.11-5.12
+849 V4-V4 (V4)
+11,11,3,23,25,23,94	pinch,pinch,sidepull ,sloper,foothook sloper,sloper,mantle sidepull 
+{"V0-V3"=>167.42939323791924, "V4-V4"=>191.73996971887982, "V5-V10"=>172.6974368328277}
+ -> V0-V3
+14,14,22,33,36,33,168	pinch ,pinch ,sidepull ,sloper ,foothook sloper ,sloper ,mantle sidepull small 
+{"V0-V3"=>274.38234625638916, "V4-V4"=>320.45646746468884, "V5-V10"=>280.6974368328277}
+ -> V0-V3
+13,13,49,32,82,30,159	pinch,pinch,sidepull (big move),sloper (big move),foothook sloper,sloper,mantle sidepull 
+{"V0-V3"=>368.52694468033184, "V4-V4"=>377.9139721123933, "V5-V10"=>341.1637444362264}
+ -> V5-V10
+15,15,67,40,118,37,224	pinch ,pinch ,sidepull (big move),sloper (big move),foothook sloper ,sloper ,mantle sidepull small 
+{"V0-V3"=>494.5008069771031, "V4-V4"=>511.4564674646888, "V5-V10"=>464.1637444362264}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 883, 897, 912, 916, 922, 931, 945, 950, 953, 965, 975]
+862 5.7-5.10 (5.10)
+23,4,2,23,20,24,0,23	sloper,crimp,match ,sloper,crimp sidepull ,gaston,,sloper
+{"5.11-5.12"=>77.30960306769647, "5.7-5.10"=>49.48305565945216}
+ -> 5.7-5.10
+33,5,2,33,29,34,0,33	sloper ,crimp ,match ,sloper ,crimp sidepull ,gaston ,,sloper 
+{"5.11-5.12"=>107.06470950524462, "5.7-5.10"=>61.53516542302746}
+ -> 5.7-5.10
+30,5,3,30,26,31,0,30	sloper,crimp,match ,sloper,crimp sidepull ,gaston,,sloper
+{"5.11-5.12"=>94.73174426868273, "5.7-5.10"=>62.135943390996076}
+ -> 5.7-5.10
+37,6,3,37,32,38,0,37	sloper ,crimp ,match ,sloper ,crimp sidepull ,gaston ,,sloper 
+{"5.11-5.12"=>114.683470713046, "5.7-5.10"=>75.39815658557127}
+ -> 5.7-5.10
+877 V4-V4 (V4)
+18,18,22,18,18,11,18,18,12,18,18,18,18,95	edge,edge,generichold ,edge,edge,pinch,edge,edge,undercling ,edge,edge,edge,edge,edge mantle 
+{"V0-V3"=>373.4293271670238, "V4-V4"=>361.32461882373696, "V5-V10"=>373.6847144165023}
+ -> V4-V4
+94,94,43,23,23,14,94,94,15,157,157,94,94,169	edge big ,edge big ,generichold ,edge ,edge ,pinch ,edge big ,edge big ,undercling ,edge small ,edge small ,edge big ,edge big ,edge mantle 
+{"V0-V3"=>1193.2857684739863, "V4-V4"=>1186.324618823737, "V5-V10"=>1200.6847144165022}
+ -> V4-V4
+87,87,37,20,20,13,87,87,14,20,20,87,87,160	edge (good hold),edge (good hold),generichold ,edge,edge,pinch,edge (good hold),edge (good hold),undercling ,edge,edge,edge (good hold),edge (good hold),edge mantle 
+{"V0-V3"=>865.4293271670239, "V4-V4"=>849.6621127247986, "V5-V10"=>862.2583057830476}
+ -> V4-V4
+124,124,48,26,26,15,124,124,16,207,207,124,124,225	edge big (good hold),edge big (good hold),generichold ,edge ,edge ,pinch ,edge big (good hold),edge big (good hold),undercling ,edge small ,edge small ,edge big (good hold),edge big (good hold),edge mantle 
+{"V0-V3"=>1542.285768473986, "V4-V4"=>1527.6621127247986, "V5-V10"=>1538.2583057830473}
+ -> V4-V4
+881 5.7-5.10 (5.10)
+23,22,20	sloper,generichold ,crimp sidepull 
+{"5.11-5.12"=>50.207940393642346, "5.7-5.10"=>33.26342981390675}
+ -> 5.7-5.10
+33,43,29	sloper ,generichold ,crimp sidepull 
+{"5.11-5.12"=>82.47843040772091, "5.7-5.10"=>51.493062755100254}
+ -> 5.7-5.10
+30,37,26	sloper,generichold ,crimp sidepull 
+{"5.11-5.12"=>71.62610919656943, "5.7-5.10"=>43.732026987567544}
+ -> 5.7-5.10
+37,48,32	sloper ,generichold ,crimp sidepull 
+{"5.11-5.12"=>89.61219119756106, "5.7-5.10"=>58.5955373008809}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 916, 922, 931, 945, 950, 953, 965, 975]
+883 5.7-5.10 (5.10)
+11,23	pinch,sloper
+{"5.11-5.12"=>20.414793965491345, "5.7-5.10"=>7.945218129732699}
+ -> 5.7-5.10
+14,33	pinch ,sloper 
+{"5.11-5.12"=>25.36773666086781, "5.7-5.10"=>8.83215042582619}
+ -> 5.7-5.10
+13,30	pinch,sloper
+{"5.11-5.12"=>23.39079279434211, "5.7-5.10"=>7.531195554171364}
+ -> 5.7-5.10
+15,37	pinch ,sloper 
+{"5.11-5.12"=>26.367736660867806, "5.7-5.10"=>8.824781649084443}
+ -> 5.7-5.10
+897 5.7-5.10 (5.10)
+1,11,4	jug,pinch,crimp
+{"5.11-5.12"=>29.110444257274924, "5.7-5.10"=>15.6646543014062}
+ -> 5.7-5.10
+1,14,5	jug ,pinch ,crimp 
+{"5.11-5.12"=>41.88966162277092, "5.7-5.10"=>15.636438054711787}
+ -> 5.7-5.10
+1,13,5	jug,pinch,crimp
+{"5.11-5.12"=>31.131465578074845, "5.7-5.10"=>23.888056347065024}
+ -> 5.7-5.10
+1,15,6	jug ,pinch ,crimp 
+{"5.11-5.12"=>43.86939933600744, "5.7-5.10"=>24.931226790464574}
+ -> 5.7-5.10
+912 5.7-5.10 (5.10)
+4,23	crimp,sloper
+{"5.11-5.12"=>8.107353376817613, "5.7-5.10"=>3.412688390051606}
+ -> 5.7-5.10
+5,33	crimp ,sloper 
+{"5.11-5.12"=>16.36773666086781, "5.7-5.10"=>3.5778526013079768}
+ -> 5.7-5.10
+5,30	crimp,sloper
+{"5.11-5.12"=>8.977653876547208, "5.7-5.10"=>14.368581153317342}
+ -> 5.11-5.12
+6,37	crimp ,sloper 
+{"5.11-5.12"=>17.36773666086781, "5.7-5.10"=>16.374282079601812}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 945, 950, 953, 965, 975]
+916 5.11-5.12 (5.12)
+35,35,4,4,12,24,11,17,3,17	ledge,ledge,crimp,crimp,undercling ,gaston,pinch,mantle ,sidepull ,mantle 
+{"5.11-5.12"=>209.97139282969042, "5.7-5.10"=>103.43794840153396}
+ -> 5.7-5.10
+82,82,5,35,15,34,14,20,22,20	ledge ,ledge ,crimp ,crimp small ,undercling ,gaston ,pinch ,mantle ,sidepull ,mantle 
+{"5.11-5.12"=>372.9713928296904, "5.7-5.10"=>310.32085117110614}
+ -> 5.7-5.10
+55,55,5,5,14,31,13,19,22,19	ledge,ledge,crimp,crimp,undercling ,gaston,pinch,mantle ,sidepull ,mantle 
+{"5.11-5.12"=>284.9713928296904, "5.7-5.10"=>138.34305463841923}
+ -> 5.7-5.10
+104,104,6,39,16,38,15,21,24,21	ledge ,ledge ,crimp ,crimp small ,undercling ,gaston ,pinch ,mantle ,sidepull ,mantle 
+{"5.11-5.12"=>431.9713928296904, "5.7-5.10"=>381.3756495745372}
+ -> 5.7-5.10
+922 5.11-5.12 (5.11)
+4,12,96,18,12,23,23,95,17	crimp,undercling ,crimp undercling ,edge,undercling ,sloper,sloper,edge mantle ,mantle 
+{"5.11-5.12"=>337.6878760745064, "5.7-5.10"=>271.99017444033683}
+ -> 5.7-5.10
+35,15,170,94,15,63,33,169,20	crimp small ,undercling ,crimp undercling ,edge big ,undercling ,sloper bad,sloper ,edge mantle ,mantle 
+{"5.11-5.12"=>649.6878760745064, "5.7-5.10"=>535.9947547482235}
+ -> 5.7-5.10
+5,14,161,87,14,61,30,162,19	crimp,undercling ,crimp undercling (big move),edge (good hold),undercling ,sloper (cross),sloper,edge mantle (big move),mantle 
+{"5.11-5.12"=>588.6878760745064, "5.7-5.10"=>547.0399105872183}
+ -> 5.7-5.10
+39,16,226,124,16,227,37,228,21	crimp small ,undercling ,crimp undercling (big move),edge big (good hold),undercling ,sloper bad (cross),sloper ,edge mantle (big move),mantle 
+{"5.11-5.12"=>967.6878760745064, "5.7-5.10"=>914.585908671723}
+ -> 5.7-5.10
+931 V0-V3 (V1)
+1,23,2,24,1,2	jug,sloper,match ,gaston,jug,match 
+{"V0-V3"=>45.50276252531822, "V4-V4"=>84.77439281419952, "V5-V10"=>64.92259936198195}
+ -> V0-V3
+4,33,2,108,1,2	jug bad,sloper ,match ,gaston bad,jug ,match 
+{"V0-V3"=>144.51120788574187, "V4-V4"=>185.17272929178043, "V5-V10"=>150.92259936198192}
+ -> V0-V3
+1,32,3,31,1,3	jug,sloper (big move),match ,gaston,jug,match 
+{"V0-V3"=>88.70457972418588, "V4-V4"=>108.11959629197118, "V5-V10"=>76.32173848442316}
+ -> V5-V10
+5,40,3,155,1,3	jug bad,sloper (big move),match ,gaston bad,jug ,match 
+{"V0-V3"=>235.12122847574184, "V4-V4"=>242.17272929178046, "V5-V10"=>202.3217384844232}
+ -> V5-V10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 965, 975]
+945 V5-V10 (V7)
+12,23,4,23,12,23,23,23,23,55,55,57,79	undercling ,sloper,crimp,sloper,undercling ,sloper,sloper,sloper,sloper,pinch sloper,pinch sloper,arete,sloper mantle 
+{"V0-V3"=>313.84038712508675, "V4-V4"=>424.7079577149244, "V5-V10"=>441.20699361163776}
+ -> V0-V3
+15,33,13,33,15,33,33,33,33,137,137,100,142	undercling ,sloper ,crimp bad,sloper ,undercling ,sloper ,sloper ,sloper ,sloper ,pinch sloper ,pinch sloper ,arete ,sloper mantle 
+{"V0-V3"=>595.7655040388214, "V4-V4"=>772.8396725689855, "V5-V10"=>793.7431170523656}
+ -> V0-V3
+14,30,5,32,14,30,30,30,30,89,89,93,135	undercling ,sloper,crimp,sloper (big move),undercling ,sloper,sloper,sloper,sloper,pinch sloper,pinch sloper,arete,sloper mantle 
+{"V0-V3"=>632.4502032039447, "V4-V4"=>640.2462731780713, "V5-V10"=>650.2993576297865}
+ -> V0-V3
+16,37,14,40,16,37,37,37,37,184,184,133,191	undercling ,sloper ,crimp bad,sloper (big move),undercling ,sloper ,sloper ,sloper ,sloper ,pinch sloper ,pinch sloper ,arete ,sloper mantle 
+{"V0-V3"=>955.357807642391, "V4-V4"=>976.8396725689854, "V5-V10"=>999.7431170523655}
+ -> V0-V3
+950 5.7-5.10 (5.7)
+1,1,1,8,1,1,8,1	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug
+{"5.11-5.12"=>75.57279823303463, "5.7-5.10"=>71.80401502439072}
+ -> 5.7-5.10
+1,1,1,10,1,1,10,1	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug 
+{"5.11-5.12"=>81.7083062088061, "5.7-5.10"=>77.78776348310785}
+ -> 5.7-5.10
+1,1,1,10,1,1,10,2	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug (big move)
+{"5.11-5.12"=>80.7083062088061, "5.7-5.10"=>80.74785699911656}
+ -> 5.11-5.12
+1,1,1,11,1,1,11,2	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug (big move)
+{"5.11-5.12"=>84.63738820513392, "5.7-5.10"=>82.78776348310784}
+ -> 5.7-5.10
+953 5.7-5.10 (5.7)
+1,1,1,8,1,1,8,1	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug
+{"5.11-5.12"=>75.57279823303463, "5.7-5.10"=>71.80401502439072}
+ -> 5.7-5.10
+1,1,1,10,1,1,10,1	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug 
+{"5.11-5.12"=>81.7083062088061, "5.7-5.10"=>77.78776348310785}
+ -> 5.7-5.10
+1,1,1,10,1,1,10,2	jug,jug,jug,jug sidepull ,jug,jug,jug sidepull ,jug (big move)
+{"5.11-5.12"=>80.7083062088061, "5.7-5.10"=>80.74785699911656}
+ -> 5.11-5.12
+1,1,1,11,1,1,11,2	jug ,jug ,jug ,jug sidepull ,jug ,jug ,jug sidepull ,jug (big move)
+{"5.11-5.12"=>84.63738820513392, "5.7-5.10"=>82.78776348310784}
+ -> 5.7-5.10
+Training [1, 2, 5, 6, 13, 32, 34, 43, 45, 46, 47, 48, 49, 50, 56, 57, 58, 59, 61, 64, 115, 71, 72, 73, 79, 81, 94, 124, 125, 135, 290, 149, 156, 159, 164, 169, 170, 177, 179, 182, 188, 194, 199, 205, 207, 284, 211, 221, 226, 230, 232, 237, 238, 240, 243, 246, 285, 256, 261, 266, 275, 283, 296, 298, 301, 325, 329, 332, 352, 371, 372, 373, 374, 377, 380, 384, 385, 395, 398, 408, 409, 414, 415, 428, 440, 446, 452, 458, 464, 473, 487, 499, 536, 521, 537, 546, 549, 550, 565, 593, 594, 597, 613, 621, 629, 641, 643, 648, 650, 652, 655, 657, 669, 692, 694, 701, 702, 706, 738, 741, 744, 748, 752, 760, 796, 807, 810, 815, 821, 822, 823, 849, 862, 877, 881, 883, 897, 912, 916, 922, 931, 945, 950, 953]
+965 5.7-5.10 (5.10)
+4,24,1,23,4	crimp,gaston,jug,sloper,crimp
+{"5.11-5.12"=>45.92896027079203, "5.7-5.10"=>71.46522603019645}
+ -> 5.11-5.12
+5,34,1,33,5	crimp ,gaston ,jug ,sloper ,crimp 
+{"5.11-5.12"=>72.94295001336961, "5.7-5.10"=>93.46522603019645}
+ -> 5.11-5.12
+5,31,1,30,5	crimp,gaston,jug,sloper,crimp
+{"5.11-5.12"=>54.32305138987316, "5.7-5.10"=>86.21307136141901}
+ -> 5.11-5.12
+6,38,1,37,6	crimp ,gaston ,jug ,sloper ,crimp 
+{"5.11-5.12"=>78.42795043133083, "5.7-5.10"=>102.213071361419}
+ -> 5.11-5.12
+975 5.7-5.10 (5.10)
+35,2,20,23,4,23,3,11,2	ledge,match ,crimp sidepull ,sloper,crimp,sloper,sidepull ,pinch,match 
+{"5.11-5.12"=>113.92665600673178, "5.7-5.10"=>150.470289577355}
+ -> 5.11-5.12
+65,2,29,63,5,33,22,14,2	ledge bad,match ,crimp sidepull ,sloper bad,crimp ,sloper ,sidepull ,pinch ,match 
+{"5.11-5.12"=>185.06683710290753, "5.7-5.10"=>261.47028957735495}
+ -> 5.11-5.12
+55,3,26,30,103,30,22,13,3	ledge,match ,crimp sidepull ,sloper,crimp (big move),sloper,sidepull ,pinch,match 
+{"5.11-5.12"=>260.5989548509904, "5.7-5.10"=>308.65794377618124}
+ -> 5.11-5.12
+79,3,32,77,148,37,24,15,3	ledge bad,match ,crimp sidepull ,sloper bad,crimp (big move),sloper ,sidepull ,pinch ,match 
+{"5.11-5.12"=>421.442341526632, "5.7-5.10"=>441.65794377618124}
+ -> 5.11-5.12
+[18, 8, 1]
+[10, 9, 4]
+[14, 7, 3]
+accuracy = 0.40540540540540543
+[5, 16]
+[13, 38]
+accuracy = 0.5972222222222222
+[16, 10, 1]
+[16, 6, 1]
+[18, 3, 3]
+accuracy = 0.33783783783783783
+[3, 18]
+[9, 42]
+accuracy = 0.625
+[8, 10, 9]
+[7, 4, 12]
+[9, 7, 8]
+accuracy = 0.2702702702702703
+[3, 18]
+[22, 29]
+accuracy = 0.4444444444444444
+[9, 11, 7]
+[7, 4, 12]
+[14, 4, 6]
+accuracy = 0.25675675675675674
+[3, 18]
+[13, 38]
+accuracy = 0.5694444444444444
+
+Done
+2019-01-31 06:52:18 +0100
+Took 437 mins

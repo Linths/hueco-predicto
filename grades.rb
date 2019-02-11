@@ -48,13 +48,13 @@ def getGradeClassMerged(grade)
     bc0 = {(0..0)=>"easy",(1..3)=>"medium",(4..6)=>"hard",(7..10)=>"expert"}
     bc1 = {(0..0)=>"easy",(1..3)=>"medium",(4..10)=>"hard++"}
     bc2 = {(0..3)=>"easymed",(4..10)=>"hard++"}
-    bc3 = {(0..0)=>"easymed",(1..10)=>"hard++"}
+    bc3 = {(0..0)=>"easymed2",(1..10)=>"hard++2"}
     cc0 = {(7..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard"}
     cc1 = {(7..10)=>"easy",(11..11)=>"medium",(12..12)=>"hard++"}
     cc2 = {(7..11)=>"easymed",(12..12)=>"hard++"}
-    cc3 = {(7..10)=>"easymed",(11..12)=>"hard++"}
-    boulder_conversion = bc1
-    climb_conversion = cc1
+    cc3 = {(7..10)=>"easymed2",(11..12)=>"hard++2"}
+    boulder_conversion = bc3
+    climb_conversion = cc3
     if isBoulderGrade?(grade)
         # Hueco scale. V[0-9]+
         g = grade[1..grade.length()-1].to_i
