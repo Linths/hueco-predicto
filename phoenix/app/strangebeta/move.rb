@@ -48,6 +48,7 @@ class Move
 
   def k2
     # Remove the terminals from descriptions
+    # --- Uncomment below to adjust symbol set 2 and 4 to 2* and 4* --- 
     # if @size =~ /HoldSizeBig/
     #   @size = "[HoldSize].[HoldSizeBig].big"
     # elsif @size =~ /HoldSizeSmall/
@@ -58,6 +59,7 @@ class Move
     # elsif @shape =~ /HoldShapeBad/
     #   @shape = "[HoldShape].[HoldShapeBad].bad"
     # end
+    # --- End of uncomment ---
     [k1,@size,@shape].join(":")
   end
 
