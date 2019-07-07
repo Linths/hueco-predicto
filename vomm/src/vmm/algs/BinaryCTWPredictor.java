@@ -1,5 +1,9 @@
 /* HEADER
- If you use this code don’t forget to reference us :) BibTeX: http://www.cs.technion.ac.il/~rani/el-yaniv_bib.html#BegleiterEY04
+ If you use this code don't forget to reference us :) BibTeX: http://www.cs.technion.ac.il/~rani/el-yaniv_bib.html#BegleiterEY04
+
+ Trivial modifications are made by Lindsay Kempen (2019)
+ 2019-01-18: Change formatting of vmm/algs/DCTWPredictor.java
+ 2019-01-17: Change encoding of files in the vmm folder to UTF-8
 
  This code is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
