@@ -1,5 +1,27 @@
 #!/usr/bin/env ruby
 
+=begin
+Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting Using Chaotic Variations and Machine Learning
+Copyright (C) 2011  Caleb Philips, Lee Becker, Elizabeth Bradley
+
+Modifications are made by Lindsay Kempen (2019)
+xxxx-xx-xx Modified and documented existing code
+xxxx-xx-xx Used parts of (altered) code in other files
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=end
+
 SymbolicData="phoenix/app/strangebeta/symbolic.txt"
 SymbolsFile="phoenix/app/strangebeta/symbols.txt"
 WhichSymbolSet=ARGV[0].nil? ? 1 : ARGV[0].to_i
