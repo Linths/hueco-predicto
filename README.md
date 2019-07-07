@@ -46,7 +46,7 @@ Full text: [bachelorthesis.linths.com](http://bachelorthesis.linths.com)
 
 ### Strange Beta: a climbing route assistance system
 
-The Strange Beta system contributed largely to this project. The elements below can be found in this repository. Several files have been modified and (adapted) parts have been reused for new files.
+The Strange Beta system is a large contribution to this project. The Strange Beta components included in this project are listed below.. Several files have been modified and (adapted) parts have been reused for new files.
 
 - Data: climbing routes expressed in a semi-natural DSL
 - Climbing route generator (_included but not used_)
@@ -86,9 +86,15 @@ Trivial modifications are made by Lindsay Kempen (2019)
 2019-01-18: Change formatting of vmm/algs/DCTWPredictor.java  
 2019-01-17: Change encoding of files in the vmm folder to UTF-8
 
-This code is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This code is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
 
-This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License ([GPL](http://www.gnu.org/copyleft/gpl.html)) for more details.
+This code is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License (<a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>) for more details.
 ```
 
 ### Phoenix parser for spontaneous speech
@@ -104,12 +110,18 @@ Paper: Ward, Wayne (1994): "Extracting information in spontaneous speech", In IC
 A Fair Grade: Assessing Difficulty of Climbing Routes through Machine Learning  
 Copyright (C) 2019  Lindsay Kempen
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
 
 
