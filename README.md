@@ -9,6 +9,24 @@ Please message me if you have any questions or remarks!
 ## Run it
 **TO DO**
 
+Recommended settings
+- **Model depth = 5**  
+Used for the VOMM learning process. This is the max length of subsequences (_context_, here: number of consecutive climbing holds/moves) considered for the probability calculation.
+- **Identifier**  
+Determines save location for VOMMs ([vomm/src/data/grades](vomm/src/data/grades)/\<identifier\>). A program run erases the existing folder contents first, so use a new ID if you want to keep the old contents.
+- **k ∈ {10..30}**  
+A high k can take hours, but it can benefit the accuracy with this small of a dataset.
+- **N <= data_size**  
+A high N can take hours. Choose a N of -1 to set N to data_size.
+
+
+Commands
+- k-fold cross-validation  
+  `ruby performance_kfold.rb <k> <model-depth> <id>`
+- "single classification"
+  `ruby performance_one.rb <N> <model-depth> <id>`
+- 
+
 ## Good to know
 
 **TO DO: Clean up, add relevant parts to [Run it](#Run-it) & [Important files](#Important-files)**

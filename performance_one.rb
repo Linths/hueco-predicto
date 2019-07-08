@@ -18,6 +18,18 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 =end
 
+# GOAL
+#   Performs N rounds of classification, taking a random climbing route as
+#   test set and all other routes as train set. Routes cannot be picked more
+#   than once. Classifies in 6 variations. Outputs classifications and
+#   confusion matrices for every variation.
+# INPUT
+#   Climbing routes in symbolic form, along with their difficulty grades.
+# ARGUMENTS
+#   - N             If -1, it tests full dataset
+#   - model depth   Max length of subsequences considered for the probability calculation
+#   - identifier    Determines save location for VOMMs (vomm/src/data/grades/<identifier>) 
+
 require_relative 'grades'
 require_relative 'matrix'
 require_relative 'human'
@@ -30,7 +42,7 @@ SymbolicData = "phoenix/app/strangebeta/symbolic.txt" # Symbols (numbers) are bo
 N = ARGV[0].to_i
 ModelDepth = ARGV[1].to_i
 Identifier = ARGV[2]
-DoRemove = ARGV[3] == "true"
+DoRemove = false #ARGV[3] == "true"
 ToBeRemoved = [283, 296, 298, 301, 325, 329, 332, 380, 384, 385] # 10 easy/med routes, to balance out easymed (43-10) | hard++ (33)
 LangSize = 400
 Grades = getGrades()
@@ -108,7 +120,7 @@ end
 # Make a random selection of test | train
 GradedSelection = sequences.keys().find_all { |r| Grades.key?(r) }
 AllRids = DoRemove ? GradedSelection - Blacklist - ToBeRemoved : GradedSelection - Blacklist
-TestRids = [34] #N == -1 ? AllRids : AllRids.sample(N)
+TestRids = N == -1 ? AllRids : AllRids.sample(N)
 puts "whole set = #{AllRids} #{AllRids.map {|r| getGradeClass(Grades[r])}} #{AllRids.map {|r| Grades[r]}}"
 puts "test set = #{TestRids} #{TestRids.map {|r| getGradeClass(Grades[r])}}"
 
@@ -141,6 +153,9 @@ TestRids.each{ |test_rid|
         `mkdir -p vomm/data/grades/#{Identifier}/set_#{k}`
         (AllRids - [test_rid]).each { |train_rid|
             model_file = getModelFileFromGrade(Grades[train_rid], k, Identifier)
+            # It's a bit hacky to not directly call the Java VOMM learn method.
+            # I don't remember the reason anymore, but it was most probably due
+            # to how the sequence strings are formatted.
             `./learn.sh #{sequences[train_rid][k-1].join(',')} #{model_file} #{LangSize} #{ModelDepth} #{test_rid}`
             # `./vomm_train_grades.sh #{ModelDepth} #{TestRids.join(',')}`
         }
@@ -170,7 +185,10 @@ TestRids.each{ |test_rid|
         # puts "models #{models}"
         # puts "route_type #{route_type}"
         gradeClasses[route_type].each { |gc|
-            # chop: Remove unnecessary newline at end
+            # 1) It's a bit hacky to not directly call the Java VOMM logeval method.
+            #    I don't remember the reason anymore, but it was most probably due
+            #    to how the sequence strings are formatted.
+            # 2) chop: Remove unnecessary newline at end
             loglosses[gc] = `./logeval.sh #{seq.join(',')} #{getModelFile(gc, k, Identifier)}`.chop.to_f
         }
         # Take the model that yields the smallest logloss

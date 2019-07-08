@@ -25,7 +25,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #   Climbing routes in symbolic form, along with their difficulty grades.
 # ARGUMENTS
 #   - k
-#   - model depth   Max length of subsequences considered for the probability calculation.
+#   - model depth   Max length of subsequences considered for the probability calculation
 #   - identifier    Determines save location for VOMMs (vomm/src/data/grades/<identifier>) 
 
 require_relative 'grades'
@@ -150,6 +150,9 @@ TestGroups.each{ |test_group|
         `mkdir -p vomm/data/grades/#{Identifier}/set_#{k}`
         (AllRids - test_group).each { |train_rid|
             model_file = getModelFileFromGrade(Grades[train_rid], k, Identifier)
+            # It's a bit hacky to not directly call the Java VOMM learn method.
+            # I don't remember the reason anymore, but it was most probably due
+            # to how the sequence strings are formatted.
             `./learn.sh #{sequences[train_rid][k-1].join(',')} #{model_file} #{LangSize} #{ModelDepth} #{test_group}`
             # `./vomm_train_grades.sh #{ModelDepth} #{TestGroups.join(',')}`
         }
@@ -185,7 +188,10 @@ TestGroups.each{ |test_group|
             # puts "models #{models}"
             # puts "route_type #{route_type}"
             gradeClasses[route_type].each { |gc|
-                # chop: Remove unnecessary newline at end
+                # 1) It's a bit hacky to not directly call the Java VOMM logeval method.
+                #    I don't remember the reason anymore, but it was most probably due
+                #    to how the sequence strings are formatted.
+                # 2) chop: Remove unnecessary newline at end
                 loglosses[gc] = `./logeval.sh #{seq.join(',')} #{getModelFile(gc, k, Identifier)}`.chop.to_f
             }
             # Take the model that yields the smallest logloss

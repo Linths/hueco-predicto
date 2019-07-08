@@ -17,15 +17,13 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # =========================================================================
 
+# Trains grade-specific models. Done for every symbol set (6).
+# Params: [Model depth] [Excluded routes]
+
 LANG_SIZE=256
 DEFAULT_MODEL_DEPTH=5
-
-# Train grade-specific models
-# Done for every symbol set
-
 # GRADES = $(data/route_grade.csv | cut -f 1 -d ',' | sort -u)
 
-# Params: [Model depth] [Excluded routes]
 if [ -z "$1" ]; then
     # If model depth is not specified
     MODEL_DEPTH=$DEFAULT_MODEL_DEPTH
