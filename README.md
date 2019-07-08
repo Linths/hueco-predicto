@@ -1,7 +1,10 @@
 # :mount_fuji:Hueco Predicto:crystal_ball:
 
-This is a climbing difficulty classifier. It is developed for the paper _A fair grade: assessing difficulty of climbing routes through machine learning_ (Lindsay Kempen, 2019). The full text is available on [bachelorthesis.linths.com](http://bachelorthesis.linths.com).
+This is a climbing difficulty classifier, developed as part of a research paper.  
+:page_facing_up: _A fair grade: assessing difficulty of climbing routes through machine learning_ (Lindsay Kempen, 2019)  
+:books: Full text via [bachelorthesis.linths.com](http://bachelorthesis.linths.com)
 
+Please message me if you have any questions or remarks!
 
 ## Run it
 **TO DO**
