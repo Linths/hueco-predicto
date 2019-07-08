@@ -80,7 +80,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
 Copyright (C) 2004  Ron Begleiter, Ran El-Yaniv, Golan Yona.  
 Code from the paper "On Prediction Using Variable Order Markov Models"  
-BibTeX: [http://www.cs.technion.ac.il/~rani/el-yaniv_bib.html#BegleiterEY04](http://www.cs.technion.ac.il/~rani/el-yaniv_bib.html#BegleiterEY04)
+BibTeX: http://www.cs.technion.ac.il/~rani/el-yaniv_bib.html#BegleiterEY04
 
 Trivial modifications are made by Lindsay Kempen (2019)  
 2019-01-18: Change formatting of vmm/algs/DCTWPredictor.java  
@@ -94,7 +94,7 @@ of the License, or (at your option) any later version.
 This code is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License (<a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>) for more details.
+GNU General Public License (http://www.gnu.org/copyleft/gpl.html) for more details.
 ```
 
 ### Phoenix parser for spontaneous speech
