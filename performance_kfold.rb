@@ -18,6 +18,16 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 =end
 
+# GOAL
+#   Performs k-fold cross-validation. Classifies climbing routes, in 6 variations.
+#   Outputs classifications and confusion matrices for every variation.
+# INPUT
+#   Climbing routes in symbolic form, along with their difficulty grades.
+# ARGUMENTS
+#   - k
+#   - model depth   Max length of subsequences considered for the probability calculation.
+#   - identifier    Determines save location for VOMMs (vomm/src/data/grades/<identifier>) 
+
 require_relative 'grades'
 require_relative 'matrix'
 require_relative 'human'

@@ -5,8 +5,8 @@ Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting Using 
 Copyright (C) 2011  Caleb Philips, Lee Becker, Elizabeth Bradley
 
 Modifications are made by Lindsay Kempen (2019)
-xxxx-xx-xx Modified and documented existing code
-xxxx-xx-xx Used parts of (altered) code in other files
+2019 January & February Modified and documented this file
+2019 January & February Used (altered) parts of this file in other files
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
