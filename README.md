@@ -79,8 +79,10 @@ The Strange Beta system is a large contribution to this project. The Strange Bet
 For more information on [Strange Beta](http://strangebeta.org), please reference "[strange beta: an assistance system for indoor rock climbing route setting](https://aip.scitation.org/doi/10.1063/1.3693047)" published in the AIP Chaos journal in March 2012.
 
 ```
-Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting Using Chaotic Variations and Machine Learning
+Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting
 Copyright (C) 2011  Caleb Philips, Lee Becker, Elizabeth Bradley
+Website: http://strangebeta.org
+Article: https://aip.scitation.org/doi/10.1063/1.3693047
 
 Modifications are made by Lindsay Kempen (2019)
 xxxx-xx-xx Modified and documented existing code
