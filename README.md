@@ -4,6 +4,8 @@ This is a climbing difficulty classifier, developed as part of a research paper.
 :page_facing_up: _A fair grade: assessing difficulty of climbing routes through machine learning_ (Lindsay Kempen, 2019)  
 :books: Full text via [bachelorthesis.linths.com](http://bachelorthesis.linths.com)
 
+All data used in this work (in-kind and anonymized), and some of the underlying code, was provided  by the [Strange Beta](http://strangebeta.org) project by [Caleb Phillips](http://smallwhitecube.com).
+
 Please message me if you have any questions or remarks!
 
 ## Run it
@@ -74,9 +76,13 @@ The Strange Beta system is a large contribution to this project. The Strange Bet
 - Climbing route parsing & symbolization
 - Climbing route interpolation using Variable-Order Markov Models
 
+For more information on [Strange Beta](http://strangebeta.org), please reference "[strange beta: an assistance system for indoor rock climbing route setting](https://aip.scitation.org/doi/10.1063/1.3693047)" published in the AIP Chaos journal in March 2012.
+
 ```
-Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting Using Chaotic Variations and Machine Learning
+Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting
 Copyright (C) 2011  Caleb Philips, Lee Becker, Elizabeth Bradley
+Website: http://strangebeta.org
+Article: https://aip.scitation.org/doi/10.1063/1.3693047
 
 Modifications are made by Lindsay Kempen (2019)
 xxxx-xx-xx Modified and documented existing code
