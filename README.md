@@ -41,7 +41,7 @@ First run? Run `make` in [`vomm/src`](vomm/src) first.
 - **Only train on all routes** :clock1:  
   `vomm_train_all.sh`
 - **Play with patterns** :zap:  
-  See DE-CTW's magic of pattern recognition. Run `playground.sh` and `test.sh` in [`vomm/src`](vomm/src) for quick and simple examples. You can easily adjust the examples.
+  See DE-CTW's magic of pattern recognition. Run `playground.sh` or `test.sh` in [`vomm/src`](vomm/src) for quick and simple examples. You can easily adjust the examples.
 
 ## Tweak it
 For your ease of navigation, every filename in this doc is a clickable link.
