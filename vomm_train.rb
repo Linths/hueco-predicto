@@ -1,12 +1,14 @@
 #!/usr/bin/env ruby
 
 =begin
-Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting Using Chaotic Variations and Machine Learning
+Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting
 Copyright (C) 2011  Caleb Philips, Lee Becker, Elizabeth Bradley
+Website: http://strangebeta.com
+Article: https://aip.scitation.org/doi/10.1063/1.3693047
 
 Modifications are made by Lindsay Kempen (2019)
-2019 January & February Modified and documented this file
-2019 January & February Used (altered) parts of this file in other files
+2019 January & February  Modified and documented this file
+2019 January & February  Used (altered) parts of this file in other files
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

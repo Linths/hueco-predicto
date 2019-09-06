@@ -4,42 +4,10 @@ This is a climbing difficulty classifier, developed as part of a research paper.
 :page_facing_up: _A fair grade: assessing difficulty of climbing routes through machine learning_ (Lindsay Kempen, 2019)  
 :books: Full text via [bachelorthesis.linths.com](http://bachelorthesis.linths.com)
 
-All data used in this work (in-kind and anonymized), and some of the underlying code, was provided  by the [Strange Beta](http://strangebeta.org) project by [Caleb Phillips](http://smallwhitecube.com).
+All data used in this work (in-kind and anonymized), and some of the underlying code, was provided  by the [Strange Beta](http://strangebeta.com) project by [Caleb Phillips](http://smallwhitecube.com).
 
-Please message me if you have any questions or remarks!
+[Send me](mailto:code@linths.com) your questions, ideas and remarks!
 
-## Run it
-**TO DO**
-
-Recommended settings
-- **Model depth = 5**  
-Used for the VOMM learning process. This is the max length of subsequences (_context_, here: number of consecutive climbing holds/moves) considered for the probability calculation.
-- **Identifier**  
-Determines save location for VOMMs ([vomm/src/data/grades](vomm/src/data/grades)/\<identifier\>). A program run erases the existing folder contents first, so use a new ID if you want to keep the old contents.
-- **k ∈ {10..30}**  
-A high k can take hours, but it can benefit the accuracy with this small of a dataset.
-- **N <= data_size**  
-A high N can take hours. Choose a N of -1 to set N to data_size.
-
-
-Commands
-- k-fold cross-validation  
-  `ruby performance_kfold.rb <k> <model-depth> <id>`
-- "single classification"
-  `ruby performance_one.rb <N> <model-depth> <id>`
-- 
-
-## Good to know
-
-**TO DO: Clean up, add relevant parts to [Run it](#Run-it) & [Important files](#Important-files)**
-- Make sure to run the makefiles first. You have to `make` in `vomm/src` before running `vomm_train_all.sh` for example.
-- [`human.txt`](phoenix/app/strangebeta/human.txt) contains human-readable versions of the four symbol sets made. For every symbol set, it contains the mapping of symbols to the climbing moves they represent. You can read a line in the file as follows: `<symbol-set> <symbol> <climbing-move>`.
-- `make` in main folder is untested. It runs a chaotic generator for climbing routes, which is not needed for this project.
-- Parsing
-    1. Copy the `.gra` file right outside the Grammar folder.
-    2. Run `./run_grammar`
-    3. Drag the base.dic and simple.net to the Grammar folder, replace the old files
-    4. Now you can parse by running `make`
 
 ## Paper abstract
 
@@ -49,21 +17,70 @@ We have implemented six predictor variations to vary with interpretation detail 
 
 Full text: [bachelorthesis.linths.com](http://bachelorthesis.linths.com)
 
+## Run it
+
+Recommended settings
+- **Model depth = 5**  
+Used for the VOMM learning process. This is the max length of subsequences (_context_, here: number of consecutive climbing holds/moves) considered for the probability calculation.
+- **Identifier**  
+Determines save location for VOMMs ([`vomm/src/data/grades`](vomm/src/data/grades)`/\<identifier\>`). A program run erases the existing folder contents first, so use a new ID if you want to keep the old contents.
+- **k ∈ {10..30}**  
+A high k can take hours, but it can benefit the accuracy with this small of a dataset.
+- **N <= data_size**  
+A high N can take hours. Choose a N of -1 to set N to data_size.
+
+
+Commands  
+:warning: First run? Run `make` in [`vomm/src`](vomm/src) first. :warning:
+- **k-fold cross-validation** :clock1::clock1::clock1:  
+  Performs k-fold cross-validation. Classifies climbing routes in 6 variations. Outputs classifications and confusion matrices for every variation.  
+  `ruby performance_kfold.rb <k> <model-depth> <id>`
+- **Classify a random route** :clock1::clock1:  
+  Performs N rounds of classification, taking a random climbing route as test set and all other routes as train set. Routes cannot be picked more than once. Classifies in 6 variations. Outputs classifications and confusion matrices for every variation.  
+  `ruby performance_one.rb <N> <model-depth> <id>`
+- **Only train on all routes** :clock1:  
+  `vomm_train_all.sh`
+- **Play with patterns** :zap:  
+  See DE-CTW's magic of pattern recognition. Run `playground.sh` and `test.sh` in [`vomm/src`](vomm/src) for quick and simple examples. You can easily adjust the examples.
+
+## Tweak it
+- Change grade classes  
+    Edit [`grades.rb`](grades.rb). It already contains alternative grade class distributions.
+    - Separate the climbing and bouldering routes: set `MergeMode` to false.
+    - Choose other distributions: assign them to
+    `boulder_conversion` & `climb_conversion` (if `MergeMode` is true) or `boulder_classes` and `climb_classes` (if `MergeMode` is false).
+- Change grammar  
+    Edit [`climbing.gra`](phoenix/app/strangebeta/Grammar/climbing.gra) and parse afterwards:
+    1. Copy the `climbing.gra` file right outside the Grammar folder. (A weird but necessary hack.)
+    2. Run `./run_grammar`
+    3. Drag the `base.dic` and `simple.net` to the Grammar folder, replace the old files
+    4. Now you can parse by running `make`
+- Change symbolization  
+    1. You can alter the symbol sets by changing how symbols are made from parsed climbing routes. In [`move.rb`](phoenix/app/strangebeta/move.rb), [`resymbolize.rb`](phoenix/app/strangebeta/resymbolize.rb) and [`symbolize.rb`](phoenix/app/strangebeta/symbolize.rb) you can determine the influence of aspects like hold shape, hold size, action shape, etc.
+    2. Run `make` in [`phoenix/app/strangebeta/`](phoenix/app/strangebeta/).
+- Change data (sanitation)  
+    1. Edit the input data in [`strangebeta_user_climb_data_20180128.txt`](data/strangebeta_user_climb_data_20180128.txt) and/or edit the pre-parser sanitation in [`sb_ucd_anal.rb`](data/sb_ucd_anal.rb).
+    3. Run `make` in [`phoenix/app/strangebeta/`](phoenix/app/strangebeta/).
+
 ## Code structure
 
-- `vomm`: Variable-Order Markov Model
-  - `vmm` & `doc`: code & documentation from Begleiter et al.
+- `vomm`: Variable-order Markov model
+  - `vmm` & `doc`: Code & documentation from Begleiter et al.
   - `data`: VOMMs generated using this code, using the climbing route input
-- `phoenix`: parser
-  - `PhoenixLib` & `Doc` code & documentation from Wayne Ward / CMU
-  - `app/strangebeta`: parser grammar, input, output and extra parsing steps (e.g. input sanitation, symbolization). Written by Philips et al. Modifications & additions by Lindsay Kempen
-- `data`
-**TO DO**
+- `phoenix`: Parser
+  - `PhoenixLib` & `Doc`: Code & documentation.  
+  :copyright: Wayne Ward / CMU
+  - `app/strangebeta`: Parser grammar, input, output and extra parsing steps (e.g. input sanitation, symbolization).  
+  :copyright: Philips et al. Modifications were made.
+- `data`: Input data
+- `output`: Output logs
 
-## Important files
+## Interesting files
 
-- `human.txt`
-- **TO FILL**
+You can familiarize yourself more with the program by glancing over:
+- [`human.txt`](phoenix/app/strangebeta/human.txt) - Human-readable versions of the four symbol sets. Columns: symbol set, symbol, climbing move.
+- [`climbing.gra`](phoenix/app/strangebeta/Grammar/climbing.gra) - Parser grammar
+- [`public_moves.csv`](public_moves.csv) - Readable climbing data. *Note: actual input data is [elsewhere](data/strangebeta_user_climb_data_20180128.txt).*
 
 ## Copyright
 
@@ -72,21 +89,21 @@ Full text: [bachelorthesis.linths.com](http://bachelorthesis.linths.com)
 The Strange Beta system is a large contribution to this project. The Strange Beta components included in this project are listed below.. Several files have been modified and (adapted) parts have been reused for new files.
 
 - Data: climbing routes expressed in a semi-natural DSL
-- Climbing route generator (_included but not used_)
+- Climbing route generator (_not used and removed, traces of it may exist_)
 - Climbing route parsing & symbolization
-- Climbing route interpolation using Variable-Order Markov Models
+- Climbing route interpolation using variable-order Markov models
 
-For more information on [Strange Beta](http://strangebeta.org), please reference "[strange beta: an assistance system for indoor rock climbing route setting](https://aip.scitation.org/doi/10.1063/1.3693047)" published in the AIP Chaos journal in March 2012.
+For more information on [Strange Beta](http://strangebeta.com), please reference "[strange beta: an assistance system for indoor rock climbing route setting](https://aip.scitation.org/doi/10.1063/1.3693047)" published in the AIP Chaos journal in March 2012.
 
 ```
 Strange Beta: An Assistance System for Indoor Rock Climbing Route Setting
 Copyright (C) 2011  Caleb Philips, Lee Becker, Elizabeth Bradley
-Website: http://strangebeta.org
+Website: http://strangebeta.com
 Article: https://aip.scitation.org/doi/10.1063/1.3693047
 
 Modifications are made by Lindsay Kempen (2019)
-xxxx-xx-xx Modified and documented existing code
-xxxx-xx-xx Used parts of (altered) code in other files
+2019 January & February  Modified and documented existing code
+2019 January & February  Used parts of (altered) code in other files
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -150,6 +167,3 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
-
-
-## FAQ

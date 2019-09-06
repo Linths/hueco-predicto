@@ -1,4 +1,23 @@
 #!/bin/bash
+# ========== HEADER =======================================================
+# A Fair Grade: Assessing Difficulty of Climbing Routes through Machine Learning
+# Copyright (C) 2019  Lindsay Kempen
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# =========================================================================
+
+# Outputs log-losses
 
 # Routes expressed in symbolset {1..4}
 RID1=("1\n1\n2\n3\n3\n1\n4\n5\n1\n5\n1\n1\n2\n4\n1\n6\n1\n7\n8\n1\n4\n9" "1\n1\n2\n3\n3\n4\n5\n6\n4\n6\n7\n8\n2\n5\n8\n9\n1\n10\n11\n1\n5\n12" "1\n2\n3\n4\n4\n1\n5\n6\n1\n6\n1\n7\n3\n5\n7\n8\n1\n9\n10\n1\n5\n11" "1\n2\n3\n4\n4\n5\n6\n7\n5\n7\n8\n9\n3\n6\n9\n10\n1\n11\n12\n1\n6\n13")
