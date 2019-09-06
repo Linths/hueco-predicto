@@ -6,7 +6,7 @@ This is a climbing difficulty classifier, developed as part of a research paper.
 
 All data used in this work (in-kind and anonymized), and some of the underlying code, was provided  by the [Strange Beta](http://strangebeta.com) project by [Caleb Phillips](http://smallwhitecube.com).
 
-[Send me](mailto:code@linths.com) your questions, ideas and remarks!
+[Send me](mailto:code@linths.com) your questions, opinions and ideas!
 
 
 ## Paper abstract
@@ -23,7 +23,7 @@ Recommended settings
 - **Model depth = 5**  
 Used for the VOMM learning process. This is the max length of subsequences (_context_, here: number of consecutive climbing holds/moves) considered for the probability calculation.
 - **Identifier**  
-Determines save location for VOMMs ([`vomm/src/data/grades`](vomm/src/data/grades)`/\<identifier\>`). A program run erases the existing folder contents first, so use a new ID if you want to keep the old contents.
+Determines save location for VOMMs (`vomm/src/data/grades/<identifier>`). A program run erases the existing folder contents first, so use a new ID if you want to keep the old contents.
 - **k ∈ {10..30}**  
 A high k can take hours, but it can benefit the accuracy with this small of a dataset.
 - **N <= data_size**  
@@ -31,7 +31,7 @@ A high N can take hours. Choose a N of -1 to set N to data_size.
 
 
 Commands  
-:warning: First run? Run `make` in [`vomm/src`](vomm/src) first. :warning:
+:warning: First run? Run `make` in [`vomm/src`](vomm/src) first.
 - **k-fold cross-validation** :clock1::clock1::clock1:  
   Performs k-fold cross-validation. Classifies climbing routes in 6 variations. Outputs classifications and confusion matrices for every variation.  
   `ruby performance_kfold.rb <k> <model-depth> <id>`
@@ -44,35 +44,39 @@ Commands
   See DE-CTW's magic of pattern recognition. Run `playground.sh` and `test.sh` in [`vomm/src`](vomm/src) for quick and simple examples. You can easily adjust the examples.
 
 ## Tweak it
-- Change grade classes  
+For your ease of navigation, every filename in this doc is a clickable link.
+
+- **Change grade classes**  
     Edit [`grades.rb`](grades.rb). It already contains alternative grade class distributions.
     - Separate the climbing and bouldering routes: set `MergeMode` to false.
     - Choose other distributions: assign them to
     `boulder_conversion` & `climb_conversion` (if `MergeMode` is true) or `boulder_classes` and `climb_classes` (if `MergeMode` is false).
-- Change grammar  
+- **Change grammar**  
     Edit [`climbing.gra`](phoenix/app/strangebeta/Grammar/climbing.gra) and parse afterwards:
     1. Copy the `climbing.gra` file right outside the Grammar folder. (A weird but necessary hack.)
-    2. Run `./run_grammar`
-    3. Drag the `base.dic` and `simple.net` to the Grammar folder, replace the old files
-    4. Now you can parse by running `make`
-- Change symbolization  
+    2. Run [`./run_grammar`](phoenix/app/strangebeta/run_grammar)
+    3. Drag the [`base.dic`](phoenix/app/strangebeta/Grammar/base.dic) and [`simple.net`](phoenix/app/strangebeta/Grammar/simple.net) to the Grammar folder, replace the old files
+    4. Parse by running `make` in [`phoenix/app/strangebeta/`](phoenix/app/strangebeta/)
+- **Change symbolization**  
     1. You can alter the symbol sets by changing how symbols are made from parsed climbing routes. In [`move.rb`](phoenix/app/strangebeta/move.rb), [`resymbolize.rb`](phoenix/app/strangebeta/resymbolize.rb) and [`symbolize.rb`](phoenix/app/strangebeta/symbolize.rb) you can determine the influence of aspects like hold shape, hold size, action shape, etc.
-    2. Run `make` in [`phoenix/app/strangebeta/`](phoenix/app/strangebeta/).
-- Change data (sanitation)  
+    2. Run `make` in [`phoenix/app/strangebeta/`](phoenix/app/strangebeta/)
+- **Change data (sanitation)**  
     1. Edit the input data in [`strangebeta_user_climb_data_20180128.txt`](data/strangebeta_user_climb_data_20180128.txt) and/or edit the pre-parser sanitation in [`sb_ucd_anal.rb`](data/sb_ucd_anal.rb).
-    3. Run `make` in [`phoenix/app/strangebeta/`](phoenix/app/strangebeta/).
+    3. Run `make` in [`phoenix/app/strangebeta/`](phoenix/app/strangebeta/)
 
 ## Code structure
 
-- `vomm`: Variable-order Markov model
-  - `vmm` & `doc`: Code & documentation from Begleiter et al.
+- `vomm`: Variable-order Markov model prediction
+  - `vmm` & `doc`: Code & documentation  
+  :copyright: Begleiter et al.
   - `data`: VOMMs generated using this code, using the climbing route input
 - `phoenix`: Parser
   - `PhoenixLib` & `Doc`: Code & documentation.  
   :copyright: Wayne Ward / CMU
   - `app/strangebeta`: Parser grammar, input, output and extra parsing steps (e.g. input sanitation, symbolization).  
   :copyright: Philips et al. Modifications were made.
-- `data`: Input data
+- `data`: Input data  
+  :copyright: Philips et al. Modifications were made.
 - `output`: Output logs
 
 ## Interesting files
