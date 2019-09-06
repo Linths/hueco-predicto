@@ -45,7 +45,7 @@ First run? Run `make` in [`vomm/src`](vomm/src) first.
 
 ## Tweak it
 For your ease of navigation, every filename in this doc is a clickable link.  
-:point_right: While you're tweaking anyway, feel free to expand my work! I have some ideas for you in the paper's Future Work.
+While you're tweaking anyway, feel free to expand my work! I have some ideas for you in the paper's Future Work.
 
 - **Change grade classes**  
     Edit [`grades.rb`](grades.rb). It already contains alternative grade class distributions.
