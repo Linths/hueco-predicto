@@ -44,7 +44,8 @@ First run? Run `make` in [`vomm/src`](vomm/src) first.
   See DE-CTW's magic of pattern recognition. Run `playground.sh` or `test.sh` in [`vomm/src`](vomm/src) for quick and simple examples. You can easily adjust the examples.
 
 ## Tweak it
-For your ease of navigation, every filename in this doc is a clickable link.
+For your ease of navigation, every filename in this doc is a clickable link.  
+:point_right: While you're tweaking anyway, feel free to expand my work! I have some ideas for you in the paper's Future Work.
 
 - **Change grade classes**  
     Edit [`grades.rb`](grades.rb). It already contains alternative grade class distributions.
