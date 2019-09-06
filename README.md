@@ -31,7 +31,7 @@ A high N can take hours. Choose a N of -1 to set N to data_size.
 
 
 Commands  
-:warning: First run? Run `make` in [`vomm/src`](vomm/src) first.
+First run? Run `make` in [`vomm/src`](vomm/src) first.
 - **k-fold cross-validation** :clock1::clock1::clock1:  
   Performs k-fold cross-validation. Classifies climbing routes in 6 variations. Outputs classifications and confusion matrices for every variation.  
   `ruby performance_kfold.rb <k> <model-depth> <id>`
